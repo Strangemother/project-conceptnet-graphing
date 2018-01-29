@@ -1,0 +1,809 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/scouts", 
+                "@id": "/c/en/scouts", 
+                "language": "en", 
+                "label": "Scouts"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/alexander", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexander/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/geswork", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/geswork/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ianozsvald", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ianozsvald/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/scouts/,/c/en/people/]", 
+            "surfaceText": "[[Scouts]] are [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "weight": 3.0106477708293937, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/audience", 
+                "@id": "/c/en/audience", 
+                "language": "en", 
+                "label": "audience"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/audience/,/c/en/people/]", 
+            "surfaceText": "[[audience]] is related to [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "weight": 2.8502631457463714, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/men", 
+                "@id": "/c/en/men", 
+                "language": "en", 
+                "label": "men"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/men/,/c/en/people/]", 
+            "surfaceText": "[[men]] is related to [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bus_stop", 
+                "@id": "/c/en/bus_stop", 
+                "language": "en", 
+                "label": "a bus stop"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/johngt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/gary", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/bus_stop/]", 
+            "surfaceText": "*Something you find at [[a bus stop]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hockey_game", 
+                "@id": "/c/en/hockey_game", 
+                "language": "en", 
+                "label": "a hockey game"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bedume", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/hockey_game/]", 
+            "surfaceText": "*Something you find at [[a hockey game]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hospital", 
+                "@id": "/c/en/hospital", 
+                "language": "en", 
+                "label": "a hospital"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/20q_1719556312", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_1719556312/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/chimpy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chimpy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/hospital/]", 
+            "surfaceText": "*Something you find at [[a hospital]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/show", 
+                "@id": "/c/en/show", 
+                "language": "en", 
+                "label": "a show"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bobdhaliwal", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/show/]", 
+            "surfaceText": "*Something you find at [[a show]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/water_cooler", 
+                "@id": "/c/en/water_cooler", 
+                "language": "en", 
+                "label": "a water cooler"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/arlosuave", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/arlosuave/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bedume", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bedume/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/water_cooler/]", 
+            "surfaceText": "*Something you find at [[a water cooler]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/water_fountain", 
+                "@id": "/c/en/water_fountain", 
+                "language": "en", 
+                "label": "a water fountain"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bedume", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/water_fountain/]", 
+            "surfaceText": "*Something you find at [[a water fountain]] is [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ask_questions", 
+                "@id": "/c/en/ask_questions", 
+                "language": "en", 
+                "label": "ask questions"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bluerock", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bluerock/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/psecret", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/psecret/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/tmichael", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tmichael/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/ask_questions/]", 
+            "surfaceText": "[[people]] can [[ask questions]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bug_people", 
+                "@id": "/c/en/bug_people", 
+                "language": "en", 
+                "label": "bug people"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nac", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nac/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/flimm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/flimm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/leighman", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/bug_people/]", 
+            "surfaceText": "[[people]] can [[bug people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/build_house", 
+                "@id": "/c/en/build_house", 
+                "language": "en", 
+                "label": "build a house"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/908124", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/908124/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bnkinfo", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bnkinfo/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jcskillings", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jcskillings/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/build_house/]", 
+            "surfaceText": "[[People]] can [[build a house]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/captain_ship", 
+                "@id": "/c/en/captain_ship", 
+                "language": "en", 
+                "label": "captain a ship"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jarling", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jarling/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/gsogge", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gsogge/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/z4nntt", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/z4nntt/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/captain_ship/]", 
+            "surfaceText": "[[People]] can [[captain a ship]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/captain_ships", 
+                "@id": "/c/en/captain_ships", 
+                "language": "en", 
+                "label": "captain ships"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/z4nntt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/z4nntt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/gsogge", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gsogge/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jarling", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jarling/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/captain_ships/]", 
+            "surfaceText": "[[people]] can [[captain ships]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/climb_mountain", 
+                "@id": "/c/en/climb_mountain", 
+                "language": "en", 
+                "label": "climb a mountain"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/schueler", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/chibong", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chibong/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jes", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jes/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/climb_mountain/]", 
+            "surfaceText": "[[People]] can [[climb a mountain]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cook_dinner", 
+                "@id": "/c/en/cook_dinner", 
+                "language": "en", 
+                "label": "cook dinner"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mkrom", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mkrom/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sarahnade", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarahnade/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ssnelgrove", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ssnelgrove/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/cook_dinner/]", 
+            "surfaceText": "[[people]] can [[cook dinner]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/deal_cards", 
+                "@id": "/c/en/deal_cards", 
+                "language": "en", 
+                "label": "deal cards"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nac", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nac/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ariadne", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/moocreature", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moocreature/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/deal_cards/]", 
+            "surfaceText": "[[people]] can [[deal cards]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/do_dishes", 
+                "@id": "/c/en/do_dishes", 
+                "language": "en", 
+                "label": "do dishes"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ariadne", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/hjohnson_7801", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hjohnson_7801/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/karlsson", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/karlsson/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/do_dishes/]", 
+            "surfaceText": "[[People]] can [[do dishes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/experience_new_things", 
+                "@id": "/c/en/experience_new_things", 
+                "language": "en", 
+                "label": "experience new things"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jfarnell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/experience_new_things/]", 
+            "surfaceText": "[[People]] can [[experience new things]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/have_to_go_to_toilet", 
+                "@id": "/c/en/have_to_go_to_toilet", 
+                "language": "en", 
+                "label": "have to go to the toilet"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ericn", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ericn/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/taek42", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/taek42/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/have_to_go_to_toilet/]", 
+            "surfaceText": "[[people]] often [[have to go to the toilet]]"
+        }
+    ], 
+    "@id": "/c/en/people", 
+    "view": {
+        "previousPage": "/c/en/people?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/people?offset=100&limit=20", 
+        "nextPage": "/c/en/people?offset=120&limit=20", 
+        "firstPage": "/c/en/people?offset=0&limit=20"
+    }
+}

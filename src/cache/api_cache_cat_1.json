@@ -1,0 +1,999 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/vet", 
+                "@id": "/c/en/vet", 
+                "language": "en", 
+                "label": "a vet"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sefu", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sefu/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sefu", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sefu/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/vet/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[a vet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/look_at_king", 
+                "@id": "/c/en/look_at_king", 
+                "language": "en", 
+                "label": "look at a king"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/clem", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/clem/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/clem", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/clem/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cat/,/c/en/look_at_king/]", 
+            "surfaceText": "[[a cat]] can [[look at a king]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/feline", 
+                "@id": "/c/en/feline", 
+                "language": "en", 
+                "label": "a feline"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "A cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/fable", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fable/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bagsc", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bagsc/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/christophe", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/christophe/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dave", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dave/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/feline/]", 
+            "surfaceText": "[[A cat]] is [[a feline]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/kitten", 
+                "@id": "/c/en/kitten", 
+                "language": "en", 
+                "label": "a kitten"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dimona", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dimona/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/daveguy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daveguy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/echooooo", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/echooooo/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jayant", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jayant/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/pj", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pj/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/kitten/,/c/en/cat/]", 
+            "surfaceText": "[[a kitten]] is [[a cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/wet", 
+                "@id": "/c/en/wet", 
+                "language": "en", 
+                "label": "be wet"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/scottbasye", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/scottbasye/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/anneandkita", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anneandkita/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/davinf", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/davinf/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/leighman", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/zerlin", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zerlin/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotDesires", 
+                "label": "NotDesires"
+            }, 
+            "@id": "/a/[/r/NotDesires/,/c/en/cat/,/c/en/wet/]", 
+            "surfaceText": "[[a cat]] doesn't want to [[be wet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/barn", 
+                "@id": "/c/en/barn", 
+                "language": "en", 
+                "label": "the barn"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/inusan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/inusan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/katarnsurfer", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/katarnsurfer/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/besmart", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/besmart/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/katarnsurfer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/katarnsurfer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/barn/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[the barn]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/rug", 
+                "@id": "/c/en/rug", 
+                "language": "en", 
+                "label": "the rug"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "your cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/draconicfae", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/roger", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/draconicfae", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/draconicfae/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/rug/]", 
+            "surfaceText": "*Something you find on [[the rug]] is [[your cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/way", 
+                "@id": "/c/en/way", 
+                "language": "en", 
+                "label": "your way"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/cristina", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cristina/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/cristina", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cristina/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/zenkatz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/way/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[your way]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fleas", 
+                "@id": "/c/en/fleas", 
+                "language": "en", 
+                "label": "fleas"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dvz2333", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dvz2333/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bparsia", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bparsia/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/richard_h0lt", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/slux", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slux/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/fleas/,/c/en/cat/]", 
+            "surfaceText": "*Something you find on [[a cat]] is [[fleas]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/catch_bird", 
+                "@id": "/c/en/catch_bird", 
+                "language": "en", 
+                "label": "catch a bird"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "A cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/chaizzilla", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chaizzilla/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cat/,/c/en/catch_bird/]", 
+            "surfaceText": "[[A cat]] can [[catch a bird]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/kill_birds", 
+                "@id": "/c/en/kill_birds", 
+                "language": "en", 
+                "label": "kill birds"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/johngt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/nancyfay", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nancyfay/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/neuromancer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/neuromancer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cat/,/c/en/kill_birds/]", 
+            "surfaceText": "[[a cat]] can [[kill birds]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mother_kittens", 
+                "@id": "/c/en/mother_kittens", 
+                "language": "en", 
+                "label": "mother her kittens"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/phyxis", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phyxis/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cat/,/c/en/mother_kittens/]", 
+            "surfaceText": "[[a cat]] can [[mother her kittens]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sleep", 
+                "@id": "/c/en/sleep", 
+                "language": "en", 
+                "label": "sleep"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "that a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/chaizzilla", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chaizzilla/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cat/,/c/en/sleep/]", 
+            "surfaceText": "An activity [[that a cat]] can do is [[sleep]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sleep", 
+                "@id": "/c/en/sleep", 
+                "language": "en", 
+                "label": "sleep"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "A cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/havasi", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/havasi/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/motters", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motters/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sellis", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sellis/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/cat/,/c/en/sleep/]", 
+            "surfaceText": "[[A cat]] wants to [[sleep]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sharp_claws", 
+                "@id": "/c/en/sharp_claws", 
+                "language": "en", 
+                "label": "sharp claws"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/aneesh", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/aneesh/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/chaizzilla", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chaizzilla/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/skoerber", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/skoerber/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/cat/,/c/en/sharp_claws/]", 
+            "surfaceText": "[[a cat]] has [[sharp claws]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/persian", 
+                "@id": "/c/en/persian", 
+                "language": "en", 
+                "label": "persian"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/w0228633", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0228633/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dejahbleu", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dejahbleu/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/fasmith", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fasmith/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/lkh8", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lkh8/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/persian/,/c/en/cat/]", 
+            "surfaceText": "[[persian]] is a type of [[cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/get_wet", 
+                "@id": "/c/en/get_wet", 
+                "language": "en", 
+                "label": "get wet"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "A cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/henrietta", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/henrietta/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jdecker", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jdecker/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/daboy1216", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daboy1216/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jdecker", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jdecker/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotDesires", 
+                "label": "NotDesires"
+            }, 
+            "@id": "/a/[/r/NotDesires/,/c/en/cat/,/c/en/get_wet/]", 
+            "surfaceText": "[[A cat]] doesn't want to [[get wet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/companionship", 
+                "@id": "/c/en/companionship", 
+                "language": "en", 
+                "label": "companionship"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rickyro", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rickyro/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/vgrid101", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vgrid101/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/craleb", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/craleb/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dragonjools", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/vgrid101", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vgrid101/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/cat/,/c/en/companionship/]", 
+            "surfaceText": "[[a cat]] is for [[companionship]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 3.686190445432791, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dog", 
+                "@id": "/c/en/dog", 
+                "language": "en", 
+                "label": "dog"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/dog/,/c/en/cat/]", 
+            "surfaceText": "[[dog]] is the opposite of [[cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 3.6216018555329903, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dog", 
+                "@id": "/c/en/dog", 
+                "language": "en", 
+                "label": "dog"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/dog/,/c/en/cat/]", 
+            "surfaceText": "[[dog]] is related to [[cat]]"
+        }
+    ], 
+    "@id": "/c/en/cat", 
+    "view": {
+        "previousPage": "/c/en/cat?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/cat?offset=20&limit=20", 
+        "nextPage": "/c/en/cat?offset=40&limit=20", 
+        "firstPage": "/c/en/cat?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,621 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple_juice", 
+                "@id": "/c/en/apple_juice", 
+                "language": "en", 
+                "label": "apple juice"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sebastianwrell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MadeOf", 
+                "label": "MadeOf"
+            }, 
+            "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
+            "surfaceText": "[[apple juice]] is made of [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/play_poker", 
+                "@id": "/c/en/play_poker", 
+                "language": "en", 
+                "label": "play poker"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tlin", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotCapableOf", 
+                "label": "NotCapableOf"
+            }, 
+            "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
+            "surfaceText": "[[Apples]] do not [[play poker]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/consumed_by_people", 
+                "@id": "/c/en/consumed_by_people", 
+                "language": "en", 
+                "label": "consumed by people"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/consumed_by_people/]", 
+            "surfaceText": "[[apples]] are [[consumed by people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cooked", 
+                "@id": "/c/en/cooked", 
+                "language": "en", 
+                "label": "cooked"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/cooked/]", 
+            "surfaceText": "[[apples]] can be [[cooked]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dried", 
+                "@id": "/c/en/dried", 
+                "language": "en", 
+                "label": "dried"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/dried/]", 
+            "surfaceText": "[[apples]] can be [[dried]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eaten", 
+                "@id": "/c/en/eaten", 
+                "language": "en", 
+                "label": "eaten"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/socrates", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/eaten/]", 
+            "surfaceText": "[[Apples]] can be [[eaten]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fermented", 
+                "@id": "/c/en/fermented", 
+                "language": "en", 
+                "label": "fermented"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/fermented/]", 
+            "surfaceText": "[[apples]] can be [[fermented]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/found_in_store", 
+                "@id": "/c/en/found_in_store", 
+                "language": "en", 
+                "label": "found in a store"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/found_in_store/]", 
+            "surfaceText": "[[apples]] can be [[found in a store]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/found_on_apple_trees", 
+                "@id": "/c/en/found_on_apple_trees", 
+                "language": "en", 
+                "label": "found on apple trees"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/found_on_apple_trees/]", 
+            "surfaceText": "[[Apples]] are [[found on apple trees]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/grown_in_temperate_climates", 
+                "@id": "/c/en/grown_in_temperate_climates", 
+                "language": "en", 
+                "label": "grown in temperate climates"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/marijke", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/marijke/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/grown_in_temperate_climates/]", 
+            "surfaceText": "[[apples]] are [[grown in temperate climates]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/measured_in_bushels", 
+                "@id": "/c/en/measured_in_bushels", 
+                "language": "en", 
+                "label": "measured in bushels"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mrguy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrguy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/measured_in_bushels/]", 
+            "surfaceText": "[[Apples]] are [[measured in bushels]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/peeled", 
+                "@id": "/c/en/peeled", 
+                "language": "en", 
+                "label": "peeled"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/peeled/]", 
+            "surfaceText": "[[apples]] can be [[peeled]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pressed", 
+                "@id": "/c/en/pressed", 
+                "language": "en", 
+                "label": "pressed"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/pressed/]", 
+            "surfaceText": "[[apples]] can be [[pressed]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sliced", 
+                "@id": "/c/en/sliced", 
+                "language": "en", 
+                "label": "sliced"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/sliced/]", 
+            "surfaceText": "[[apples]] can be [[sliced]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sold_at_stores", 
+                "@id": "/c/en/sold_at_stores", 
+                "language": "en", 
+                "label": "sold at stores"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/yottzumm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yottzumm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/apples/,/c/en/sold_at_stores/]", 
+            "surfaceText": "[[Apples]] are [[sold at stores]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ar/\u062a\u0641\u0627\u062d/n", 
+                "term": "/c/ar/\u062a\u0641\u0627\u062d", 
+                "language": "ar", 
+                "label": "\u062a\u0641\u0627\u062d"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062a\u0641\u0627\u062d/n/,/c/en/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apple_berry/n", 
+                "term": "/c/en/apple_berry", 
+                "language": "en", 
+                "label": "apple berry"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple_berry/n/,/c/en/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/apple/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fine", 
+                "@id": "/c/en/fine", 
+                "language": "en", 
+                "label": "fine"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/fine/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/nice", 
+                "@id": "/c/en/nice", 
+                "language": "en", 
+                "label": "nice"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/nice/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/apples", 
+    "view": {
+        "previousPage": "/c/en/apples?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/apples?offset=40&limit=20", 
+        "nextPage": "/c/en/apples?offset=60&limit=20", 
+        "firstPage": "/c/en/apples?offset=0&limit=20"
+    }
+}

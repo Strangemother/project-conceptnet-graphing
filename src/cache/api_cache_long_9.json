@@ -1,0 +1,629 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.076, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/horse", 
+                "@id": "/c/en/horse", 
+                "language": "en", 
+                "label": "horse"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/horse/,/c/en/long/]", 
+            "surfaceText": "[[horse]] is related to [[long]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/lat/n", 
+                "term": "/c/en/lat", 
+                "language": "en", 
+                "label": "lat"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/lat/n/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/brief", 
+                "@id": "/c/en/brief", 
+                "language": "en", 
+                "label": "brief"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/long/a", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/a/,/c/en/brief/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/low", 
+                "@id": "/c/en/low", 
+                "language": "en", 
+                "label": "low"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/long/a", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/a/,/c/en/low/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/shallow", 
+                "@id": "/c/en/shallow", 
+                "language": "en", 
+                "label": "shallow"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/long/a", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/a/,/c/en/shallow/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/short", 
+                "@id": "/c/en/short", 
+                "language": "en", 
+                "label": "short"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/long/a", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/a/,/c/en/short/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/flat", 
+                "@id": "/c/en/flat", 
+                "language": "en", 
+                "label": "flat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/,/c/en/flat/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/distance", 
+                "@id": "/c/en/distance", 
+                "language": "en", 
+                "label": "distance"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/distance/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/instant", 
+                "@id": "/c/en/instant", 
+                "language": "en", 
+                "label": "instant"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/instant/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/minute", 
+                "@id": "/c/en/minute", 
+                "language": "en", 
+                "label": "minute"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/minute/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/moment", 
+                "@id": "/c/en/moment", 
+                "language": "en", 
+                "label": "moment"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/moment/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/second", 
+                "@id": "/c/en/second", 
+                "language": "en", 
+                "label": "second"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/second/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/time/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/way", 
+                "@id": "/c/en/way", 
+                "language": "en", 
+                "label": "way"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/long/r", 
+                "term": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/r/,/c/en/way/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/short/a", 
+                "term": "/c/en/short", 
+                "language": "en", 
+                "label": "short"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/short/a/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/agelong", 
+                "@id": "/c/en/agelong", 
+                "language": "en", 
+                "label": "agelong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/agelong/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ageslong", 
+                "@id": "/c/en/ageslong", 
+                "language": "en", 
+                "label": "ageslong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/ageslong/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/centurieslong", 
+                "@id": "/c/en/centurieslong", 
+                "language": "en", 
+                "label": "centurieslong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/centurieslong/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/centurylong", 
+                "@id": "/c/en/centurylong", 
+                "language": "en", 
+                "label": "centurylong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/centurylong/,/c/en/long/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/daylong", 
+                "@id": "/c/en/daylong", 
+                "language": "en", 
+                "label": "daylong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/daylong/,/c/en/long/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/long", 
+    "view": {
+        "previousPage": "/c/en/long?offset=160&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/long?offset=180&limit=20", 
+        "nextPage": "/c/en/long?offset=200&limit=20", 
+        "firstPage": "/c/en/long?offset=0&limit=20"
+    }
+}

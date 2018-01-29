@@ -1,0 +1,250 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.1589999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/be", 
+                "@id": "/c/en/be", 
+                "language": "en", 
+                "label": "be"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/be/,/c/en/was/]", 
+            "surfaceText": "[[be]] is the opposite of [[was]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.1459999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/christmas", 
+                "@id": "/c/en/christmas", 
+                "language": "en", 
+                "label": "christmas"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/christmas/,/c/en/was/]", 
+            "surfaceText": "[[christmas]] is related to [[was]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/already", 
+                "@id": "/c/en/already", 
+                "language": "en", 
+                "label": "already"
+            }, 
+            "weight": 0.10999999999999988, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/already/]", 
+            "surfaceText": "[[was]] is related to [[already]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/already_happened", 
+                "@id": "/c/en/already_happened", 
+                "language": "en", 
+                "label": "already happened"
+            }, 
+            "weight": 0.10999999999999988, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/already_happened/]", 
+            "surfaceText": "[[was]] is related to [[already happened]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/happened", 
+                "@id": "/c/en/happened", 
+                "language": "en", 
+                "label": "happened"
+            }, 
+            "weight": 0.10999999999999988, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/happened/]", 
+            "surfaceText": "[[was]] is related to [[happened]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/before", 
+                "@id": "/c/en/before", 
+                "language": "en", 
+                "label": "before"
+            }, 
+            "weight": 0.1080000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/before/]", 
+            "surfaceText": "[[was]] is related to [[before]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/used", 
+                "@id": "/c/en/used", 
+                "language": "en", 
+                "label": "used"
+            }, 
+            "weight": 0.10099999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/used/]", 
+            "surfaceText": "[[was]] is related to [[used]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/used_to", 
+                "@id": "/c/en/used_to", 
+                "language": "en", 
+                "label": "used to"
+            }, 
+            "weight": 0.10099999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/used_to/]", 
+            "surfaceText": "[[was]] is related to [[used to]]"
+        }
+    ], 
+    "@id": "/c/en/was", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/was?offset=120&limit=20", 
+        "previousPage": "/c/en/was?offset=100&limit=20", 
+        "firstPage": "/c/en/was?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,624 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/preposition", 
+                "@id": "/c/en/preposition", 
+                "language": "en", 
+                "label": "preposition"
+            }, 
+            "weight": 1.233, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/en/preposition/]", 
+            "surfaceText": "[[from]] is related to [[preposition]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/is/aftra/v", 
+                "term": "/c/is/aftra", 
+                "language": "is", 
+                "label": "aftra"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/from/,/c/is/aftra/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/fall+from+grace-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/fall+from+grace-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "fall+from+grace-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/from/,/http://wordnet-rdf.princeton.edu/wn31/fall+from+grace-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/rise+from+the+ashes-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/rise+from+the+ashes-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "rise+from+the+ashes-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/from/,/http://wordnet-rdf.princeton.edu/wn31/rise+from+the+ashes-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/start+from+scratch-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/start+from+scratch-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "start+from+scratch-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/from/,/http://wordnet-rdf.princeton.edu/wn31/start+from+scratch-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/4rum", 
+                "@id": "/c/en/4rum", 
+                "language": "en", 
+                "label": "4rum"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/4rum/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0628\u0627\u0646/v", 
+                "term": "/c/ar/\u0628\u0627\u0646", 
+                "language": "ar", 
+                "label": "\u0628\u0627\u0646"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ar/\u0628\u0627\u0646/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u062e\u0627\u0644\u0635/a", 
+                "term": "/c/ar/\u062e\u0627\u0644\u0635", 
+                "language": "ar", 
+                "label": "\u062e\u0627\u0644\u0635"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ar/\u062e\u0627\u0644\u0635/a/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mathematics", 
+                "@id": "/c/en/mathematics", 
+                "language": "en", 
+                "label": "mathematics"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/from/,/c/en/mathematics/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/now_uncommon", 
+                "@id": "/c/en/now_uncommon", 
+                "language": "en", 
+                "label": "now uncommon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/from/,/c/en/now_uncommon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/gristle/n", 
+                "term": "/c/en/gristle", 
+                "language": "en", 
+                "label": "gristle"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/gristle/n/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ga/diall/n", 
+                "term": "/c/ga/diall", 
+                "language": "ga", 
+                "label": "diall"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ga/diall/n/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ga/diall/v", 
+                "term": "/c/ga/diall", 
+                "language": "ga", 
+                "label": "diall"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ga/diall/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/zh/\u8461\u8404/a", 
+                "term": "/c/zh/\u8461\u8404", 
+                "language": "zh", 
+                "label": "\u8461\u8404"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/zh/\u8461\u8404/a/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "something from them"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/agree_with", 
+                "@id": "/c/en/agree_with", 
+                "language": "en", 
+                "label": "agree with someone"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mrnonchalant", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrnonchalant/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/agree_with/,/c/en/from/]", 
+            "surfaceText": "You would [[agree with someone]] because you want [[something from them]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "something from them"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/forgive", 
+                "@id": "/c/en/forgive", 
+                "language": "en", 
+                "label": "forgive someone"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mrnonchalant", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrnonchalant/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/forgive/,/c/en/from/]", 
+            "surfaceText": "You would [[forgive someone]] because you want [[something from them]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "something from them"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/please_parents", 
+                "@id": "/c/en/please_parents", 
+                "language": "en", 
+                "label": "please your parents"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/please_parents/,/c/en/from/]", 
+            "surfaceText": "You would [[please your parents]] because you want [[something from them]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/af/uit", 
+                "@id": "/c/af/uit", 
+                "language": "af", 
+                "label": "uit"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/af/uit/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/akk/\ud808\udeeb", 
+                "@id": "/c/akk/\ud808\udeeb", 
+                "language": "akk", 
+                "label": "\ud808\udeeb"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/akk/\ud808\udeeb/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/\u00e6f", 
+                "@id": "/c/ang/\u00e6f", 
+                "language": "ang", 
+                "label": "\u00e6f"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6f/,/c/en/from/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/from", 
+    "view": {
+        "previousPage": "/c/en/from?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/from?offset=20&limit=20", 
+        "nextPage": "/c/en/from?offset=40&limit=20", 
+        "firstPage": "/c/en/from?offset=0&limit=20"
+    }
+}

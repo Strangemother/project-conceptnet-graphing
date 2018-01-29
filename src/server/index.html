@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Present</title>
+    <!--Import Google Icon Font-->
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/websocket.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/main.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/javascript" src="assets/js/vis-4.20.0/dist/vis.js"></script>
+      <link href="assets/js/vis-4.20.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+
+
+    </head>
+</head>
+<body>
+
+    <div class="container row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s2"><a href="#network">network</a></li>
+            <li class="tab col s2"><a href="#main">API</a></li>
+            <li class="tab col s2"><a class="active" href="#websockets">WebSockets</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <section id="network">
+        <div id="mynetwork"></div>
+    </section>
+
+    <section class='container' id="main">
+        <h2>API Connection</h2>
+        <p>Requesting service direct to conceptnet online api. The path is should be accurate for the API <em>/c/[LANG]/[PHRASE]</em>.</p>
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s9">
+                    <input
+                        v-model='address'
+                        @keyup.enter='fetch'
+                        id="last_name"
+                        type="text"
+                        ref='address'
+                        class="validate">
+                    <label for="last_name">Path</label>
+                </div>
+                <div class="input-field col s1">
+                    <input
+                        v-model='indexItem'
+                        id="index_item"
+                        type="text"
+                        ref='index'
+                        class="validate">
+                    <label for="index_item">Index</label>
+                </div>
+                <div class="col s2">
+                    <a @click='fetch' class="waves-effect waves-light btn">Fetch</a>
+                    <a v-if='selected.view != undefined && selected.view.firstPage'
+                        @click='fetch($event, selected.view.firstPage)'
+                        class="waves-effect waves-light btn">
+                            First
+                    </a>
+                    <a v-if='selected.view != undefined && selected.view.previousPage'
+                        @click='fetch($event, selected.view.previousPage)'
+                        class="waves-effect waves-light btn">
+                            Previous
+                    </a>
+                    <a v-if='selected.view != undefined && selected.view.nextPage'
+                        @click='fetch($event, selected.view.nextPage)'
+                        class="waves-effect waves-light btn">
+                            Next
+                    </a>
+                </div>
+            </div>
+            <div class="errors" v-if='selected.error'>
+                <p>{{ selected.error.details }}</p>
+            </div>
+            <div class="row" v-if='selected.view != undefined'>
+                <div>{{ selected.view['@id'] }}</div>
+            </div>
+        </form>
+
+        <div id="form-output">
+            <!-- <div class="col s12 m7">
+                <h2 class="header">Horizontal Card</h2>
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="http://lorempixel.com/100/190/nature/6">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <ul class="row">
+                <a class="waves-effect waves-light btn" v-for='item in relations'>{{ item }}</a>
+            </ul>
+
+            <ul class="collection">
+                <li class="collection-item row" v-for='edge in selected.edges' :key="edge['@id']">
+                    <div class="col s2">{{ edge.start.label }}</div>
+                    <div class="col s2">{{ edge.rel.label }}</div>
+                    <div class="col s2">{{ edge.end.label }}</div>
+
+                    <div class="col s2">{{ edge.weight }}</div>
+                    <div class="col s3">{{ edge.surfaceText }}</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class='' id="websockets">
+        <h2>Socket reader</h2>
+        <p>Read the information read into the API as JSON data. Messages sent must be in JSON format.</p>
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input
+                        v-model='address'
+                        @keyup.enter='fetch'
+                        id="address"
+                        type="text"
+                        ref='address'
+                        class="validate">
+                    <label for="address">Path</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s10">
+                    <input
+                        v-model='message'
+                        @keyup.enter='sendMessage'
+                        id="message"
+                        type="text"
+                        ref='message'
+                        class="validate">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col s2">
+                    <a class="waves-effect waves-light btn">Send</a>
+                </div>
+            </div>
+
+            <div class="errors" v-if='selected.error'>
+                <p>{{ selected.error.details }}</p>
+            </div>
+            <div class="row" v-if='selected.view != undefined'>
+                <div></div>
+            </div>
+        </form>
+
+        <div id="form-output">
+            <!-- <div class="col s12 m7">
+                <h2 class="header">Horizontal Card</h2>
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="http://lorempixel.com/100/190/nature/6">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <ul class="row">
+                <a class="waves-effect waves-light btn">Send</a>
+                <a class="waves-effect waves-light btn" @click='clearMessages'>Clear</a>
+            </ul>
+
+            <ul class="collection">
+                <li :class="['collection-item row', message.type]" v-for='message in socketMessages'>
+                    <div :class="['message', message.type]" :message='message' :is='messageComponent(message)'></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="templates">
+        <!-- Templates collected by components/view.js for websocket message rendering  -->
+
+        <div class="message" data-for='tokenize'>
+            <div class="message-item">
+                <div class="message-type">
+                    <span class="label">tokenize</span>
+                    <span class="action"> {{ message.data.action }}</span>
+                </div>
+
+                <div :is="actionName(message)" :message="message"></div>
+            </div>
+        </div>
+
+        <div class="message" data-for='default'>
+            <div class="message-item">
+                <span class="label">MESSAGE</span>
+                <span> {{ message.data }}</span>
+            </div>
+        </div>
+
+        <div class="message" data-for='assess'>
+            <div class="message-item">
+                <div class="message-type">
+                    <span class="label">assess</span>
+                    <span class="action"> {{ message.data.action }}</span>
+                </div>
+
+                <div :is="actionName(message)" :message="message"></div>
+                <pre>{{ message.data }}</pre>
+            </div>
+        </div>
+
+        <div class="message" data-for='action-default'>
+            <div class="message-action action-default">
+                <div class="tokens">{{ message.data.tokens }}</div>
+            </div>
+        </div>
+
+        <div class="message" data-for='action-complete'>
+            <div class="message-action action-complete">
+                <tokens-list :tokens=message.data.result></tokens-list>
+            </div>
+        </div>
+
+        <div class="tokens" data-for='tokens-list'>
+            <ul class="tokens-list tokens">
+                <li class="token" v-for='token in tokens'>
+                    <span class="word">{{ token[0] }}</span>
+                    <span class="type">{{ token[1] }}</span>
+                    <span class="defin">{{ token[2] }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="message" data-for='action-start'>
+            <div class="message-action action-start">
+                <tokens-list :tokens="message.data.tokens"></tokens-list>
+            </div>
+        </div>
+
+        <div class="message" data-for='action-word'>
+            <div class="message-action action-word">
+                <div class="horiz">
+                    <div class="word">{{ message.data.word }}</div>
+                    <tokens-list :tokens="message.data.tokens"></tokens-list>
+                </div>
+                <ul class="metas">
+                    <li v-for='meta in message.data.ident.meta'
+                        :class="['meta', meta.start.language]"
+                        :weight='meta.weight'
+                        >
+                        <span class="end label">{{ meta.end.label }}</span>
+                        <span class="rel-container">
+                            <span :class="['rel', meta.rel.label.toLowerCase() ]">{{ meta.rel.label }}</span>
+                        </span>
+                        <span class="start label">{{ meta.start.label }}</span>
+                        <span class="start weight">{{ meta.weight }}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+
+    <script type="text/javascript" src="assets/js/vue.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/visual.js"></script>
+    <script type="text/javascript" src="assets/js/websockets.js"></script>
+    <script type="text/javascript" src="assets/js/components/view.js"></script>
+</body>
+</html>

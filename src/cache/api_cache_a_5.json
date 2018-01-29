@@ -1,0 +1,620 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/article", 
+                "@id": "/c/en/article", 
+                "language": "en", 
+                "label": "article"
+            }, 
+            "weight": 1.101, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/a/,/c/en/article/]", 
+            "surfaceText": "[[a]] is related to [[article]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/resturant", 
+                "@id": "/c/en/resturant", 
+                "language": "en", 
+                "label": "a resturant"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/yogsoggoth", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yogsoggoth/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/a/,/c/en/resturant/]", 
+            "surfaceText": "*Something you find at [[a resturant]] is [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/roof", 
+                "@id": "/c/en/roof", 
+                "language": "en", 
+                "label": "a roof"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/wergel", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wergel/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/a/,/c/en/roof/]", 
+            "surfaceText": "*Something you find on [[a roof]] is [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/buffet", 
+                "@id": "/c/en/buffet", 
+                "language": "en", 
+                "label": "a buffet"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jonny", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jonny/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/buffet/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a buffet]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/combo_pass", 
+                "@id": "/c/en/combo_pass", 
+                "language": "en", 
+                "label": "a combo pass"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ovan4", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ovan4/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/combo_pass/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a combo pass]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/drive", 
+                "@id": "/c/en/drive", 
+                "language": "en", 
+                "label": "a drive"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/123321", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/123321/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/drive/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a drive]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dry_storage", 
+                "@id": "/c/en/dry_storage", 
+                "language": "en", 
+                "label": "a dry storage"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/hollyron", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hollyron/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/dry_storage/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a dry storage]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/flute", 
+                "@id": "/c/en/flute", 
+                "language": "en", 
+                "label": "a flute"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/los2k", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/los2k/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/flute/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a flute]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/foreroom", 
+                "@id": "/c/en/foreroom", 
+                "language": "en", 
+                "label": "a foreroom"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mressl", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mressl/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/foreroom/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a foreroom]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fork", 
+                "@id": "/c/en/fork", 
+                "language": "en", 
+                "label": "a fork"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/fabriceb", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fabriceb/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/fork/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a fork]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fox", 
+                "@id": "/c/en/fox", 
+                "language": "en", 
+                "label": "a fox"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bobdhaliwal", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/fox/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a fox]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/glass", 
+                "@id": "/c/en/glass", 
+                "language": "en", 
+                "label": "a glass"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/novalyte", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/glass/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a glass]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hair_clip", 
+                "@id": "/c/en/hair_clip", 
+                "language": "en", 
+                "label": "a hair clip"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/thesilversmith", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thesilversmith/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_clip/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a hair clip]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/heifer", 
+                "@id": "/c/en/heifer", 
+                "language": "en", 
+                "label": "a heifer"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pfish", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pfish/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/heifer/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a heifer]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hotel", 
+                "@id": "/c/en/hotel", 
+                "language": "en", 
+                "label": "a hotel"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/emre", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/emre/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/hotel/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a hotel]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/lemur", 
+                "@id": "/c/en/lemur", 
+                "language": "en", 
+                "label": "a lemur"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pdefer", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pdefer/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/lemur/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a lemur]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/level", 
+                "@id": "/c/en/level", 
+                "language": "en", 
+                "label": "a level"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/level/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a level]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mouse", 
+                "@id": "/c/en/mouse", 
+                "language": "en", 
+                "label": "a mouse"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/chicko", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chicko/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/mouse/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a mouse]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/neighborhood_map", 
+                "@id": "/c/en/neighborhood_map", 
+                "language": "en", 
+                "label": "a neighborhood map"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bobdhaliwal", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/neighborhood_map/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a neighborhood map]] in [[a]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/potato", 
+                "@id": "/c/en/potato", 
+                "language": "en", 
+                "label": "a potato"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bobdhaliwal", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/potato/,/c/en/a/]", 
+            "surfaceText": "You are likely to find [[a potato]] in [[a]]"
+        }
+    ], 
+    "@id": "/c/en/a", 
+    "view": {
+        "previousPage": "/c/en/a?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/a?offset=100&limit=20", 
+        "nextPage": "/c/en/a?offset=120&limit=20", 
+        "firstPage": "/c/en/a?offset=0&limit=20"
+    }
+}

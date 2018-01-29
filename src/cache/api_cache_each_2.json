@@ -1,0 +1,646 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u9298\u9298/n", 
+                "term": "/c/ja/\u9298\u9298", 
+                "language": "ja", 
+                "label": "\u9298\u9298"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u9298\u9298/n/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/per", 
+                "@id": "/c/en/per", 
+                "language": "en", 
+                "label": "per"
+            }, 
+            "weight": 1.3609999999999998, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/each/,/c/en/per/]", 
+            "surfaceText": "[[each]] is related to [[per]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.2720000000000002, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/all/,/c/en/each/]", 
+            "surfaceText": "[[all]] is related to [[each]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 1.173, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/each/,/c/en/one/]", 
+            "surfaceText": "[[each]] is related to [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "weight": 1.1440000000000001, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/each/,/c/en/all/]", 
+            "surfaceText": "[[each]] is related to [[all]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0949999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/per", 
+                "@id": "/c/en/per", 
+                "language": "en", 
+                "label": "per"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/per/,/c/en/each/]", 
+            "surfaceText": "[[per]] is related to [[each]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/nmn/\u01c1\u02bb\u00e2n/n", 
+                "term": "/c/nmn/\u01c1\u02bb\u00e2n", 
+                "language": "nmn", 
+                "label": "\u01c1\u02bb\u00e2n"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/each/,/c/nmn/\u01c1\u02bb\u00e2n/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/302277394-s", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/302277394-s", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "302277394-s"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/each/a", 
+                "term": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/each/a/,/http://wordnet-rdf.princeton.edu/wn31/302277394-s/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/eaches/n", 
+                "term": "/c/en/eaches", 
+                "language": "en", 
+                "label": "eaches"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/eaches/n/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/letter_e", 
+                "@id": "/c/en/letter_e", 
+                "language": "en", 
+                "label": "the letter e"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "They each"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jamielaiche", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jamielaiche/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/each/,/c/en/letter_e/]", 
+            "surfaceText": "[[They each]] have [[the letter e]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/letter_s", 
+                "@id": "/c/en/letter_s", 
+                "language": "en", 
+                "label": "the letter \"s\""
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kmwarner1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kmwarner1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/each/,/c/en/letter_s/]", 
+            "surfaceText": "[[each]] has [[the letter \"s\"]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ten_fingers_and_ten_toes", 
+                "@id": "/c/en/ten_fingers_and_ten_toes", 
+                "language": "en", 
+                "label": "ten fingers and ten toes"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "We each"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/each/,/c/en/ten_fingers_and_ten_toes/]", 
+            "surfaceText": "[[We each]] have [[ten fingers and ten toes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/operations", 
+                "@id": "/c/en/operations", 
+                "language": "en", 
+                "label": "operations"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/each/n", 
+                "term": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/each/n/,/c/en/operations/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/philosophy", 
+                "@id": "/c/en/philosophy", 
+                "language": "en", 
+                "label": "philosophy"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/each/n", 
+                "term": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/each/n/,/c/en/philosophy/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/determiner/n", 
+                "term": "/c/en/determiner", 
+                "language": "en", 
+                "label": "determiner"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/each/,/c/en/determiner/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/\u00e6g", 
+                "@id": "/c/ang/\u00e6g", 
+                "language": "ang", 
+                "label": "\u00e6g"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6g/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ang/\u00e6ghw\u00e6\u00feer/n", 
+                "term": "/c/ang/\u00e6ghw\u00e6\u00feer", 
+                "language": "ang", 
+                "label": "\u00e6ghw\u00e6\u00feer"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6ghw\u00e6\u00feer/n/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/\u00e6ghwylc/a", 
+                "term": "/c/ang/\u00e6ghwylc", 
+                "language": "ang", 
+                "label": "\u00e6ghwylc"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6ghwylc/a/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ang/\u00e6ghwylc/n", 
+                "term": "/c/ang/\u00e6ghwylc", 
+                "language": "ang", 
+                "label": "\u00e6ghwylc"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6ghwylc/n/,/c/en/each/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/\u00e6lc/a", 
+                "term": "/c/ang/\u00e6lc", 
+                "language": "ang", 
+                "label": "\u00e6lc"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00e6lc/a/,/c/en/each/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/each", 
+    "view": {
+        "previousPage": "/c/en/each?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/each?offset=40&limit=20", 
+        "nextPage": "/c/en/each?offset=60&limit=20", 
+        "firstPage": "/c/en/each?offset=0&limit=20"
+    }
+}

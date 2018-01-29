@@ -1,0 +1,638 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/green", 
+                "@id": "/c/en/green", 
+                "language": "en", 
+                "label": "green"
+            }, 
+            "weight": 1.428, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/blue/,/c/en/green/]", 
+            "surfaceText": "[[blue]] is not [[green]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/yellow", 
+                "@id": "/c/en/yellow", 
+                "language": "en", 
+                "label": "yellow"
+            }, 
+            "weight": 1.2999999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/yellow/]", 
+            "surfaceText": "[[blue]] is related to [[yellow]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_white", 
+                "@id": "/c/en/red_white", 
+                "language": "en", 
+                "label": "red white"
+            }, 
+            "weight": 1.182, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/red_white/]", 
+            "surfaceText": "[[blue]] is related to [[red white]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/white", 
+                "@id": "/c/en/white", 
+                "language": "en", 
+                "label": "white"
+            }, 
+            "weight": 1.182, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/white/]", 
+            "surfaceText": "[[blue]] is related to [[white]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/aqua", 
+                "@id": "/c/en/aqua", 
+                "language": "en", 
+                "label": "aqua"
+            }, 
+            "weight": 1.1500000000000004, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/aqua/]", 
+            "surfaceText": "[[blue]] is related to [[aqua]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/yellow", 
+                "@id": "/c/en/yellow", 
+                "language": "en", 
+                "label": "yellow"
+            }, 
+            "weight": 1.1189999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/blue/,/c/en/yellow/]", 
+            "surfaceText": "[[blue]] is not [[yellow]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.117, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/water", 
+                "@id": "/c/en/water", 
+                "language": "en", 
+                "label": "water"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/water/,/c/en/blue/]", 
+            "surfaceText": "[[water]] is related to [[blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0499999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/earth", 
+                "@id": "/c/en/earth", 
+                "language": "en", 
+                "label": "earth"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/earth/,/c/en/blue/]", 
+            "surfaceText": "[[earth]] is related to [[blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0350000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ocean", 
+                "@id": "/c/en/ocean", 
+                "language": "en", 
+                "label": "ocean"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ocean/,/c/en/blue/]", 
+            "surfaceText": "[[ocean]] is related to [[blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sea_color", 
+                "@id": "/c/en/sea_color", 
+                "language": "en", 
+                "label": "sea color"
+            }, 
+            "weight": 1.0099999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/sea_color/]", 
+            "surfaceText": "[[blue]] is related to [[sea color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/purple", 
+                "@id": "/c/en/purple", 
+                "language": "en", 
+                "label": "purple"
+            }, 
+            "weight": 1.0030000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blue/,/c/en/purple/]", 
+            "surfaceText": "[[blue]] is related to [[purple]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/antiblue", 
+                "@id": "/c/en/antiblue", 
+                "language": "en", 
+                "label": "antiblue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/blue/a", 
+                "term": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/blue/a/,/c/en/antiblue/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/nonblue", 
+                "@id": "/c/en/nonblue", 
+                "language": "en", 
+                "label": "nonblue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/blue/a", 
+                "term": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/blue/a/,/c/en/nonblue/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/unblue", 
+                "@id": "/c/en/unblue", 
+                "language": "en", 
+                "label": "unblue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/blue/a", 
+                "term": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/blue/a/,/c/en/unblue/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/sanguine/a", 
+                "term": "/c/en/sanguine", 
+                "language": "en", 
+                "label": "sanguine"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/sanguine/a/,/c/en/blue/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "be blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eyes", 
+                "@id": "/c/en/eyes", 
+                "language": "en", 
+                "label": "Eyes"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmsacr", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/eyes/,/c/en/blue/]", 
+            "surfaceText": "[[Eyes]] can [[be blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/walking_in_rain", 
+                "@id": "/c/en/walking_in_rain", 
+                "language": "en", 
+                "label": "walking in the rain"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/km", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/km/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Causes", 
+                "label": "Causes"
+            }, 
+            "@id": "/a/[/r/Causes/,/c/en/walking_in_rain/,/c/en/blue/]", 
+            "surfaceText": "The effect of [[walking in the rain]] is [[blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/prettiest_color", 
+                "@id": "/c/en/prettiest_color", 
+                "language": "en", 
+                "label": "prettiest color"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "Blue"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmsacr", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/blue/,/c/en/prettiest_color/]", 
+            "surfaceText": "[[Blue]] is the [[prettiest color]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/blue/a", 
+                "term": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/blues", 
+                "@id": "/c/de/blues", 
+                "language": "de", 
+                "label": "blues"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/de/blues/,/c/en/blue/a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/blue/n", 
+                "term": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/blues", 
+                "@id": "/c/de/blues", 
+                "language": "de", 
+                "label": "blues"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/de/blues/,/c/en/blue/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/blue", 
+    "view": {
+        "previousPage": "/c/en/blue?offset=140&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/blue?offset=160&limit=20", 
+        "nextPage": "/c/en/blue?offset=180&limit=20", 
+        "firstPage": "/c/en/blue?offset=0&limit=20"
+    }
+}

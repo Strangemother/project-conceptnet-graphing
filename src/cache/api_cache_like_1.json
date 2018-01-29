@@ -1,0 +1,651 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/see/v", 
+                "term": "/c/en/see", 
+                "language": "en", 
+                "label": "see"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/like/v", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/like/v/,/c/en/see/v/]", 
+            "surfaceText": "[[like]] is a type of [[see]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/like/v", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/love/v", 
+                "term": "/c/en/love", 
+                "language": "en", 
+                "label": "love"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/love/v/,/c/en/like/v/]", 
+            "surfaceText": "[[love]] is a type of [[like]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/like/v", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/prefer/v", 
+                "term": "/c/en/prefer", 
+                "language": "en", 
+                "label": "prefer"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/prefer/v/,/c/en/like/v/]", 
+            "surfaceText": "[[prefer]] is a type of [[like]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "you like it"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/buy_shirt", 
+                "@id": "/c/en/buy_shirt", 
+                "language": "en", 
+                "label": "buy a shirt"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/okn0tok", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/okn0tok/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/buy_shirt/,/c/en/like/]", 
+            "surfaceText": "You would [[buy a shirt]] because [[you like it]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "you like it"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/listen_to_music", 
+                "@id": "/c/en/listen_to_music", 
+                "language": "en", 
+                "label": "listen to music"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/henkboshoff", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/henkboshoff/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kurt_woloch", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/listen_to_music/,/c/en/like/]", 
+            "surfaceText": "You would [[listen to music]] because [[you like it]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "you like it"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/play_football", 
+                "@id": "/c/en/play_football", 
+                "language": "en", 
+                "label": "play football"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/friscojohn", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kurt_woloch", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/play_football/,/c/en/like/]", 
+            "surfaceText": "You would [[play football]] because [[you like it]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/equal/a", 
+                "term": "/c/en/equal", 
+                "language": "en", 
+                "label": "equal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/like/a/,/c/en/equal/a/]", 
+            "surfaceText": "[[like]] is related to [[equal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/same/a", 
+                "term": "/c/en/same", 
+                "language": "en", 
+                "label": "same"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/like/a/,/c/en/same/a/]", 
+            "surfaceText": "[[like]] is related to [[same]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/likeness/n", 
+                "term": "/c/en/likeness", 
+                "language": "en", 
+                "label": "likeness"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/likeness/n/,/c/en/like/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/same/a", 
+                "term": "/c/en/same", 
+                "language": "en", 
+                "label": "same"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/same/a/,/c/en/like/a/]", 
+            "surfaceText": "[[same]] is related to [[like]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/fa/\u0645\u0627\u0646\u0646\u062f", 
+                "@id": "/c/fa/\u0645\u0627\u0646\u0646\u062f", 
+                "language": "fa", 
+                "label": "\u0645\u0627\u0646\u0646\u062f"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fa/\u0645\u0627\u0646\u0646\u062f/,/c/en/like/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sga/amail", 
+                "@id": "/c/sga/amail", 
+                "language": "sga", 
+                "label": "amail"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sga/amail/,/c/en/like/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like_minded/a", 
+                "term": "/c/en/like_minded", 
+                "language": "en", 
+                "label": "like-minded"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/like/a/,/c/en/like_minded/a/]", 
+            "surfaceText": "[[like]] is similar to [[like-minded]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/look_alike/a", 
+                "term": "/c/en/look_alike", 
+                "language": "en", 
+                "label": "look-alike"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/like/a/,/c/en/look_alike/a/]", 
+            "surfaceText": "[[like]] is similar to [[look-alike]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/suchlike/a", 
+                "term": "/c/en/suchlike", 
+                "language": "en", 
+                "label": "suchlike"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/like/a/,/c/en/suchlike/a/]", 
+            "surfaceText": "[[like]] is similar to [[suchlike]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/like_minded/a", 
+                "term": "/c/en/like_minded", 
+                "language": "en", 
+                "label": "like-minded"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/like_minded/a/,/c/en/like/a/]", 
+            "surfaceText": "[[like-minded]] is similar to [[like]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/look_alike/a", 
+                "term": "/c/en/look_alike", 
+                "language": "en", 
+                "label": "look-alike"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/look_alike/a/,/c/en/like/a/]", 
+            "surfaceText": "[[look-alike]] is similar to [[like]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/suchlike/a", 
+                "term": "/c/en/suchlike", 
+                "language": "en", 
+                "label": "suchlike"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/suchlike/a/,/c/en/like/a/]", 
+            "surfaceText": "[[suchlike]] is similar to [[like]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/like/v", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0623\u064e\u062d\u064e\u0628\u064e\u0651/v", 
+                "term": "/c/ar/\u0623\u064e\u062d\u064e\u0628\u064e\u0651", 
+                "language": "ar", 
+                "label": "\u0623\u064e\u062d\u064e\u0628\u0651\u064e"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ar/\u0623\u064e\u062d\u064e\u0628\u064e\u0651/v/,/c/en/like/v/]", 
+            "surfaceText": "[[\u0623\u064e\u062d\u064e\u0628\u0651\u064e]] is a translation of [[like]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/like/a", 
+                "term": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u0645\u0650\u062b\u0652\u0644/a", 
+                "term": "/c/ar/\u0645\u0650\u062b\u0652\u0644", 
+                "language": "ar", 
+                "label": "\u0645\u0650\u062b\u0652\u0644"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ar/\u0645\u0650\u062b\u0652\u0644/a/,/c/en/like/a/]", 
+            "surfaceText": "[[\u0645\u0650\u062b\u0652\u0644]] is a translation of [[like]]"
+        }
+    ], 
+    "@id": "/c/en/like", 
+    "view": {
+        "previousPage": "/c/en/like?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/like?offset=20&limit=20", 
+        "nextPage": "/c/en/like?offset=40&limit=20", 
+        "firstPage": "/c/en/like?offset=0&limit=20"
+    }
+}

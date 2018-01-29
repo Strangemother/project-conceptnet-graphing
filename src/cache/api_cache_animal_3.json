@@ -1,0 +1,667 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/being", 
+                "@id": "/c/en/being", 
+                "language": "en", 
+                "label": "being"
+            }, 
+            "weight": 2.011964214393487, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/animal/,/c/en/being/]", 
+            "surfaceText": "[[animal]] is related to [[being]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/north_america", 
+                "@id": "/c/en/north_america", 
+                "language": "en", 
+                "label": "North America"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/animal/,/c/en/north_america/]", 
+            "surfaceText": "You are likely to find [[an animal]] in [[North America]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet_store", 
+                "@id": "/c/en/pet_store", 
+                "language": "en", 
+                "label": "a pet store"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/socrates", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/erikglenn", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/erikglenn/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/animal/,/c/en/pet_store/]", 
+            "surfaceText": "You are likely to find [[an animal]] in [[a pet store]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/heart", 
+                "@id": "/c/en/heart", 
+                "language": "en", 
+                "label": "a heart"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nihilmatters", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nihilmatters/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bobiana", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobiana/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/heart/,/c/en/animal/]", 
+            "surfaceText": "You are likely to find [[a heart]] in [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/muscle", 
+                "@id": "/c/en/muscle", 
+                "language": "en", 
+                "label": "a muscle"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jakenelson", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/slux", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slux/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/muscle/,/c/en/animal/]", 
+            "surfaceText": "You are likely to find [[a muscle]] in [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/feel_pain", 
+                "@id": "/c/en/feel_pain", 
+                "language": "en", 
+                "label": "feel pain"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "An animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/shaleane", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/shivel", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shivel/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/animal/,/c/en/feel_pain/]", 
+            "surfaceText": "[[An animal]] can [[feel pain]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/live", 
+                "@id": "/c/en/live", 
+                "language": "en", 
+                "label": "live"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/pooua", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pooua/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/animal/,/c/en/live/]", 
+            "surfaceText": "[[an animal]] can [[live]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/live_long", 
+                "@id": "/c/en/live_long", 
+                "language": "en", 
+                "label": "live long"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/otradovec", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/otradovec/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dklue", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dklue/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/animal/,/c/en/live_long/]", 
+            "surfaceText": "[[animal]] can [[live long]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/actinomycete/n", 
+                "term": "/c/en/actinomycete", 
+                "language": "en", 
+                "label": "actinomycete"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/actinomycete/n/,/c/en/animal/n/]", 
+            "surfaceText": "[[actinomycete]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/all_devouring/a", 
+                "term": "/c/en/all_devouring", 
+                "language": "en", 
+                "label": "all-devouring"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/all_devouring/a/,/c/en/animal/n/]", 
+            "surfaceText": "[[all-devouring]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/body/n", 
+                "term": "/c/en/body", 
+                "language": "en", 
+                "label": "body"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/body/n/,/c/en/animal/n/]", 
+            "surfaceText": "[[body]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/bone_covered/a", 
+                "term": "/c/en/bone_covered", 
+                "language": "en", 
+                "label": "bone-covered"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/bone_covered/a/,/c/en/animal/n/]", 
+            "surfaceText": "[[bone-covered]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/bone/v", 
+                "term": "/c/en/bone", 
+                "language": "en", 
+                "label": "bone"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/bone/v/,/c/en/animal/n/]", 
+            "surfaceText": "[[bone]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/crop/v", 
+                "term": "/c/en/crop", 
+                "language": "en", 
+                "label": "crop"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/crop/v/,/c/en/animal/n/]", 
+            "surfaceText": "[[crop]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/diet/n", 
+                "term": "/c/en/diet", 
+                "language": "en", 
+                "label": "diet"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/diet/n/,/c/en/animal/n/]", 
+            "surfaceText": "[[diet]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/domesticate/v", 
+                "term": "/c/en/domesticate", 
+                "language": "en", 
+                "label": "domesticate"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/domesticate/v/,/c/en/animal/n/]", 
+            "surfaceText": "[[domesticate]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/drench/v", 
+                "term": "/c/en/drench", 
+                "language": "en", 
+                "label": "drench"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/drench/v/,/c/en/animal/n/]", 
+            "surfaceText": "[[drench]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/epizootic/a", 
+                "term": "/c/en/epizootic", 
+                "language": "en", 
+                "label": "epizootic"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/epizootic/a/,/c/en/animal/n/]", 
+            "surfaceText": "[[epizootic]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/flesh_eating/a", 
+                "term": "/c/en/flesh_eating", 
+                "language": "en", 
+                "label": "flesh-eating"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/flesh_eating/a/,/c/en/animal/n/]", 
+            "surfaceText": "[[flesh-eating]] is used in the context of [[animal]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal/n", 
+                "term": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/free_swimming/a", 
+                "term": "/c/en/free_swimming", 
+                "language": "en", 
+                "label": "free-swimming"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/free_swimming/a/,/c/en/animal/n/]", 
+            "surfaceText": "[[free-swimming]] is used in the context of [[animal]]"
+        }
+    ], 
+    "@id": "/c/en/animal", 
+    "view": {
+        "previousPage": "/c/en/animal?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/animal?offset=60&limit=20", 
+        "nextPage": "/c/en/animal?offset=80&limit=20", 
+        "firstPage": "/c/en/animal?offset=0&limit=20"
+    }
+}

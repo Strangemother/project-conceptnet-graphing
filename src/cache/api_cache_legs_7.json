@@ -1,0 +1,340 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.1499999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hand", 
+                "@id": "/c/en/hand", 
+                "language": "en", 
+                "label": "hand"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/hand/,/c/en/legs/]", 
+            "surfaceText": "[[hand]] is not [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.1469999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/arm", 
+                "@id": "/c/en/arm", 
+                "language": "en", 
+                "label": "arm"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/arm/,/c/en/legs/]", 
+            "surfaceText": "[[arm]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.14100000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/skirt", 
+                "@id": "/c/en/skirt", 
+                "language": "en", 
+                "label": "skirt"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/skirt/,/c/en/legs/]", 
+            "surfaceText": "[[skirt]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.14100000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/trip", 
+                "@id": "/c/en/trip", 
+                "language": "en", 
+                "label": "trip"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/trip/,/c/en/legs/]", 
+            "surfaceText": "[[trip]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.14000000000000012, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mole", 
+                "@id": "/c/en/mole", 
+                "language": "en", 
+                "label": "mole"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/mole/,/c/en/legs/]", 
+            "surfaceText": "[[mole]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.13900000000000023, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/baby", 
+                "@id": "/c/en/baby", 
+                "language": "en", 
+                "label": "baby"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/baby/,/c/en/legs/]", 
+            "surfaceText": "[[baby]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.1379999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/servant", 
+                "@id": "/c/en/servant", 
+                "language": "en", 
+                "label": "servant"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/servant/,/c/en/legs/]", 
+            "surfaceText": "[[servant]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.1349999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/slip", 
+                "@id": "/c/en/slip", 
+                "language": "en", 
+                "label": "slip"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/slip/,/c/en/legs/]", 
+            "surfaceText": "[[slip]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.10400000000000009, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/boy", 
+                "@id": "/c/en/boy", 
+                "language": "en", 
+                "label": "boy"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/boy/,/c/en/legs/]", 
+            "surfaceText": "[[boy]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.10199999999999987, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/crab", 
+                "@id": "/c/en/crab", 
+                "language": "en", 
+                "label": "crab"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/crab/,/c/en/legs/]", 
+            "surfaceText": "[[crab]] is related to [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 0.10199999999999987, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/quail", 
+                "@id": "/c/en/quail", 
+                "language": "en", 
+                "label": "quail"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/quail/,/c/en/legs/]", 
+            "surfaceText": "[[quail]] is related to [[legs]]"
+        }
+    ], 
+    "@id": "/c/en/legs", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/legs?offset=140&limit=20", 
+        "previousPage": "/c/en/legs?offset=120&limit=20", 
+        "firstPage": "/c/en/legs?offset=0&limit=20"
+    }
+}

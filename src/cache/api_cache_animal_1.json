@@ -1,0 +1,847 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 4.47213595499958, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fish", 
+                "@id": "/c/en/fish", 
+                "language": "en", 
+                "label": "a fish"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/darkshadow", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/darkshadow/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ck", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ck/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ratpunk", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ratpunk/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sporkiness", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/voidware", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/voidware/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/fish/,/c/en/animal/]", 
+            "surfaceText": "[[a fish]] is [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/living", 
+                "@id": "/c/en/living", 
+                "language": "en", 
+                "label": "living"
+            }, 
+            "weight": 4.437116180583961, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/animal/,/c/en/living/]", 
+            "surfaceText": "[[animal]] is related to [[living]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/creature", 
+                "@id": "/c/en/creature", 
+                "language": "en", 
+                "label": "creature"
+            }, 
+            "weight": 4.403634862247323, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/animal/,/c/en/creature/]", 
+            "surfaceText": "[[animal]] is related to [[creature]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 4.262862887778588, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fox", 
+                "@id": "/c/en/fox", 
+                "language": "en", 
+                "label": "fox"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fox/,/c/en/animal/]", 
+            "surfaceText": "[[fox]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 4.069397989875161, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pet/,/c/en/animal/]", 
+            "surfaceText": "[[pet]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/move_itself_about", 
+                "@id": "/c/en/move_itself_about", 
+                "language": "en", 
+                "label": "move itself about"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/azajac", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/azajac/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kanef", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kanef/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sporkiness", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/animal/,/c/en/move_itself_about/]", 
+            "surfaceText": "An activity [[an animal]] can do is [[move itself about]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eat", 
+                "@id": "/c/en/eat", 
+                "language": "en", 
+                "label": "eat"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/avenger", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/avenger/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bayen", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bayen/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/benni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/benni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mikelima", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mikelima/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ochuckles", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/quailman", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/quailman/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/suehessey", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/suehessey/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/animal/,/c/en/eat/]", 
+            "surfaceText": "[[an animal]] wants to [[eat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/alive", 
+                "@id": "/c/en/alive", 
+                "language": "en", 
+                "label": "alive"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "An animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mark", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mark/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sporkiness", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/wtgee", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wtgee/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/animal/,/c/en/alive/]", 
+            "surfaceText": "[[An animal]] is [[alive]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dolphin", 
+                "@id": "/c/en/dolphin", 
+                "language": "en", 
+                "label": "A dolphin"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kurros", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ochuckles", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sporkiness", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/dolphin/,/c/en/animal/]", 
+            "surfaceText": "[[A dolphin]] is [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fox", 
+                "@id": "/c/en/fox", 
+                "language": "en", 
+                "label": "A fox"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jakenelson", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/anita93", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anita93/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jeffmuir", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ochuckles", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sporkiness", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/fox/,/c/en/animal/]", 
+            "surfaceText": "[[A fox]] is [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "a pet"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/openpod", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/openpod/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/justjim", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/justjim/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/tlgallo", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tlgallo/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pet/,/c/en/animal/]", 
+            "surfaceText": "[[a pet]] is [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 3.882782507429434, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/chick", 
+                "@id": "/c/en/chick", 
+                "language": "en", 
+                "label": "chick"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/chick/,/c/en/animal/]", 
+            "surfaceText": "[[chick]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eating", 
+                "@id": "/c/en/eating", 
+                "language": "en", 
+                "label": "eating"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/hongster", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/hongster/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/djuber", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mattw", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mattw/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/yipskee", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/yipskee/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/animal/,/c/en/eating/]", 
+            "surfaceText": "[[animal]] can [[eating]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "an animal"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/head", 
+                "@id": "/c/en/head", 
+                "language": "en", 
+                "label": "a head"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mark", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/klynn", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/klynn/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mtraven", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mtraven/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/unclghost", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/unclghost/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "label": "PartOf"
+            }, 
+            "@id": "/a/[/r/PartOf/,/c/en/head/,/c/en/animal/]", 
+            "surfaceText": "[[a head]] is part of [[an animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dog", 
+                "@id": "/c/en/dog", 
+                "language": "en", 
+                "label": "dog"
+            }, 
+            "weight": 3.1292171544972716, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/animal/,/c/en/dog/]", 
+            "surfaceText": "[[animal]] is related to [[dog]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 3.0763614872118, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/plant", 
+                "@id": "/c/en/plant", 
+                "language": "en", 
+                "label": "plant"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/plant/,/c/en/animal/]", 
+            "surfaceText": "[[plant]] is not [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.9543188724306653, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/zoo", 
+                "@id": "/c/en/zoo", 
+                "language": "en", 
+                "label": "zoo"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/zoo/,/c/en/animal/]", 
+            "surfaceText": "[[zoo]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.9223278392404914, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ox", 
+                "@id": "/c/en/ox", 
+                "language": "en", 
+                "label": "ox"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ox/,/c/en/animal/]", 
+            "surfaceText": "[[ox]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "weight": 2.9127306775601483, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/flea", 
+                "@id": "/c/en/flea", 
+                "language": "en", 
+                "label": "flea"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/flea/,/c/en/animal/]", 
+            "surfaceText": "[[flea]] is related to [[animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/park", 
+                "@id": "/c/en/park", 
+                "language": "en", 
+                "label": "the park"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/animal", 
+                "@id": "/c/en/animal", 
+                "language": "en", 
+                "label": "animal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/zebrastriped", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zebrastriped/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/scs987", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/scs987/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/tcphk", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tcphk/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/animal/,/c/en/park/]", 
+            "surfaceText": "*Something you find at [[the park]] is [[animal]]"
+        }
+    ], 
+    "@id": "/c/en/animal", 
+    "view": {
+        "previousPage": "/c/en/animal?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/animal?offset=20&limit=20", 
+        "nextPage": "/c/en/animal?offset=40&limit=20", 
+        "firstPage": "/c/en/animal?offset=0&limit=20"
+    }
+}

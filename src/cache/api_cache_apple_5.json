@@ -1,0 +1,634 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/red_green", 
+                "@id": "/c/en/red_green", 
+                "language": "en", 
+                "label": "red green"
+            }, 
+            "weight": 1.775, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/red_green/]", 
+            "surfaceText": "[[apple]] is related to [[red green]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cider", 
+                "@id": "/c/en/cider", 
+                "language": "en", 
+                "label": "cider"
+            }, 
+            "weight": 1.767, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/cider/]", 
+            "surfaceText": "[[apple]] is related to [[cider]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/green_fruit", 
+                "@id": "/c/en/green_fruit", 
+                "language": "en", 
+                "label": "green fruit"
+            }, 
+            "weight": 1.7320000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/green_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[green fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/orange", 
+                "@id": "/c/en/orange", 
+                "language": "en", 
+                "label": "orange"
+            }, 
+            "weight": 1.69, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/apple/,/c/en/orange/]", 
+            "surfaceText": "[[apple]] is not [[orange]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/tree_fruit", 
+                "@id": "/c/en/tree_fruit", 
+                "language": "en", 
+                "label": "tree fruit"
+            }, 
+            "weight": 1.638, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/tree_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[tree fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/teachers", 
+                "@id": "/c/en/teachers", 
+                "language": "en", 
+                "label": "teachers"
+            }, 
+            "weight": 1.62, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/teachers/]", 
+            "surfaceText": "[[apple]] is related to [[teachers]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/granny", 
+                "@id": "/c/en/granny", 
+                "language": "en", 
+                "label": "granny"
+            }, 
+            "weight": 1.5259999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/granny/]", 
+            "surfaceText": "[[apple]] is related to [[granny]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/granny_smith", 
+                "@id": "/c/en/granny_smith", 
+                "language": "en", 
+                "label": "granny smith"
+            }, 
+            "weight": 1.5259999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/granny_smith/]", 
+            "surfaceText": "[[apple]] is related to [[granny smith]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/smith", 
+                "@id": "/c/en/smith", 
+                "language": "en", 
+                "label": "smith"
+            }, 
+            "weight": 1.5259999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/smith/]", 
+            "surfaceText": "[[apple]] is related to [[smith]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/round_fruit", 
+                "@id": "/c/en/round_fruit", 
+                "language": "en", 
+                "label": "round fruit"
+            }, 
+            "weight": 1.48, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/round_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[round fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_delicious", 
+                "@id": "/c/en/red_delicious", 
+                "language": "en", 
+                "label": "red delicious"
+            }, 
+            "weight": 1.396, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/red_delicious/]", 
+            "surfaceText": "[[apple]] is related to [[red delicious]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/peel", 
+                "@id": "/c/en/peel", 
+                "language": "en", 
+                "label": "peel"
+            }, 
+            "weight": 1.3840000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/peel/]", 
+            "surfaceText": "[[apple]] is related to [[peel]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/newton", 
+                "@id": "/c/en/newton", 
+                "language": "en", 
+                "label": "newton"
+            }, 
+            "weight": 1.3070000000000004, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/newton/]", 
+            "surfaceText": "[[apple]] is related to [[newton]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mac_computer", 
+                "@id": "/c/en/mac_computer", 
+                "language": "en", 
+                "label": "mac computer"
+            }, 
+            "weight": 1.302, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/mac_computer/]", 
+            "surfaceText": "[[apple]] is related to [[mac computer]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/crunchy", 
+                "@id": "/c/en/crunchy", 
+                "language": "en", 
+                "label": "crunchy"
+            }, 
+            "weight": 1.2800000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/crunchy/]", 
+            "surfaceText": "[[apple]] is related to [[crunchy]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ate", 
+                "@id": "/c/en/ate", 
+                "language": "en", 
+                "label": "ate"
+            }, 
+            "weight": 1.255, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/ate/]", 
+            "surfaceText": "[[apple]] is related to [[ate]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eden_fruit", 
+                "@id": "/c/en/eden_fruit", 
+                "language": "en", 
+                "label": "eden fruit"
+            }, 
+            "weight": 1.2409999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/eden_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[eden fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/forbidden_fruit", 
+                "@id": "/c/en/forbidden_fruit", 
+                "language": "en", 
+                "label": "forbidden fruit"
+            }, 
+            "weight": 1.2350000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/forbidden_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[forbidden fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pips", 
+                "@id": "/c/en/pips", 
+                "language": "en", 
+                "label": "pips"
+            }, 
+            "weight": 1.2199999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/pips/]", 
+            "surfaceText": "[[apple]] is related to [[pips]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/adams", 
+                "@id": "/c/en/adams", 
+                "language": "en", 
+                "label": "adams"
+            }, 
+            "weight": 1.165, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/adams/]", 
+            "surfaceText": "[[apple]] is related to [[adams]]"
+        }
+    ], 
+    "@id": "/c/en/apple", 
+    "view": {
+        "previousPage": "/c/en/apple?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/apple?offset=100&limit=20", 
+        "nextPage": "/c/en/apple?offset=120&limit=20", 
+        "firstPage": "/c/en/apple?offset=0&limit=20"
+    }
+}

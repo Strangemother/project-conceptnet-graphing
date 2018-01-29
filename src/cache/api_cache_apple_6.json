@@ -1,0 +1,630 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/doctor", 
+                "@id": "/c/en/doctor", 
+                "language": "en", 
+                "label": "doctor"
+            }, 
+            "weight": 1.1589999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/doctor/]", 
+            "surfaceText": "[[apple]] is related to [[doctor]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/orchard", 
+                "@id": "/c/en/orchard", 
+                "language": "en", 
+                "label": "orchard"
+            }, 
+            "weight": 1.1320000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/orchard/]", 
+            "surfaceText": "[[apple]] is related to [[orchard]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ball", 
+                "@id": "/c/en/ball", 
+                "language": "en", 
+                "label": "ball"
+            }, 
+            "weight": 1.1029999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/ball/]", 
+            "surfaceText": "[[apple]] is related to [[ball]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/company", 
+                "@id": "/c/en/company", 
+                "language": "en", 
+                "label": "company"
+            }, 
+            "weight": 1.089, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/company/]", 
+            "surfaceText": "[[apple]] is related to [[company]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cider_fruit", 
+                "@id": "/c/en/cider_fruit", 
+                "language": "en", 
+                "label": "cider fruit"
+            }, 
+            "weight": 1.0220000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/cider_fruit/]", 
+            "surfaceText": "[[apple]] is related to [[cider fruit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apple_orchard", 
+                "@id": "/c/en/apple_orchard", 
+                "language": "en", 
+                "label": "an apple orchard"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cffrost", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cffrost/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/apple_orchard/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[an apple orchard]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apple_pie", 
+                "@id": "/c/en/apple_pie", 
+                "language": "en", 
+                "label": "apple pie"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bedume", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/apple_pie/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[apple pie]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fridge", 
+                "@id": "/c/en/fridge", 
+                "language": "en", 
+                "label": "the fridge"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dbn3", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/fridge/]", 
+            "surfaceText": "Somewhere [[an apple]] can be is in [[the fridge]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greengrocer", 
+                "@id": "/c/en/greengrocer", 
+                "language": "en", 
+                "label": "a greengrocer"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/arnia", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/arnia/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/greengrocer/]", 
+            "surfaceText": "Somewhere [[an apple]] can be is in [[a greengrocer]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/horses_mouth", 
+                "@id": "/c/en/horses_mouth", 
+                "language": "en", 
+                "label": "a horses mouth"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/horses_mouth/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[a horses mouth]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/house", 
+                "@id": "/c/en/house", 
+                "language": "en", 
+                "label": "a house"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/debjitbis08", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/debjitbis08/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/house/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[a house]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/orchard", 
+                "@id": "/c/en/orchard", 
+                "language": "en", 
+                "label": "an orchard"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cffrost", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cffrost/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/orchard/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[an orchard]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/produce_section_of_supermarket", 
+                "@id": "/c/en/produce_section_of_supermarket", 
+                "language": "en", 
+                "label": "the produce section of the supermarket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nancyfay", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/produce_section_of_supermarket/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[the produce section of the supermarket]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/refrigerator", 
+                "@id": "/c/en/refrigerator", 
+                "language": "en", 
+                "label": "the refrigerator"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pmessri", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pmessri/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/refrigerator/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[the refrigerator]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toffee_apple", 
+                "@id": "/c/en/toffee_apple", 
+                "language": "en", 
+                "label": "a toffee apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/witbrock", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/apple/,/c/en/toffee_apple/]", 
+            "surfaceText": "You are likely to find [[an apple]] in [[a toffee apple]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fall_off_tree", 
+                "@id": "/c/en/fall_off_tree", 
+                "language": "en", 
+                "label": "fall off a tree"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "an apple"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/scs987", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/scs987/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/apple/,/c/en/fall_off_tree/]", 
+            "surfaceText": "[[an apple]] can [[fall off a tree]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "Apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/osx", 
+                "@id": "/c/en/osx", 
+                "language": "en", 
+                "label": "osx"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jhamrick", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/jhamrick/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CreatedBy", 
+                "label": "CreatedBy"
+            }, 
+            "@id": "/a/[/r/CreatedBy/,/c/en/osx/,/c/en/apple/]", 
+            "surfaceText": "[[osx]] is created by [[Apple]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/apple/n", 
+                "term": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/big_apple", 
+                "@id": "/c/de/big_apple", 
+                "language": "de", 
+                "label": "big apple"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/de/big_apple/,/c/en/apple/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/apple/n", 
+                "term": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/adam's_apple", 
+                "@id": "/c/en/adam's_apple", 
+                "language": "en", 
+                "label": "adam's apple"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/adam's_apple/,/c/en/apple/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/apple/n", 
+                "term": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/alligator_apple", 
+                "@id": "/c/en/alligator_apple", 
+                "language": "en", 
+                "label": "alligator apple"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/alligator_apple/,/c/en/apple/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/apple", 
+    "view": {
+        "previousPage": "/c/en/apple?offset=100&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/apple?offset=120&limit=20", 
+        "nextPage": "/c/en/apple?offset=140&limit=20", 
+        "firstPage": "/c/en/apple?offset=0&limit=20"
+    }
+}

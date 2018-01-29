@@ -1,0 +1,619 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/oword", 
+                "@id": "/c/en/oword", 
+                "language": "en", 
+                "label": "oword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/oword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/password", 
+                "@id": "/c/en/password", 
+                "language": "en", 
+                "label": "password"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/password/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/word/n", 
+                "term": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/password", 
+                "@id": "/c/en/password", 
+                "language": "en", 
+                "label": "password"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/password/,/c/en/word/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/portmanteau_word", 
+                "@id": "/c/en/portmanteau_word", 
+                "language": "en", 
+                "label": "portmanteau word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/portmanteau_word/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/qword", 
+                "@id": "/c/en/qword", 
+                "language": "en", 
+                "label": "qword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/qword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/reword", 
+                "@id": "/c/en/reword", 
+                "language": "en", 
+                "label": "reword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/reword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/starword", 
+                "@id": "/c/en/starword", 
+                "language": "en", 
+                "label": "starword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/starword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/stopword", 
+                "@id": "/c/en/stopword", 
+                "language": "en", 
+                "label": "stopword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/stopword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/swear_word", 
+                "@id": "/c/en/swear_word", 
+                "language": "en", 
+                "label": "swear word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/swear_word/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/watchword", 
+                "@id": "/c/en/watchword", 
+                "language": "en", 
+                "label": "watchword"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/watchword/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/weasel_word", 
+                "@id": "/c/en/weasel_word", 
+                "language": "en", 
+                "label": "weasel word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/weasel_word/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/wordbook", 
+                "@id": "/c/en/wordbook", 
+                "language": "en", 
+                "label": "wordbook"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/wordbook/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word_building", 
+                "@id": "/c/en/word_building", 
+                "language": "en", 
+                "label": "word building"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word_building/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u4e8c\u8a00/n", 
+                "term": "/c/ja/\u4e8c\u8a00", 
+                "language": "ja", 
+                "label": "\u4e8c\u8a00"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word/,/c/ja/\u4e8c\u8a00/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/ja/\u7684", 
+                "@id": "/c/ja/\u7684", 
+                "language": "ja", 
+                "label": "\u7684"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word/,/c/ja/\u7684/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u8a00\u8449/n", 
+                "term": "/c/ja/\u8a00\u8449", 
+                "language": "ja", 
+                "label": "\u8a00\u8449"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word/,/c/ja/\u8a00\u8449/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/wordfast", 
+                "@id": "/c/en/wordfast", 
+                "language": "en", 
+                "label": "wordfast"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/wordfast/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word_for_word", 
+                "@id": "/c/en/word_for_word", 
+                "language": "en", 
+                "label": "word for word"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word_for_word/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/word_game", 
+                "@id": "/c/en/word_game", 
+                "language": "en", 
+                "label": "word game"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/word_game/,/c/en/word/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/word", 
+                "@id": "/c/en/word", 
+                "language": "en", 
+                "label": "word"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/wordhood", 
+                "@id": "/c/en/wordhood", 
+                "language": "en", 
+                "label": "wordhood"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/wordhood/,/c/en/word/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/word", 
+    "view": {
+        "previousPage": "/c/en/word?offset=180&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/word?offset=200&limit=20", 
+        "nextPage": "/c/en/word?offset=220&limit=20", 
+        "firstPage": "/c/en/word?offset=0&limit=20"
+    }
+}

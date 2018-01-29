@@ -1,0 +1,629 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/toes", 
+                "@id": "/c/en/toes", 
+                "language": "en", 
+                "label": "toes"
+            }, 
+            "weight": 1.444, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/toes/]", 
+            "surfaceText": "[[leg]] is related to [[toes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/human", 
+                "@id": "/c/en/human", 
+                "language": "en", 
+                "label": "human"
+            }, 
+            "weight": 1.396, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/human/]", 
+            "surfaceText": "[[leg]] is related to [[human]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/attached", 
+                "@id": "/c/en/attached", 
+                "language": "en", 
+                "label": "attached"
+            }, 
+            "weight": 1.2850000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/attached/]", 
+            "surfaceText": "[[leg]] is related to [[attached]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/thigh", 
+                "@id": "/c/en/thigh", 
+                "language": "en", 
+                "label": "thigh"
+            }, 
+            "weight": 1.1800000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/thigh/]", 
+            "surfaceText": "[[leg]] is related to [[thigh]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0469999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/body", 
+                "@id": "/c/en/body", 
+                "language": "en", 
+                "label": "body"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/body/,/c/en/leg/]", 
+            "surfaceText": "[[body]] is related to [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lower_appendage", 
+                "@id": "/c/en/lower_appendage", 
+                "language": "en", 
+                "label": "lower appendage"
+            }, 
+            "weight": 1.0330000000000004, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/lower_appendage/]", 
+            "surfaceText": "[[leg]] is related to [[lower appendage]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0190000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hand", 
+                "@id": "/c/en/hand", 
+                "language": "en", 
+                "label": "hand"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/hand/,/c/en/leg/]", 
+            "surfaceText": "[[hand]] is not [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lower_body", 
+                "@id": "/c/en/lower_body", 
+                "language": "en", 
+                "label": "lower body"
+            }, 
+            "weight": 1.0179999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/lower_body/]", 
+            "surfaceText": "[[leg]] is related to [[lower body]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.013, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/walk", 
+                "@id": "/c/en/walk", 
+                "language": "en", 
+                "label": "walk"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/walk/,/c/en/leg/]", 
+            "surfaceText": "[[walk]] is related to [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/off/a", 
+                "term": "/c/en/off", 
+                "language": "en", 
+                "label": "off"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/off/a/,/c/en/leg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ko/\uc55e\ub2e4\ub9ac/n", 
+                "term": "/c/ko/\uc55e\ub2e4\ub9ac", 
+                "language": "ko", 
+                "label": "\uc55e\ub2e4\ub9ac"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/ko/\uc55e\ub2e4\ub9ac/n/,/c/en/leg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ko/\ub113\uc801\ub2e4\ub9ac/n", 
+                "term": "/c/ko/\ub113\uc801\ub2e4\ub9ac", 
+                "language": "ko", 
+                "label": "\ub113\uc801\ub2e4\ub9ac"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/ko/\ub113\uc801\ub2e4\ub9ac/n/,/c/en/leg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ko/\ud5c8\ubc85\ub2e4\ub9ac/n", 
+                "term": "/c/ko/\ud5c8\ubc85\ub2e4\ub9ac", 
+                "language": "ko", 
+                "label": "\ud5c8\ubc85\ub2e4\ub9ac"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/ko/\ud5c8\ubc85\ub2e4\ub9ac/n/,/c/en/leg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/body", 
+                "@id": "/c/en/body", 
+                "language": "en", 
+                "label": "a body"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sargonz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sargonz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/body/]", 
+            "surfaceText": "You are likely to find [[a leg]] in [[a body]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/chair", 
+                "@id": "/c/en/chair", 
+                "language": "en", 
+                "label": "a chair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/garybc", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/garybc/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/chair/]", 
+            "surfaceText": "*Something you find on [[a chair]] is [[a leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/furniture_store", 
+                "@id": "/c/en/furniture_store", 
+                "language": "en", 
+                "label": "a furniture store"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/furniture_store/]", 
+            "surfaceText": "You are likely to find [[a leg]] in [[a furniture store]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pair", 
+                "@id": "/c/en/pair", 
+                "language": "en", 
+                "label": "a pair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/smtango", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/pair/]", 
+            "surfaceText": "You are likely to find [[a leg]] in [[a pair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/table", 
+                "@id": "/c/en/table", 
+                "language": "en", 
+                "label": "a table"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bedume", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/table/]", 
+            "surfaceText": "You are likely to find [[a leg]] in [[a table]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/three_legged_race", 
+                "@id": "/c/en/three_legged_race", 
+                "language": "en", 
+                "label": "a three legged race"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rowanf", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rowanf/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/leg/,/c/en/three_legged_race/]", 
+            "surfaceText": "You are likely to find [[a leg]] in [[a three legged race]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "a leg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/muscle", 
+                "@id": "/c/en/muscle", 
+                "language": "en", 
+                "label": "a muscle"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anna", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anna/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/muscle/,/c/en/leg/]", 
+            "surfaceText": "You are likely to find [[a muscle]] in [[a leg]]"
+        }
+    ], 
+    "@id": "/c/en/leg", 
+    "view": {
+        "previousPage": "/c/en/leg?offset=120&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/leg?offset=140&limit=20", 
+        "nextPage": "/c/en/leg?offset=160&limit=20", 
+        "firstPage": "/c/en/leg?offset=0&limit=20"
+    }
+}

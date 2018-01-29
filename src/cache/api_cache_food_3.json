@@ -1,0 +1,740 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/substance", 
+                "@id": "/c/en/substance", 
+                "language": "en", 
+                "label": "a substance"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "Food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/curufinwe", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/curufinwe/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/food/,/c/en/substance/]", 
+            "surfaceText": "[[Food]] is [[a substance]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "a food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ham", 
+                "@id": "/c/en/ham", 
+                "language": "en", 
+                "label": "Ham"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bhunt", 
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/bhunt/]", 
+                    "activity": "/s/activity/omcs/is_a_cleanup"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/alpha678", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alpha678/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/scyu", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/scyu/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/ham/,/c/en/food/]", 
+            "surfaceText": "[[Ham]] is [[a food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/potatoes", 
+                "@id": "/c/en/potatoes", 
+                "language": "en", 
+                "label": "Potatoes"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/offspring", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/offspring/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/hongster", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hongster/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/potatoes/,/c/en/food/]", 
+            "surfaceText": "[[Potatoes]] are [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/salmon", 
+                "@id": "/c/en/salmon", 
+                "language": "en", 
+                "label": "salmon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tjlau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tjlau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/pooua", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pooua/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/salmon/,/c/en/food/]", 
+            "surfaceText": "[[salmon]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eat_in_restaurant", 
+                "@id": "/c/en/eat_in_restaurant", 
+                "language": "en", 
+                "label": "eat in a restaurant"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/joby", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joby/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/thejll", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thejll/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/thejll", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thejll/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/eat_in_restaurant/,/c/en/food/]", 
+            "surfaceText": "You would [[eat in a restaurant]] because you want [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/energy", 
+                "@id": "/c/en/energy", 
+                "language": "en", 
+                "label": "energy"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/craleb", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/craleb/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/j2r2d2", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/j2r2d2/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/craleb", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/craleb/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/food/,/c/en/energy/]", 
+            "surfaceText": "[[food]] is for [[energy]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sustenance", 
+                "@id": "/c/en/sustenance", 
+                "language": "en", 
+                "label": "sustenance"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/djuber", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/martins", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/martins/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/food/,/c/en/sustenance/]", 
+            "surfaceText": "[[food]] is for [[sustenance]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.80713376952364, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/grain", 
+                "@id": "/c/en/grain", 
+                "language": "en", 
+                "label": "grain"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/grain/,/c/en/food/]", 
+            "surfaceText": "[[grain]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.711457172813172, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/sugar", 
+                "@id": "/c/en/sugar", 
+                "language": "en", 
+                "label": "sugar"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/sugar/,/c/en/food/]", 
+            "surfaceText": "[[sugar]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.5721586265236436, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/tin", 
+                "@id": "/c/en/tin", 
+                "language": "en", 
+                "label": "tin"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/tin/,/c/en/food/]", 
+            "surfaceText": "[[tin]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.3246505113672464, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hay", 
+                "@id": "/c/en/hay", 
+                "language": "en", 
+                "label": "hay"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/hay/,/c/en/food/]", 
+            "surfaceText": "[[hay]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.318620279390311, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple", 
+                "@id": "/c/en/apple", 
+                "language": "en", 
+                "label": "apple"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apple/,/c/en/food/]", 
+            "surfaceText": "[[apple]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.1484878403193264, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ration", 
+                "@id": "/c/en/ration", 
+                "language": "en", 
+                "label": "ration"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ration/,/c/en/food/]", 
+            "surfaceText": "[[ration]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.14289523775662, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/napkin", 
+                "@id": "/c/en/napkin", 
+                "language": "en", 
+                "label": "napkin"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/napkin/,/c/en/food/]", 
+            "surfaceText": "[[napkin]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/backpack", 
+                "@id": "/c/en/backpack", 
+                "language": "en", 
+                "label": "a backpack"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/johngt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ptbnj", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ptbnj/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/backpack/]", 
+            "surfaceText": "*Something you find in [[a backpack]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/can", 
+                "@id": "/c/en/can", 
+                "language": "en", 
+                "label": "a can"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ugmonster", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ugmonster/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/lazarusasmodayus", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lazarusasmodayus/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/can/]", 
+            "surfaceText": "*Something you find in [[a can]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "a fair"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/martinlonewolf", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/martinlonewolf/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/phonedave", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phonedave/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/fair/]", 
+            "surfaceText": "*Something you find at [[a fair]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fast_food_restaurant", 
+                "@id": "/c/en/fast_food_restaurant", 
+                "language": "en", 
+                "label": "a fast-food restaurant"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/l", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/l/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/actibus", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/actibus/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/fast_food_restaurant/]", 
+            "surfaceText": "*Something you find at [[a fast-food restaurant]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/freezer", 
+                "@id": "/c/en/freezer", 
+                "language": "en", 
+                "label": "the freezer"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/p4ntz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/p4ntz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bobdhaliwal", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/freezer/]", 
+            "surfaceText": "*Something you find in [[the freezer]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/house", 
+                "@id": "/c/en/house", 
+                "language": "en", 
+                "label": "your house"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/diggety", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diggety/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/20q_1448924705", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_1448924705/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/house/]", 
+            "surfaceText": "*Something you find at [[your house]] is [[food]]"
+        }
+    ], 
+    "@id": "/c/en/food", 
+    "view": {
+        "previousPage": "/c/en/food?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/food?offset=60&limit=20", 
+        "nextPage": "/c/en/food?offset=80&limit=20", 
+        "firstPage": "/c/en/food?offset=0&limit=20"
+    }
+}

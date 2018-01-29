@@ -1,0 +1,632 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/one_meat_pork_butcher_sells", 
+                "@id": "/c/en/one_meat_pork_butcher_sells", 
+                "language": "en", 
+                "label": "one meat a pork butcher sells"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/boggley", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boggley/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/bacon/,/c/en/one_meat_pork_butcher_sells/]", 
+            "surfaceText": "[[bacon]] is [[one meat a pork butcher sells]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pork/n", 
+                "term": "/c/en/pork", 
+                "language": "en", 
+                "label": "pork"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/bacon/n", 
+                "term": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/bacon/n/,/c/en/pork/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pig", 
+                "@id": "/c/en/pig", 
+                "language": "en", 
+                "label": "pig"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mubassher", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mubassher/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MadeOf", 
+                "label": "MadeOf"
+            }, 
+            "@id": "/a/[/r/MadeOf/,/c/en/bacon/,/c/en/pig/]", 
+            "surfaceText": "[[bacon]] is made of [[pig]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/found_in_store", 
+                "@id": "/c/en/found_in_store", 
+                "language": "en", 
+                "label": "found in a store"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/bacon/,/c/en/found_in_store/]", 
+            "surfaceText": "[[bacon]] can be [[found in a store]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/abe/piksiia/n", 
+                "term": "/c/abe/piksiia", 
+                "language": "abe", 
+                "label": "piksiia"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/abe/piksiia/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/af/spek/n", 
+                "term": "/c/af/spek", 
+                "language": "af", 
+                "label": "spek"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/af/spek/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ang/spic/n", 
+                "term": "/c/ang/spic", 
+                "language": "ang", 
+                "label": "spic"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/spic/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/slanina/n", 
+                "term": "/c/cs/slanina", 
+                "language": "cs", 
+                "label": "slanina"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/slanina/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/\u0161pek/n", 
+                "term": "/c/cs/\u0161pek", 
+                "language": "cs", 
+                "label": "\u0161pek"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/\u0161pek/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/da/fl\u00e6sk/n", 
+                "term": "/c/da/fl\u00e6sk", 
+                "language": "da", 
+                "label": "fl\u00e6sk"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/fl\u00e6sk/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/bauernfr\u00fchst\u00fcck/n", 
+                "term": "/c/de/bauernfr\u00fchst\u00fcck", 
+                "language": "de", 
+                "label": "bauernfr\u00fchst\u00fcck"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/bauernfr\u00fchst\u00fcck/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/speck/n", 
+                "term": "/c/de/speck", 
+                "language": "de", 
+                "label": "speck"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/speck/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/weisswurst/n", 
+                "term": "/c/de/weisswurst", 
+                "language": "de", 
+                "label": "weisswurst"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/weisswurst/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03bc\u03c0\u03ad\u03b9\u03ba\u03bf\u03bd/n", 
+                "term": "/c/el/\u03bc\u03c0\u03ad\u03b9\u03ba\u03bf\u03bd", 
+                "language": "el", 
+                "label": "\u03bc\u03c0\u03ad\u03b9\u03ba\u03bf\u03bd"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03bc\u03c0\u03ad\u03b9\u03ba\u03bf\u03bd/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/alambre/n", 
+                "term": "/c/en/alambre", 
+                "language": "en", 
+                "label": "alambre"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/alambre/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/back_bacon/n", 
+                "term": "/c/en/back_bacon", 
+                "language": "en", 
+                "label": "back bacon"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/back_bacon/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/bacon_and_eggs/n", 
+                "term": "/c/en/bacon_and_eggs", 
+                "language": "en", 
+                "label": "bacon and eggs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/bacon_and_eggs/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/baconburger/n", 
+                "term": "/c/en/baconburger", 
+                "language": "en", 
+                "label": "baconburger"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/baconburger/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/bacon_butty/n", 
+                "term": "/c/en/bacon_butty", 
+                "language": "en", 
+                "label": "bacon butty"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/bacon_butty/n/,/c/en/bacon/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/flitch", 
+                "@id": "/c/en/flitch", 
+                "language": "en", 
+                "label": "flitch"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bacon", 
+                "@id": "/c/en/bacon", 
+                "language": "en", 
+                "label": "bacon"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/bacon/,/c/en/flitch/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/bacon", 
+    "view": {
+        "previousPage": "/c/en/bacon?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/bacon?offset=60&limit=20", 
+        "nextPage": "/c/en/bacon?offset=80&limit=20", 
+        "firstPage": "/c/en/bacon?offset=0&limit=20"
+    }
+}

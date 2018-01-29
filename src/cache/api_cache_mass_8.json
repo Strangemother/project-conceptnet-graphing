@@ -1,0 +1,638 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/religious", 
+                "@id": "/c/en/religious", 
+                "language": "en", 
+                "label": "religious"
+            }, 
+            "weight": 1.0789999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mass", 
+                "@id": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/mass/,/c/en/religious/]", 
+            "surfaceText": "[[mass]] is related to [[religious]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mass", 
+                "@id": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0629999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/heavy", 
+                "@id": "/c/en/heavy", 
+                "language": "en", 
+                "label": "heavy"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/heavy/,/c/en/mass/]", 
+            "surfaceText": "[[heavy]] is related to [[mass]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/church_service", 
+                "@id": "/c/en/church_service", 
+                "language": "en", 
+                "label": "church service"
+            }, 
+            "weight": 1.0339999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mass", 
+                "@id": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/mass/,/c/en/church_service/]", 
+            "surfaceText": "[[mass]] is related to [[church service]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ceremony", 
+                "@id": "/c/en/ceremony", 
+                "language": "en", 
+                "label": "ceremony"
+            }, 
+            "weight": 1.008, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mass", 
+                "@id": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/mass/,/c/en/ceremony/]", 
+            "surfaceText": "[[mass]] is related to [[ceremony]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/liturgy_for_eucharist", 
+                "@id": "/c/en/liturgy_for_eucharist", 
+                "language": "en", 
+                "label": "liturgy for the Eucharist"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/mass", 
+                "@id": "/c/en/mass", 
+                "language": "en", 
+                "label": "The Mass"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pj", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pj/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/mass/,/c/en/liturgy_for_eucharist/]", 
+            "surfaceText": "[[The Mass]] is the [[liturgy for the Eucharist]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/blue_mass", 
+                "@id": "/c/en/blue_mass", 
+                "language": "en", 
+                "label": "blue mass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/blue_mass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/critical_mass", 
+                "@id": "/c/en/critical_mass", 
+                "language": "en", 
+                "label": "critical mass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/critical_mass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/high_mass", 
+                "@id": "/c/en/high_mass", 
+                "language": "en", 
+                "label": "high mass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/high_mass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/land_mass", 
+                "@id": "/c/en/land_mass", 
+                "language": "en", 
+                "label": "land mass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/land_mass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/landmass", 
+                "@id": "/c/en/landmass", 
+                "language": "en", 
+                "label": "landmass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/landmass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/low_mass", 
+                "@id": "/c/en/low_mass", 
+                "language": "en", 
+                "label": "low mass"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/low_mass/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_bell", 
+                "@id": "/c/en/mass_bell", 
+                "language": "en", 
+                "label": "mass bell"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_bell/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_book", 
+                "@id": "/c/en/mass_book", 
+                "language": "en", 
+                "label": "mass book"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_book/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_burial", 
+                "@id": "/c/en/mass_burial", 
+                "language": "en", 
+                "label": "mass burial"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_burial/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_center", 
+                "@id": "/c/en/mass_center", 
+                "language": "en", 
+                "label": "mass center"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_center/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_copper", 
+                "@id": "/c/en/mass_copper", 
+                "language": "en", 
+                "label": "mass copper"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_copper/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_culture", 
+                "@id": "/c/en/mass_culture", 
+                "language": "en", 
+                "label": "mass culture"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_culture/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_defect", 
+                "@id": "/c/en/mass_defect", 
+                "language": "en", 
+                "label": "mass defect"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_defect/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_destruction", 
+                "@id": "/c/en/mass_destruction", 
+                "language": "en", 
+                "label": "mass destruction"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_destruction/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/mass/n", 
+                "term": "/c/en/mass", 
+                "language": "en", 
+                "label": "mass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mass_energy", 
+                "@id": "/c/en/mass_energy", 
+                "language": "en", 
+                "label": "mass energy"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mass_energy/,/c/en/mass/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/mass", 
+    "view": {
+        "previousPage": "/c/en/mass?offset=140&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/mass?offset=160&limit=20", 
+        "nextPage": "/c/en/mass?offset=180&limit=20", 
+        "firstPage": "/c/en/mass?offset=0&limit=20"
+    }
+}

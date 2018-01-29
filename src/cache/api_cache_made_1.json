@@ -1,0 +1,627 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.1180000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/wood", 
+                "@id": "/c/en/wood", 
+                "language": "en", 
+                "label": "wood"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/wood/,/c/en/made/]", 
+            "surfaceText": "[[wood]] is related to [[made]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0099999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/glass", 
+                "@id": "/c/en/glass", 
+                "language": "en", 
+                "label": "glass"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/glass/,/c/en/made/]", 
+            "surfaceText": "[[glass]] is related to [[made]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/taking_course_commitment", 
+                "@id": "/c/en/taking_course_commitment", 
+                "language": "en", 
+                "label": "taking a course is a commitment"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Causes", 
+                "label": "Causes"
+            }, 
+            "@id": "/a/[/r/Causes/,/c/en/taking_course_commitment/,/c/en/made/]", 
+            "surfaceText": "The effect of [[taking a course is a commitment]] is [[made]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/past_tense_of_make", 
+                "@id": "/c/en/past_tense_of_make", 
+                "language": "en", 
+                "label": "past tense of make"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rossjones", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjones/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/made/,/c/en/past_tense_of_make/]", 
+            "surfaceText": "[[made]] is the [[past tense of make]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/have_it_made", 
+                "@id": "/c/en/have_it_made", 
+                "language": "en", 
+                "label": "have it made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/have_it_made/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/home_made", 
+                "@id": "/c/en/home_made", 
+                "language": "en", 
+                "label": "home made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/home_made/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/fi/p\u00e4\u00e4/n", 
+                "term": "/c/fi/p\u00e4\u00e4", 
+                "language": "fi", 
+                "label": "p\u00e4\u00e4"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/made/,/c/fi/p\u00e4\u00e4/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made_for_each_other", 
+                "@id": "/c/en/made_for_each_other", 
+                "language": "en", 
+                "label": "made for each other"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/made_for_each_other/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made_in_shade", 
+                "@id": "/c/en/made_in_shade", 
+                "language": "en", 
+                "label": "made in shade"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/made_in_shade/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made_man", 
+                "@id": "/c/en/made_man", 
+                "language": "en", 
+                "label": "made man"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/made_man/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ready_made", 
+                "@id": "/c/en/ready_made", 
+                "language": "en", 
+                "label": "ready made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/ready_made/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/self_made", 
+                "@id": "/c/en/self_made", 
+                "language": "en", 
+                "label": "self made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/self_made/,/c/en/made/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/300676050-s", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/300676050-s", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "300676050-s"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/made/a", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/made/a/,/http://wordnet-rdf.princeton.edu/wn31/300676050-s/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/301472305-a", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/301472305-a", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "301472305-a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/made/a", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/made/a/,/http://wordnet-rdf.princeton.edu/wn31/301472305-a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/302340278-s", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/302340278-s", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "302340278-s"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/made/a", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/made/a/,/http://wordnet-rdf.princeton.edu/wn31/302340278-s/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "made+of+money-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/made/,/http://wordnet-rdf.princeton.edu/wn31/made+of+money-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/make/v", 
+                "term": "/c/en/make", 
+                "language": "en", 
+                "label": "make"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/made", 
+                "@id": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/made/,/c/en/make/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mak", 
+                "@id": "/c/en/mak", 
+                "language": "en", 
+                "label": "mak"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/made/v/,/c/en/mak/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/make", 
+                "@id": "/c/en/make", 
+                "language": "en", 
+                "label": "make"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/made/v/,/c/en/make/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/myek", 
+                "@id": "/c/en/myek", 
+                "language": "en", 
+                "label": "myek"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/made/v", 
+                "term": "/c/en/made", 
+                "language": "en", 
+                "label": "made"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/made/v/,/c/en/myek/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/made", 
+    "view": {
+        "previousPage": "/c/en/made?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/made?offset=20&limit=20", 
+        "nextPage": "/c/en/made?offset=40&limit=20", 
+        "firstPage": "/c/en/made?offset=0&limit=20"
+    }
+}

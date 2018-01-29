@@ -1,0 +1,644 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/now", 
+                "@id": "/c/en/now", 
+                "language": "en", 
+                "label": "now"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "The time"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/time/,/c/en/now/]", 
+            "surfaceText": "[[The time]] is [[now]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/biological_time/n", 
+                "term": "/c/en/biological_time", 
+                "language": "en", 
+                "label": "biological time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/biological_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[biological time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/civil_time/n", 
+                "term": "/c/en/civil_time", 
+                "language": "en", 
+                "label": "civil time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/civil_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[civil time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/continuum/n", 
+                "term": "/c/en/continuum", 
+                "language": "en", 
+                "label": "continuum"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/continuum/n/,/c/en/time/n/]", 
+            "surfaceText": "[[continuum]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/cosmic_time/n", 
+                "term": "/c/en/cosmic_time", 
+                "language": "en", 
+                "label": "cosmic time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cosmic_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[cosmic time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/daylight_saving_time/n", 
+                "term": "/c/en/daylight_saving_time", 
+                "language": "en", 
+                "label": "daylight-saving time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/daylight_saving_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[daylight-saving time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/day/n", 
+                "term": "/c/en/day", 
+                "language": "en", 
+                "label": "day"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/day/n/,/c/en/time/n/]", 
+            "surfaceText": "[[day]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/dead/n", 
+                "term": "/c/en/dead", 
+                "language": "en", 
+                "label": "dead"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/dead/n/,/c/en/time/n/]", 
+            "surfaceText": "[[dead]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/duration/n", 
+                "term": "/c/en/duration", 
+                "language": "en", 
+                "label": "duration"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/duration/n/,/c/en/time/n/]", 
+            "surfaceText": "[[duration]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/ephemera/n", 
+                "term": "/c/en/ephemera", 
+                "language": "en", 
+                "label": "ephemera"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/ephemera/n/,/c/en/time/n/]", 
+            "surfaceText": "[[ephemera]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/eternity/n", 
+                "term": "/c/en/eternity", 
+                "language": "en", 
+                "label": "eternity"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/eternity/n/,/c/en/time/n/]", 
+            "surfaceText": "[[eternity]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fourth_dimension", 
+                "@id": "/c/en/fourth_dimension", 
+                "language": "en", 
+                "label": "the fourth dimension"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/moriarty", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/moriarty/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/fourth_dimension/,/c/en/time/]", 
+            "surfaceText": "[[the fourth dimension]] is [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/future/n", 
+                "term": "/c/en/future", 
+                "language": "en", 
+                "label": "future"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/future/n/,/c/en/time/n/]", 
+            "surfaceText": "[[future]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/geological_time/n", 
+                "term": "/c/en/geological_time", 
+                "language": "en", 
+                "label": "geological time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/geological_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[geological time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greenwich_mean_time/n", 
+                "term": "/c/en/greenwich_mean_time", 
+                "language": "en", 
+                "label": "Greenwich Mean Time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/greenwich_mean_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[Greenwich Mean Time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/hard_times/n", 
+                "term": "/c/en/hard_times", 
+                "language": "en", 
+                "label": "hard times"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/hard_times/n/,/c/en/time/n/]", 
+            "surfaceText": "[[hard times]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/high_time/n", 
+                "term": "/c/en/high_time", 
+                "language": "en", 
+                "label": "high time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/high_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[high time]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/incarnation/n", 
+                "term": "/c/en/incarnation", 
+                "language": "en", 
+                "label": "incarnation"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/incarnation/n/,/c/en/time/n/]", 
+            "surfaceText": "[[incarnation]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/moment/n", 
+                "term": "/c/en/moment", 
+                "language": "en", 
+                "label": "moment"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/moment/n/,/c/en/time/n/]", 
+            "surfaceText": "[[moment]] is a type of [[time]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/time/n", 
+                "term": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/musical_time/n", 
+                "term": "/c/en/musical_time", 
+                "language": "en", 
+                "label": "musical time"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/musical_time/n/,/c/en/time/n/]", 
+            "surfaceText": "[[musical time]] is a type of [[time]]"
+        }
+    ], 
+    "@id": "/c/en/time", 
+    "view": {
+        "previousPage": "/c/en/time?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/time?offset=60&limit=20", 
+        "nextPage": "/c/en/time?offset=80&limit=20", 
+        "firstPage": "/c/en/time?offset=0&limit=20"
+    }
+}

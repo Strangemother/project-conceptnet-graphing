@@ -1,0 +1,638 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/black_liquid", 
+                "@id": "/c/en/black_liquid", 
+                "language": "en", 
+                "label": "black liquid"
+            }, 
+            "weight": 1.4380000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/black_liquid/]", 
+            "surfaceText": "[[oil]] is related to [[black liquid]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 1.335, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/castor", 
+                "@id": "/c/en/castor", 
+                "language": "en", 
+                "label": "castor"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/castor/,/c/en/oil/]", 
+            "surfaceText": "[[castor]] is related to [[oil]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fluid", 
+                "@id": "/c/en/fluid", 
+                "language": "en", 
+                "label": "fluid"
+            }, 
+            "weight": 1.322, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/fluid/]", 
+            "surfaceText": "[[oil]] is related to [[fluid]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/barrel", 
+                "@id": "/c/en/barrel", 
+                "language": "en", 
+                "label": "barrel"
+            }, 
+            "weight": 1.1520000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/barrel/]", 
+            "surfaceText": "[[oil]] is related to [[barrel]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/engines", 
+                "@id": "/c/en/engines", 
+                "language": "en", 
+                "label": "engines"
+            }, 
+            "weight": 1.1509999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/engines/]", 
+            "surfaceText": "[[oil]] is related to [[engines]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/motor", 
+                "@id": "/c/en/motor", 
+                "language": "en", 
+                "label": "motor"
+            }, 
+            "weight": 1.112, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/motor/]", 
+            "surfaceText": "[[oil]] is related to [[motor]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/petroleum_product", 
+                "@id": "/c/en/petroleum_product", 
+                "language": "en", 
+                "label": "petroleum product"
+            }, 
+            "weight": 1.064, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/petroleum_product/]", 
+            "surfaceText": "[[oil]] is related to [[petroleum product]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ground", 
+                "@id": "/c/en/ground", 
+                "language": "en", 
+                "label": "ground"
+            }, 
+            "weight": 1.057, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/ground/]", 
+            "surfaceText": "[[oil]] is related to [[ground]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/engine", 
+                "@id": "/c/en/engine", 
+                "language": "en", 
+                "label": "engine"
+            }, 
+            "weight": 1.0259999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/engine/]", 
+            "surfaceText": "[[oil]] is related to [[engine]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/unrefined", 
+                "@id": "/c/en/unrefined", 
+                "language": "en", 
+                "label": "unrefined"
+            }, 
+            "weight": 1.02, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/unrefined/]", 
+            "surfaceText": "[[oil]] is related to [[unrefined]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/automobile_engine", 
+                "@id": "/c/en/automobile_engine", 
+                "language": "en", 
+                "label": "an automobile engine"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/automobile_engine/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[an automobile engine]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/car", 
+                "@id": "/c/en/car", 
+                "language": "en", 
+                "label": "a car"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jhiatt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jhiatt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/car/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[a car]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/car_engine", 
+                "@id": "/c/en/car_engine", 
+                "language": "en", 
+                "label": "a car engine"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tenfiveoh", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/car_engine/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[a car engine]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/combustion_engines", 
+                "@id": "/c/en/combustion_engines", 
+                "language": "en", 
+                "label": "combustion engines"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/steveh", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steveh/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/combustion_engines/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[combustion engines]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/kitchen", 
+                "@id": "/c/en/kitchen", 
+                "language": "en", 
+                "label": "a kitchen"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/winnwon", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/winnwon/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/kitchen/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[a kitchen]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lamp", 
+                "@id": "/c/en/lamp", 
+                "language": "en", 
+                "label": "a lamp"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/openpod", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/openpod/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/lamp/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[a lamp]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oil_fields", 
+                "@id": "/c/en/oil_fields", 
+                "language": "en", 
+                "label": "oil fields"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/oil_fields/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[oil fields]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oil_well", 
+                "@id": "/c/en/oil_well", 
+                "language": "en", 
+                "label": "an oil well"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bjb", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/oil_well/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[an oil well]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pocket_in_earth", 
+                "@id": "/c/en/pocket_in_earth", 
+                "language": "en", 
+                "label": "a pocket in the earth"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/pocket_in_earth/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[a pocket in the earth]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/repair_shop", 
+                "@id": "/c/en/repair_shop", 
+                "language": "en", 
+                "label": "the repair shop"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/keratak", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/repair_shop/]", 
+            "surfaceText": "*Something you find at [[the repair shop]] is [[oil]]"
+        }
+    ], 
+    "@id": "/c/en/oil", 
+    "view": {
+        "previousPage": "/c/en/oil?offset=120&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/oil?offset=140&limit=20", 
+        "nextPage": "/c/en/oil?offset=160&limit=20", 
+        "firstPage": "/c/en/oil?offset=0&limit=20"
+    }
+}

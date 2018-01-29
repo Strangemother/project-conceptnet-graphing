@@ -1,0 +1,637 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/like", 
+                "@id": "/c/en/like", 
+                "language": "en", 
+                "label": "like"
+            }, 
+            "weight": 1.8659999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/as/,/c/en/like/]", 
+            "surfaceText": "[[as]] is related to [[like]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/relative", 
+                "@id": "/c/en/relative", 
+                "language": "en", 
+                "label": "relative"
+            }, 
+            "weight": 1.2119999999999997, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/as/,/c/en/relative/]", 
+            "surfaceText": "[[as]] is related to [[relative]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/while", 
+                "@id": "/c/en/while", 
+                "language": "en", 
+                "label": "while"
+            }, 
+            "weight": 1.1059999999999999, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/as/,/c/en/while/]", 
+            "surfaceText": "[[as]] is related to [[while]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as_level", 
+                "@id": "/c/en/as_level", 
+                "language": "en", 
+                "label": "as level"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/as_level/,/c/en/as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://umbel.org/umbel/sc/AssociateInScienceDegree", 
+                "@id": "http://umbel.org/umbel/sc/AssociateInScienceDegree", 
+                "site": "umbel.org", 
+                "label": "AssociateInScienceDegree"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/as/,/http://umbel.org/umbel/sc/AssociateInScienceDegree/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://sw.opencyc.org/2012/05/10/concept/en/AssociateInScienceDegree", 
+                "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AssociateInScienceDegree", 
+                "site": "sw.opencyc.org", 
+                "label": "AssociateInScienceDegree"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/as/n/,/http://sw.opencyc.org/2012/05/10/concept/en/AssociateInScienceDegree/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://sw.opencyc.org/2012/05/10/concept/en/CardiacVentricle_ApicalSeptalRegion", 
+                "@id": "http://sw.opencyc.org/2012/05/10/concept/en/CardiacVentricle_ApicalSeptalRegion", 
+                "site": "sw.opencyc.org", 
+                "label": "CardiacVentricle ApicalSeptalRegion"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/as/n/,/http://sw.opencyc.org/2012/05/10/concept/en/CardiacVentricle_ApicalSeptalRegion/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a", 
+                "@id": "/c/en/a", 
+                "language": "en", 
+                "label": "a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/as/n/,/c/en/a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/a_a", 
+                "@id": "/c/en/a_a", 
+                "language": "en", 
+                "label": "a a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/as/n/,/c/en/a_a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/asses/n", 
+                "term": "/c/en/asses", 
+                "language": "en", 
+                "label": "asses"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/asses/n/,/c/en/as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/s/n", 
+                "term": "/c/en/s", 
+                "language": "en", 
+                "label": "s"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/s/n/,/c/en/as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dialectal", 
+                "@id": "/c/en/dialectal", 
+                "language": "en", 
+                "label": "dialectal"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/as/,/c/en/dialectal/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/slang", 
+                "@id": "/c/en/slang", 
+                "language": "en", 
+                "label": "slang"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/as/,/c/en/slang/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/unit_of_weight", 
+                "@id": "/c/en/unit_of_weight", 
+                "language": "en", 
+                "label": "unit of weight"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/as/n/,/c/en/unit_of_weight/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/compare_such_as", 
+                "@id": "/c/en/compare_such_as", 
+                "language": "en", 
+                "label": "compare such as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/as/r", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/as/r/,/c/en/compare_such_as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/shin/v", 
+                "term": "/c/en/shin", 
+                "language": "en", 
+                "label": "shin"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/shin/v/,/c/en/as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/ojete/n", 
+                "term": "/c/es/ojete", 
+                "language": "es", 
+                "label": "ojete"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/es/ojete/n/,/c/en/as/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/many_other_phrases", 
+                "@id": "/c/en/many_other_phrases", 
+                "language": "en", 
+                "label": "many other phrases"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tedswart", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/as/,/c/en/many_other_phrases/]", 
+            "surfaceText": "[[as]] are [[many other phrases]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/rat_and_shrew", 
+                "@id": "/c/en/rat_and_shrew", 
+                "language": "en", 
+                "label": "a rat and a shrew"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/as", 
+                "@id": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tedswart", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/as/,/c/en/rat_and_shrew/]", 
+            "surfaceText": "[[as]] is [[a rat and a shrew]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/associate_degree/n", 
+                "term": "/c/en/associate_degree", 
+                "language": "en", 
+                "label": "associate degree"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/as/n", 
+                "term": "/c/en/as", 
+                "language": "en", 
+                "label": "as"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/as/n/,/c/en/associate_degree/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/as", 
+    "view": {
+        "previousPage": "/c/en/as?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/as?offset=20&limit=20", 
+        "nextPage": "/c/en/as?offset=40&limit=20", 
+        "firstPage": "/c/en/as?offset=0&limit=20"
+    }
+}

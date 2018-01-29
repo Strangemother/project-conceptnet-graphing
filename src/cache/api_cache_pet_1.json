@@ -1,0 +1,640 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/caress/v", 
+                "term": "/c/en/caress", 
+                "language": "en", 
+                "label": "caress"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pet/v/,/c/en/caress/v/]", 
+            "surfaceText": "[[pet]] is a type of [[caress]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "a pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/poodle", 
+                "@id": "/c/en/poodle", 
+                "language": "en", 
+                "label": "a poodle"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/openpod", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/openpod/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/scterg", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/scterg/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/poodle/,/c/en/pet/]", 
+            "surfaceText": "[[a poodle]] is [[a pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ca/amoixar/v", 
+                "term": "/c/ca/amoixar", 
+                "language": "ca", 
+                "label": "amoixar"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ca/amoixar/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[amoixar]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ca/animal_de_companyia/n", 
+                "term": "/c/ca/animal_de_companyia", 
+                "language": "ca", 
+                "label": "animal de companyia"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ca/animal_de_companyia/n/,/c/en/pet/n/]", 
+            "surfaceText": "[[animal de companyia]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/da/k\u00e6ledyr/n", 
+                "term": "/c/da/k\u00e6ledyr", 
+                "language": "da", 
+                "label": "k\u00e6ledyr"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/da/k\u00e6ledyr/n/,/c/en/pet/n/]", 
+            "surfaceText": "[[k\u00e6ledyr]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/best_loved/a", 
+                "term": "/c/en/best_loved", 
+                "language": "en", 
+                "label": "best-loved"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/pet/a", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/pet/a/,/c/en/best_loved/a/]", 
+            "surfaceText": "[[pet]] is a synonym of [[best-loved]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/darling/n", 
+                "term": "/c/en/darling", 
+                "language": "en", 
+                "label": "darling"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/pet/n/,/c/en/darling/n/]", 
+            "surfaceText": "[[pet]] is a synonym of [[darling]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/positron_emission_tomography/n", 
+                "term": "/c/en/positron_emission_tomography", 
+                "language": "en", 
+                "label": "positron emission tomography"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "PET"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/pet/n/,/c/en/positron_emission_tomography/n/]", 
+            "surfaceText": "[[PET]] is a synonym of [[positron emission tomography]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/es/hacer_cari\u00f1o/v", 
+                "term": "/c/es/hacer_cari\u00f1o", 
+                "language": "es", 
+                "label": "hacer cari\u00f1o"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/hacer_cari\u00f1o/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[hacer cari\u00f1o]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/eu/ferekatu/v", 
+                "term": "/c/eu/ferekatu", 
+                "language": "eu", 
+                "label": "ferekatu"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/ferekatu/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[ferekatu]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/eu/konpainiako_animalia/n", 
+                "term": "/c/eu/konpainiako_animalia", 
+                "language": "eu", 
+                "label": "konpainiako animalia"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/konpainiako_animalia/n/,/c/en/pet/n/]", 
+            "surfaceText": "[[konpainiako animalia]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/eu/laztandu/v", 
+                "term": "/c/eu/laztandu", 
+                "language": "eu", 
+                "label": "laztandu"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/laztandu/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[laztandu]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/eu/laztan_egin/v", 
+                "term": "/c/eu/laztan_egin", 
+                "language": "eu", 
+                "label": "laztan egin"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/laztan_egin/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[laztan egin]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/eu/maite_egin/v", 
+                "term": "/c/eu/maite_egin", 
+                "language": "eu", 
+                "label": "maite egin"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/maite_egin/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[maite egin]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/eu/xerak_egin/v", 
+                "term": "/c/eu/xerak_egin", 
+                "language": "eu", 
+                "label": "xerak egin"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/xerak_egin/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[xerak egin]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/fi/hyv\u00e4ill\u00e4/v", 
+                "term": "/c/fi/hyv\u00e4ill\u00e4", 
+                "language": "fi", 
+                "label": "hyv\u00e4ill\u00e4"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fi/hyv\u00e4ill\u00e4/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[hyv\u00e4ill\u00e4]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/fi/lemmikkiel\u00e4in/n", 
+                "term": "/c/fi/lemmikkiel\u00e4in", 
+                "language": "fi", 
+                "label": "lemmikkiel\u00e4in"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fi/lemmikkiel\u00e4in/n/,/c/en/pet/n/]", 
+            "surfaceText": "[[lemmikkiel\u00e4in]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/fi/pahantuulenpuuska/n", 
+                "term": "/c/fi/pahantuulenpuuska", 
+                "language": "fi", 
+                "label": "pahantuulenpuuska"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fi/pahantuulenpuuska/n/,/c/en/pet/n/]", 
+            "surfaceText": "[[pahantuulenpuuska]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/fi/silitt\u00e4\u00e4/v", 
+                "term": "/c/fi/silitt\u00e4\u00e4", 
+                "language": "fi", 
+                "label": "silitt\u00e4\u00e4"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fi/silitt\u00e4\u00e4/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[silitt\u00e4\u00e4]] is a translation of [[pet]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/pet/v", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/fr/caresser/v", 
+                "term": "/c/fr/caresser", 
+                "language": "fr", 
+                "label": "caresser"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fr/caresser/v/,/c/en/pet/v/]", 
+            "surfaceText": "[[caresser]] is a translation of [[pet]]"
+        }
+    ], 
+    "@id": "/c/en/pet", 
+    "view": {
+        "previousPage": "/c/en/pet?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/pet?offset=20&limit=20", 
+        "nextPage": "/c/en/pet?offset=40&limit=20", 
+        "firstPage": "/c/en/pet?offset=0&limit=20"
+    }
+}

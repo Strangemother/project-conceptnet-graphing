@@ -1,0 +1,646 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.8570000000000002, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/around", 
+                "@id": "/c/en/around", 
+                "language": "en", 
+                "label": "around"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/around/,/c/en/about/]", 
+            "surfaceText": "[[around]] is related to [[about]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/preposition", 
+                "@id": "/c/en/preposition", 
+                "language": "en", 
+                "label": "preposition"
+            }, 
+            "weight": 1.6959999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/about/,/c/en/preposition/]", 
+            "surfaceText": "[[about]] is related to [[preposition]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.1640000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/concern", 
+                "@id": "/c/en/concern", 
+                "language": "en", 
+                "label": "concern"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/concern/,/c/en/about/]", 
+            "surfaceText": "[[concern]] is related to [[about]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/approximately", 
+                "@id": "/c/en/approximately", 
+                "language": "en", 
+                "label": "approximately"
+            }, 
+            "weight": 1.1520000000000001, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/about/,/c/en/approximately/]", 
+            "surfaceText": "[[about]] is related to [[approximately]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.1349999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/consider", 
+                "@id": "/c/en/consider", 
+                "language": "en", 
+                "label": "consider"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/consider/,/c/en/about/]", 
+            "surfaceText": "[[consider]] is related to [[about]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0859999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/describe", 
+                "@id": "/c/en/describe", 
+                "language": "en", 
+                "label": "describe"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/describe/,/c/en/about/]", 
+            "surfaceText": "[[describe]] is related to [[about]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/fi/olla/v", 
+                "term": "/c/fi/olla", 
+                "language": "fi", 
+                "label": "olla"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/about/,/c/fi/olla/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/is/f\u00f6r/n", 
+                "term": "/c/is/f\u00f6r", 
+                "language": "is", 
+                "label": "f\u00f6r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/about/,/c/is/f\u00f6r/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/ms/bicara", 
+                "@id": "/c/ms/bicara", 
+                "language": "ms", 
+                "label": "bicara"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/about/,/c/ms/bicara/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/ms/bicara/v", 
+                "term": "/c/ms/bicara", 
+                "language": "ms", 
+                "label": "bicara"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/about/,/c/ms/bicara/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bring_about", 
+                "@id": "/c/en/bring_about", 
+                "language": "en", 
+                "label": "bring about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/bring_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/come_about", 
+                "@id": "/c/en/come_about", 
+                "language": "en", 
+                "label": "come about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/come_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/go_about", 
+                "@id": "/c/en/go_about", 
+                "language": "en", 
+                "label": "go about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/go_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/how_about", 
+                "@id": "/c/en/how_about", 
+                "language": "en", 
+                "label": "how about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/how_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/roundabout", 
+                "@id": "/c/en/roundabout", 
+                "language": "en", 
+                "label": "roundabout"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/roundabout/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/set_about", 
+                "@id": "/c/en/set_about", 
+                "language": "en", 
+                "label": "set about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/set_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/walkabout", 
+                "@id": "/c/en/walkabout", 
+                "language": "en", 
+                "label": "walkabout"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/walkabout/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/what_about", 
+                "@id": "/c/en/what_about", 
+                "language": "en", 
+                "label": "what about"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/what_about/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/about/r", 
+                "term": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereabout", 
+                "@id": "/c/en/whereabout", 
+                "language": "en", 
+                "label": "whereabout"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereabout/,/c/en/about/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/about", 
+                "@id": "/c/en/about", 
+                "language": "en", 
+                "label": "about"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/ruminate/v", 
+                "term": "/c/en/ruminate", 
+                "language": "en", 
+                "label": "ruminate"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/ruminate/v/,/c/en/about/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/about", 
+    "view": {
+        "previousPage": "/c/en/about?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/about?offset=40&limit=20", 
+        "nextPage": "/c/en/about?offset=60&limit=20", 
+        "firstPage": "/c/en/about?offset=0&limit=20"
+    }
+}

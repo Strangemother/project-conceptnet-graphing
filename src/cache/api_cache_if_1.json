@@ -1,0 +1,627 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.2610000000000001, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/else", 
+                "@id": "/c/en/else", 
+                "language": "en", 
+                "label": "else"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/else/,/c/en/if/]", 
+            "surfaceText": "[[else]] is related to [[if]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.1799999999999997, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/and", 
+                "@id": "/c/en/and", 
+                "language": "en", 
+                "label": "and"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/and/,/c/en/if/]", 
+            "surfaceText": "[[and]] is related to [[if]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/maybe", 
+                "@id": "/c/en/maybe", 
+                "language": "en", 
+                "label": "maybe"
+            }, 
+            "weight": 1.1639999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/if/,/c/en/maybe/]", 
+            "surfaceText": "[[if]] is related to [[maybe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.016, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/but", 
+                "@id": "/c/en/but", 
+                "language": "en", 
+                "label": "but"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/but/,/c/en/if/]", 
+            "surfaceText": "[[but]] is related to [[if]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/unless", 
+                "@id": "/c/en/unless", 
+                "language": "en", 
+                "label": "unless"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/unless/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as_if", 
+                "@id": "/c/en/as_if", 
+                "language": "en", 
+                "label": "as if"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/as_if/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/if/n", 
+                "term": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/big_if", 
+                "@id": "/c/en/big_if", 
+                "language": "en", 
+                "label": "big if"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/big_if/,/c/en/if/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/even_if", 
+                "@id": "/c/en/even_if", 
+                "language": "en", 
+                "label": "even if"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/even_if/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_and_only_if", 
+                "@id": "/c/en/if_and_only_if", 
+                "language": "en", 
+                "label": "if and only if"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_and_only_if/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_and_when", 
+                "@id": "/c/en/if_and_when", 
+                "language": "en", 
+                "label": "if and when"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_and_when/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_clause", 
+                "@id": "/c/en/if_clause", 
+                "language": "en", 
+                "label": "if clause"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_clause/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/iff", 
+                "@id": "/c/en/iff", 
+                "language": "en", 
+                "label": "iff"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/iff/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_i_were_you", 
+                "@id": "/c/en/if_i_were_you", 
+                "language": "en", 
+                "label": "if i were you"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_i_were_you/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_not", 
+                "@id": "/c/en/if_not", 
+                "language": "en", 
+                "label": "if not"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_not/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_only", 
+                "@id": "/c/en/if_only", 
+                "language": "en", 
+                "label": "if only"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_only/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_so_be", 
+                "@id": "/c/en/if_so_be", 
+                "language": "en", 
+                "label": "if so be"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_so_be/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_so", 
+                "@id": "/c/en/if_so", 
+                "language": "en", 
+                "label": "if so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_so/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/if/n", 
+                "term": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/no_ifs_ands_or_buts", 
+                "@id": "/c/en/no_ifs_ands_or_buts", 
+                "language": "en", 
+                "label": "no ifs ands or buts"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/no_ifs_ands_or_buts/,/c/en/if/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/if", 
+                "@id": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/what_if", 
+                "@id": "/c/en/what_if", 
+                "language": "en", 
+                "label": "what if"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/what_if/,/c/en/if/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/If..._(Desperate_Housewives)", 
+                "@id": "http://dbpedia.org/resource/If..._(Desperate_Housewives)", 
+                "site": "dbpedia.org", 
+                "label": "If... (Desperate Housewives)"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/if/n", 
+                "term": "/c/en/if", 
+                "language": "en", 
+                "label": "if"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/if/n/,/http://dbpedia.org/resource/If..._(Desperate_Housewives)/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/if", 
+    "view": {
+        "previousPage": "/c/en/if?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/if?offset=20&limit=20", 
+        "nextPage": "/c/en/if?offset=40&limit=20", 
+        "firstPage": "/c/en/if?offset=0&limit=20"
+    }
+}

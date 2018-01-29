@@ -1,0 +1,633 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/what_stand_on", 
+                "@id": "/c/en/what_stand_on", 
+                "language": "en", 
+                "label": "what you stand on"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "Legs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/spectecjr", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/spectecjr/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/legs/,/c/en/what_stand_on/]", 
+            "surfaceText": "[[Legs]] are [[what you stand on]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dog", 
+                "@id": "/c/en/dog", 
+                "language": "en", 
+                "label": "dog"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/junco", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/junco/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "label": "PartOf"
+            }, 
+            "@id": "/a/[/r/PartOf/,/c/en/legs/,/c/en/dog/]", 
+            "surfaceText": "*[[dog]] has [[legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/broken", 
+                "@id": "/c/en/broken", 
+                "language": "en", 
+                "label": "broken"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/legs/,/c/en/broken/]", 
+            "surfaceText": "[[legs]] can be [[broken]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ar/\u0632\u062e\u0631\u0641/n", 
+                "term": "/c/ar/\u0632\u062e\u0631\u0641", 
+                "language": "ar", 
+                "label": "\u0632\u062e\u0631\u0641"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0632\u062e\u0631\u0641/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0639\u0627\u0642\u0628/v", 
+                "term": "/c/ar/\u0639\u0627\u0642\u0628", 
+                "language": "ar", 
+                "label": "\u0639\u0627\u0642\u0628"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0639\u0627\u0642\u0628/v/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ba/\u043a\u04d9\u04af\u0499\u04d9/n", 
+                "term": "/c/ba/\u043a\u04d9\u04af\u0499\u04d9", 
+                "language": "ba", 
+                "label": "\u043a\u04d9\u04af\u0499\u04d9"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ba/\u043a\u04d9\u04af\u0499\u04d9/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/cs/beznoh\u00fd/a", 
+                "term": "/c/cs/beznoh\u00fd", 
+                "language": "cs", 
+                "label": "beznoh\u00fd"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/beznoh\u00fd/a/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/beine/n", 
+                "term": "/c/de/beine", 
+                "language": "de", 
+                "label": "beine"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/beine/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apron/n", 
+                "term": "/c/en/apron", 
+                "language": "en", 
+                "label": "apron"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apron/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/budgie_smugglers/n", 
+                "term": "/c/en/budgie_smugglers", 
+                "language": "en", 
+                "label": "budgie smugglers"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/budgie_smugglers/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/compression_pump/n", 
+                "term": "/c/en/compression_pump", 
+                "language": "en", 
+                "label": "compression pump"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/compression_pump/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/control_brief/n", 
+                "term": "/c/en/control_brief", 
+                "language": "en", 
+                "label": "control brief"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/control_brief/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/cursorial/a", 
+                "term": "/c/en/cursorial", 
+                "language": "en", 
+                "label": "cursorial"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cursorial/a/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/equicrural/a", 
+                "term": "/c/en/equicrural", 
+                "language": "en", 
+                "label": "equicrural"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/equicrural/a/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/iliac_artery/n", 
+                "term": "/c/en/iliac_artery", 
+                "language": "en", 
+                "label": "iliac artery"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/iliac_artery/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/ivc/n", 
+                "term": "/c/en/ivc", 
+                "language": "en", 
+                "label": "ivc"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ivc/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/legs", 
+                "@id": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/kikoi/n", 
+                "term": "/c/en/kikoi", 
+                "language": "en", 
+                "label": "kikoi"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/kikoi/n/,/c/en/legs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eleven", 
+                "@id": "/c/en/eleven", 
+                "language": "en", 
+                "label": "eleven"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/legs/n", 
+                "term": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/legs/n/,/c/en/eleven/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/glass", 
+                "@id": "/c/en/glass", 
+                "language": "en", 
+                "label": "glass"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/legs/n", 
+                "term": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/legs/n/,/c/en/glass/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/inside", 
+                "@id": "/c/en/inside", 
+                "language": "en", 
+                "label": "inside"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/legs/n", 
+                "term": "/c/en/legs", 
+                "language": "en", 
+                "label": "legs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/legs/n/,/c/en/inside/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/legs", 
+    "view": {
+        "previousPage": "/c/en/legs?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/legs?offset=60&limit=20", 
+        "nextPage": "/c/en/legs?offset=80&limit=20", 
+        "firstPage": "/c/en/legs?offset=0&limit=20"
+    }
+}

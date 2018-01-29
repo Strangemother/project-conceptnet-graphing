@@ -1,0 +1,614 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/2/a", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/th/\u0e2a\u0e2d\u0e07/a", 
+                "term": "/c/th/\u0e2a\u0e2d\u0e07", 
+                "language": "th", 
+                "label": "\u0e2a\u0e2d\u0e07"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/th/\u0e2a\u0e2d\u0e07/a/,/c/en/2/a/]", 
+            "surfaceText": "[[\u0e2a\u0e2d\u0e07]] is a translation of [[2]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/2/a", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/zh/\u5176\u4e8c/a", 
+                "term": "/c/zh/\u5176\u4e8c", 
+                "language": "zh", 
+                "label": "\u5176\u4e8c"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u5176\u4e8c/a/,/c/en/2/a/]", 
+            "surfaceText": "[[\u5176\u4e8c]] is a translation of [[2]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/ja/\u4e8c", 
+                "@id": "/c/ja/\u4e8c", 
+                "language": "ja", 
+                "label": "\u4e8c"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/2/,/c/ja/\u4e8c/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/302194109-s", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/302194109-s", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "302194109-s"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/2/a", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/a/,/http://wordnet-rdf.princeton.edu/wn31/302194109-s/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/IBM_Personal_System/2", 
+                "@id": "http://dbpedia.org/resource/IBM_Personal_System/2", 
+                "site": "dbpedia.org", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://dbpedia.org/resource/IBM_Personal_System/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/McLaren_MP4/2", 
+                "@id": "http://dbpedia.org/resource/McLaren_MP4/2", 
+                "site": "dbpedia.org", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://dbpedia.org/resource/McLaren_MP4/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/OS/2", 
+                "@id": "http://dbpedia.org/resource/OS/2", 
+                "site": "dbpedia.org", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://dbpedia.org/resource/OS/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/Rhaetian_Railway_Ge_2/2", 
+                "@id": "http://dbpedia.org/resource/Rhaetian_Railway_Ge_2/2", 
+                "site": "dbpedia.org", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://dbpedia.org/resource/Rhaetian_Railway_Ge_2/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q152693", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q152693", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q152693"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://wikidata.dbpedia.org/resource/Q152693/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q189794", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q189794", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q189794"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://wikidata.dbpedia.org/resource/Q189794/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q284518", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q284518", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q284518"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://wikidata.dbpedia.org/resource/Q284518/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q688185", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q688185", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q688185"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/,/http://wikidata.dbpedia.org/resource/Q688185/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://sw.opencyc.org/2012/05/10/concept/en/Be_2_", 
+                "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Be_2_", 
+                "site": "sw.opencyc.org", 
+                "label": "Be 2 "
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/2/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Be_2_/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/to", 
+                "@id": "/c/en/to", 
+                "language": "en", 
+                "label": "to"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/2/,/c/en/to/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2s/n", 
+                "term": "/c/en/2s", 
+                "language": "en", 
+                "label": "2s"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/2s/n/,/c/en/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/computing", 
+                "@id": "/c/en/computing", 
+                "language": "en", 
+                "label": "computing"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/,/c/en/computing/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/text_messaging", 
+                "@id": "/c/en/text_messaging", 
+                "language": "en", 
+                "label": "text messaging"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/,/c/en/text_messaging/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/historical", 
+                "@id": "/c/en/historical", 
+                "language": "en", 
+                "label": "historical"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/n/,/c/en/historical/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/military", 
+                "@id": "/c/en/military", 
+                "language": "en", 
+                "label": "military"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/n/,/c/en/military/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/military_ranks", 
+                "@id": "/c/en/military_ranks", 
+                "language": "en", 
+                "label": "military ranks"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/n/,/c/en/military_ranks/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/2", 
+    "view": {
+        "previousPage": "/c/en/2?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/2?offset=20&limit=20", 
+        "nextPage": "/c/en/2?offset=40&limit=20", 
+        "firstPage": "/c/en/2?offset=0&limit=20"
+    }
+}

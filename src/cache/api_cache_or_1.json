@@ -1,0 +1,636 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/ja/\u6216\u3044\u306f/r", 
+                "term": "/c/ja/\u6216\u3044\u306f", 
+                "language": "ja", 
+                "label": "\u6216\u3044\u306f"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u6216\u3044\u306f/r/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u82e5\u3057\u304f\u306f", 
+                "@id": "/c/ja/\u82e5\u3057\u304f\u306f", 
+                "language": "ja", 
+                "label": "\u82e5\u3057\u304f\u306f"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u82e5\u3057\u304f\u306f/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/and", 
+                "@id": "/c/en/and", 
+                "language": "en", 
+                "label": "and"
+            }, 
+            "weight": 1.867, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/and/]", 
+            "surfaceText": "[[or]] is related to [[and]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/logical", 
+                "@id": "/c/en/logical", 
+                "language": "en", 
+                "label": "logical"
+            }, 
+            "weight": 1.334, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/logical/]", 
+            "surfaceText": "[[or]] is related to [[logical]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/and", 
+                "@id": "/c/en/and", 
+                "language": "en", 
+                "label": "and"
+            }, 
+            "weight": 1.2850000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/or/,/c/en/and/]", 
+            "surfaceText": "[[or]] is the opposite of [[and]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sentences", 
+                "@id": "/c/en/sentences", 
+                "language": "en", 
+                "label": "sentences"
+            }, 
+            "weight": 1.2800000000000002, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/sentences/]", 
+            "surfaceText": "[[or]] is related to [[sentences]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/neither", 
+                "@id": "/c/en/neither", 
+                "language": "en", 
+                "label": "neither"
+            }, 
+            "weight": 1.27, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/neither/]", 
+            "surfaceText": "[[or]] is related to [[neither]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/otherwise", 
+                "@id": "/c/en/otherwise", 
+                "language": "en", 
+                "label": "otherwise"
+            }, 
+            "weight": 1.117, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/otherwise/]", 
+            "surfaceText": "[[or]] is related to [[otherwise]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/gate", 
+                "@id": "/c/en/gate", 
+                "language": "en", 
+                "label": "gate"
+            }, 
+            "weight": 1.1059999999999999, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/or/,/c/en/gate/]", 
+            "surfaceText": "[[or]] is related to [[gate]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/and", 
+                "@id": "/c/en/and", 
+                "language": "en", 
+                "label": "and"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/and/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ee", 
+                "@id": "/c/en/ee", 
+                "language": "en", 
+                "label": "ee"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/ee/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/end", 
+                "@id": "/c/en/end", 
+                "language": "en", 
+                "label": "end"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/end/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/nor/n", 
+                "term": "/c/en/nor", 
+                "language": "en", 
+                "label": "nor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/nor/n/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/crash_cymbal", 
+                "@id": "/c/en/crash_cymbal", 
+                "language": "en", 
+                "label": "a crash cymbal"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/smallfish", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smallfish/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/crash_cymbal/,/c/en/or/]", 
+            "surfaceText": "You are likely to find [[a crash cymbal]] in [[or]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/actor", 
+                "@id": "/c/en/actor", 
+                "language": "en", 
+                "label": "actor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/actor/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/assignor", 
+                "@id": "/c/en/assignor", 
+                "language": "en", 
+                "label": "assignor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/assignor/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/author", 
+                "@id": "/c/en/author", 
+                "language": "en", 
+                "label": "author"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/author/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bailor", 
+                "@id": "/c/en/bailor", 
+                "language": "en", 
+                "label": "bailor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/bailor/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/debtor", 
+                "@id": "/c/en/debtor", 
+                "language": "en", 
+                "label": "debtor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/debtor/,/c/en/or/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/or", 
+                "@id": "/c/en/or", 
+                "language": "en", 
+                "label": "or"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/donor", 
+                "@id": "/c/en/donor", 
+                "language": "en", 
+                "label": "donor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/donor/,/c/en/or/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/or", 
+    "view": {
+        "previousPage": "/c/en/or?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/or?offset=20&limit=20", 
+        "nextPage": "/c/en/or?offset=40&limit=20", 
+        "firstPage": "/c/en/or?offset=0&limit=20"
+    }
+}

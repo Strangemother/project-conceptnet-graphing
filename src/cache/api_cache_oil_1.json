@@ -1,0 +1,677 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/texas", 
+                "@id": "/c/en/texas", 
+                "language": "en", 
+                "label": "texas"
+            }, 
+            "weight": 2.485155930721451, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/texas/]", 
+            "surfaceText": "[[oil]] is related to [[texas]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/petrol", 
+                "@id": "/c/en/petrol", 
+                "language": "en", 
+                "label": "petrol"
+            }, 
+            "weight": 2.4827404213892352, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/petrol/]", 
+            "surfaceText": "[[oil]] is related to [[petrol]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/slick", 
+                "@id": "/c/en/slick", 
+                "language": "en", 
+                "label": "slick"
+            }, 
+            "weight": 2.3799159649029624, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/oil/,/c/en/slick/]", 
+            "surfaceText": "[[oil]] is related to [[slick]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0861447696648474, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/gas", 
+                "@id": "/c/en/gas", 
+                "language": "en", 
+                "label": "gas"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/gas/,/c/en/oil/]", 
+            "surfaceText": "[[gas]] is related to [[oil]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/iraq", 
+                "@id": "/c/en/iraq", 
+                "language": "en", 
+                "label": "Iraq"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/davet", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/iraq/]", 
+            "surfaceText": "You are likely to find [[oil]] in [[Iraq]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/street", 
+                "@id": "/c/en/street", 
+                "language": "en", 
+                "label": "the street"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jckmisha", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jckmisha/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/oil/,/c/en/street/]", 
+            "surfaceText": "*Something you find on [[the street]] is [[oil]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lifeblood_of_modern_civilization", 
+                "@id": "/c/en/lifeblood_of_modern_civilization", 
+                "language": "en", 
+                "label": "lifeblood of modern civilization"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "Oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/akshayubhat", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/akshayubhat/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/oil/,/c/en/lifeblood_of_modern_civilization/]", 
+            "surfaceText": "[[Oil]] is the [[lifeblood of modern civilization]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/crude_oil", 
+                "@id": "/c/en/crude_oil", 
+                "language": "en", 
+                "label": "crude oil"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/crude_oil/,/c/en/oil/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/edible", 
+                "@id": "/c/en/edible", 
+                "language": "en", 
+                "label": "edible"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "some oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/oil/,/c/en/edible/]", 
+            "surfaceText": "[[some oil]] is [[edible]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toxic", 
+                "@id": "/c/en/toxic", 
+                "language": "en", 
+                "label": "toxic"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "some oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/oil/,/c/en/toxic/]", 
+            "surfaceText": "[[some oil]] is [[toxic]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/almond_oil/n", 
+                "term": "/c/en/almond_oil", 
+                "language": "en", 
+                "label": "almond oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/almond_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[almond oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/animal_oil/n", 
+                "term": "/c/en/animal_oil", 
+                "language": "en", 
+                "label": "animal oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/animal_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[animal oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/babassu_oil/n", 
+                "term": "/c/en/babassu_oil", 
+                "language": "en", 
+                "label": "babassu oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/babassu_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[babassu oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/calamus_oil/n", 
+                "term": "/c/en/calamus_oil", 
+                "language": "en", 
+                "label": "calamus oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/calamus_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[calamus oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/camphor_oil/n", 
+                "term": "/c/en/camphor_oil", 
+                "language": "en", 
+                "label": "camphor oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/camphor_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[camphor oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/chaulmoogra_oil/n", 
+                "term": "/c/en/chaulmoogra_oil", 
+                "language": "en", 
+                "label": "chaulmoogra oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/chaulmoogra_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[chaulmoogra oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/cohune_nut_oil/n", 
+                "term": "/c/en/cohune_nut_oil", 
+                "language": "en", 
+                "label": "cohune-nut oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cohune_nut_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[cohune-nut oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oil", 
+                "@id": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cooking_oil", 
+                "@id": "/c/en/cooking_oil", 
+                "language": "en", 
+                "label": "cooking oil"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mprk", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sausage", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sausage/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cooking_oil/,/c/en/oil/]", 
+            "surfaceText": "[[cooking oil]] is a type of [[oil]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/croton_oil/n", 
+                "term": "/c/en/croton_oil", 
+                "language": "en", 
+                "label": "croton oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/croton_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[croton oil]] is a type of [[oil]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/oil/n", 
+                "term": "/c/en/oil", 
+                "language": "en", 
+                "label": "oil"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/essential_oil/n", 
+                "term": "/c/en/essential_oil", 
+                "language": "en", 
+                "label": "essential oil"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/essential_oil/n/,/c/en/oil/n/]", 
+            "surfaceText": "[[essential oil]] is a type of [[oil]]"
+        }
+    ], 
+    "@id": "/c/en/oil", 
+    "view": {
+        "previousPage": "/c/en/oil?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/oil?offset=20&limit=20", 
+        "nextPage": "/c/en/oil?offset=40&limit=20", 
+        "firstPage": "/c/en/oil?offset=0&limit=20"
+    }
+}

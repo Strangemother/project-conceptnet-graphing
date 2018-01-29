@@ -1,0 +1,926 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/wave_hands", 
+                "@id": "/c/en/wave_hands", 
+                "language": "en", 
+                "label": "wave their hands"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/davet", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/logicexecution", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/davet", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/davet/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/logicexecution", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/logicexecution/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/wave_hands/]", 
+            "surfaceText": "[[people]] can [[wave their hands]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dance", 
+                "@id": "/c/en/dance", 
+                "language": "en", 
+                "label": "dance"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/stripwax", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/stripwax/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jfarnell", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ppps", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ppps/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/people/,/c/en/dance/]", 
+            "surfaceText": "[[People]] like to [[dance]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/give_orders", 
+                "@id": "/c/en/give_orders", 
+                "language": "en", 
+                "label": "give orders"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/karlsson", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/karlsson/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/karlsson", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/karlsson/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/people/,/c/en/give_orders/]", 
+            "surfaceText": "[[some people]] like to [[give orders]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/read_books", 
+                "@id": "/c/en/read_books", 
+                "language": "en", 
+                "label": "read books"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/people/,/c/en/read_books/]", 
+            "surfaceText": "[[Some people]] like to [[read books]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/read_stories", 
+                "@id": "/c/en/read_stories", 
+                "language": "en", 
+                "label": "read stories"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/msteede", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/msteede/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/schickel", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schickel/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/msteede", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/msteede/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/schickel", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schickel/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/people/,/c/en/read_stories/]", 
+            "surfaceText": "[[Some people]] like to [[read stories]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/brown_hair", 
+                "@id": "/c/en/brown_hair", 
+                "language": "en", 
+                "label": "brown hair"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/belynda", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/belynda/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/belynda", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/belynda/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/brown_hair/]", 
+            "surfaceText": "[[Some people]] have [[brown hair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat_for_pet", 
+                "@id": "/c/en/cat_for_pet", 
+                "language": "en", 
+                "label": "a cat for a pet"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kirian", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kirian/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/leekamentsky", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leekamentsky/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/cat_for_pet/]", 
+            "surfaceText": "[[Some people]] have [[a cat for a pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/drug_problem", 
+                "@id": "/c/en/drug_problem", 
+                "language": "en", 
+                "label": "a drug problem"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/wkuehnling", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wkuehnling/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/gbaydin", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gbaydin/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kyledrexel", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kyledrexel/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/drug_problem/]", 
+            "surfaceText": "[[some people]] have [[a drug problem]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/five_fingers_on_each_hand", 
+                "@id": "/c/en/five_fingers_on_each_hand", 
+                "language": "en", 
+                "label": "five fingers on each hand"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/push", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/alcinoe", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/alcinoe/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/lauriab", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lauriab/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/five_fingers_on_each_hand/]", 
+            "surfaceText": "[[People]] have [[five fingers on each hand]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/names", 
+                "@id": "/c/en/names", 
+                "language": "en", 
+                "label": "names"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/donwulff", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/donwulff/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kwysocki", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kwysocki/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/donwulff", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/donwulff/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kwysocki", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kwysocki/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/names/]", 
+            "surfaceText": "[[People]] have [[names]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two_eyes", 
+                "@id": "/c/en/two_eyes", 
+                "language": "en", 
+                "label": "two eyes"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/gros0468", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gros0468/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/wmcguire", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wmcguire/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/two_eyes/]", 
+            "surfaceText": "[[People]] have [[two eyes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two_legs", 
+                "@id": "/c/en/two_legs", 
+                "language": "en", 
+                "label": "two legs"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/klynn", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/klynn/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/klynn", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/klynn/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/people/,/c/en/two_legs/]", 
+            "surfaceText": "[[people]] have [[two legs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/altruistic", 
+                "@id": "/c/en/altruistic", 
+                "language": "en", 
+                "label": "altruistic"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bmurdoch/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/altruistic/]", 
+            "surfaceText": "[[People]] can be [[altruistic]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dangerous", 
+                "@id": "/c/en/dangerous", 
+                "language": "en", 
+                "label": "dangerous"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/iq2982", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/iq2982/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/pooua", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/iq2982", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/iq2982/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/pooua", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pooua/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/dangerous/]", 
+            "surfaceText": "[[Some people]] can be [[dangerous]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/generous", 
+                "@id": "/c/en/generous", 
+                "language": "en", 
+                "label": "generous"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "People"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jsilberman", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jsilberman/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jsilberman", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jsilberman/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/generous/]", 
+            "surfaceText": "[[People]] can be [[generous]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greedy", 
+                "@id": "/c/en/greedy", 
+                "language": "en", 
+                "label": "greedy"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dashro", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dashro/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/greedy/]", 
+            "surfaceText": "[[people]] are [[greedy]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/happy", 
+                "@id": "/c/en/happy", 
+                "language": "en", 
+                "label": "happy"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jerryobject", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jfarnell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jerryobject", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jerryobject/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jfarnell", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/happy/]", 
+            "surfaceText": "[[some people]] are [[happy]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/nice", 
+                "@id": "/c/en/nice", 
+                "language": "en", 
+                "label": "nice"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "Some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mcflaco", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mcflaco/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/calibux", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/calibux/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/madvay", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/madvay/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mmcgarva", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mmcgarva/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/nice/]", 
+            "surfaceText": "[[Some people]] are [[nice]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/actors", 
+                "@id": "/c/en/actors", 
+                "language": "en", 
+                "label": "actors"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/matthew", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matthew/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/loungefly", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/loungefly/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/actors/,/c/en/people/]", 
+            "surfaceText": "[[actors]] are [[people]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/many_persons", 
+                "@id": "/c/en/many_persons", 
+                "language": "en", 
+                "label": "many persons"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guyravine", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guyravine/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/cfalz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cfalz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/guyravine", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guyravine/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/people/,/c/en/many_persons/]", 
+            "surfaceText": "[[people]] is [[many persons]]"
+        }
+    ], 
+    "@id": "/c/en/people", 
+    "view": {
+        "previousPage": "/c/en/people?offset=60&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/people?offset=80&limit=20", 
+        "nextPage": "/c/en/people?offset=100&limit=20", 
+        "firstPage": "/c/en/people?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,623 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/she", 
+                "@id": "/c/en/she", 
+                "language": "en", 
+                "label": "she"
+            }, 
+            "weight": 1.15, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/it/,/c/en/she/]", 
+            "surfaceText": "[[it]] is not [[she]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/first", 
+                "@id": "/c/en/first", 
+                "language": "en", 
+                "label": "first"
+            }, 
+            "weight": 1.104, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/it/,/c/en/first/]", 
+            "surfaceText": "[[it]] is related to [[first]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/ja/\u5f7c\u306e", 
+                "@id": "/c/ja/\u5f7c\u306e", 
+                "language": "ja", 
+                "label": "\u5f7c\u306e"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/it/,/c/ja/\u5f7c\u306e/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it's", 
+                "@id": "/c/en/it's", 
+                "language": "en", 
+                "label": "it's"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/it's/,/c/en/it/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/de/he", 
+                "@id": "/c/de/he", 
+                "language": "de", 
+                "label": "he"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/it/,/c/de/he/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/de/her", 
+                "@id": "/c/de/her", 
+                "language": "de", 
+                "label": "her"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/it/,/c/de/her/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/him", 
+                "@id": "/c/en/him", 
+                "language": "en", 
+                "label": "him"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/it/,/c/en/him/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/call+it+a+day-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/call+it+a+day-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "call+it+a+day-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/call+it+a+day-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-8", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-8", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "cross+that+bridge+when+you+come+to+it-p#Component-8"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/cross+that+bridge+when+you+come+to+it-p#Component-8/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/get+it+off+your+chest-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/get+it+off+your+chest-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "get+it+off+your+chest-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/get+it+off+your+chest-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/grin+and+bear+it-p#Component-4", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/grin+and+bear+it-p#Component-4", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "grin+and+bear+it-p#Component-4"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/grin+and+bear+it-p#Component-4/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/nip+it+in+the+bud-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/nip+it+in+the+bud-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "nip+it+in+the+bud-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/nip+it+in+the+bud-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/take+it+in+your+stride-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/take+it+in+your+stride-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "take+it+in+your+stride-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/,/http://wordnet-rdf.princeton.edu/wn31/take+it+in+your+stride-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/It_(novel)", 
+                "@id": "http://dbpedia.org/resource/It_(novel)", 
+                "site": "dbpedia.org", 
+                "label": "It (novel)"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/it/n", 
+                "term": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/n/,/http://dbpedia.org/resource/It_(novel)/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q602288", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q602288", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q602288"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/it/n", 
+                "term": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/it/n/,/http://wikidata.dbpedia.org/resource/Q602288/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/its/n", 
+                "term": "/c/en/its", 
+                "language": "en", 
+                "label": "its"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/its/n/,/c/en/it/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/ittin/v", 
+                "term": "/c/en/ittin", 
+                "language": "en", 
+                "label": "ittin"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/ittin/v/,/c/en/it/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/it/n", 
+                "term": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/t", 
+                "@id": "/c/en/t", 
+                "language": "en", 
+                "label": "t"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/t/,/c/en/it/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03c3\u03b1\u03c1\u03c9\u03c4\u03ae\u03c3/n", 
+                "term": "/c/el/\u03c3\u03b1\u03c1\u03c9\u03c4\u03ae\u03c3", 
+                "language": "el", 
+                "label": "\u03c3\u03b1\u03c1\u03c9\u03c4\u03ae\u03c3"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/el/\u03c3\u03b1\u03c1\u03c9\u03c4\u03ae\u03c3/n/,/c/en/it/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/it", 
+                "@id": "/c/en/it", 
+                "language": "en", 
+                "label": "it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03c3\u03ba\u03ac\u03bd\u03b5\u03c1/n", 
+                "term": "/c/el/\u03c3\u03ba\u03ac\u03bd\u03b5\u03c1", 
+                "language": "el", 
+                "label": "\u03c3\u03ba\u03ac\u03bd\u03b5\u03c1"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/el/\u03c3\u03ba\u03ac\u03bd\u03b5\u03c1/n/,/c/en/it/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/it", 
+    "view": {
+        "previousPage": "/c/en/it?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/it?offset=20&limit=20", 
+        "nextPage": "/c/en/it?offset=40&limit=20", 
+        "firstPage": "/c/en/it?offset=0&limit=20"
+    }
+}
