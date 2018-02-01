@@ -32,6 +32,46 @@
 
     <section id="network">
         <div id="mynetwork"></div>
+        <div class="network-extras">
+            <div id="colormap">
+                <ul>
+                    <li v-for='(color, key) in colors()'>
+                        <span class="name">{{key}}</span>
+                        <span class="color" :style='{backgroundColor: color}'>{{color}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="question-input" id='question_input'>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <input placeholder="Question"
+                        id="question"
+                        type="text"
+                        v-model='question'
+                        @keyup.enter='inputString'
+                        class="validate">
+                        <label for="question">Question</label>
+                    </div>
+                </div>
+                <div class="row list-messages">
+                    <div><a href="javascript:;" @click='messages = []'>clear</a></div>
+                    <ul class='messages'>
+                        <li v-for='message in messages' class='message'>
+                            <span class="action"> {{ message.action }}</span>
+                            <span class="tokens">
+                                <ul class="tokens">
+                                    <li class="token" v-for='token in message.tokens'>
+                                        <span class="word">{{ token[0] }}</span>
+                                        <span class="word-type">{{ token[1] }}</span>
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section class='container' id="main">
@@ -283,6 +323,8 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/visual.js"></script>
     <script type="text/javascript" src="assets/js/websockets.js"></script>
+    <script type="text/javascript" src="assets/js/colourmap_view.js"></script>
+    <script type="text/javascript" src="assets/js/input_view.js"></script>
     <script type="text/javascript" src="assets/js/components/view.js"></script>
 </body>
 </html>
