@@ -8,7 +8,7 @@ import cache
 
 FETCH_ALLOWED = True
 
-def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None, allow_cache=True):
+def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None, allow_cache=True, allow_fetch=True, _force_allow=False):
     '''
     Fetch the work context from the external API. Returning an object
     '''
@@ -19,6 +19,10 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
     filepath = None
     can_fetch = FETCH_ALLOWED
 
+    if _force_allow is True:
+        print 'Force override fetch from external'
+        can_fetch = True
+        allow_fetch = True
 
     if word is not None:
         fn = 'api_cache_{}.json'.format(word.replace(' ', '_'))
@@ -33,7 +37,7 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
                         fetch = False
 
     if fetch is True:
-        if can_fetch is False:
+        if can_fetch is False or allow_fetch is False:
             print 'Fetching not allowed'
         else:
             print 'Fetching: ', word or path
@@ -60,7 +64,8 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
                     path=next_path,
                     depth=depth+1,
                     result_object=result_object or data,
-                    root_word=root_word
+                    root_word=root_word,
+                    _force_allow=_force_allow,
                     )
 
             if filepath is None:
@@ -116,6 +121,7 @@ def api_result(*a, **kw):
 
 
 Line = namedtuple('Line', ['uri', 'relation', 'start', 'end', 'json'])
+
 
 def read_assertions():
     '''
