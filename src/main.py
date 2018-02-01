@@ -94,7 +94,7 @@ class Command(object):
         print cache.delete_word(word)
 
     def hash_cache(self, word):
-        cnapi.api_fetch(word, allow_cache=False)
+        cnapi.api_fetch(word, allow_cache=False, _force_allow=True)
 
 
     def hash_read(self, data_file):
