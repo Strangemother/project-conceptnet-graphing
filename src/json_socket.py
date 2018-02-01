@@ -67,6 +67,10 @@ def send_json(d=None, **data):
     socket.send(json.dumps(d, cls=JSONSetEncoder))
 
 
+def get_socket():
+    return socket
+
+
 def make_socket(uri):
     '''
     Generate and return a new WebSocket client for the given uri.
@@ -74,6 +78,6 @@ def make_socket(uri):
     global socket
     socket = websocket.WebSocket()
     socket.connect(uri)
-    socket.send('Connected')
+    #socket.send('Connected')
     return socket
 
