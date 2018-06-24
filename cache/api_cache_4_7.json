@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "http://fr.wiktionary.org/wiki/4", 
+                "@id": "http://fr.wiktionary.org/wiki/4", 
+                "site": "fr.wiktionary.org", 
+                "label": "4"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/4", 
+                "@id": "/c/en/4", 
+                "language": "en", 
+                "label": "4"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/4/,/http://fr.wiktionary.org/wiki/4/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/4", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/4?offset=140&limit=20", 
+        "previousPage": "/c/en/4?offset=120&limit=20", 
+        "firstPage": "/c/en/4?offset=0&limit=20"
+    }
+}

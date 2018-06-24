@@ -1,0 +1,643 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/magenta", 
+                "@id": "/c/en/magenta", 
+                "language": "en", 
+                "label": "magenta"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/slux", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/slux/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/magenta/,/c/en/colour/]", 
+            "surfaceText": "[[magenta]] is a kind of [[colour]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "a colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/white", 
+                "@id": "/c/en/white", 
+                "language": "en", 
+                "label": "White"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/slux", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slux/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/white/,/c/en/colour/]", 
+            "surfaceText": "[[White]] is [[a colour]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hue", 
+                "@id": "/c/en/hue", 
+                "language": "en", 
+                "label": "hue"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/colour/n", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/colour/n/,/c/en/hue/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/technicolor/n", 
+                "term": "/c/en/technicolor", 
+                "language": "en", 
+                "label": "technicolor"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/technicolor/n/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/washed_out/a", 
+                "term": "/c/en/washed_out", 
+                "language": "en", 
+                "label": "washed out"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/washed_out/a/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/color/a", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/colour/a", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/a/,/c/en/color/a/]", 
+            "surfaceText": "[[colour]] is a synonym of [[color]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/coloring_material/n", 
+                "term": "/c/en/coloring_material", 
+                "language": "en", 
+                "label": "coloring material"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/colour/n", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/n/,/c/en/coloring_material/n/]", 
+            "surfaceText": "[[colour]] is a synonym of [[coloring material]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/colour/n", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/n/,/c/en/color/n/]", 
+            "surfaceText": "[[colour]] is a synonym of [[color]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/semblance/n", 
+                "term": "/c/en/semblance", 
+                "language": "en", 
+                "label": "semblance"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/colour/n", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/n/,/c/en/semblance/n/]", 
+            "surfaceText": "[[colour]] is a synonym of [[semblance]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/color/v", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/colour/v", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/v/,/c/en/color/v/]", 
+            "surfaceText": "[[colour]] is a synonym of [[color]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/discolor/v", 
+                "term": "/c/en/discolor", 
+                "language": "en", 
+                "label": "discolor"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/colour/v", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/v/,/c/en/discolor/v/]", 
+            "surfaceText": "[[colour]] is a synonym of [[discolor]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/tinge/v", 
+                "term": "/c/en/tinge", 
+                "language": "en", 
+                "label": "tinge"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/colour/v", 
+                "term": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/colour/v/,/c/en/tinge/v/]", 
+            "surfaceText": "[[colour]] is a synonym of [[tinge]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/fr/couleur/n", 
+                "term": "/c/fr/couleur", 
+                "language": "fr", 
+                "label": "couleur"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fr/couleur/n/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30ab\u30e9\u30fc", 
+                "@id": "/c/ja/\u30ab\u30e9\u30fc", 
+                "language": "ja", 
+                "label": "\u30ab\u30e9\u30fc"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u30ab\u30e9\u30fc/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u5448\u8272/n", 
+                "term": "/c/ja/\u5448\u8272", 
+                "language": "ja", 
+                "label": "\u5448\u8272"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u5448\u8272/n/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u5dee\u3059", 
+                "@id": "/c/ja/\u5dee\u3059", 
+                "language": "ja", 
+                "label": "\u5dee\u3059"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u5dee\u3059/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ja/\u5f69\u308b/v", 
+                "term": "/c/ja/\u5f69\u308b", 
+                "language": "ja", 
+                "label": "\u5f69\u308b"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u5f69\u308b/v/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ja/\u67d3\u3081\u308b/v", 
+                "term": "/c/ja/\u67d3\u3081\u308b", 
+                "language": "ja", 
+                "label": "\u67d3\u3081\u308b"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u67d3\u3081\u308b/v/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u6ce8\u3059", 
+                "@id": "/c/ja/\u6ce8\u3059", 
+                "language": "ja", 
+                "label": "\u6ce8\u3059"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u6ce8\u3059/,/c/en/colour/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour", 
+                "@id": "/c/en/colour", 
+                "language": "en", 
+                "label": "colour"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u70b9\u3059", 
+                "@id": "/c/ja/\u70b9\u3059", 
+                "language": "ja", 
+                "label": "\u70b9\u3059"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u70b9\u3059/,/c/en/colour/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/colour", 
+    "view": {
+        "previousPage": "/c/en/colour?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/colour?offset=20&limit=20", 
+        "nextPage": "/c/en/colour?offset=40&limit=20", 
+        "firstPage": "/c/en/colour?offset=0&limit=20"
+    }
+}

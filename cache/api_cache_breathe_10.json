@@ -1,0 +1,616 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/run_marathon", 
+                "@id": "/c/en/run_marathon", 
+                "language": "en", 
+                "label": "run a marathon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/run_marathon/,/c/en/breathe/]", 
+            "surfaceText": "If you want to [[run a marathon]] then you should [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/scuba_dive", 
+                "@id": "/c/en/scuba_dive", 
+                "language": "en", 
+                "label": "scuba dive"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mspace", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mspace/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/scuba_dive/,/c/en/breathe/]", 
+            "surfaceText": "If you want to [[scuba dive]] then you should [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/stay_alive", 
+                "@id": "/c/en/stay_alive", 
+                "language": "en", 
+                "label": "stay alive"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/novalyte", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/novalyte/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/stay_alive/,/c/en/breathe/]", 
+            "surfaceText": "If you want to [[stay alive]] then you should [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/air_goes_into_lungs", 
+                "@id": "/c/en/air_goes_into_lungs", 
+                "language": "en", 
+                "label": "air goes into your lungs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sjschneider", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sjschneider/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/air_goes_into_lungs/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[air goes into your lungs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blood_receives_oxygen", 
+                "@id": "/c/en/blood_receives_oxygen", 
+                "language": "en", 
+                "label": "your blood receives oxygen"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nancyfay", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/blood_receives_oxygen/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[your blood receives oxygen]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/expanding_lungs", 
+                "@id": "/c/en/expanding_lungs", 
+                "language": "en", 
+                "label": "expanding your lungs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/spawrtan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/spawrtan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/expanding_lungs/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[expanding your lungs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/inhailing_air", 
+                "@id": "/c/en/inhailing_air", 
+                "language": "en", 
+                "label": "inhailing air"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/frnor", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/frnor/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/inhailing_air/]", 
+            "surfaceText": "One of the things you do when you [[breathe]] is [[inhailing air]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/inhaling", 
+                "@id": "/c/en/inhaling", 
+                "language": "en", 
+                "label": "inhaling"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/gary", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/inhaling/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[inhaling]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lungs_fill_with_air", 
+                "@id": "/c/en/lungs_fill_with_air", 
+                "language": "en", 
+                "label": "your lungs fill with air"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/chloe", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chloe/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/lungs_fill_with_air/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[your lungs fill with air]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/may_smell_onions", 
+                "@id": "/c/en/may_smell_onions", 
+                "language": "en", 
+                "label": "you may smell onions"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/may_smell_onions/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[you may smell onions]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oxigenate_body", 
+                "@id": "/c/en/oxigenate_body", 
+                "language": "en", 
+                "label": "that you oxigenate your body"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/agus", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/agus/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/oxigenate_body/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[that you oxigenate your body]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/people_smell_breath", 
+                "@id": "/c/en/people_smell_breath", 
+                "language": "en", 
+                "label": "people smell your breath"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nancyfay", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/people_smell_breath/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[people smell your breath]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/wheeze", 
+                "@id": "/c/en/wheeze", 
+                "language": "en", 
+                "label": "a wheeze"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/breathe/,/c/en/wheeze/]", 
+            "surfaceText": "Something that might happen when you [[breathe]] is [[a wheeze]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/exercising", 
+                "@id": "/c/en/exercising", 
+                "language": "en", 
+                "label": "exercising"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cralize", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cralize/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/exercising/,/c/en/breathe/]", 
+            "surfaceText": "Something you might do while [[exercising]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/having_physical_exam", 
+                "@id": "/c/en/having_physical_exam", 
+                "language": "en", 
+                "label": "having a physical exam"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/having_physical_exam/,/c/en/breathe/]", 
+            "surfaceText": "Something you might do while [[having a physical exam]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/living", 
+                "@id": "/c/en/living", 
+                "language": "en", 
+                "label": "living"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ugmonster", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ugmonster/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/living/,/c/en/breathe/]", 
+            "surfaceText": "Something you might do while [[living]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/living_life", 
+                "@id": "/c/en/living_life", 
+                "language": "en", 
+                "label": "living a life"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anarchie", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anarchie/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/living_life/,/c/en/breathe/]", 
+            "surfaceText": "Something you might do while [[living a life]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/procreating", 
+                "@id": "/c/en/procreating", 
+                "language": "en", 
+                "label": "procreating"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/goatboy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/goatboy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/procreating/,/c/en/breathe/]", 
+            "surfaceText": "Something you might do while [[procreating]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/resting", 
+                "@id": "/c/en/resting", 
+                "language": "en", 
+                "label": "resting"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/echooooo", 
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/echooooo/]", 
+                    "activity": "/s/activity/omcs/commons2_template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/resting/,/c/en/breathe/]", 
+            "surfaceText": "One of the things you do when you [[resting]] is [[breathe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/breathe", 
+                "@id": "/c/en/breathe", 
+                "language": "en", 
+                "label": "breathe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ride_bicycle", 
+                "@id": "/c/en/ride_bicycle", 
+                "language": "en", 
+                "label": "ride a bicycle"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/boojum", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boojum/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/ride_bicycle/,/c/en/breathe/]", 
+            "surfaceText": "One of the things you do when you [[ride a bicycle]] is [[breathe]]"
+        }
+    ], 
+    "@id": "/c/en/breathe", 
+    "view": {
+        "previousPage": "/c/en/breathe?offset=180&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/breathe?offset=200&limit=20", 
+        "nextPage": "/c/en/breathe?offset=220&limit=20", 
+        "firstPage": "/c/en/breathe?offset=0&limit=20"
+    }
+}

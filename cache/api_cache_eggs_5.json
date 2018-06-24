@@ -1,0 +1,470 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.548, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bird", 
+                "@id": "/c/en/bird", 
+                "language": "en", 
+                "label": "bird"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/bird/,/c/en/eggs/]", 
+            "surfaceText": "[[bird]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.44700000000000006, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/yoke", 
+                "@id": "/c/en/yoke", 
+                "language": "en", 
+                "label": "yoke"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/yoke/,/c/en/eggs/]", 
+            "surfaceText": "[[yoke]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.3839999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hen", 
+                "@id": "/c/en/hen", 
+                "language": "en", 
+                "label": "hen"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/hen/,/c/en/eggs/]", 
+            "surfaceText": "[[hen]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.32600000000000007, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/yolk", 
+                "@id": "/c/en/yolk", 
+                "language": "en", 
+                "label": "yolk"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/yolk/,/c/en/eggs/]", 
+            "surfaceText": "[[yolk]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.31999999999999984, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/rabbit", 
+                "@id": "/c/en/rabbit", 
+                "language": "en", 
+                "label": "rabbit"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/rabbit/,/c/en/eggs/]", 
+            "surfaceText": "[[rabbit]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "http://en.wiktionary.org/wiki/eggs", 
+                "@id": "http://en.wiktionary.org/wiki/eggs", 
+                "site": "en.wiktionary.org", 
+                "label": "eggs"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/eggs/,/http://en.wiktionary.org/wiki/eggs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://fr.wiktionary.org/wiki/eggs", 
+                "@id": "http://fr.wiktionary.org/wiki/eggs", 
+                "site": "fr.wiktionary.org", 
+                "label": "eggs"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/eggs/,/http://fr.wiktionary.org/wiki/eggs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.24399999999999977, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/basket", 
+                "@id": "/c/en/basket", 
+                "language": "en", 
+                "label": "basket"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/basket/,/c/en/eggs/]", 
+            "surfaceText": "[[basket]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.20299999999999985, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/rice", 
+                "@id": "/c/en/rice", 
+                "language": "en", 
+                "label": "rice"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/rice/,/c/en/eggs/]", 
+            "surfaceText": "[[rice]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.19700000000000006, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dozen", 
+                "@id": "/c/en/dozen", 
+                "language": "en", 
+                "label": "dozen"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/dozen/,/c/en/eggs/]", 
+            "surfaceText": "[[dozen]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.15300000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/noodle", 
+                "@id": "/c/en/noodle", 
+                "language": "en", 
+                "label": "noodle"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/noodle/,/c/en/eggs/]", 
+            "surfaceText": "[[noodle]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.1509999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/beau", 
+                "@id": "/c/en/beau", 
+                "language": "en", 
+                "label": "beau"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/beau/,/c/en/eggs/]", 
+            "surfaceText": "[[beau]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.1469999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bread", 
+                "@id": "/c/en/bread", 
+                "language": "en", 
+                "label": "bread"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/bread/,/c/en/eggs/]", 
+            "surfaceText": "[[bread]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.14100000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/spatula", 
+                "@id": "/c/en/spatula", 
+                "language": "en", 
+                "label": "spatula"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/spatula/,/c/en/eggs/]", 
+            "surfaceText": "[[spatula]] is related to [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 0.10899999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/albumin", 
+                "@id": "/c/en/albumin", 
+                "language": "en", 
+                "label": "albumin"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/albumin/,/c/en/eggs/]", 
+            "surfaceText": "[[albumin]] is related to [[eggs]]"
+        }
+    ], 
+    "@id": "/c/en/eggs", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/eggs?offset=100&limit=20", 
+        "previousPage": "/c/en/eggs?offset=80&limit=20", 
+        "firstPage": "/c/en/eggs?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,659 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/dessert", 
+                "@id": "/c/en/dessert", 
+                "language": "en", 
+                "label": "dessert"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "a cake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/benjyamon", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/benjyamon/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jes", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jes/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jes", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jes/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/cake/,/c/en/dessert/]", 
+            "surfaceText": "[[a cake]] is used for [[dessert]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/icing_candles", 
+                "@id": "/c/en/icing_candles", 
+                "language": "en", 
+                "label": "icing candles"
+            }, 
+            "weight": 2.772002886001383, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/icing_candles/]", 
+            "surfaceText": "[[cake]] is related to [[icing candles]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sweet_food", 
+                "@id": "/c/en/sweet_food", 
+                "language": "en", 
+                "label": "sweet food"
+            }, 
+            "weight": 2.635147054720097, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/sweet_food/]", 
+            "surfaceText": "[[cake]] is related to [[sweet food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/birthday_candles", 
+                "@id": "/c/en/birthday_candles", 
+                "language": "en", 
+                "label": "birthday candles"
+            }, 
+            "weight": 2.4979991993593593, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_candles/]", 
+            "surfaceText": "[[cake]] is related to [[birthday candles]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/birthday_pastry", 
+                "@id": "/c/en/birthday_pastry", 
+                "language": "en", 
+                "label": "birthday pastry"
+            }, 
+            "weight": 2.466576574931336, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_pastry/]", 
+            "surfaceText": "[[cake]] is related to [[birthday pastry]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sugar", 
+                "@id": "/c/en/sugar", 
+                "language": "en", 
+                "label": "sugar"
+            }, 
+            "weight": 2.463331078032346, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/sugar/]", 
+            "surfaceText": "[[cake]] is related to [[sugar]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/birthday_desert", 
+                "@id": "/c/en/birthday_desert", 
+                "language": "en", 
+                "label": "birthday desert"
+            }, 
+            "weight": 2.3125743231299616, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_desert/]", 
+            "surfaceText": "[[cake]] is related to [[birthday desert]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/weddings", 
+                "@id": "/c/en/weddings", 
+                "language": "en", 
+                "label": "weddings"
+            }, 
+            "weight": 2.2908513701242166, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/weddings/]", 
+            "surfaceText": "[[cake]] is related to [[weddings]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sweet_bread", 
+                "@id": "/c/en/sweet_bread", 
+                "language": "en", 
+                "label": "sweet bread"
+            }, 
+            "weight": 2.1697926168184836, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/sweet_bread/]", 
+            "surfaceText": "[[cake]] is related to [[sweet bread]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/delicious", 
+                "@id": "/c/en/delicious", 
+                "language": "en", 
+                "label": "delicious"
+            }, 
+            "weight": 2.151278689523977, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/delicious/]", 
+            "surfaceText": "[[cake]] is related to [[delicious]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sponge", 
+                "@id": "/c/en/sponge", 
+                "language": "en", 
+                "label": "sponge"
+            }, 
+            "weight": 2.151278689523977, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/sponge/]", 
+            "surfaceText": "[[cake]] is related to [[sponge]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eating", 
+                "@id": "/c/en/eating", 
+                "language": "en", 
+                "label": "eating"
+            }, 
+            "weight": 2.1419617176784467, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/eating/]", 
+            "surfaceText": "[[cake]] is related to [[eating]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/birthday_parties", 
+                "@id": "/c/en/birthday_parties", 
+                "language": "en", 
+                "label": "birthday parties"
+            }, 
+            "weight": 2.1288494545176277, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_parties/]", 
+            "surfaceText": "[[cake]] is related to [[birthday parties]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/layered", 
+                "@id": "/c/en/layered", 
+                "language": "en", 
+                "label": "layered"
+            }, 
+            "weight": 2.0099751242241783, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/layered/]", 
+            "surfaceText": "[[cake]] is related to [[layered]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cream", 
+                "@id": "/c/en/cream", 
+                "language": "en", 
+                "label": "cream"
+            }, 
+            "weight": 2.0059910268991734, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/cream/]", 
+            "surfaceText": "[[cake]] is related to [[cream]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/item", 
+                "@id": "/c/en/item", 
+                "language": "en", 
+                "label": "item"
+            }, 
+            "weight": 2.0009997501249224, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/item/]", 
+            "surfaceText": "[[cake]] is related to [[item]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/johnny_cake", 
+                "@id": "/c/en/johnny_cake", 
+                "language": "en", 
+                "label": "johnny cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/johnny_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/person", 
+                "@id": "/c/en/person", 
+                "language": "en", 
+                "label": "a person"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kirun", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kirun/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/person/,/c/en/cake/]", 
+            "surfaceText": "[[a person]] wants [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/good_for_dessert", 
+                "@id": "/c/en/good_for_dessert", 
+                "language": "en", 
+                "label": "good for dessert"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "a cake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/diantell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/vankakka", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vankakka/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/good_for_dessert/]", 
+            "surfaceText": "[[a cake]] is [[good for dessert]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/applesauce_cake/n", 
+                "term": "/c/en/applesauce_cake", 
+                "language": "en", 
+                "label": "applesauce cake"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/applesauce_cake/n/,/c/en/cake/n/]", 
+            "surfaceText": "[[applesauce cake]] is a type of [[cake]]"
+        }
+    ], 
+    "@id": "/c/en/cake", 
+    "view": {
+        "previousPage": "/c/en/cake?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/cake?offset=40&limit=20", 
+        "nextPage": "/c/en/cake?offset=60&limit=20", 
+        "firstPage": "/c/en/cake?offset=0&limit=20"
+    }
+}

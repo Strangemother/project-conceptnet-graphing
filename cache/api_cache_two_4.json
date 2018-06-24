@@ -1,0 +1,622 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/twice", 
+                "@id": "/c/en/twice", 
+                "language": "en", 
+                "label": "twice"
+            }, 
+            "weight": 1.154, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/two/,/c/en/twice/]", 
+            "surfaceText": "[[two]] is related to [[twice]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0469999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/one/,/c/en/two/]", 
+            "surfaceText": "[[one]] is not [[two]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cross_each_other", 
+                "@id": "/c/en/cross_each_other", 
+                "language": "en", 
+                "label": "cross each other"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "Two"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/diveden", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/two/,/c/en/cross_each_other/]", 
+            "surfaceText": "[[Two]] can [[cross each other]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/first_prime_number", 
+                "@id": "/c/en/first_prime_number", 
+                "language": "en", 
+                "label": "first prime number"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "Two"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dashro", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/two/,/c/en/first_prime_number/]", 
+            "surfaceText": "[[Two]] is the [[first prime number]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/smallest_prime_number", 
+                "@id": "/c/en/smallest_prime_number", 
+                "language": "en", 
+                "label": "smallest prime number"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "Two"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dashro", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/two/,/c/en/smallest_prime_number/]", 
+            "surfaceText": "[[Two]] is the [[smallest prime number]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/four_by_two", 
+                "@id": "/c/en/four_by_two", 
+                "language": "en", 
+                "label": "four by two"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/four_by_two/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/in_two", 
+                "@id": "/c/en/in_two", 
+                "language": "en", 
+                "label": "in two"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/in_two/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/put_two_and_two_together", 
+                "@id": "/c/en/put_two_and_two_together", 
+                "language": "en", 
+                "label": "put two and two together"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/put_two_and_two_together/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_by_four", 
+                "@id": "/c/en/two_by_four", 
+                "language": "en", 
+                "label": "two by four"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_by_four/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/ja/\u4e8c", 
+                "@id": "/c/ja/\u4e8c", 
+                "language": "ja", 
+                "label": "\u4e8c"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two/,/c/ja/\u4e8c/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_dimensional", 
+                "@id": "/c/en/two_dimensional", 
+                "language": "en", 
+                "label": "two dimensional"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_dimensional/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_edged", 
+                "@id": "/c/en/two_edged", 
+                "language": "en", 
+                "label": "two edged"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_edged/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_faced", 
+                "@id": "/c/en/two_faced", 
+                "language": "en", 
+                "label": "two faced"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_faced/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_heads_are_better_than_one", 
+                "@id": "/c/en/two_heads_are_better_than_one", 
+                "language": "en", 
+                "label": "two heads are better than one"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_heads_are_better_than_one/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_piece", 
+                "@id": "/c/en/two_piece", 
+                "language": "en", 
+                "label": "two piece"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_piece/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/two/n", 
+                "term": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two's_complement", 
+                "@id": "/c/en/two's_complement", 
+                "language": "en", 
+                "label": "two's complement"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two's_complement/,/c/en/two/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_stroke", 
+                "@id": "/c/en/two_stroke", 
+                "language": "en", 
+                "label": "two stroke"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_stroke/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_time", 
+                "@id": "/c/en/two_time", 
+                "language": "en", 
+                "label": "two time"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_time/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_tone", 
+                "@id": "/c/en/two_tone", 
+                "language": "en", 
+                "label": "two tone"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_tone/,/c/en/two/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/two/n", 
+                "term": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/two_up", 
+                "@id": "/c/en/two_up", 
+                "language": "en", 
+                "label": "two up"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/two_up/,/c/en/two/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/two", 
+    "view": {
+        "previousPage": "/c/en/two?offset=60&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/two?offset=80&limit=20", 
+        "nextPage": "/c/en/two?offset=100&limit=20", 
+        "firstPage": "/c/en/two?offset=0&limit=20"
+    }
+}

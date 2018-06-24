@@ -1,0 +1,629 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/fr/auxiliaire", 
+                "@id": "/c/fr/auxiliaire", 
+                "language": "fr", 
+                "label": "auxiliaire"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/will/v", 
+                "term": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/will/v/,/c/fr/auxiliaire/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/la/codicillus/n", 
+                "term": "/c/la/codicillus", 
+                "language": "la", 
+                "label": "codicillus"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/la/codicillus/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/attending_rock_concert", 
+                "@id": "/c/en/attending_rock_concert", 
+                "language": "en", 
+                "label": "attending a rock concert"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/katyte", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/katyte/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/attending_rock_concert/,/c/en/will/]", 
+            "surfaceText": "[[attending a rock concert]] requires [[will]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cleaning_house", 
+                "@id": "/c/en/cleaning_house", 
+                "language": "en", 
+                "label": "cleaning the house"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/hahatice", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hahatice/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/cleaning_house/,/c/en/will/]", 
+            "surfaceText": "[[cleaning the house]] requires [[will]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/getting_exercise", 
+                "@id": "/c/en/getting_exercise", 
+                "language": "en", 
+                "label": "getting exercise"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/getting_exercise/,/c/en/will/]", 
+            "surfaceText": "[[getting exercise]] requires [[will]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/going_for_jog", 
+                "@id": "/c/en/going_for_jog", 
+                "language": "en", 
+                "label": "going for a jog"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/same", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/same/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/going_for_jog/,/c/en/will/]", 
+            "surfaceText": "[[going for a jog]] requires [[will]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/waking_up_in_morning", 
+                "@id": "/c/en/waking_up_in_morning", 
+                "language": "en", 
+                "label": "waking up in the morning"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mj24", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mj24/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/waking_up_in_morning/,/c/en/will/]", 
+            "surfaceText": "[[waking up in the morning]] requires [[will]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/legal_form/n", 
+                "term": "/c/en/legal_form", 
+                "language": "en", 
+                "label": "legal form"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/will/n", 
+                "term": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/will/n/,/c/en/legal_form/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/af/sal/v", 
+                "term": "/c/af/sal", 
+                "language": "af", 
+                "label": "sal"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/af/sal/v/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/af/wil/n", 
+                "term": "/c/af/wil", 
+                "language": "af", 
+                "label": "wil"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/af/wil/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ang/heorte/n", 
+                "term": "/c/ang/heorte", 
+                "language": "ang", 
+                "label": "heorte"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/heorte/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ang/willa/n", 
+                "term": "/c/ang/willa", 
+                "language": "ang", 
+                "label": "willa"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/willa/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ang/willian/v", 
+                "term": "/c/ang/willian", 
+                "language": "ang", 
+                "label": "willian"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/willian/v/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/arc/\u05e6\u05d1\u05d0/v", 
+                "term": "/c/arc/\u05e6\u05d1\u05d0", 
+                "language": "arc", 
+                "label": "\u05e6\u05d1\u05d0"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e6\u05d1\u05d0/v/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/arc/\u05e6\u05d1\u05d9\u05e0\u05d0/n", 
+                "term": "/c/arc/\u05e6\u05d1\u05d9\u05e0\u05d0", 
+                "language": "arc", 
+                "label": "\u05e6\u05d1\u05d9\u05e0\u05d0"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e6\u05d1\u05d9\u05e0\u05d0/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0623\u0631\u0627\u062f/v", 
+                "term": "/c/ar/\u0623\u0631\u0627\u062f", 
+                "language": "ar", 
+                "label": "\u0623\u0631\u0627\u062f"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0623\u0631\u0627\u062f/v/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ar/\u0625\u0631\u0627\u062f\u0629/n", 
+                "term": "/c/ar/\u0625\u0631\u0627\u062f\u0629", 
+                "language": "ar", 
+                "label": "\u0625\u0631\u0627\u062f\u0629"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0625\u0631\u0627\u062f\u0629/n/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0633", 
+                "@id": "/c/ar/\u0633", 
+                "language": "ar", 
+                "label": "\u0633"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0633/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0633\u0648\u0641", 
+                "@id": "/c/ar/\u0633\u0648\u0641", 
+                "language": "ar", 
+                "label": "\u0633\u0648\u0641"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0633\u0648\u0641/,/c/en/will/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/will", 
+                "@id": "/c/en/will", 
+                "language": "en", 
+                "label": "will"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0634\u0627\u0621/v", 
+                "term": "/c/ar/\u0634\u0627\u0621", 
+                "language": "ar", 
+                "label": "\u0634\u0627\u0621"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0634\u0627\u0621/v/,/c/en/will/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/will", 
+    "view": {
+        "previousPage": "/c/en/will?offset=180&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/will?offset=200&limit=20", 
+        "nextPage": "/c/en/will?offset=220&limit=20", 
+        "firstPage": "/c/en/will?offset=0&limit=20"
+    }
+}

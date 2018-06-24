@@ -1,0 +1,626 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/provenance", 
+                "@id": "/c/en/provenance", 
+                "language": "en", 
+                "label": "provenance"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/en/provenance/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/reference", 
+                "@id": "/c/en/reference", 
+                "language": "en", 
+                "label": "reference"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/en/reference/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/separation", 
+                "@id": "/c/en/separation", 
+                "language": "en", 
+                "label": "separation"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/en/separation/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/source", 
+                "@id": "/c/en/source", 
+                "language": "en", 
+                "label": "source"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/en/source/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/de", 
+                "@id": "/c/fr/de", 
+                "language": "fr", 
+                "label": "de"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/fr/de/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/depuis", 
+                "@id": "/c/fr/depuis", 
+                "language": "fr", 
+                "label": "depuis"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/from/,/c/fr/depuis/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/fromward", 
+                "@id": "/c/en/fromward", 
+                "language": "en", 
+                "label": "fromward"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fromward/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/fro/r", 
+                "term": "/c/en/fro", 
+                "language": "en", 
+                "label": "fro"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fro/r/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/hence/r", 
+                "term": "/c/en/hence", 
+                "language": "en", 
+                "label": "hence"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/hence/r/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/enm/fra", 
+                "@id": "/c/enm/fra", 
+                "language": "enm", 
+                "label": "fra"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/enm/fra/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/enm/fro/r", 
+                "term": "/c/enm/fro", 
+                "language": "enm", 
+                "label": "fro"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/enm/fro/r/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/nearer/a", 
+                "term": "/c/en/nearer", 
+                "language": "en", 
+                "label": "nearer"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/nearer/a/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/of", 
+                "@id": "/c/en/of", 
+                "language": "en", 
+                "label": "of"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/of/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/off_of", 
+                "@id": "/c/en/off_of", 
+                "language": "en", 
+                "label": "off of"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/off_of/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/originate/v", 
+                "term": "/c/en/originate", 
+                "language": "en", 
+                "label": "originate"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/originate/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/reach/v", 
+                "term": "/c/en/reach", 
+                "language": "en", 
+                "label": "reach"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/reach/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/recall/v", 
+                "term": "/c/en/recall", 
+                "language": "en", 
+                "label": "recall"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/recall/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/redound/v", 
+                "term": "/c/en/redound", 
+                "language": "en", 
+                "label": "redound"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/redound/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/refrain/v", 
+                "term": "/c/en/refrain", 
+                "language": "en", 
+                "label": "refrain"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/refrain/v/,/c/en/from/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/from", 
+                "@id": "/c/en/from", 
+                "language": "en", 
+                "label": "from"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/reverse_commute/n", 
+                "term": "/c/en/reverse_commute", 
+                "language": "en", 
+                "label": "reverse commute"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/reverse_commute/n/,/c/en/from/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/from", 
+    "view": {
+        "previousPage": "/c/en/from?offset=120&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/from?offset=140&limit=20", 
+        "nextPage": "/c/en/from?offset=160&limit=20", 
+        "firstPage": "/c/en/from?offset=0&limit=20"
+    }
+}

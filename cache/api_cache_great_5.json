@@ -1,0 +1,644 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/pt/extenso/a", 
+                "term": "/c/pt/extenso", 
+                "language": "pt", 
+                "label": "extenso"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/pt/extenso/a/,/c/en/great/a/]", 
+            "surfaceText": "[[extenso]] is a translation of [[great]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/pt/grande/a", 
+                "term": "/c/pt/grande", 
+                "language": "pt", 
+                "label": "grande"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/pt/grande/a/,/c/en/great/a/]", 
+            "surfaceText": "[[grande]] is a translation of [[great]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/zh/\u83ab\u5927/a", 
+                "term": "/c/zh/\u83ab\u5927", 
+                "language": "zh", 
+                "label": "\u83ab\u5927"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u83ab\u5927/a/,/c/en/great/a/]", 
+            "surfaceText": "[[\u83ab\u5927]] is a translation of [[great]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/very", 
+                "@id": "/c/en/very", 
+                "language": "en", 
+                "label": "very"
+            }, 
+            "weight": 1.927, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/great/,/c/en/very/]", 
+            "surfaceText": "[[great]] is related to [[very]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.6749999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/excellent", 
+                "@id": "/c/en/excellent", 
+                "language": "en", 
+                "label": "excellent"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/excellent/,/c/en/great/]", 
+            "surfaceText": "[[excellent]] is related to [[great]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/awesome", 
+                "@id": "/c/en/awesome", 
+                "language": "en", 
+                "label": "awesome"
+            }, 
+            "weight": 1.6749999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/great/,/c/en/awesome/]", 
+            "surfaceText": "[[great]] is related to [[awesome]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/wonderful", 
+                "@id": "/c/en/wonderful", 
+                "language": "en", 
+                "label": "wonderful"
+            }, 
+            "weight": 1.3780000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/great/,/c/en/wonderful/]", 
+            "surfaceText": "[[great]] is related to [[wonderful]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/adjective", 
+                "@id": "/c/en/adjective", 
+                "language": "en", 
+                "label": "adjective"
+            }, 
+            "weight": 1.3679999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/great/,/c/en/adjective/]", 
+            "surfaceText": "[[great]] is related to [[adjective]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/very_good", 
+                "@id": "/c/en/very_good", 
+                "language": "en", 
+                "label": "very good"
+            }, 
+            "weight": 1.1920000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/great/,/c/en/very_good/]", 
+            "surfaceText": "[[great]] is related to [[very good]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mediocre", 
+                "@id": "/c/en/mediocre", 
+                "language": "en", 
+                "label": "mediocre"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/great/a/,/c/en/mediocre/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ordinary", 
+                "@id": "/c/en/ordinary", 
+                "language": "en", 
+                "label": "ordinary"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/great/a/,/c/en/ordinary/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/tiny", 
+                "@id": "/c/en/tiny", 
+                "language": "en", 
+                "label": "tiny"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/great/a", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/great/a/,/c/en/tiny/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mediocre", 
+                "@id": "/c/en/mediocre", 
+                "language": "en", 
+                "label": "mediocre"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/great/n", 
+                "term": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/great/n/,/c/en/mediocre/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/mediocre/a", 
+                "term": "/c/en/mediocre", 
+                "language": "en", 
+                "label": "mediocre"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/mediocre/a/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/mediocre/n", 
+                "term": "/c/en/mediocre", 
+                "language": "en", 
+                "label": "mediocre"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/mediocre/n/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/petty/a", 
+                "term": "/c/en/petty", 
+                "language": "en", 
+                "label": "petty"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/petty/a/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/tiny/a", 
+                "term": "/c/en/tiny", 
+                "language": "en", 
+                "label": "tiny"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/tiny/a/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ja/\u5e73\u51e1/a", 
+                "term": "/c/ja/\u5e73\u51e1", 
+                "language": "ja", 
+                "label": "\u5e73\u51e1"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/ja/\u5e73\u51e1/a/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/mul/\u5eb8", 
+                "@id": "/c/mul/\u5eb8", 
+                "language": "mul", 
+                "label": "\u5eb8"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/mul/\u5eb8/,/c/en/great/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/great", 
+                "@id": "/c/en/great", 
+                "language": "en", 
+                "label": "great"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/zh/\u5e73\u5eb8/a", 
+                "term": "/c/zh/\u5e73\u5eb8", 
+                "language": "zh", 
+                "label": "\u5e73\u5eb8"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/zh/\u5e73\u5eb8/a/,/c/en/great/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/great", 
+    "view": {
+        "previousPage": "/c/en/great?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/great?offset=100&limit=20", 
+        "nextPage": "/c/en/great?offset=120&limit=20", 
+        "firstPage": "/c/en/great?offset=0&limit=20"
+    }
+}

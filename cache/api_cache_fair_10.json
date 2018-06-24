@@ -1,0 +1,628 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/shipbuilding", 
+                "@id": "/c/en/shipbuilding", 
+                "language": "en", 
+                "label": "shipbuilding"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/fair/a", 
+                "term": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/fair/a/,/c/en/shipbuilding/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "be fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/compete_against", 
+                "@id": "/c/en/compete_against", 
+                "language": "en", 
+                "label": "compete against someone"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/compete_against/,/c/en/fair/]", 
+            "surfaceText": "If you want to [[compete against someone]] then you should [[be fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "be fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/serve_justice", 
+                "@id": "/c/en/serve_justice", 
+                "language": "en", 
+                "label": "serve justice"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/quarkpi", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/quarkpi/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/serve_justice/,/c/en/fair/]", 
+            "surfaceText": "If you want to [[serve justice]] then you should [[be fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/people", 
+                "@id": "/c/en/people", 
+                "language": "en", 
+                "label": "some people"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jerryobject", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/people/,/c/en/fair/]", 
+            "surfaceText": "[[some people]] are [[fair]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/fair/n", 
+                "term": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/book_fair", 
+                "@id": "/c/en/book_fair", 
+                "language": "en", 
+                "label": "book fair"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/book_fair/,/c/en/fair/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/fair/n", 
+                "term": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/trade_fair", 
+                "@id": "/c/en/trade_fair", 
+                "language": "en", 
+                "label": "trade fair"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/trade_fair/,/c/en/fair/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "be fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/reach_impasse", 
+                "@id": "/c/en/reach_impasse", 
+                "language": "en", 
+                "label": "reach an impasse"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/diveden", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/reach_impasse/,/c/en/fair/]", 
+            "surfaceText": "You would [[reach an impasse]] because you want to [[be fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "be fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/serve_justice", 
+                "@id": "/c/en/serve_justice", 
+                "language": "en", 
+                "label": "serve justice"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/wynmakr", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wynmakr/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/serve_justice/,/c/en/fair/]", 
+            "surfaceText": "You would [[serve justice]] because you want to [[be fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "it is fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/share_housework", 
+                "@id": "/c/en/share_housework", 
+                "language": "en", 
+                "label": "share the housework"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MotivatedByGoal", 
+                "label": "MotivatedByGoal"
+            }, 
+            "@id": "/a/[/r/MotivatedByGoal/,/c/en/share_housework/,/c/en/fair/]", 
+            "surfaceText": "You would [[share the housework]] because [[it is fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/judging_at_first_sight", 
+                "@id": "/c/en/judging_at_first_sight", 
+                "language": "en", 
+                "label": "Judging someone at first sight"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotHasProperty", 
+                "label": "NotHasProperty"
+            }, 
+            "@id": "/a/[/r/NotHasProperty/,/c/en/judging_at_first_sight/,/c/en/fair/]", 
+            "surfaceText": "[[Judging someone at first sight]] is not [[fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/low_pay_and_long_hours", 
+                "@id": "/c/en/low_pay_and_long_hours", 
+                "language": "en", 
+                "label": "Low pay and long hours"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotHasProperty", 
+                "label": "NotHasProperty"
+            }, 
+            "@id": "/a/[/r/NotHasProperty/,/c/en/low_pay_and_long_hours/,/c/en/fair/]", 
+            "surfaceText": "[[Low pay and long hours]] is not [[fair]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/hiwf\u00e6st/a", 
+                "term": "/c/ang/hiwf\u00e6st", 
+                "language": "ang", 
+                "label": "hiwf\u00e6st"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/hiwf\u00e6st/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/sciene/a", 
+                "term": "/c/ang/sciene", 
+                "language": "ang", 
+                "label": "sciene"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/sciene/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/scyne/a", 
+                "term": "/c/ang/scyne", 
+                "language": "ang", 
+                "label": "scyne"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/scyne/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ang/smicer/a", 
+                "term": "/c/ang/smicer", 
+                "language": "ang", 
+                "label": "smicer"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/smicer/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u0623\u0634\u0642\u0631/a", 
+                "term": "/c/ar/\u0623\u0634\u0642\u0631", 
+                "language": "ar", 
+                "label": "\u0623\u0634\u0642\u0631"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0623\u0634\u0642\u0631/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ar/\u0623\u0646\u0635\u0641/v", 
+                "term": "/c/ar/\u0623\u0646\u0635\u0641", 
+                "language": "ar", 
+                "label": "\u0623\u0646\u0635\u0641"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0623\u0646\u0635\u0641/v/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u062c\u0645\u064a\u0644/a", 
+                "term": "/c/ar/\u062c\u0645\u064a\u0644", 
+                "language": "ar", 
+                "label": "\u062c\u0645\u064a\u0644"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062c\u0645\u064a\u0644/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u062d\u0633\u0646/a", 
+                "term": "/c/ar/\u062d\u0633\u0646", 
+                "language": "ar", 
+                "label": "\u062d\u0633\u0646"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0633\u0646/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fair", 
+                "@id": "/c/en/fair", 
+                "language": "en", 
+                "label": "fair"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/ar/\u062d\u0642/a", 
+                "term": "/c/ar/\u062d\u0642", 
+                "language": "ar", 
+                "label": "\u062d\u0642"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642/a/,/c/en/fair/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/fair", 
+    "view": {
+        "previousPage": "/c/en/fair?offset=180&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/fair?offset=200&limit=20", 
+        "nextPage": "/c/en/fair?offset=220&limit=20", 
+        "firstPage": "/c/en/fair?offset=0&limit=20"
+    }
+}

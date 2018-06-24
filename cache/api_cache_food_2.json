@@ -1,0 +1,828 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/jar", 
+                "@id": "/c/en/jar", 
+                "language": "en", 
+                "label": "a jar"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/omino", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/omino/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/omino", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/omino/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rjeffers", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rjeffers/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/jar/]", 
+            "surfaceText": "*Something you find in [[a jar]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/plate", 
+                "@id": "/c/en/plate", 
+                "language": "en", 
+                "label": "a plate"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tmorrow", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tmorrow/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/avi", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/avi/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kacjf73", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kacjf73/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/stefanie", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stefanie/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/plate/]", 
+            "surfaceText": "*Something you find on [[a plate]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/diminishing_own_hunger", 
+                "@id": "/c/en/diminishing_own_hunger", 
+                "language": "en", 
+                "label": "diminishing your own hunger"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/joy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/dodrills", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dodrills/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kurt_woloch", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/diminishing_own_hunger/,/c/en/food/]", 
+            "surfaceText": "[[diminishing your own hunger]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/sating_hunger", 
+                "@id": "/c/en/sating_hunger", 
+                "language": "en", 
+                "label": "sating your hunger"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/taranlore", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/taranlore/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/edman274", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/edman274/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/liza", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/liza/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/sating_hunger/,/c/en/food/]", 
+            "surfaceText": "[[sating your hunger]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hamburger", 
+                "@id": "/c/en/hamburger", 
+                "language": "en", 
+                "label": "a hamburger"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/buzzy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/treeshouse", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/treeshouse/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/buzzy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/buzzy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/technoninja", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/technoninja/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/hamburger/,/c/en/food/]", 
+            "surfaceText": "[[a hamburger]] is a type of [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/nourishment", 
+                "@id": "/c/en/nourishment", 
+                "language": "en", 
+                "label": "nourishment"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "Food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bethe", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bethe/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jfarnell", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/bethe", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bethe/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sandos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/food/,/c/en/nourishment/]", 
+            "surfaceText": "[[Food]] is for [[nourishment]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 3.402939905434711, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/can", 
+                "@id": "/c/en/can", 
+                "language": "en", 
+                "label": "can"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/can/,/c/en/food/]", 
+            "surfaceText": "[[can]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 3.0932183886689923, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/market", 
+                "@id": "/c/en/market", 
+                "language": "en", 
+                "label": "market"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/market/,/c/en/food/]", 
+            "surfaceText": "[[market]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.853068523537422, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fish", 
+                "@id": "/c/en/fish", 
+                "language": "en", 
+                "label": "fish"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fish/,/c/en/food/]", 
+            "surfaceText": "[[fish]] is related to [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/container", 
+                "@id": "/c/en/container", 
+                "language": "en", 
+                "label": "a container"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/avaabbi", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avaabbi/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/debhotmac", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/debhotmac/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/container/]", 
+            "surfaceText": "*Something you find in [[a container]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/home", 
+                "@id": "/c/en/home", 
+                "language": "en", 
+                "label": "a home"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "some food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bnkinfo", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bnkinfo/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/carmenvw", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/carmenvw/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/carmenvw", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/carmenvw/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/home/]", 
+            "surfaceText": "*Something you find at [[a home]] is [[some food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/shelf", 
+                "@id": "/c/en/shelf", 
+                "language": "en", 
+                "label": "the shelf"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/morgan12x", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/morgan12x/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/morgan12x", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/morgan12x/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/shelf/]", 
+            "surfaceText": "*Something you find on [[the shelf]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/shop", 
+                "@id": "/c/en/shop", 
+                "language": "en", 
+                "label": "a shop"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ajiau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajiau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sorenh", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sorenh/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sorenh", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sorenh/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/shop/]", 
+            "surfaceText": "*Something you find at [[a shop]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/store", 
+                "@id": "/c/en/store", 
+                "language": "en", 
+                "label": "a store"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/treefer", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/treefer/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/vud", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vud/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/w0231509", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/w0231509/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/store/]", 
+            "surfaceText": "*Something you find at [[a store]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eating_breakfast", 
+                "@id": "/c/en/eating_breakfast", 
+                "language": "en", 
+                "label": "eating breakfast"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/staley", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/staley/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/erikglenn", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/erikglenn/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jjxwaltzin", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jjxwaltzin/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/eating_breakfast/,/c/en/food/]", 
+            "surfaceText": "[[eating breakfast]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eating", 
+                "@id": "/c/en/eating", 
+                "language": "en", 
+                "label": "eating"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/offspring", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/offspring/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kingjo", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kingjo/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/yahma", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/yahma/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/eating/,/c/en/food/]", 
+            "surfaceText": "[[eating]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eating_dinner", 
+                "@id": "/c/en/eating_dinner", 
+                "language": "en", 
+                "label": "eating dinner"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jbcobb", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jbcobb/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/joy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/joy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/eating_dinner/,/c/en/food/]", 
+            "surfaceText": "[[eating dinner]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/having_lunch", 
+                "@id": "/c/en/having_lunch", 
+                "language": "en", 
+                "label": "having lunch"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/motev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/paulmcq2", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/paulmcq2/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/zenkatz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/having_lunch/,/c/en/food/]", 
+            "surfaceText": "[[having lunch]] requires [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/both_muffins_and_celery", 
+                "@id": "/c/en/both_muffins_and_celery", 
+                "language": "en", 
+                "label": "both muffins and celery"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/glenbrowning", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glenbrowning/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jsmarr", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jsmarr/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/both_muffins_and_celery/,/c/en/food/]", 
+            "surfaceText": "[[both muffins and celery]] are [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/both_salad_and_pizza", 
+                "@id": "/c/en/both_salad_and_pizza", 
+                "language": "en", 
+                "label": "both salad and pizza"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/glenbrowning", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glenbrowning/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/wwight", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wwight/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/both_salad_and_pizza/,/c/en/food/]", 
+            "surfaceText": "[[both salad and pizza]] are [[food]]"
+        }
+    ], 
+    "@id": "/c/en/food", 
+    "view": {
+        "previousPage": "/c/en/food?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/food?offset=40&limit=20", 
+        "nextPage": "/c/en/food?offset=60&limit=20", 
+        "firstPage": "/c/en/food?offset=0&limit=20"
+    }
+}

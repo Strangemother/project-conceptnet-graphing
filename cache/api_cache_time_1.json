@@ -1,0 +1,820 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/linear_concept", 
+                "@id": "/c/en/linear_concept", 
+                "language": "en", 
+                "label": "a linear concept"
+            }, 
+            "weight": 4.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/is_a_cleanup"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/lildeerpaw", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lildeerpaw/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/norbertw", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/norbertw/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/razorron", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/razorron/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/time/,/c/en/linear_concept/]", 
+            "surfaceText": "[[time]] is [[a linear concept]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.8110366043899395, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/age", 
+                "@id": "/c/en/age", 
+                "language": "en", 
+                "label": "age"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/age/,/c/en/time/]", 
+            "surfaceText": "[[age]] is related to [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.6518488468171846, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ago", 
+                "@id": "/c/en/ago", 
+                "language": "en", 
+                "label": "ago"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ago/,/c/en/time/]", 
+            "surfaceText": "[[ago]] is related to [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/measure", 
+                "@id": "/c/en/measure", 
+                "language": "en", 
+                "label": "measure"
+            }, 
+            "weight": 3.5743530883224164, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/time/,/c/en/measure/]", 
+            "surfaceText": "[[time]] is related to [[measure]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/going_to_play", 
+                "@id": "/c/en/going_to_play", 
+                "language": "en", 
+                "label": "going to a play"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/fatih", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fatih/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/moncho1957", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/going_to_play/,/c/en/time/]", 
+            "surfaceText": "[[going to a play]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/watching_movie", 
+                "@id": "/c/en/watching_movie", 
+                "language": "en", 
+                "label": "watching a movie"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/grok", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/grok/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/manauser", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/manauser/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/neqsus", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/neqsus/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/watching_movie/,/c/en/time/]", 
+            "surfaceText": "[[watching a movie]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/not_money", 
+                "@id": "/c/en/not_money", 
+                "language": "en", 
+                "label": "not money"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "Time"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jerryageorge", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jerryageorge/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mvdh", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mvdh/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/smtango", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/smtango/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/time/,/c/en/not_money/]", 
+            "surfaceText": "[[Time]] is [[not money]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.4641016151377544, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/watch", 
+                "@id": "/c/en/watch", 
+                "language": "en", 
+                "label": "a watch"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jeffmuir", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/stanley", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stanley/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/watch/,/c/en/time/]", 
+            "surfaceText": "[[a watch]] is used for [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hour", 
+                "@id": "/c/en/hour", 
+                "language": "en", 
+                "label": "hour"
+            }, 
+            "weight": 3.3609522460160015, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/time/,/c/en/hour/]", 
+            "surfaceText": "[[time]] is related to [[hour]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 3.2869438693108215, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/now", 
+                "@id": "/c/en/now", 
+                "language": "en", 
+                "label": "now"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/now/,/c/en/time/]", 
+            "surfaceText": "[[now]] is related to [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.9806039656418637, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/moment", 
+                "@id": "/c/en/moment", 
+                "language": "en", 
+                "label": "moment"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/moment/,/c/en/time/]", 
+            "surfaceText": "[[moment]] is related to [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/having_lunch", 
+                "@id": "/c/en/having_lunch", 
+                "language": "en", 
+                "label": "having lunch"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/zorluhan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zorluhan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/googoo", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/googoo/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/having_lunch/,/c/en/time/]", 
+            "surfaceText": "[[having lunch]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/helping", 
+                "@id": "/c/en/helping", 
+                "language": "en", 
+                "label": "helping someone"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nancyfay", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/razzbaronz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/razzbaronz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/helping/,/c/en/time/]", 
+            "surfaceText": "[[helping someone]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/reading_newspaper", 
+                "@id": "/c/en/reading_newspaper", 
+                "language": "en", 
+                "label": "reading a newspaper"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cralize", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cralize/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mif", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mif/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/reading_newspaper/,/c/en/time/]", 
+            "surfaceText": "[[reading a newspaper]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/telling_story", 
+                "@id": "/c/en/telling_story", 
+                "language": "en", 
+                "label": "telling a story"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/syadasti", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/syadasti/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/amy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/telling_story/,/c/en/time/]", 
+            "surfaceText": "[[telling a story]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/waiting_in_line", 
+                "@id": "/c/en/waiting_in_line", 
+                "language": "en", 
+                "label": "waiting in line"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/danielehr", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/danielehr/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/waiting_in_line/,/c/en/time/]", 
+            "surfaceText": "[[waiting in line]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/waiting_on_line", 
+                "@id": "/c/en/waiting_on_line", 
+                "language": "en", 
+                "label": "waiting on line"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/danielehr", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/danielehr/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/waiting_on_line/,/c/en/time/]", 
+            "surfaceText": "[[waiting on line]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "time"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/walking_around_lake", 
+                "@id": "/c/en/walking_around_lake", 
+                "language": "en", 
+                "label": "walking around a lake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/austin0420", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/austin0420/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/rguptatx", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rguptatx/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/walking_around_lake/,/c/en/time/]", 
+            "surfaceText": "[[walking around a lake]] requires [[time]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/running", 
+                "@id": "/c/en/running", 
+                "language": "en", 
+                "label": "running"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "the time"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/imanzano", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/imanzano/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/egalon", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/egalon/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/ragewinter", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ragewinter/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sarabaci", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarabaci/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/time/,/c/en/running/]", 
+            "surfaceText": "[[the time]] is [[running]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/measurement", 
+                "@id": "/c/en/measurement", 
+                "language": "en", 
+                "label": "a measurement"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/time", 
+                "@id": "/c/en/time", 
+                "language": "en", 
+                "label": "Time"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mcflaco", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mcflaco/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jeffmuir", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kevinmogee", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kevinmogee/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/time/,/c/en/measurement/]", 
+            "surfaceText": "[[Time]] is [[a measurement]]"
+        }
+    ], 
+    "@id": "/c/en/time", 
+    "view": {
+        "previousPage": "/c/en/time?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/time?offset=20&limit=20", 
+        "nextPage": "/c/en/time?offset=40&limit=20", 
+        "firstPage": "/c/en/time?offset=0&limit=20"
+    }
+}

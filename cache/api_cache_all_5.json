@@ -1,0 +1,613 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/none", 
+                "@id": "/c/en/none", 
+                "language": "en", 
+                "label": "none"
+            }, 
+            "weight": 1.104, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/all/,/c/en/none/]", 
+            "surfaceText": "[[all]] is related to [[none]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/nothing", 
+                "@id": "/c/en/nothing", 
+                "language": "en", 
+                "label": "nothing"
+            }, 
+            "weight": 1.0019999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/all/,/c/en/nothing/]", 
+            "surfaceText": "[[all]] is the opposite of [[nothing]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/none/n", 
+                "term": "/c/en/none", 
+                "language": "en", 
+                "label": "none"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/none/n/,/c/en/all/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hope_for_better", 
+                "@id": "/c/en/hope_for_better", 
+                "language": "en", 
+                "label": "hope for something better"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "All"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/all/,/c/en/hope_for_better/]", 
+            "surfaceText": "[[All]] can [[hope for something better]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/la/nemo/n", 
+                "term": "/c/la/nemo", 
+                "language": "la", 
+                "label": "nemo"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/all/,/c/la/nemo/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/300523527-s", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/300523527-s", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "300523527-s"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/all/a", 
+                "term": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/a/,/http://wordnet-rdf.princeton.edu/wn31/300523527-s/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/302277044-a", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/302277044-a", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "302277044-a"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/all/a", 
+                "term": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/a/,/http://wordnet-rdf.princeton.edu/wn31/302277044-a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+bark+and+no+bite-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+bark+and+no+bite-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+bark+and+no+bite-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/all+bark+and+no+bite-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+dressed+up+and+nowhere+to+go-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+dressed+up+and+nowhere+to+go-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+dressed+up+and+nowhere+to+go-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/all+dressed+up+and+nowhere+to+go-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+hell+broke+loose-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+hell+broke+loose-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+hell+broke+loose-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/all+hell+broke+loose-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+roads+lead+to+rome-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+roads+lead+to+rome-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+roads+lead+to+rome-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/all+roads+lead+to+rome-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-1", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-1", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+your+eggs+in+one+basket-p#Component-1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-5", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-5", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "a+rising+tide+lifts+all+boats-p#Component-5"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/a+rising+tide+lifts+all+boats-p#Component-5/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/cover+all+the+bases-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/cover+all+the+bases-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "cover+all+the+bases-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/cover+all+the+bases-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/hold+all+the+aces-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/hold+all+the+aces-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "hold+all+the+aces-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/hold+all+the+aces-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/pull+out+all+the+stops-p#Component-3", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/pull+out+all+the+stops-p#Component-3", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "pull+out+all+the+stops-p#Component-3"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/pull+out+all+the+stops-p#Component-3/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-2", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-2", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "put+all+your+eggs+in+one+basket-p#Component-2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/all/,/http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/al", 
+                "@id": "/c/en/al", 
+                "language": "en", 
+                "label": "al"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/al/,/c/en/all/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/and_all", 
+                "@id": "/c/en/and_all", 
+                "language": "en", 
+                "label": "and all"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/all/r", 
+                "term": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/all/r/,/c/en/and_all/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/all", 
+                "@id": "/c/en/all", 
+                "language": "en", 
+                "label": "all"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/alls/n", 
+                "term": "/c/en/alls", 
+                "language": "en", 
+                "label": "alls"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/alls/n/,/c/en/all/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/all", 
+    "view": {
+        "previousPage": "/c/en/all?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/all?offset=100&limit=20", 
+        "nextPage": "/c/en/all?offset=120&limit=20", 
+        "firstPage": "/c/en/all?offset=0&limit=20"
+    }
+}

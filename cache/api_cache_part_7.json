@@ -1,0 +1,651 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/component", 
+                "@id": "/c/en/component", 
+                "language": "en", 
+                "label": "component"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/component/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/contribution/n", 
+                "term": "/c/en/contribution", 
+                "language": "en", 
+                "label": "contribution"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/contribution/n/]", 
+            "surfaceText": "[[part]] is a synonym of [[contribution]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/faction", 
+                "@id": "/c/en/faction", 
+                "language": "en", 
+                "label": "faction"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/faction/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/function/n", 
+                "term": "/c/en/function", 
+                "language": "en", 
+                "label": "function"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/function/n/]", 
+            "surfaceText": "[[part]] is a synonym of [[function]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/piece/n", 
+                "term": "/c/en/piece", 
+                "language": "en", 
+                "label": "piece"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/piece/n/]", 
+            "surfaceText": "[[part]] is a synonym of [[piece]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/region/n", 
+                "term": "/c/en/region", 
+                "language": "en", 
+                "label": "region"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/region/n/]", 
+            "surfaceText": "[[part]] is a synonym of [[region]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/role", 
+                "@id": "/c/en/role", 
+                "language": "en", 
+                "label": "role"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/role/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/share/n", 
+                "term": "/c/en/share", 
+                "language": "en", 
+                "label": "share"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/n/,/c/en/share/n/]", 
+            "surfaceText": "[[part]] is a synonym of [[share]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/partially/r", 
+                "term": "/c/en/partially", 
+                "language": "en", 
+                "label": "partially"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/part/r", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/r/,/c/en/partially/r/]", 
+            "surfaceText": "[[part]] is a synonym of [[partially]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/depart/v", 
+                "term": "/c/en/depart", 
+                "language": "en", 
+                "label": "depart"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/part/v", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/v/,/c/en/depart/v/]", 
+            "surfaceText": "[[part]] is a synonym of [[depart]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/separate/v", 
+                "term": "/c/en/separate", 
+                "language": "en", 
+                "label": "separate"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/part/v", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/part/v/,/c/en/separate/v/]", 
+            "surfaceText": "[[part]] is a synonym of [[separate]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/piece/n", 
+                "term": "/c/en/piece", 
+                "language": "en", 
+                "label": "piece"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/piece/n/,/c/en/part/n/]", 
+            "surfaceText": "[[piece]] is a synonym of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/portion/n", 
+                "term": "/c/en/portion", 
+                "language": "en", 
+                "label": "portion"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/portion/n/,/c/en/part/n/]", 
+            "surfaceText": "[[portion]] is a synonym of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/section/n", 
+                "term": "/c/en/section", 
+                "language": "en", 
+                "label": "section"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/section/n/,/c/en/part/n/]", 
+            "surfaceText": "[[section]] is a synonym of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/voice/n", 
+                "term": "/c/en/voice", 
+                "language": "en", 
+                "label": "voice"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/voice/n/,/c/en/part/n/]", 
+            "surfaceText": "[[voice]] is a synonym of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/componente/n", 
+                "term": "/c/es/componente", 
+                "language": "es", 
+                "label": "componente"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/componente/n/,/c/en/part/n/]", 
+            "surfaceText": "[[componente]] is a translation of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/divisi\u00f3n/n", 
+                "term": "/c/es/divisi\u00f3n", 
+                "language": "es", 
+                "label": "divisi\u00f3n"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/divisi\u00f3n/n/,/c/en/part/n/]", 
+            "surfaceText": "[[divisi\u00f3n]] is a translation of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/parte/n", 
+                "term": "/c/es/parte", 
+                "language": "es", 
+                "label": "parte"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/parte/n/,/c/en/part/n/]", 
+            "surfaceText": "[[parte]] is a translation of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/pedazo/n", 
+                "term": "/c/es/pedazo", 
+                "language": "es", 
+                "label": "pedazo"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/pedazo/n/,/c/en/part/n/]", 
+            "surfaceText": "[[pedazo]] is a translation of [[part]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/part/n", 
+                "term": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/es/porci\u00f3n/n", 
+                "term": "/c/es/porci\u00f3n", 
+                "language": "es", 
+                "label": "porci\u00f3n"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/porci\u00f3n/n/,/c/en/part/n/]", 
+            "surfaceText": "[[porci\u00f3n]] is a translation of [[part]]"
+        }
+    ], 
+    "@id": "/c/en/part", 
+    "view": {
+        "previousPage": "/c/en/part?offset=120&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/part?offset=140&limit=20", 
+        "nextPage": "/c/en/part?offset=160&limit=20", 
+        "firstPage": "/c/en/part?offset=0&limit=20"
+    }
+}

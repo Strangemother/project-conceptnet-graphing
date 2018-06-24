@@ -1,0 +1,698 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/look", 
+                "@id": "/c/en/look", 
+                "language": "en", 
+                "label": "look"
+            }, 
+            "weight": 2.011964214393487, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/look/]", 
+            "surfaceText": "[[window]] is related to [[look]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/space_shuttle", 
+                "@id": "/c/en/space_shuttle", 
+                "language": "en", 
+                "label": "the space shuttle"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/hayalci", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hayalci/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/space_shuttle/]", 
+            "surfaceText": "*Something you find in [[the space shuttle]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/wall", 
+                "@id": "/c/en/wall", 
+                "language": "en", 
+                "label": "a wall"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kunarp", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kunarp/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/zenkatz", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/wall/]", 
+            "surfaceText": "You are likely to find [[a window]] in [[a wall]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/french_window", 
+                "@id": "/c/en/french_window", 
+                "language": "en", 
+                "label": "french window"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/french_window/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/judas_window", 
+                "@id": "/c/en/judas_window", 
+                "language": "en", 
+                "label": "judas window"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/judas_window/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_bar", 
+                "@id": "/c/en/window_bar", 
+                "language": "en", 
+                "label": "window bar"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_bar/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_blind", 
+                "@id": "/c/en/window_blind", 
+                "language": "en", 
+                "label": "window blind"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_blind/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_box", 
+                "@id": "/c/en/window_box", 
+                "language": "en", 
+                "label": "window box"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_box/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_dressing", 
+                "@id": "/c/en/window_dressing", 
+                "language": "en", 
+                "label": "window dressing"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_dressing/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/windowed", 
+                "@id": "/c/en/windowed", 
+                "language": "en", 
+                "label": "windowed"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/windowed/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_frame", 
+                "@id": "/c/en/window_frame", 
+                "language": "en", 
+                "label": "window frame"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_frame/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_glass", 
+                "@id": "/c/en/window_glass", 
+                "language": "en", 
+                "label": "window glass"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_glass/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/windowless", 
+                "@id": "/c/en/windowless", 
+                "language": "en", 
+                "label": "windowless"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/windowless/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_pane", 
+                "@id": "/c/en/window_pane", 
+                "language": "en", 
+                "label": "window pane"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_pane/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_shopping", 
+                "@id": "/c/en/window_shopping", 
+                "language": "en", 
+                "label": "window shopping"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_shopping/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/window_sill", 
+                "@id": "/c/en/window_sill", 
+                "language": "en", 
+                "label": "window sill"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/window_sill/,/c/en/window/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/computer_science/n", 
+                "term": "/c/en/computer_science", 
+                "language": "en", 
+                "label": "computer science"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/window/n/,/c/en/computer_science/n/]", 
+            "surfaceText": "[[window]] is used in the context of [[computer science]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/car_window/n", 
+                "term": "/c/en/car_window", 
+                "language": "en", 
+                "label": "car window"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/car_window/n/,/c/en/window/n/]", 
+            "surfaceText": "[[car window]] is a type of [[window]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/casement_window/n", 
+                "term": "/c/en/casement_window", 
+                "language": "en", 
+                "label": "casement window"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/casement_window/n/,/c/en/window/n/]", 
+            "surfaceText": "[[casement window]] is a type of [[window]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/window/n", 
+                "term": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/clerestory/n", 
+                "term": "/c/en/clerestory", 
+                "language": "en", 
+                "label": "clerestory"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/clerestory/n/,/c/en/window/n/]", 
+            "surfaceText": "[[clerestory]] is a type of [[window]]"
+        }
+    ], 
+    "@id": "/c/en/window", 
+    "view": {
+        "previousPage": "/c/en/window?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/window?offset=40&limit=20", 
+        "nextPage": "/c/en/window?offset=60&limit=20", 
+        "firstPage": "/c/en/window?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,620 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/stems", 
+                "@id": "/c/en/stems", 
+                "language": "en", 
+                "label": "stems"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/socrates", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/apples/,/c/en/stems/]", 
+            "surfaceText": "[[Apples]] have [[stems]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/australian", 
+                "@id": "/c/en/australian", 
+                "language": "en", 
+                "label": "australian"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/apples/n/,/c/en/australian/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/australian_rhyming_slang", 
+                "@id": "/c/en/australian_rhyming_slang", 
+                "language": "en", 
+                "label": "australian rhyming slang"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/apples/n/,/c/en/australian_rhyming_slang/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cockney_rhyming_slang", 
+                "@id": "/c/en/cockney_rhyming_slang", 
+                "language": "en", 
+                "label": "cockney rhyming slang"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/apples/n/,/c/en/cockney_rhyming_slang/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/slang", 
+                "@id": "/c/en/slang", 
+                "language": "en", 
+                "label": "slang"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/apples/n/,/c/en/slang/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/about_as_big_as_baseballs", 
+                "@id": "/c/en/about_as_big_as_baseballs", 
+                "language": "en", 
+                "label": "about as big as baseballs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/socrates", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/about_as_big_as_baseballs/]", 
+            "surfaceText": "[[Apples]] are [[about as big as baseballs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/edible", 
+                "@id": "/c/en/edible", 
+                "language": "en", 
+                "label": "edible"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cocoloco", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cocoloco/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/edible/]", 
+            "surfaceText": "[[apples]] are [[edible]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/green", 
+                "@id": "/c/en/green", 
+                "language": "en", 
+                "label": "green"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/green/]", 
+            "surfaceText": "[[Apples]] can be [[green]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_and_green_and_ripe", 
+                "@id": "/c/en/red_and_green_and_ripe", 
+                "language": "en", 
+                "label": "red and green and be ripe"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/red_and_green_and_ripe/]", 
+            "surfaceText": "[[apples]] can be [[red and green and be ripe]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_yellow_or_green", 
+                "@id": "/c/en/red_yellow_or_green", 
+                "language": "en", 
+                "label": "red, yellow, or green"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kat23a", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kat23a/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/red_yellow_or_green/]", 
+            "surfaceText": "[[Apples]] are [[red, yellow, or green]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_yellow_or_green_in_color", 
+                "@id": "/c/en/red_yellow_or_green_in_color", 
+                "language": "en", 
+                "label": "red, yellow or green in color"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rosa", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rosa/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/red_yellow_or_green_in_color/]", 
+            "surfaceText": "[[Apples]] can be [[red, yellow or green in color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/small_enough_to_carry_by_hand", 
+                "@id": "/c/en/small_enough_to_carry_by_hand", 
+                "language": "en", 
+                "label": "small enough to carry by hand"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/socrates", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/small_enough_to_carry_by_hand/]", 
+            "surfaceText": "[[Apples]] are [[small enough to carry by hand]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sweet_or_sour", 
+                "@id": "/c/en/sweet_or_sour", 
+                "language": "en", 
+                "label": "sweet or sour"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dashro", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/sweet_or_sour/]", 
+            "surfaceText": "[[Apples]] can be [[sweet or sour]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/yellow_green_and_red", 
+                "@id": "/c/en/yellow_green_and_red", 
+                "language": "en", 
+                "label": "yellow, green and red"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pieter", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pieter/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/apples/,/c/en/yellow_green_and_red/]", 
+            "surfaceText": "[[apples]] can be [[yellow, green and red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/best", 
+                "@id": "/c/en/best", 
+                "language": "en", 
+                "label": "best"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dometrent", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dometrent/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/best/]", 
+            "surfaceText": "[[apples]] are [[best]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/computers", 
+                "@id": "/c/en/computers", 
+                "language": "en", 
+                "label": "computers"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/techclerk", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/techclerk/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/computers/]", 
+            "surfaceText": "[[Apples]] are [[computers]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/crunchy", 
+                "@id": "/c/en/crunchy", 
+                "language": "en", 
+                "label": "crunchy"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/robinwood", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/robinwood/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/crunchy/]", 
+            "surfaceText": "[[apples]] are [[crunchy]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/not_oranges_nor_lemons", 
+                "@id": "/c/en/not_oranges_nor_lemons", 
+                "language": "en", 
+                "label": "not oranges, nor are they lemons"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cracked", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cracked/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/not_oranges_nor_lemons/]", 
+            "surfaceText": "[[Apples]] are [[not oranges, nor are they lemons]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple_juice", 
+                "@id": "/c/en/apple_juice", 
+                "language": "en", 
+                "label": "apple juice"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sebastianwrell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MadeOf", 
+                "label": "MadeOf"
+            }, 
+            "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
+            "surfaceText": "[[apple juice]] is made of [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/play_poker", 
+                "@id": "/c/en/play_poker", 
+                "language": "en", 
+                "label": "play poker"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "Apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/tlin", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/NotCapableOf", 
+                "label": "NotCapableOf"
+            }, 
+            "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
+            "surfaceText": "[[Apples]] do not [[play poker]]"
+        }
+    ], 
+    "@id": "/c/en/apples", 
+    "view": {
+        "previousPage": "/c/en/apples?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/apples?offset=20&limit=20", 
+        "nextPage": "/c/en/apples?offset=40&limit=20", 
+        "firstPage": "/c/en/apples?offset=0&limit=20"
+    }
+}

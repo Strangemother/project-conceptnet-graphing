@@ -1,0 +1,622 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/us", 
+                "@id": "/c/en/us", 
+                "language": "en", 
+                "label": "us"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/n/,/c/en/us/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/text_messaging", 
+                "@id": "/c/en/text_messaging", 
+                "language": "en", 
+                "label": "text messaging"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/2/r", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/2/r/,/c/en/text_messaging/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/spelled_two", 
+                "@id": "/c/en/spelled_two", 
+                "language": "en", 
+                "label": "spelled two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "\"2\""
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/2/,/c/en/spelled_two/]", 
+            "surfaceText": "[[\"2\"]] is [[spelled two]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/2/,/c/en/two/]", 
+            "surfaceText": "[[2]] is [[two]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colinreid", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colinreid/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/two/,/c/en/2/]", 
+            "surfaceText": "[[two]] is [[2]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/de/character", 
+                "@id": "/c/de/character", 
+                "language": "de", 
+                "label": "character"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/2/,/c/de/character/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/higher_number_than_1", 
+                "@id": "/c/en/higher_number_than_1", 
+                "language": "en", 
+                "label": "a higher number than 1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pooua", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/2/,/c/en/higher_number_than_1/]", 
+            "surfaceText": "[[2]] is [[a higher number than 1]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/number", 
+                "@id": "/c/en/number", 
+                "language": "en", 
+                "label": "a number"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mark", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/2/,/c/en/number/]", 
+            "surfaceText": "[[2]] is [[a number]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/prime_number", 
+                "@id": "/c/en/prime_number", 
+                "language": "en", 
+                "label": "a prime number"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/effendi", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/effendi/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/2/,/c/en/prime_number/]", 
+            "surfaceText": "[[2]] is [[a prime number]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/inorganic_substance/n", 
+                "term": "/c/en/inorganic_substance", 
+                "language": "en", 
+                "label": "inorganic substance"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/2/n/,/c/en/inorganic_substance/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05ea\u05e8\u05d9", 
+                "@id": "/c/arc/\u05ea\u05e8\u05d9", 
+                "language": "arc", 
+                "label": "\u05ea\u05e8\u05d9"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05ea\u05e8\u05d9/,/c/en/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05ea\u05e8\u05ea\u05d9", 
+                "@id": "/c/arc/\u05ea\u05e8\u05ea\u05d9", 
+                "language": "arc", 
+                "label": "\u05ea\u05e8\u05ea\u05d9"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05ea\u05e8\u05ea\u05d9/,/c/en/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/0", 
+                "@id": "/c/en/0", 
+                "language": "en", 
+                "label": "0"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/0/,/c/en/2/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/1", 
+                "@id": "/c/en/1", 
+                "language": "en", 
+                "label": "1"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/2/a", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/a/,/c/en/1/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/deux", 
+                "@id": "/c/fr/deux", 
+                "language": "fr", 
+                "label": "deux"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/2/a", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/a/,/c/fr/deux/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/4", 
+                "@id": "/c/en/4", 
+                "language": "en", 
+                "label": "4"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/,/c/en/4/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/8", 
+                "@id": "/c/en/8", 
+                "language": "en", 
+                "label": "8"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/,/c/en/8/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/conversion", 
+                "@id": "/c/en/conversion", 
+                "language": "en", 
+                "label": "conversion"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/,/c/en/conversion/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/format", 
+                "@id": "/c/en/format", 
+                "language": "en", 
+                "label": "format"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/2", 
+                "@id": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/,/c/en/format/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/deux", 
+                "@id": "/c/fr/deux", 
+                "language": "fr", 
+                "label": "deux"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/2/n", 
+                "term": "/c/en/2", 
+                "language": "en", 
+                "label": "2"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/2/n/,/c/fr/deux/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/2", 
+    "view": {
+        "previousPage": "/c/en/2?offset=20&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/2?offset=40&limit=20", 
+        "nextPage": "/c/en/2?offset=60&limit=20", 
+        "firstPage": "/c/en/2?offset=0&limit=20"
+    }
+}

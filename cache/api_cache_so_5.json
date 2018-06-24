@@ -1,0 +1,629 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/zh/\u90a3\u9ebc\u6a23/r", 
+                "term": "/c/zh/\u90a3\u9ebc\u6a23", 
+                "language": "zh", 
+                "label": "\u90a3\u9ebc\u6a23"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u90a3\u9ebc\u6a23/r/,/c/en/so/r/]", 
+            "surfaceText": "[[\u90a3\u9ebc\u6a23]] is a translation of [[so]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/get_to", 
+                "@id": "/c/en/get_to", 
+                "language": "en", 
+                "label": "get to"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/so", 
+                "@id": "/c/en/so", 
+                "language": "en", 
+                "label": "so you"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mccarthy10", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mccarthy10/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/so/,/c/en/get_to/]", 
+            "surfaceText": "[[so you]] can [[get to]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/so/a", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/make_it_so", 
+                "@id": "/c/en/make_it_so", 
+                "language": "en", 
+                "label": "make it so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/make_it_so/,/c/en/so/a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/so/a", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/more_so", 
+                "@id": "/c/en/more_so", 
+                "language": "en", 
+                "label": "more so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/more_so/,/c/en/so/a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/or_so", 
+                "@id": "/c/en/or_so", 
+                "language": "en", 
+                "label": "or so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/or_so/,/c/en/so/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/shootout/n", 
+                "term": "/c/en/shootout", 
+                "language": "en", 
+                "label": "shootout"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/so", 
+                "@id": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/so/,/c/en/shootout/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/shutout/n", 
+                "term": "/c/en/shutout", 
+                "language": "en", 
+                "label": "shutout"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/so", 
+                "@id": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/so/,/c/en/shutout/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/so_so", 
+                "@id": "/c/en/so_so", 
+                "language": "en", 
+                "label": "so so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/so_so/,/c/en/so/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/so_there", 
+                "@id": "/c/en/so_there", 
+                "language": "en", 
+                "label": "so there"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/so_there/,/c/en/so/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/so_what", 
+                "@id": "/c/en/so_what", 
+                "language": "en", 
+                "label": "so what"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/so_what/,/c/en/so/r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400119259-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400119259-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400119259-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400119259-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400147630-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400147630-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400147630-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400147630-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400147799-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400147799-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400147799-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400147799-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400147962-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400147962-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400147962-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400147962-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400148162-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400148162-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400148162-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400148162-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/400148308-r", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/400148308-r", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "400148308-r"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "r", 
+                "@id": "/c/en/so/r", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/so/r/,/http://wordnet-rdf.princeton.edu/wn31/400148308-r/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/so", 
+                "@id": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/soh/n", 
+                "term": "/c/en/soh", 
+                "language": "en", 
+                "label": "soh"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/soh/n/,/c/en/so/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/slang", 
+                "@id": "/c/en/slang", 
+                "language": "en", 
+                "label": "slang"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/so/a", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/so/a/,/c/en/slang/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/uk", 
+                "@id": "/c/en/uk", 
+                "language": "en", 
+                "label": "uk"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/so/a", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/so/a/,/c/en/uk/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/music", 
+                "@id": "/c/en/music", 
+                "language": "en", 
+                "label": "music"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/so/n", 
+                "term": "/c/en/so", 
+                "language": "en", 
+                "label": "so"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/so/n/,/c/en/music/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/so", 
+    "view": {
+        "previousPage": "/c/en/so?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/so?offset=100&limit=20", 
+        "nextPage": "/c/en/so?offset=120&limit=20", 
+        "firstPage": "/c/en/so?offset=0&limit=20"
+    }
+}

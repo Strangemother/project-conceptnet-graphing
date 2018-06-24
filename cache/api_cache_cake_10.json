@@ -1,0 +1,633 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/rise_thanks_to_yeast", 
+                "@id": "/c/en/rise_thanks_to_yeast", 
+                "language": "en", 
+                "label": "rise thanks to the yeast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "The cake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/friscojohn", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/cake/,/c/en/rise_thanks_to_yeast/]", 
+            "surfaceText": "[[The cake]] can [[rise thanks to the yeast]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/baking_cake", 
+                "@id": "/c/en/baking_cake", 
+                "language": "en", 
+                "label": "baking a cake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/madhu008", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/madhu008/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Causes", 
+                "label": "Causes"
+            }, 
+            "@id": "/a/[/r/Causes/,/c/en/baking_cake/,/c/en/cake/]", 
+            "surfaceText": "Something that might happen as a consequence of [[baking a cake]] is [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/baking", 
+                "@id": "/c/en/baking", 
+                "language": "en", 
+                "label": "baking it"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "language": "en", 
+                "label": "a cake"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/administrative_fiat/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/administrative_fiat"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CreatedBy", 
+                "label": "CreatedBy"
+            }, 
+            "@id": "/a/[/r/CreatedBy/,/c/en/cake/,/c/en/baking/]", 
+            "surfaceText": "[[a cake]] is created by [[baking it]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ague_cake", 
+                "@id": "/c/en/ague_cake", 
+                "language": "en", 
+                "label": "ague cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/ague_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/angel_cake", 
+                "@id": "/c/en/angel_cake", 
+                "language": "en", 
+                "label": "angel cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/angel_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/angel_food_cake", 
+                "@id": "/c/en/angel_food_cake", 
+                "language": "en", 
+                "label": "angel food cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/angel_food_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ash_cake", 
+                "@id": "/c/en/ash_cake", 
+                "language": "en", 
+                "label": "ash cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/ash_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/ashcake", 
+                "@id": "/c/en/ashcake", 
+                "language": "en", 
+                "label": "ashcake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/ashcake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/baked_in_cake", 
+                "@id": "/c/en/baked_in_cake", 
+                "language": "en", 
+                "label": "baked in cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/baked_in_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/banbury_cake", 
+                "@id": "/c/en/banbury_cake", 
+                "language": "en", 
+                "label": "banbury cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/banbury_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/barm_cake", 
+                "@id": "/c/en/barm_cake", 
+                "language": "en", 
+                "label": "barm cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/barm_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/battenburg_cake", 
+                "@id": "/c/en/battenburg_cake", 
+                "language": "en", 
+                "label": "battenburg cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/battenburg_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/batter_cake", 
+                "@id": "/c/en/batter_cake", 
+                "language": "en", 
+                "label": "batter cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/batter_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/battercake", 
+                "@id": "/c/en/battercake", 
+                "language": "en", 
+                "label": "battercake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/battercake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/beefcake", 
+                "@id": "/c/en/beefcake", 
+                "language": "en", 
+                "label": "beefcake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/beefcake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/birthday_cake", 
+                "@id": "/c/en/birthday_cake", 
+                "language": "en", 
+                "label": "birthday cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/birthday_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bridecake", 
+                "@id": "/c/en/bridecake", 
+                "language": "en", 
+                "label": "bridecake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/bridecake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bundt_cake", 
+                "@id": "/c/en/bundt_cake", 
+                "language": "en", 
+                "label": "bundt cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/bundt_cake/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/cake_bar", 
+                "@id": "/c/en/cake_bar", 
+                "language": "en", 
+                "label": "cake bar"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/cake_bar/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cake/n", 
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/cake_bread", 
+                "@id": "/c/en/cake_bread", 
+                "language": "en", 
+                "label": "cake bread"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/cake_bread/,/c/en/cake/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/cake", 
+    "view": {
+        "previousPage": "/c/en/cake?offset=180&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/cake?offset=200&limit=20", 
+        "nextPage": "/c/en/cake?offset=220&limit=20", 
+        "firstPage": "/c/en/cake?offset=0&limit=20"
+    }
+}

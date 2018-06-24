@@ -1,0 +1,647 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/glass_panes", 
+                "@id": "/c/en/glass_panes", 
+                "language": "en", 
+                "label": "glass panes"
+            }, 
+            "weight": 1.9139999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/glass_panes/]", 
+            "surfaceText": "[[window]] is related to [[glass panes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 1.9129999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/shutter", 
+                "@id": "/c/en/shutter", 
+                "language": "en", 
+                "label": "shutter"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/shutter/,/c/en/window/]", 
+            "surfaceText": "[[shutter]] is related to [[window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sill", 
+                "@id": "/c/en/sill", 
+                "language": "en", 
+                "label": "sill"
+            }, 
+            "weight": 1.9030000000000005, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/sill/]", 
+            "surfaceText": "[[window]] is related to [[sill]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/walls", 
+                "@id": "/c/en/walls", 
+                "language": "en", 
+                "label": "walls"
+            }, 
+            "weight": 1.8859999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/walls/]", 
+            "surfaceText": "[[window]] is related to [[walls]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/glass_opening", 
+                "@id": "/c/en/glass_opening", 
+                "language": "en", 
+                "label": "glass opening"
+            }, 
+            "weight": 1.8159999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/glass_opening/]", 
+            "surfaceText": "[[window]] is related to [[glass opening]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/frame", 
+                "@id": "/c/en/frame", 
+                "language": "en", 
+                "label": "frame"
+            }, 
+            "weight": 1.815, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/frame/]", 
+            "surfaceText": "[[window]] is related to [[frame]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/house_opening", 
+                "@id": "/c/en/house_opening", 
+                "language": "en", 
+                "label": "house opening"
+            }, 
+            "weight": 1.721, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/house_opening/]", 
+            "surfaceText": "[[window]] is related to [[house opening]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 1.54, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/door", 
+                "@id": "/c/en/door", 
+                "language": "en", 
+                "label": "door"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/door/,/c/en/window/]", 
+            "surfaceText": "[[door]] is the opposite of [[window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/looking_out", 
+                "@id": "/c/en/looking_out", 
+                "language": "en", 
+                "label": "looking out"
+            }, 
+            "weight": 1.501, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/looking_out/]", 
+            "surfaceText": "[[window]] is related to [[looking out]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 1.5, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/zh/\u7a97", 
+                "@id": "/c/zh/\u7a97", 
+                "language": "zh", 
+                "label": "\u7a97"
+            }, 
+            "dataset": "/d/cc_cedict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/cc_cedict/2017-10", 
+                    "@id": "/s/resource/cc_cedict/2017-10"
+                }, 
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u7a97/,/c/en/window/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "weight": 1.48, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pane", 
+                "@id": "/c/en/pane", 
+                "language": "en", 
+                "label": "pane"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pane/,/c/en/window/]", 
+            "surfaceText": "[[pane]] is related to [[window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/transparent", 
+                "@id": "/c/en/transparent", 
+                "language": "en", 
+                "label": "transparent"
+            }, 
+            "weight": 1.412, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/transparent/]", 
+            "surfaceText": "[[window]] is related to [[transparent]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/view", 
+                "@id": "/c/en/view", 
+                "language": "en", 
+                "label": "view"
+            }, 
+            "weight": 1.3969999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/view/]", 
+            "surfaceText": "[[window]] is related to [[view]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/part", 
+                "@id": "/c/en/part", 
+                "language": "en", 
+                "label": "part"
+            }, 
+            "weight": 1.294, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/part/]", 
+            "surfaceText": "[[window]] is related to [[part]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/seeing", 
+                "@id": "/c/en/seeing", 
+                "language": "en", 
+                "label": "seeing"
+            }, 
+            "weight": 1.2839999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/seeing/]", 
+            "surfaceText": "[[window]] is related to [[seeing]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/look_through", 
+                "@id": "/c/en/look_through", 
+                "language": "en", 
+                "label": "look through"
+            }, 
+            "weight": 1.166, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/look_through/]", 
+            "surfaceText": "[[window]] is related to [[look through]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/wall_hole", 
+                "@id": "/c/en/wall_hole", 
+                "language": "en", 
+                "label": "wall hole"
+            }, 
+            "weight": 1.158, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/wall_hole/]", 
+            "surfaceText": "[[window]] is related to [[wall hole]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/in_house", 
+                "@id": "/c/en/in_house", 
+                "language": "en", 
+                "label": "in house"
+            }, 
+            "weight": 1.138, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/in_house/]", 
+            "surfaceText": "[[window]] is related to [[in house]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/viewing", 
+                "@id": "/c/en/viewing", 
+                "language": "en", 
+                "label": "viewing"
+            }, 
+            "weight": 1.116, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/viewing/]", 
+            "surfaceText": "[[window]] is related to [[viewing]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/clear_glass", 
+                "@id": "/c/en/clear_glass", 
+                "language": "en", 
+                "label": "clear glass"
+            }, 
+            "weight": 1.088, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/window/,/c/en/clear_glass/]", 
+            "surfaceText": "[[window]] is related to [[clear glass]]"
+        }
+    ], 
+    "@id": "/c/en/window", 
+    "view": {
+        "previousPage": "/c/en/window?offset=140&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/window?offset=160&limit=20", 
+        "nextPage": "/c/en/window?offset=180&limit=20", 
+        "firstPage": "/c/en/window?offset=0&limit=20"
+    }
+}

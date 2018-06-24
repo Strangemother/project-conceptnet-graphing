@@ -1,0 +1,636 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/mechanics", 
+                "@id": "/c/en/mechanics", 
+                "language": "en", 
+                "label": "mechanics"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/socket/n/,/c/en/mechanics/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/anatomie", 
+                "@id": "/c/fr/anatomie", 
+                "language": "fr", 
+                "label": "anatomie"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/socket/n/,/c/fr/anatomie/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/antenna_socket/n", 
+                "term": "/c/en/antenna_socket", 
+                "language": "en", 
+                "label": "antenna socket"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/antenna_socket/n/,/c/en/socket/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/cable_socket/n", 
+                "term": "/c/en/cable_socket", 
+                "language": "en", 
+                "label": "cable socket"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cable_socket/n/,/c/en/socket/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/electrical_outlet/n", 
+                "term": "/c/en/electrical_outlet", 
+                "language": "en", 
+                "label": "electrical outlet"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/electrical_outlet/n/,/c/en/socket/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/coupler/n", 
+                "term": "/c/en/coupler", 
+                "language": "en", 
+                "label": "coupler"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/socket/n/,/c/en/coupler/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/socket/n", 
+                "term": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/telephone_jack/n", 
+                "term": "/c/en/telephone_jack", 
+                "language": "en", 
+                "label": "telephone jack"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/telephone_jack/n/,/c/en/socket/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ar/\u062d\u0642/n", 
+                "term": "/c/ar/\u062d\u0642", 
+                "language": "ar", 
+                "label": "\u062d\u0642"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/jamka/n", 
+                "term": "/c/cs/jamka", 
+                "language": "cs", 
+                "label": "jamka"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/jamka/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/patice/n", 
+                "term": "/c/cs/patice", 
+                "language": "cs", 
+                "label": "patice"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/patice/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/z\u00e1suvka/n", 
+                "term": "/c/cs/z\u00e1suvka", 
+                "language": "cs", 
+                "label": "z\u00e1suvka"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/z\u00e1suvka/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/zd\u00ed\u0159ka/n", 
+                "term": "/c/cs/zd\u00ed\u0159ka", 
+                "language": "cs", 
+                "label": "zd\u00ed\u0159ka"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/zd\u00ed\u0159ka/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/buchse/n", 
+                "term": "/c/de/buchse", 
+                "language": "de", 
+                "label": "buchse"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/buchse/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/inbusschraube/n", 
+                "term": "/c/de/inbusschraube", 
+                "language": "de", 
+                "label": "inbusschraube"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/inbusschraube/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/sockel/n", 
+                "term": "/c/de/sockel", 
+                "language": "de", 
+                "label": "sockel"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/sockel/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/steckdose/n", 
+                "term": "/c/de/steckdose", 
+                "language": "de", 
+                "label": "steckdose"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/steckdose/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03bd\u03c4\u03bf\u03c5\u03af/n", 
+                "term": "/c/el/\u03bd\u03c4\u03bf\u03c5\u03af", 
+                "language": "el", 
+                "label": "\u03bd\u03c4\u03bf\u03c5\u03af"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03bd\u03c4\u03bf\u03c5\u03af/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03c1\u03b5\u03c5\u03bc\u03b1\u03c4\u03bf\u03b4\u03cc\u03c4\u03b7\u03c3/n", 
+                "term": "/c/el/\u03c1\u03b5\u03c5\u03bc\u03b1\u03c4\u03bf\u03b4\u03cc\u03c4\u03b7\u03c3", 
+                "language": "el", 
+                "label": "\u03c1\u03b5\u03c5\u03bc\u03b1\u03c4\u03bf\u03b4\u03cc\u03c4\u03b7\u03c3"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c1\u03b5\u03c5\u03bc\u03b1\u03c4\u03bf\u03b4\u03cc\u03c4\u03b7\u03c3/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/el/\u03c5\u03c0\u03bf\u03b4\u03bf\u03c7\u03ae/n", 
+                "term": "/c/el/\u03c5\u03c0\u03bf\u03b4\u03bf\u03c7\u03ae", 
+                "language": "el", 
+                "label": "\u03c5\u03c0\u03bf\u03b4\u03bf\u03c7\u03ae"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c5\u03c0\u03bf\u03b4\u03bf\u03c7\u03ae/n/,/c/en/socket/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/socket", 
+                "@id": "/c/en/socket", 
+                "language": "en", 
+                "label": "socket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/el/\u03c6\u03b1\u03c4\u03bd\u03b9\u03b1\u03ba\u03cc\u03c3/a", 
+                "term": "/c/el/\u03c6\u03b1\u03c4\u03bd\u03b9\u03b1\u03ba\u03cc\u03c3", 
+                "language": "el", 
+                "label": "\u03c6\u03b1\u03c4\u03bd\u03b9\u03b1\u03ba\u03cc\u03c3"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c6\u03b1\u03c4\u03bd\u03b9\u03b1\u03ba\u03cc\u03c3/a/,/c/en/socket/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/socket", 
+    "view": {
+        "previousPage": "/c/en/socket?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/socket?offset=60&limit=20", 
+        "nextPage": "/c/en/socket?offset=80&limit=20", 
+        "firstPage": "/c/en/socket?offset=0&limit=20"
+    }
+}

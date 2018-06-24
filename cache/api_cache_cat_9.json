@@ -1,0 +1,648 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 1.7439999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pet/,/c/en/cat/]", 
+            "surfaceText": "[[pet]] is related to [[cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 1.4569999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leopard", 
+                "@id": "/c/en/leopard", 
+                "language": "en", 
+                "label": "leopard"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leopard/,/c/en/cat/]", 
+            "surfaceText": "[[leopard]] is related to [[cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/dog", 
+                "@id": "/c/en/dog", 
+                "language": "en", 
+                "label": "dog"
+            }, 
+            "weight": 1.338, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/dog/]", 
+            "surfaceText": "[[cat]] is related to [[dog]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/feline_animal", 
+                "@id": "/c/en/feline_animal", 
+                "language": "en", 
+                "label": "feline animal"
+            }, 
+            "weight": 1.282, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/feline_animal/]", 
+            "surfaceText": "[[cat]] is related to [[feline animal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/domestic", 
+                "@id": "/c/en/domestic", 
+                "language": "en", 
+                "label": "domestic"
+            }, 
+            "weight": 1.2530000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/domestic/]", 
+            "surfaceText": "[[cat]] is related to [[domestic]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/kitten", 
+                "@id": "/c/en/kitten", 
+                "language": "en", 
+                "label": "kitten"
+            }, 
+            "weight": 1.2469999999999999, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/kitten/]", 
+            "surfaceText": "[[cat]] is related to [[kitten]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/house_pet", 
+                "@id": "/c/en/house_pet", 
+                "language": "en", 
+                "label": "house pet"
+            }, 
+            "weight": 1.2279999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/house_pet/]", 
+            "surfaceText": "[[cat]] is related to [[house pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/furry", 
+                "@id": "/c/en/furry", 
+                "language": "en", 
+                "label": "furry"
+            }, 
+            "weight": 1.0860000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/furry/]", 
+            "surfaceText": "[[cat]] is related to [[furry]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mammal", 
+                "@id": "/c/en/mammal", 
+                "language": "en", 
+                "label": "mammal"
+            }, 
+            "weight": 1.057, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/mammal/]", 
+            "surfaceText": "[[cat]] is related to [[mammal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/tiger", 
+                "@id": "/c/en/tiger", 
+                "language": "en", 
+                "label": "tiger"
+            }, 
+            "weight": 1.032, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/tiger/]", 
+            "surfaceText": "[[cat]] is related to [[tiger]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/feline_pet", 
+                "@id": "/c/en/feline_pet", 
+                "language": "en", 
+                "label": "feline pet"
+            }, 
+            "weight": 1.0179999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cat/,/c/en/feline_pet/]", 
+            "surfaceText": "[[cat]] is related to [[feline pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/she_cat/n", 
+                "term": "/c/en/she_cat", 
+                "language": "en", 
+                "label": "she cat"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/she_cat/n/,/c/en/cat/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/wild_cat/n", 
+                "term": "/c/en/wild_cat", 
+                "language": "en", 
+                "label": "wild cat"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/wild_cat/n/,/c/en/cat/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "cat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u9ed2\u732b/n", 
+                "term": "/c/ja/\u9ed2\u732b", 
+                "language": "ja", 
+                "label": "\u9ed2\u732b"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/ja/\u9ed2\u732b/n/,/c/en/cat/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/africa", 
+                "@id": "/c/en/africa", 
+                "language": "en", 
+                "label": "Africa"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/wintermute", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wintermute/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/africa/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[Africa]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/ally", 
+                "@id": "/c/en/ally", 
+                "language": "en", 
+                "label": "ally"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mwason", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mwason/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/ally/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[ally]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/american_home", 
+                "@id": "/c/en/american_home", 
+                "language": "en", 
+                "label": "an American home"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/logicexecution", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/american_home/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[an American home]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal_rescue_shelter", 
+                "@id": "/c/en/animal_rescue_shelter", 
+                "language": "en", 
+                "label": "an animal rescue shelter"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/animal_rescue_shelter/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[an animal rescue shelter]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/animal_shops", 
+                "@id": "/c/en/animal_shops", 
+                "language": "en", 
+                "label": "animal shops"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pinghead", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pinghead/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/animal_shops/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[animal shops]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/appartment", 
+                "@id": "/c/en/appartment", 
+                "language": "en", 
+                "label": "an appartment"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cat", 
+                "@id": "/c/en/cat", 
+                "language": "en", 
+                "label": "a cat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mjduda", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjduda/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/appartment/]", 
+            "surfaceText": "You are likely to find [[a cat]] in [[an appartment]]"
+        }
+    ], 
+    "@id": "/c/en/cat", 
+    "view": {
+        "previousPage": "/c/en/cat?offset=160&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/cat?offset=180&limit=20", 
+        "nextPage": "/c/en/cat?offset=200&limit=20", 
+        "firstPage": "/c/en/cat?offset=0&limit=20"
+    }
+}

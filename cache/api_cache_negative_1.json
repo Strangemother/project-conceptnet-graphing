@@ -1,0 +1,646 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/unsupportive/a", 
+                "term": "/c/en/unsupportive", 
+                "language": "en", 
+                "label": "unsupportive"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/negative/a/,/c/en/unsupportive/a/]", 
+            "surfaceText": "[[negative]] is related to [[unsupportive]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/pessimistic/a", 
+                "term": "/c/en/pessimistic", 
+                "language": "en", 
+                "label": "pessimistic"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pessimistic/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[pessimistic]] is related to [[negative]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/negative", 
+                "@id": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/positive/a", 
+                "term": "/c/en/positive", 
+                "language": "en", 
+                "label": "positive"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/positive/a/,/c/en/negative/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/unfavorable/a", 
+                "term": "/c/en/unfavorable", 
+                "language": "en", 
+                "label": "unfavorable"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/unfavorable/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[unfavorable]] is related to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/unsupportive/a", 
+                "term": "/c/en/unsupportive", 
+                "language": "en", 
+                "label": "unsupportive"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/unsupportive/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[unsupportive]] is related to [[negative]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/negative", 
+                "@id": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/fr/n\u00e9gatif/a", 
+                "term": "/c/fr/n\u00e9gatif", 
+                "language": "fr", 
+                "label": "n\u00e9gatif"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fr/n\u00e9gatif/a/,/c/en/negative/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/antagonistic/a", 
+                "term": "/c/en/antagonistic", 
+                "language": "en", 
+                "label": "antagonistic"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/antagonistic/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[antagonistic]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/bad/a", 
+                "term": "/c/en/bad", 
+                "language": "en", 
+                "label": "bad"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/bad/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[bad]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/charged/a", 
+                "term": "/c/en/charged", 
+                "language": "en", 
+                "label": "charged"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/charged/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[charged]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/disadvantageous/a", 
+                "term": "/c/en/disadvantageous", 
+                "language": "en", 
+                "label": "disadvantageous"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/disadvantageous/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[disadvantageous]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/dissentient/a", 
+                "term": "/c/en/dissentient", 
+                "language": "en", 
+                "label": "dissentient"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/dissentient/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[dissentient]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/gram_negative/a", 
+                "term": "/c/en/gram_negative", 
+                "language": "en", 
+                "label": "Gram-negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/gram_negative/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[Gram-negative]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/minus/a", 
+                "term": "/c/en/minus", 
+                "language": "en", 
+                "label": "minus"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/minus/a/,/c/en/negative/a/]", 
+            "surfaceText": "[[minus]] is similar to [[negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/antagonistic/a", 
+                "term": "/c/en/antagonistic", 
+                "language": "en", 
+                "label": "antagonistic"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/antagonistic/a/]", 
+            "surfaceText": "[[negative]] is similar to [[antagonistic]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/bad/a", 
+                "term": "/c/en/bad", 
+                "language": "en", 
+                "label": "bad"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/bad/a/]", 
+            "surfaceText": "[[negative]] is similar to [[bad]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/charged/a", 
+                "term": "/c/en/charged", 
+                "language": "en", 
+                "label": "charged"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/charged/a/]", 
+            "surfaceText": "[[negative]] is similar to [[charged]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/disadvantageous/a", 
+                "term": "/c/en/disadvantageous", 
+                "language": "en", 
+                "label": "disadvantageous"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/disadvantageous/a/]", 
+            "surfaceText": "[[negative]] is similar to [[disadvantageous]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/dissentient/a", 
+                "term": "/c/en/dissentient", 
+                "language": "en", 
+                "label": "dissentient"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/dissentient/a/]", 
+            "surfaceText": "[[negative]] is similar to [[dissentient]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/gram_negative/a", 
+                "term": "/c/en/gram_negative", 
+                "language": "en", 
+                "label": "Gram-negative"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/gram_negative/a/]", 
+            "surfaceText": "[[negative]] is similar to [[Gram-negative]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/minus/a", 
+                "term": "/c/en/minus", 
+                "language": "en", 
+                "label": "minus"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/negative/a", 
+                "term": "/c/en/negative", 
+                "language": "en", 
+                "label": "negative"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/SimilarTo", 
+                "label": "SimilarTo"
+            }, 
+            "@id": "/a/[/r/SimilarTo/,/c/en/negative/a/,/c/en/minus/a/]", 
+            "surfaceText": "[[negative]] is similar to [[minus]]"
+        }
+    ], 
+    "@id": "/c/en/negative", 
+    "view": {
+        "previousPage": "/c/en/negative?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/negative?offset=20&limit=20", 
+        "nextPage": "/c/en/negative?offset=40&limit=20", 
+        "firstPage": "/c/en/negative?offset=0&limit=20"
+    }
+}

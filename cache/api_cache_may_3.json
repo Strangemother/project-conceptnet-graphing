@@ -1,0 +1,638 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/might", 
+                "@id": "/c/en/might", 
+                "language": "en", 
+                "label": "might"
+            }, 
+            "weight": 1.0700000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/may", 
+                "@id": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/may/,/c/en/might/]", 
+            "surfaceText": "[[may]] is related to [[might]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fifth_month_of_year", 
+                "@id": "/c/en/fifth_month_of_year", 
+                "language": "en", 
+                "label": "fifth month of the year"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/may", 
+                "@id": "/c/en/may", 
+                "language": "en", 
+                "label": "May"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/alexi", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/may/,/c/en/fifth_month_of_year/]", 
+            "surfaceText": "[[May]] is the [[fifth month of the year]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/as_case_may_be", 
+                "@id": "/c/en/as_case_may_be", 
+                "language": "en", 
+                "label": "as case may be"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/as_case_may_be/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/be_it_as_it_may", 
+                "@id": "/c/en/be_it_as_it_may", 
+                "language": "en", 
+                "label": "be it as it may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/be_it_as_it_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/be_that_as_it_may", 
+                "@id": "/c/en/be_that_as_it_may", 
+                "language": "en", 
+                "label": "be that as it may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/be_that_as_it_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/be_this_as_it_may", 
+                "@id": "/c/en/be_this_as_it_may", 
+                "language": "en", 
+                "label": "be this as it may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/be_this_as_it_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/come_what_may", 
+                "@id": "/c/en/come_what_may", 
+                "language": "en", 
+                "label": "come what may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/come_what_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/devil_may_care", 
+                "@id": "/c/en/devil_may_care", 
+                "language": "en", 
+                "label": "devil may care"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/devil_may_care/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/if_i_may", 
+                "@id": "/c/en/if_i_may", 
+                "language": "en", 
+                "label": "if i may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/if_i_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/i_may_not_but", 
+                "@id": "/c/en/i_may_not_but", 
+                "language": "en", 
+                "label": "i may not but"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/i_may_not_but/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/it_may_well_with", 
+                "@id": "/c/en/it_may_well_with", 
+                "language": "en", 
+                "label": "it may well with"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/it_may_well_with/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/let_chips_fall_where_they_may", 
+                "@id": "/c/en/let_chips_fall_where_they_may", 
+                "language": "en", 
+                "label": "let chips fall where they may"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/let_chips_fall_where_they_may/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/may_as_well", 
+                "@id": "/c/en/may_as_well", 
+                "language": "en", 
+                "label": "may as well"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/may_as_well/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/maybe", 
+                "@id": "/c/en/maybe", 
+                "language": "en", 
+                "label": "maybe"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/maybe/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/may_chance", 
+                "@id": "/c/en/may_chance", 
+                "language": "en", 
+                "label": "may chance"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/may_chance/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/may_fortune", 
+                "@id": "/c/en/may_fortune", 
+                "language": "en", 
+                "label": "may fortune"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/may_fortune/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mayhap", 
+                "@id": "/c/en/mayhap", 
+                "language": "en", 
+                "label": "mayhap"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mayhap/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/mayhappen", 
+                "@id": "/c/en/mayhappen", 
+                "language": "en", 
+                "label": "mayhappen"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/mayhappen/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/may_i", 
+                "@id": "/c/en/may_i", 
+                "language": "en", 
+                "label": "may i"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/may_i/,/c/en/may/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/may/v", 
+                "term": "/c/en/may", 
+                "language": "en", 
+                "label": "may"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/may_issue", 
+                "@id": "/c/en/may_issue", 
+                "language": "en", 
+                "label": "may issue"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/may_issue/,/c/en/may/v/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/may", 
+    "view": {
+        "previousPage": "/c/en/may?offset=40&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/may?offset=60&limit=20", 
+        "nextPage": "/c/en/may?offset=80&limit=20", 
+        "firstPage": "/c/en/may?offset=0&limit=20"
+    }
+}

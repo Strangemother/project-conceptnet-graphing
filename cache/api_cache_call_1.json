@@ -1,0 +1,643 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/square_dance/v", 
+                "term": "/c/en/square_dance", 
+                "language": "en", 
+                "label": "square dance"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Entails", 
+                "label": "Entails"
+            }, 
+            "@id": "/a/[/r/Entails/,/c/en/call/v/,/c/en/square_dance/v/]", 
+            "surfaceText": "[[call]] entails [[square dance]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/hang_on/v", 
+                "term": "/c/en/hang_on", 
+                "language": "en", 
+                "label": "hang on"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Entails", 
+                "label": "Entails"
+            }, 
+            "@id": "/a/[/r/Entails/,/c/en/hang_on/v/,/c/en/call/v/]", 
+            "surfaceText": "[[hang on]] entails [[call]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/sport/n", 
+                "term": "/c/en/sport", 
+                "language": "en", 
+                "label": "sport"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/call/n/,/c/en/sport/n/]", 
+            "surfaceText": "[[call]] is used in the context of [[sport]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/sport/n", 
+                "term": "/c/en/sport", 
+                "language": "en", 
+                "label": "sport"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/call/v/,/c/en/sport/n/]", 
+            "surfaceText": "[[call]] is used in the context of [[sport]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/telecommunication/n", 
+                "term": "/c/en/telecommunication", 
+                "language": "en", 
+                "label": "telecommunication"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/call/v/,/c/en/telecommunication/n/]", 
+            "surfaceText": "[[call]] is used in the context of [[telecommunication]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/telephone/n", 
+                "term": "/c/en/telephone", 
+                "language": "en", 
+                "label": "telephone"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/call/v/,/c/en/telephone/n/]", 
+            "surfaceText": "[[call]] is used in the context of [[telephone]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/call", 
+                "@id": "/c/en/call", 
+                "language": "en", 
+                "label": "call them"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/play_game_with_friends", 
+                "@id": "/c/en/play_game_with_friends", 
+                "language": "en", 
+                "label": "play a game with your friends"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sunet", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sunet/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasPrerequisite", 
+                "label": "HasPrerequisite"
+            }, 
+            "@id": "/a/[/r/HasPrerequisite/,/c/en/play_game_with_friends/,/c/en/call/]", 
+            "surfaceText": "If you want to [[play a game with your friends]] then you should [[call them]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/call", 
+                "@id": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/play_poker", 
+                "@id": "/c/en/play_poker", 
+                "language": "en", 
+                "label": "play poker"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jeffw", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/play_poker/,/c/en/call/]", 
+            "surfaceText": "One of the things you do when you [[play poker]] is [[call]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/call", 
+                "@id": "/c/en/call", 
+                "language": "en", 
+                "label": "call someone"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/wait_for", 
+                "@id": "/c/en/wait_for", 
+                "language": "en", 
+                "label": "wait for someone"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasSubevent", 
+                "label": "HasSubevent"
+            }, 
+            "@id": "/a/[/r/HasSubevent/,/c/en/wait_for/,/c/en/call/]", 
+            "surfaceText": "One of the things you do when you [[wait for someone]] is [[call someone]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/beep/v", 
+                "term": "/c/en/beep", 
+                "language": "en", 
+                "label": "beep"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/beep/v/,/c/en/call/v/]", 
+            "surfaceText": "[[beep]] is a type of [[call]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call_back/n", 
+                "term": "/c/en/call_back", 
+                "language": "en", 
+                "label": "call-back"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call_back/n/,/c/en/call/n/]", 
+            "surfaceText": "[[call-back]] is a type of [[call]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call_in/n", 
+                "term": "/c/en/call_in", 
+                "language": "en", 
+                "label": "call-in"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call_in/n/,/c/en/call/n/]", 
+            "surfaceText": "[[call-in]] is a type of [[call]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/call/v", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/call_in/v", 
+                "term": "/c/en/call_in", 
+                "language": "en", 
+                "label": "call in"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call_in/v/,/c/en/call/v/]", 
+            "surfaceText": "[[call in]] is a type of [[call]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/decision/n", 
+                "term": "/c/en/decision", 
+                "language": "en", 
+                "label": "decision"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/decision/n/]", 
+            "surfaceText": "[[call]] is a type of [[decision]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/demand/n", 
+                "term": "/c/en/demand", 
+                "language": "en", 
+                "label": "demand"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/demand/n/]", 
+            "surfaceText": "[[call]] is a type of [[demand]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/inclination/n", 
+                "term": "/c/en/inclination", 
+                "language": "en", 
+                "label": "inclination"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "Call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/inclination/n/]", 
+            "surfaceText": "[[Call]] is a type of [[inclination]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/instruction/n", 
+                "term": "/c/en/instruction", 
+                "language": "en", 
+                "label": "instruction"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/instruction/n/]", 
+            "surfaceText": "[[call]] is a type of [[instruction]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/request/n", 
+                "term": "/c/en/request", 
+                "language": "en", 
+                "label": "request"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/request/n/]", 
+            "surfaceText": "[[call]] is a type of [[request]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/telephone/n", 
+                "term": "/c/en/telephone", 
+                "language": "en", 
+                "label": "telephone"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/telephone/n/]", 
+            "surfaceText": "[[call]] is a type of [[telephone]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/visit/n", 
+                "term": "/c/en/visit", 
+                "language": "en", 
+                "label": "visit"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/call/n", 
+                "term": "/c/en/call", 
+                "language": "en", 
+                "label": "call"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/visit/n/]", 
+            "surfaceText": "[[call]] is a type of [[visit]]"
+        }
+    ], 
+    "@id": "/c/en/call", 
+    "view": {
+        "previousPage": "/c/en/call?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/call?offset=20&limit=20", 
+        "nextPage": "/c/en/call?offset=40&limit=20", 
+        "firstPage": "/c/en/call?offset=0&limit=20"
+    }
+}

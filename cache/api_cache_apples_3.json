@@ -1,0 +1,435 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/ice_cider/n", 
+                "term": "/c/en/ice_cider", 
+                "language": "en", 
+                "label": "ice cider"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/ice_cider/n/,/c/en/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/he/\u05ea\u05e4\u05d5\u05d7\u05d9/n", 
+                "term": "/c/he/\u05ea\u05e4\u05d5\u05d7\u05d9", 
+                "language": "he", 
+                "label": "\u05ea\u05e4\u05d5\u05d7\u05d9"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/he/\u05ea\u05e4\u05d5\u05d7\u05d9/n/,/c/en/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bait_deer", 
+                "@id": "/c/en/bait_deer", 
+                "language": "en", 
+                "label": "bait deer"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/conte", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conte/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/apples/,/c/en/bait_deer/]", 
+            "surfaceText": "You can use [[apples]] to [[bait deer]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/basket_with_handle", 
+                "@id": "/c/en/basket_with_handle", 
+                "language": "en", 
+                "label": "a basket with handle"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/basket_with_handle/,/c/en/apples/]", 
+            "surfaceText": "[[a basket with handle]] is used for [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bowl", 
+                "@id": "/c/en/bowl", 
+                "language": "en", 
+                "label": "a bowl"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dev", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "label": "UsedFor"
+            }, 
+            "@id": "/a/[/r/UsedFor/,/c/en/bowl/,/c/en/apples/]", 
+            "surfaceText": "You can use [[a bowl]] to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.577, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/red/,/c/en/apples/]", 
+            "surfaceText": "[[red]] is related to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.4740000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pie", 
+                "@id": "/c/en/pie", 
+                "language": "en", 
+                "label": "pie"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pie/,/c/en/apples/]", 
+            "surfaceText": "[[pie]] is related to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.41500000000000004, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/seed", 
+                "@id": "/c/en/seed", 
+                "language": "en", 
+                "label": "seed"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/seed/,/c/en/apples/]", 
+            "surfaceText": "[[seed]] is related to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples_and_pears", 
+                "@id": "/c/en/apples_and_pears", 
+                "language": "en", 
+                "label": "apples and pears"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/apples/,/c/en/apples_and_pears/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://en.wiktionary.org/wiki/apples", 
+                "@id": "http://en.wiktionary.org/wiki/apples", 
+                "site": "en.wiktionary.org", 
+                "label": "apples"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/apples/,/http://en.wiktionary.org/wiki/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://fr.wiktionary.org/wiki/apples", 
+                "@id": "http://fr.wiktionary.org/wiki/apples", 
+                "site": "fr.wiktionary.org", 
+                "label": "apples"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/apples/,/http://fr.wiktionary.org/wiki/apples/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.21799999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cider", 
+                "@id": "/c/en/cider", 
+                "language": "en", 
+                "label": "cider"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cider/,/c/en/apples/]", 
+            "surfaceText": "[[cider]] is related to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.1549999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pick", 
+                "@id": "/c/en/pick", 
+                "language": "en", 
+                "label": "pick"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/pick/,/c/en/apples/]", 
+            "surfaceText": "[[pick]] is related to [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "weight": 0.10099999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fruit", 
+                "@id": "/c/en/fruit", 
+                "language": "en", 
+                "label": "fruit"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fruit/,/c/en/apples/]", 
+            "surfaceText": "[[fruit]] is related to [[apples]]"
+        }
+    ], 
+    "@id": "/c/en/apples", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/apples?offset=60&limit=20", 
+        "previousPage": "/c/en/apples?offset=40&limit=20", 
+        "firstPage": "/c/en/apples?offset=0&limit=20"
+    }
+}

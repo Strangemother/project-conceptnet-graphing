@@ -1,0 +1,620 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/lower_risk_of_heart_disease", 
+                "@id": "/c/en/lower_risk_of_heart_disease", 
+                "language": "en", 
+                "label": "lower risk of heart disease"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/btb2k", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/btb2k/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/eggs/,/c/en/lower_risk_of_heart_disease/]", 
+            "surfaceText": "[[eggs]] can [[lower risk of heart disease]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/poached", 
+                "@id": "/c/en/poached", 
+                "language": "en", 
+                "label": "be poached"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/eggs/,/c/en/poached/]", 
+            "surfaceText": "[[Eggs]] can [[be poached]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/chickens", 
+                "@id": "/c/en/chickens", 
+                "language": "en", 
+                "label": "chickens"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/levendis", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/levendis/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Causes", 
+                "label": "Causes"
+            }, 
+            "@id": "/a/[/r/Causes/,/c/en/chickens/,/c/en/eggs/]", 
+            "surfaceText": "Sometimes [[chickens]] causes [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/chickens", 
+                "@id": "/c/en/chickens", 
+                "language": "en", 
+                "label": "chickens"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/levendis", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/levendis/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Causes", 
+                "label": "Causes"
+            }, 
+            "@id": "/a/[/r/Causes/,/c/en/eggs/,/c/en/chickens/]", 
+            "surfaceText": "Sometimes [[eggs]] causes [[chickens]]"
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-3", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-3", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "all+your+eggs+in+one+basket-p#Component-3"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/eggs/,/http://wordnet-rdf.princeton.edu/wn31/all+your+eggs+in+one+basket-p#Component-3/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-4", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-4", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "put+all+your+eggs+in+one+basket-p#Component-4"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/eggs/,/http://wordnet-rdf.princeton.edu/wn31/put+all+your+eggs+in+one+basket-p#Component-4/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/egg/n", 
+                "term": "/c/en/egg", 
+                "language": "en", 
+                "label": "egg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/eggs/,/c/en/egg/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/egg", 
+                "@id": "/c/en/egg", 
+                "language": "en", 
+                "label": "egg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/eggs/n", 
+                "term": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/eggs/n/,/c/en/egg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/egg", 
+                "@id": "/c/en/egg", 
+                "language": "en", 
+                "label": "egg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/eggs/v", 
+                "term": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/eggs/v/,/c/en/egg/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/birds", 
+                "@id": "/c/en/birds", 
+                "language": "en", 
+                "label": "birds"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/snooze", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/snooze/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/birds/,/c/en/eggs/]", 
+            "surfaceText": "[[birds]] have [[eggs]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/shell", 
+                "@id": "/c/en/shell", 
+                "language": "en", 
+                "label": "a shell"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasA", 
+                "label": "HasA"
+            }, 
+            "@id": "/a/[/r/HasA/,/c/en/eggs/,/c/en/shell/]", 
+            "surfaceText": "[[eggs]] have [[a shell]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/fro/pondre/v", 
+                "term": "/c/fro/pondre", 
+                "language": "fro", 
+                "label": "pondre"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/fro/pondre/v/,/c/en/eggs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/no/speile/v", 
+                "term": "/c/no/speile", 
+                "language": "no", 
+                "label": "speile"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/no/speile/v/,/c/en/eggs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "eggs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/nrf/pondre/v", 
+                "term": "/c/nrf/pondre", 
+                "language": "nrf", 
+                "label": "pondre"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/nrf/pondre/v/,/c/en/eggs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "some eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/blue/]", 
+            "surfaceText": "[[some eggs]] are [[blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eaten_raw", 
+                "@id": "/c/en/eaten_raw", 
+                "language": "en", 
+                "label": "eaten raw"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/eaten_raw/]", 
+            "surfaceText": "[[Eggs]] can be [[eaten raw]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/edible", 
+                "@id": "/c/en/edible", 
+                "language": "en", 
+                "label": "edible"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Some eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ajnewbold", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/edible/]", 
+            "surfaceText": "[[Some eggs]] are [[edible]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hardboiled", 
+                "@id": "/c/en/hardboiled", 
+                "language": "en", 
+                "label": "hardboiled"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Some eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/hardboiled/]", 
+            "surfaceText": "[[Some eggs]] are [[hardboiled]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/oval_shaped", 
+                "@id": "/c/en/oval_shaped", 
+                "language": "en", 
+                "label": "oval shaped"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/oval_shaped/]", 
+            "surfaceText": "[[Eggs]] are [[oval shaped]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/very_easy_to_break", 
+                "@id": "/c/en/very_easy_to_break", 
+                "language": "en", 
+                "label": "very easy to break"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eggs", 
+                "@id": "/c/en/eggs", 
+                "language": "en", 
+                "label": "Eggs"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pavlos", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/eggs/,/c/en/very_easy_to_break/]", 
+            "surfaceText": "[[Eggs]] are [[very easy to break]]"
+        }
+    ], 
+    "@id": "/c/en/eggs", 
+    "view": {
+        "previousPage": "/c/en/eggs?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/eggs?offset=20&limit=20", 
+        "nextPage": "/c/en/eggs?offset=40&limit=20", 
+        "firstPage": "/c/en/eggs?offset=0&limit=20"
+    }
+}

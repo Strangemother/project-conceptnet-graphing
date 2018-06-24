@@ -1,0 +1,626 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/geordie", 
+                "@id": "/c/en/geordie", 
+                "language": "en", 
+                "label": "geordie"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/pet/n/,/c/en/geordie/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/fr/\u00e9levage", 
+                "@id": "/c/fr/\u00e9levage", 
+                "language": "fr", 
+                "label": "\u00e9levage"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pet/n", 
+                "term": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/pet/n/,/c/fr/\u00e9levage/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dachshund_dog_which", 
+                "@id": "/c/en/dachshund_dog_which", 
+                "language": "en", 
+                "label": "A dachshund is a dog, which"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/manngo", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/manngo/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/dachshund_dog_which/,/c/en/pet/]", 
+            "surfaceText": "[[A dachshund is a dog, which]] is a type of [[pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/parrot", 
+                "@id": "/c/en/parrot", 
+                "language": "en", 
+                "label": "a parrot"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/parrot/,/c/en/pet/]", 
+            "surfaceText": "[[a parrot]] is a kind of [[pet]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/acronym_for_positron_emission_tomography", 
+                "@id": "/c/en/acronym_for_positron_emission_tomography", 
+                "language": "en", 
+                "label": "an acronym for positron emission tomography"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "PET"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pet/,/c/en/acronym_for_positron_emission_tomography/]", 
+            "surfaceText": "[[PET]] is [[an acronym for positron emission tomography]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/another_word_for_animal_companion", 
+                "@id": "/c/en/another_word_for_animal_companion", 
+                "language": "en", 
+                "label": "another word for an animal companion"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "Pet"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/jake512/]", 
+                    "activity": "/s/activity/omcs/is_a_cleanup"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pet/,/c/en/another_word_for_animal_companion/]", 
+            "surfaceText": "[[Pet]] is [[another word for an animal companion]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/rabbit", 
+                "@id": "/c/en/rabbit", 
+                "language": "en", 
+                "label": "a rabbit"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/g0odthrust", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/g0odthrust/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/rabbit/,/c/en/pet/]", 
+            "surfaceText": "[[a rabbit]] is a kind of [[pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "a pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/rabbits", 
+                "@id": "/c/en/rabbits", 
+                "language": "en", 
+                "label": "Rabbits"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/raiad1024", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/raiad1024/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/rabbits/,/c/en/pet/]", 
+            "surfaceText": "[[Rabbits]] are [[a pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/retriever", 
+                "@id": "/c/en/retriever", 
+                "language": "en", 
+                "label": "A retriever"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rcarey1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/retriever/,/c/en/pet/]", 
+            "surfaceText": "[[A retriever]] is a type of [[pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/spaniel_dog_which", 
+                "@id": "/c/en/spaniel_dog_which", 
+                "language": "en", 
+                "label": "a spaniel is a dog, which"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/robinwood", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/robinwood/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/spaniel_dog_which/,/c/en/pet/]", 
+            "surfaceText": "[[a spaniel is a dog, which]] is a kind of [[pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "a pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/wiener_dog", 
+                "@id": "/c/en/wiener_dog", 
+                "language": "en", 
+                "label": "a wiener dog"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/wmichaux", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wmichaux/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/wiener_dog/,/c/en/pet/]", 
+            "surfaceText": "[[a wiener dog]] is [[a pet]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/kept_in_cage", 
+                "@id": "/c/en/kept_in_cage", 
+                "language": "en", 
+                "label": "kept in a cage"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "a pet"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/cchapman", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cchapman/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ReceivesAction", 
+                "label": "ReceivesAction"
+            }, 
+            "@id": "/a/[/r/ReceivesAction/,/c/en/pet/,/c/en/kept_in_cage/]", 
+            "surfaceText": "[[a pet]] can be [[kept in a cage]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/ca/acariciar/v", 
+                "term": "/c/ca/acariciar", 
+                "language": "ca", 
+                "label": "acariciar"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/acariciar/v/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ca/car\u00edcia/n", 
+                "term": "/c/ca/car\u00edcia", 
+                "language": "ca", 
+                "label": "car\u00edcia"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/car\u00edcia/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ceb/binuhi/n", 
+                "term": "/c/ceb/binuhi", 
+                "language": "ceb", 
+                "label": "binuhi"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ceb/binuhi/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ceb/gibuhi/n", 
+                "term": "/c/ceb/gibuhi", 
+                "language": "ceb", 
+                "label": "gibuhi"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ceb/gibuhi/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/dom\u00e1c\u00ed_mazl\u00ed\u010dek/n", 
+                "term": "/c/cs/dom\u00e1c\u00ed_mazl\u00ed\u010dek", 
+                "language": "cs", 
+                "label": "dom\u00e1c\u00ed mazl\u00ed\u010dek"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/dom\u00e1c\u00ed_mazl\u00ed\u010dek/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/da/k\u00e6ledyr/n", 
+                "term": "/c/da/k\u00e6ledyr", 
+                "language": "da", 
+                "label": "k\u00e6ledyr"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/k\u00e6ledyr/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/da/k\u00e6le/v", 
+                "term": "/c/da/k\u00e6le", 
+                "language": "da", 
+                "label": "k\u00e6le"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/k\u00e6le/v/,/c/en/pet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pet", 
+                "@id": "/c/en/pet", 
+                "language": "en", 
+                "label": "pet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/de/haushund/n", 
+                "term": "/c/de/haushund", 
+                "language": "de", 
+                "label": "haushund"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/haushund/n/,/c/en/pet/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/pet", 
+    "view": {
+        "previousPage": "/c/en/pet?offset=100&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/pet?offset=120&limit=20", 
+        "nextPage": "/c/en/pet?offset=140&limit=20", 
+        "firstPage": "/c/en/pet?offset=0&limit=20"
+    }
+}

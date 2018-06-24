@@ -1,0 +1,635 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/market", 
+                "@id": "/c/en/market", 
+                "language": "en", 
+                "label": "the market"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jeffw", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/arlosuave", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/arlosuave/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/market/]", 
+            "surfaceText": "*Something you find at [[the market]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/mouth", 
+                "@id": "/c/en/mouth", 
+                "language": "en", 
+                "label": "your mouth"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/levendis", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/levendis/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/actibus", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/actibus/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/mouth/]", 
+            "surfaceText": "*Something you find in [[your mouth]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/school", 
+                "@id": "/c/en/school", 
+                "language": "en", 
+                "label": "school"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/jayant", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jayant/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/food/,/c/en/school/]", 
+            "surfaceText": "*Something you find at [[school]] is [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cost_money", 
+                "@id": "/c/en/cost_money", 
+                "language": "en", 
+                "label": "cost money"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/loiosh", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/loiosh/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/cypherpunks", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cypherpunks/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/cost_money/]", 
+            "surfaceText": "[[food]] can [[cost money]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/goat", 
+                "@id": "/c/en/goat", 
+                "language": "en", 
+                "label": "A goat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/visionsofkaos", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/visionsofkaos/]", 
+                    "activity": "/s/activity/omcs/template"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/goat/,/c/en/food/]", 
+            "surfaceText": "[[A goat]] wants [[food]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30e9\u30f3", 
+                "@id": "/c/ja/\u30e9\u30f3", 
+                "language": "ja", 
+                "label": "\u30e9\u30f3"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30e9\u30f3/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30d5\u30e9\u30f3", 
+                "@id": "/c/ja/\u30d5\u30e9\u30f3", 
+                "language": "ja", 
+                "label": "\u30d5\u30e9\u30f3"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30d5\u30e9\u30f3/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30e9\u30f3\u30d7", 
+                "@id": "/c/ja/\u30e9\u30f3\u30d7", 
+                "language": "ja", 
+                "label": "\u30e9\u30f3\u30d7"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30e9\u30f3\u30d7/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30ec\u30d0\u30fc", 
+                "@id": "/c/ja/\u30ec\u30d0\u30fc", 
+                "language": "ja", 
+                "label": "\u30ec\u30d0\u30fc"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30ec\u30d0\u30fc/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30b9\u30e9\u30a4\u30c0", 
+                "@id": "/c/ja/\u30b9\u30e9\u30a4\u30c0", 
+                "language": "ja", 
+                "label": "\u30b9\u30e9\u30a4\u30c0"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30b9\u30e9\u30a4\u30c0/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u30b9\u30e9\u30a4\u30c0\u30fc", 
+                "@id": "/c/ja/\u30b9\u30e9\u30a4\u30c0\u30fc", 
+                "language": "ja", 
+                "label": "\u30b9\u30e9\u30a4\u30c0\u30fc"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30b9\u30e9\u30a4\u30c0\u30fc/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u3082\u3064/n", 
+                "term": "/c/ja/\u3082\u3064", 
+                "language": "ja", 
+                "label": "\u3082\u3064"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u3082\u3064/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30ac\u30c4/n", 
+                "term": "/c/ja/\u30ac\u30c4", 
+                "language": "ja", 
+                "label": "\u30ac\u30c4"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30ac\u30c4/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30b7\u30d9/n", 
+                "term": "/c/ja/\u30b7\u30d9", 
+                "language": "ja", 
+                "label": "\u30b7\u30d9"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30b7\u30d9/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30bf\u30f3/n", 
+                "term": "/c/ja/\u30bf\u30f3", 
+                "language": "ja", 
+                "label": "\u30bf\u30f3"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30bf\u30f3/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30c0\u30eb/n", 
+                "term": "/c/ja/\u30c0\u30eb", 
+                "language": "ja", 
+                "label": "\u30c0\u30eb"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30c0\u30eb/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30df\u30ce/n", 
+                "term": "/c/ja/\u30df\u30ce", 
+                "language": "ja", 
+                "label": "\u30df\u30ce"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30df\u30ce/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30e9\u30f3\u30b0_\u30c9_\u30b7\u30e3/n", 
+                "term": "/c/ja/\u30e9\u30f3\u30b0_\u30c9_\u30b7\u30e3", 
+                "language": "ja", 
+                "label": "\u30e9\u30f3\u30b0 \u30c9 \u30b7\u30e3"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30e9\u30f3\u30b0_\u30c9_\u30b7\u30e3/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30b1\u30fc\u30af_\u30b5\u30ec/n", 
+                "term": "/c/ja/\u30b1\u30fc\u30af_\u30b5\u30ec", 
+                "language": "ja", 
+                "label": "\u30b1\u30fc\u30af \u30b5\u30ec"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30b1\u30fc\u30af_\u30b5\u30ec/n/,/c/en/food/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/food", 
+                "@id": "/c/en/food", 
+                "language": "en", 
+                "label": "food"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ja/\u30dd\u30c3\u30c8_\u30d1\u30a4/n", 
+                "term": "/c/ja/\u30dd\u30c3\u30c8_\u30d1\u30a4", 
+                "language": "ja", 
+                "label": "\u30dd\u30c3\u30c8 \u30d1\u30a4"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/ja/\u30dd\u30c3\u30c8_\u30d1\u30a4/n/,/c/en/food/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/food", 
+    "view": {
+        "previousPage": "/c/en/food?offset=60&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/food?offset=80&limit=20", 
+        "nextPage": "/c/en/food?offset=100&limit=20", 
+        "firstPage": "/c/en/food?offset=0&limit=20"
+    }
+}

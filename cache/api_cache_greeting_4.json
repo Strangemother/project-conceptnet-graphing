@@ -1,0 +1,628 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "http://sw.opencyc.org/2012/05/10/concept/en/GreetingSomeone", 
+                "@id": "http://sw.opencyc.org/2012/05/10/concept/en/GreetingSomeone", 
+                "site": "sw.opencyc.org", 
+                "label": "GreetingSomeone"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/greeting/n/,/http://sw.opencyc.org/2012/05/10/concept/en/GreetingSomeone/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/106642524-n", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/106642524-n", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "106642524-n"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/greeting/n/,/http://wordnet-rdf.princeton.edu/wn31/106642524-n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greetings/n", 
+                "term": "/c/en/greetings", 
+                "language": "en", 
+                "label": "greetings"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/greetings/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greet", 
+                "@id": "/c/en/greet", 
+                "language": "en", 
+                "label": "greet"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/greeting/v", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/greeting/v/,/c/en/greet/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/what's_haps", 
+                "@id": "/c/en/what's_haps", 
+                "language": "en", 
+                "label": "what's haps"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/what's_haps/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/lad/mazal_bueno", 
+                "@id": "/c/lad/mazal_bueno", 
+                "language": "lad", 
+                "label": "mazal bueno"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/lad/mazal_bueno/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/lad/\u05de\u05d6\u05dc_\u05d1\u05d5\u05d0\u05d9\u05e0\u05d5", 
+                "@id": "/c/lad/\u05de\u05d6\u05dc_\u05d1\u05d5\u05d0\u05d9\u05e0\u05d5", 
+                "language": "lad", 
+                "label": "\u05de\u05d6\u05dc \u05d1\u05d5\u05d0\u05d9\u05e0\u05d5"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/lad/\u05de\u05d6\u05dc_\u05d1\u05d5\u05d0\u05d9\u05e0\u05d5/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/no/hei", 
+                "@id": "/c/no/hei", 
+                "language": "no", 
+                "label": "hei"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/no/hei/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/nv/\u0105\u0105\u02bc_ha\u02bc\u00ed\u00ed_baa_nanin\u00e1", 
+                "@id": "/c/nv/\u0105\u0105\u02bc_ha\u02bc\u00ed\u00ed_baa_nanin\u00e1", 
+                "language": "nv", 
+                "label": "\u0105\u0105\u02bc ha\u02bc\u00ed\u00ed baa nanin\u00e1"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/nv/\u0105\u0105\u02bc_ha\u02bc\u00ed\u00ed_baa_nanin\u00e1/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/addressing/n", 
+                "term": "/c/en/addressing", 
+                "language": "en", 
+                "label": "addressing"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/addressing/n/,/c/en/greeting/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/single_communication_act/n", 
+                "term": "/c/en/single_communication_act", 
+                "language": "en", 
+                "label": "single communication act"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/greeting/n/,/c/en/single_communication_act/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/social_activity/n", 
+                "term": "/c/en/social_activity", 
+                "language": "en", 
+                "label": "social activity"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/greeting/n/,/c/en/social_activity/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/greeting/n", 
+                "term": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/wishing/n", 
+                "term": "/c/en/wishing", 
+                "language": "en", 
+                "label": "wishing"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/wishing/n/,/c/en/greeting/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": " greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/yo", 
+                "@id": "/c/en/yo", 
+                "language": "en", 
+                "label": "Yo"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pacslim", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/pacslim/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/yo/,/c/en/greeting/]", 
+            "surfaceText": "[[Yo]] is a [[ greeting]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/af/groet/n", 
+                "term": "/c/af/groet", 
+                "language": "af", 
+                "label": "groet"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/af/groet/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ar/\u0633\u0644\u0627\u0645/n", 
+                "term": "/c/ar/\u0633\u0644\u0627\u0645", 
+                "language": "ar", 
+                "label": "\u0633\u0644\u0627\u0645"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0633\u0644\u0627\u0645/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ba/\u0441\u04d9\u043b\u04d9\u043c/n", 
+                "term": "/c/ba/\u0441\u04d9\u043b\u04d9\u043c", 
+                "language": "ba", 
+                "label": "\u0441\u04d9\u043b\u04d9\u043c"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ba/\u0441\u04d9\u043b\u04d9\u043c/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/ca/salutaci\u00f3/n", 
+                "term": "/c/ca/salutaci\u00f3", 
+                "language": "ca", 
+                "label": "salutaci\u00f3"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/salutaci\u00f3/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/blahop\u0159\u00e1n\u00ed/n", 
+                "term": "/c/cs/blahop\u0159\u00e1n\u00ed", 
+                "language": "cs", 
+                "label": "blahop\u0159\u00e1n\u00ed"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/blahop\u0159\u00e1n\u00ed/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/greeting", 
+                "@id": "/c/en/greeting", 
+                "language": "en", 
+                "label": "greeting"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/cs/pozdrav/n", 
+                "term": "/c/cs/pozdrav", 
+                "language": "cs", 
+                "label": "pozdrav"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/pozdrav/n/,/c/en/greeting/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/greeting", 
+    "view": {
+        "previousPage": "/c/en/greeting?offset=60&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/greeting?offset=80&limit=20", 
+        "nextPage": "/c/en/greeting?offset=100&limit=20", 
+        "firstPage": "/c/en/greeting?offset=0&limit=20"
+    }
+}

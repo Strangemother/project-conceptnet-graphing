@@ -1,0 +1,635 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.355, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/house", 
+                "@id": "/c/en/house", 
+                "language": "en", 
+                "label": "house"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/house/,/c/en/where/]", 
+            "surfaceText": "[[house]] is related to [[where]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.3479999999999999, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/how", 
+                "@id": "/c/en/how", 
+                "language": "en", 
+                "label": "how"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/how/,/c/en/where/]", 
+            "surfaceText": "[[how]] is related to [[where]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.1840000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/stage", 
+                "@id": "/c/en/stage", 
+                "language": "en", 
+                "label": "stage"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/stage/,/c/en/where/]", 
+            "surfaceText": "[[stage]] is related to [[where]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bye_ticket", 
+                "@id": "/c/en/bye_ticket", 
+                "language": "en", 
+                "label": "bye a ticket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where I"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jay", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jay/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/bye_ticket/]", 
+            "surfaceText": "[[where I]] can [[bye a ticket]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/get_hair_cut", 
+                "@id": "/c/en/get_hair_cut", 
+                "language": "en", 
+                "label": "get a hair cut"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where you"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/barakaschmidt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/barakaschmidt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/get_hair_cut/]", 
+            "surfaceText": "[[where you]] can [[get a hair cut]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/he_be", 
+                "@id": "/c/en/he_be", 
+                "language": "en", 
+                "label": "he be"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/latrodectus", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/he_be/]", 
+            "surfaceText": "[[where]] can [[he be]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/keep_objects_for_safe_keeping", 
+                "@id": "/c/en/keep_objects_for_safe_keeping", 
+                "language": "en", 
+                "label": "keep objects for safe keeping"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "is where you"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/daxxus", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daxxus/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/keep_objects_for_safe_keeping/]", 
+            "surfaceText": "[[is where you]] can [[keep objects for safe keeping]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/see_rock_band", 
+                "@id": "/c/en/see_rock_band", 
+                "language": "en", 
+                "label": "see a rock band"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "where you"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/barakaschmidt", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/barakaschmidt/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/see_rock_band/]", 
+            "surfaceText": "[[where you]] may [[see a rock band]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/stay_night", 
+                "@id": "/c/en/stay_night", 
+                "language": "en", 
+                "label": "stay the night"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/where", 
+                "@id": "/c/en/where", 
+                "language": "en", 
+                "label": "is where you"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/daxxus", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daxxus/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/where/,/c/en/stay_night/]", 
+            "surfaceText": "[[is where you]] can [[stay the night]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/anywhere", 
+                "@id": "/c/en/anywhere", 
+                "language": "en", 
+                "label": "anywhere"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/anywhere/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/elsewhere", 
+                "@id": "/c/en/elsewhere", 
+                "language": "en", 
+                "label": "elsewhere"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/elsewhere/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/everywhere", 
+                "@id": "/c/en/everywhere", 
+                "language": "en", 
+                "label": "everywhere"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/everywhere/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/every_which_where", 
+                "@id": "/c/en/every_which_where", 
+                "language": "en", 
+                "label": "every which where"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/every_which_where/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereabouts", 
+                "@id": "/c/en/whereabouts", 
+                "language": "en", 
+                "label": "whereabouts"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereabouts/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereafter", 
+                "@id": "/c/en/whereafter", 
+                "language": "en", 
+                "label": "whereafter"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereafter/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereagainst", 
+                "@id": "/c/en/whereagainst", 
+                "language": "en", 
+                "label": "whereagainst"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereagainst/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/wherealong", 
+                "@id": "/c/en/wherealong", 
+                "language": "en", 
+                "label": "wherealong"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/wherealong/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereas", 
+                "@id": "/c/en/whereas", 
+                "language": "en", 
+                "label": "whereas"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereas/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereat", 
+                "@id": "/c/en/whereat", 
+                "language": "en", 
+                "label": "whereat"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereat/,/c/en/where/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/where/n", 
+                "term": "/c/en/where", 
+                "language": "en", 
+                "label": "where"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/whereby", 
+                "@id": "/c/en/whereby", 
+                "language": "en", 
+                "label": "whereby"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/whereby/,/c/en/where/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/where", 
+    "view": {
+        "previousPage": "/c/en/where?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/where?offset=20&limit=20", 
+        "nextPage": "/c/en/where?offset=40&limit=20", 
+        "firstPage": "/c/en/where?offset=0&limit=20"
+    }
+}

@@ -1,0 +1,716 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/red_blue", 
+                "@id": "/c/en/red_blue", 
+                "language": "en", 
+                "label": "red blue"
+            }, 
+            "weight": 3.1616451413781395, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/red_blue/]", 
+            "surfaceText": "[[color]] is related to [[red blue]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/shade", 
+                "@id": "/c/en/shade", 
+                "language": "en", 
+                "label": "shade"
+            }, 
+            "weight": 3.0554868679148335, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/shade/]", 
+            "surfaceText": "[[color]] is related to [[shade]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/paint", 
+                "@id": "/c/en/paint", 
+                "language": "en", 
+                "label": "paint"
+            }, 
+            "weight": 2.9037906260610455, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/paint/]", 
+            "surfaceText": "[[color]] is related to [[paint]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/american_spelling_of_colour", 
+                "@id": "/c/en/american_spelling_of_colour", 
+                "language": "en", 
+                "label": "american spelling of colour"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/colm", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/wmcguire", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wmcguire/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/wmcguire", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wmcguire/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/color/,/c/en/american_spelling_of_colour/]", 
+            "surfaceText": "[[color]] is the [[american spelling of colour]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/color_blind", 
+                "@id": "/c/en/color_blind", 
+                "language": "en", 
+                "label": "color blind"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/color_blind/,/c/en/color/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "a color"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/black", 
+                "@id": "/c/en/black", 
+                "language": "en", 
+                "label": "Black"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/whitten", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/whitten/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/slux", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slux/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sotek", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sotek/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/spectecjr", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/spectecjr/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/whitten", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/whitten/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/black/,/c/en/color/]", 
+            "surfaceText": "[[Black]] is [[a color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/purple", 
+                "@id": "/c/en/purple", 
+                "language": "en", 
+                "label": "purple"
+            }, 
+            "weight": 2.682536113456816, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/purple/]", 
+            "surfaceText": "[[color]] is related to [[purple]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/tint", 
+                "@id": "/c/en/tint", 
+                "language": "en", 
+                "label": "tint"
+            }, 
+            "weight": 2.639696952303426, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/tint/]", 
+            "surfaceText": "[[color]] is related to [[tint]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.4867649667791287, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/silver", 
+                "@id": "/c/en/silver", 
+                "language": "en", 
+                "label": "silver"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/silver/,/c/en/color/]", 
+            "surfaceText": "[[silver]] is related to [[color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pigment", 
+                "@id": "/c/en/pigment", 
+                "language": "en", 
+                "label": "pigment"
+            }, 
+            "weight": 2.32379000772445, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/pigment/]", 
+            "surfaceText": "[[color]] is related to [[pigment]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/light", 
+                "@id": "/c/en/light", 
+                "language": "en", 
+                "label": "light"
+            }, 
+            "weight": 2.309112383579457, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/light/]", 
+            "surfaceText": "[[color]] is related to [[light]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.2396428286671064, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/yellow", 
+                "@id": "/c/en/yellow", 
+                "language": "en", 
+                "label": "yellow"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/yellow/,/c/en/color/]", 
+            "surfaceText": "[[yellow]] is related to [[color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red_green", 
+                "@id": "/c/en/red_green", 
+                "language": "en", 
+                "label": "red green"
+            }, 
+            "weight": 2.1881499034572567, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/color/,/c/en/red_green/]", 
+            "surfaceText": "[[color]] is related to [[red green]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0356817039999155, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/orange", 
+                "@id": "/c/en/orange", 
+                "language": "en", 
+                "label": "orange"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/orange/,/c/en/color/]", 
+            "surfaceText": "[[orange]] is related to [[color]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/color", 
+                "@id": "/c/en/color", 
+                "language": "en", 
+                "label": "be any color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/ribbon", 
+                "@id": "/c/en/ribbon", 
+                "language": "en", 
+                "label": "a ribbon"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/neograv", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neograv/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/schickel", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schickel/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/ribbon/,/c/en/color/]", 
+            "surfaceText": "[[a ribbon]] can [[be any color]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/colored", 
+                "@id": "/c/en/colored", 
+                "language": "en", 
+                "label": "colored"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/colored/,/c/en/color/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/colorful", 
+                "@id": "/c/en/colorful", 
+                "language": "en", 
+                "label": "colorful"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/colorful/,/c/en/color/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/colorize", 
+                "@id": "/c/en/colorize", 
+                "language": "en", 
+                "label": "colorize"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/colorize/,/c/en/color/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/color/n", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/colorless", 
+                "@id": "/c/en/colorless", 
+                "language": "en", 
+                "label": "colorless"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/colorless/,/c/en/color/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/photography/n", 
+                "term": "/c/en/photography", 
+                "language": "en", 
+                "label": "photography"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "a", 
+                "@id": "/c/en/color/a", 
+                "term": "/c/en/color", 
+                "language": "en", 
+                "label": "color"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/color/a/,/c/en/photography/n/]", 
+            "surfaceText": "[[color]] is used in the context of [[photography]]"
+        }
+    ], 
+    "@id": "/c/en/color", 
+    "view": {
+        "previousPage": "/c/en/color?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/color?offset=20&limit=20", 
+        "nextPage": "/c/en/color?offset=40&limit=20", 
+        "firstPage": "/c/en/color?offset=0&limit=20"
+    }
+}

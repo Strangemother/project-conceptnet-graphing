@@ -1,0 +1,687 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/live", 
+                "@id": "/c/en/live", 
+                "language": "en", 
+                "label": "live"
+            }, 
+            "weight": 2.499599967994879, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/die", 
+                "@id": "/c/en/die", 
+                "language": "en", 
+                "label": "die"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/die/,/c/en/live/]", 
+            "surfaceText": "[[die]] is the opposite of [[live]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/brother", 
+                "@id": "/c/en/brother", 
+                "language": "en", 
+                "label": "brother"
+            }, 
+            "weight": 2.491585840383589, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/sister", 
+                "@id": "/c/en/sister", 
+                "language": "en", 
+                "label": "sister"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/sister/,/c/en/brother/]", 
+            "surfaceText": "[[sister]] is the opposite of [[brother]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/vowel", 
+                "@id": "/c/en/vowel", 
+                "language": "en", 
+                "label": "vowel"
+            }, 
+            "weight": 2.4907830094169183, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/consonant", 
+                "@id": "/c/en/consonant", 
+                "language": "en", 
+                "label": "consonant"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/consonant/,/c/en/vowel/]", 
+            "surfaceText": "[[consonant]] is the opposite of [[vowel]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/here", 
+                "@id": "/c/en/here", 
+                "language": "en", 
+                "label": "here"
+            }, 
+            "weight": 2.4795160818191917, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/away", 
+                "@id": "/c/en/away", 
+                "language": "en", 
+                "label": "away"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/away/,/c/en/here/]", 
+            "surfaceText": "[[away]] is the opposite of [[here]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/over", 
+                "@id": "/c/en/over", 
+                "language": "en", 
+                "label": "over"
+            }, 
+            "weight": 2.4698178070456933, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/under", 
+                "@id": "/c/en/under", 
+                "language": "en", 
+                "label": "under"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/under/,/c/en/over/]", 
+            "surfaceText": "[[under]] is the opposite of [[over]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/top", 
+                "@id": "/c/en/top", 
+                "language": "en", 
+                "label": "top"
+            }, 
+            "weight": 2.454383833062791, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/bottom", 
+                "@id": "/c/en/bottom", 
+                "language": "en", 
+                "label": "bottom"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/bottom/,/c/en/top/]", 
+            "surfaceText": "[[bottom]] is the opposite of [[top]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/many", 
+                "@id": "/c/en/many", 
+                "language": "en", 
+                "label": "many"
+            }, 
+            "weight": 2.437211521390788, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/few", 
+                "@id": "/c/en/few", 
+                "language": "en", 
+                "label": "few"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/few/,/c/en/many/]", 
+            "surfaceText": "[[few]] is the opposite of [[many]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/night", 
+                "@id": "/c/en/night", 
+                "language": "en", 
+                "label": "night"
+            }, 
+            "weight": 2.4024986992712396, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/morning", 
+                "@id": "/c/en/morning", 
+                "language": "en", 
+                "label": "morning"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/morning/,/c/en/night/]", 
+            "surfaceText": "[[morning]] is the opposite of [[night]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/after", 
+                "@id": "/c/en/after", 
+                "language": "en", 
+                "label": "after"
+            }, 
+            "weight": 2.3991665219404847, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/before", 
+                "@id": "/c/en/before", 
+                "language": "en", 
+                "label": "before"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/before/,/c/en/after/]", 
+            "surfaceText": "[[before]] is the opposite of [[after]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/down", 
+                "@id": "/c/en/down", 
+                "language": "en", 
+                "label": "down"
+            }, 
+            "weight": 2.375710420063859, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/up", 
+                "@id": "/c/en/up", 
+                "language": "en", 
+                "label": "up"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/up/,/c/en/down/]", 
+            "surfaceText": "[[up]] is the opposite of [[down]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cold", 
+                "@id": "/c/en/cold", 
+                "language": "en", 
+                "label": "cold"
+            }, 
+            "weight": 2.363895090734781, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/heat", 
+                "@id": "/c/en/heat", 
+                "language": "en", 
+                "label": "heat"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/heat/,/c/en/cold/]", 
+            "surfaceText": "[[heat]] is the opposite of [[cold]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/play", 
+                "@id": "/c/en/play", 
+                "language": "en", 
+                "label": "play"
+            }, 
+            "weight": 2.3579652245103198, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/work", 
+                "@id": "/c/en/work", 
+                "language": "en", 
+                "label": "work"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/work/,/c/en/play/]", 
+            "surfaceText": "[[work]] is the opposite of [[play]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/alive", 
+                "@id": "/c/en/alive", 
+                "language": "en", 
+                "label": "alive"
+            }, 
+            "weight": 2.3528705871764384, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dead", 
+                "@id": "/c/en/dead", 
+                "language": "en", 
+                "label": "dead"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/dead/,/c/en/alive/]", 
+            "surfaceText": "[[dead]] is the opposite of [[alive]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/yes", 
+                "@id": "/c/en/yes", 
+                "language": "en", 
+                "label": "yes"
+            }, 
+            "weight": 2.3298068589477543, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/no", 
+                "@id": "/c/en/no", 
+                "language": "en", 
+                "label": "no"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/no/,/c/en/yes/]", 
+            "surfaceText": "[[no]] is the opposite of [[yes]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/day", 
+                "@id": "/c/en/day", 
+                "language": "en", 
+                "label": "day"
+            }, 
+            "weight": 2.3194827009486403, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/night", 
+                "@id": "/c/en/night", 
+                "language": "en", 
+                "label": "night"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/night/,/c/en/day/]", 
+            "surfaceText": "[[night]] is the opposite of [[day]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/short", 
+                "@id": "/c/en/short", 
+                "language": "en", 
+                "label": "short"
+            }, 
+            "weight": 2.2934689882359436, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/long", 
+                "@id": "/c/en/long", 
+                "language": "en", 
+                "label": "long"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/long/,/c/en/short/]", 
+            "surfaceText": "[[long]] is the opposite of [[short]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/up", 
+                "@id": "/c/en/up", 
+                "language": "en", 
+                "label": "up"
+            }, 
+            "weight": 2.282980508020163, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/drop", 
+                "@id": "/c/en/drop", 
+                "language": "en", 
+                "label": "drop"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/drop/,/c/en/up/]", 
+            "surfaceText": "[[drop]] is the opposite of [[up]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/for", 
+                "@id": "/c/en/for", 
+                "language": "en", 
+                "label": "for"
+            }, 
+            "weight": 2.238749651032915, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/against", 
+                "@id": "/c/en/against", 
+                "language": "en", 
+                "label": "against"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/against/,/c/en/for/]", 
+            "surfaceText": "[[against]] is the opposite of [[for]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/beginning", 
+                "@id": "/c/en/beginning", 
+                "language": "en", 
+                "label": "beginning"
+            }, 
+            "weight": 2.23427840700303, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/end", 
+                "@id": "/c/en/end", 
+                "language": "en", 
+                "label": "end"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/end/,/c/en/beginning/]", 
+            "surfaceText": "[[end]] is the opposite of [[beginning]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/awake", 
+                "@id": "/c/en/awake", 
+                "language": "en", 
+                "label": "awake"
+            }, 
+            "weight": 2.2262075374951005, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/sleep", 
+                "@id": "/c/en/sleep", 
+                "language": "en", 
+                "label": "sleep"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/sleep/,/c/en/awake/]", 
+            "surfaceText": "[[sleep]] is the opposite of [[awake]]"
+        }
+    ], 
+    "@id": "/c/en", 
+    "view": {
+        "previousPage": "/c/en?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en?offset=20&limit=20", 
+        "nextPage": "/c/en?offset=40&limit=20", 
+        "firstPage": "/c/en?offset=0&limit=20"
+    }
+}

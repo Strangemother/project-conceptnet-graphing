@@ -1,0 +1,642 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.2662744758744466, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/arm", 
+                "@id": "/c/en/arm", 
+                "language": "en", 
+                "label": "arm"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/arm/,/c/en/leg/]", 
+            "surfaceText": "[[arm]] is not [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/above", 
+                "@id": "/c/en/above", 
+                "language": "en", 
+                "label": "above"
+            }, 
+            "weight": 2.212690669750293, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/above/]", 
+            "surfaceText": "[[leg]] is related to [[above]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/lower_limb", 
+                "@id": "/c/en/lower_limb", 
+                "language": "en", 
+                "label": "lower limb"
+            }, 
+            "weight": 2.093800372528384, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/leg/,/c/en/lower_limb/]", 
+            "surfaceText": "[[leg]] is related to [[lower limb]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/arm", 
+                "@id": "/c/en/arm", 
+                "language": "en", 
+                "label": "arm"
+            }, 
+            "weight": 2.053290042833696, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/leg/,/c/en/arm/]", 
+            "surfaceText": "[[leg]] is the opposite of [[arm]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/seafaring/n", 
+                "term": "/c/en/seafaring", 
+                "language": "en", 
+                "label": "seafaring"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasContext", 
+                "label": "HasContext"
+            }, 
+            "@id": "/a/[/r/HasContext/,/c/en/leg/n/,/c/en/seafaring/n/]", 
+            "surfaceText": "[[leg]] is used in the context of [[seafaring]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/bowleg/n", 
+                "term": "/c/en/bowleg", 
+                "language": "en", 
+                "label": "bowleg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/bowleg/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[bowleg]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/ham_hock/n", 
+                "term": "/c/en/ham_hock", 
+                "language": "en", 
+                "label": "ham hock"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/ham_hock/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[ham hock]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/left_leg", 
+                "@id": "/c/en/left_leg", 
+                "language": "en", 
+                "label": "a left leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/left_leg/,/c/en/leg/]", 
+            "surfaceText": "[[a left leg]] is a kind of [[leg]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cloth_covering/n", 
+                "term": "/c/en/cloth_covering", 
+                "language": "en", 
+                "label": "cloth covering"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/leg/n/,/c/en/cloth_covering/n/]", 
+            "surfaceText": "[[leg]] is a type of [[cloth covering]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/cut/n", 
+                "term": "/c/en/cut", 
+                "language": "en", 
+                "label": "cut"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/leg/n/,/c/en/cut/n/]", 
+            "surfaceText": "[[leg]] is a type of [[cut]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/distance/n", 
+                "term": "/c/en/distance", 
+                "language": "en", 
+                "label": "distance"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/leg/n/,/c/en/distance/n/]", 
+            "surfaceText": "[[leg]] is a type of [[distance]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/support/n", 
+                "term": "/c/en/support", 
+                "language": "en", 
+                "label": "support"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/leg/n/,/c/en/support/n/]", 
+            "surfaceText": "[[leg]] is a type of [[support]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg_of_lamb/n", 
+                "term": "/c/en/leg_of_lamb", 
+                "language": "en", 
+                "label": "leg of lamb"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/leg_of_lamb/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[leg of lamb]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pant_leg/n", 
+                "term": "/c/en/pant_leg", 
+                "language": "en", 
+                "label": "pant leg"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pant_leg/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[pant leg]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/pin/n", 
+                "term": "/c/en/pin", 
+                "language": "en", 
+                "label": "pin"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pin/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[pin]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/prehensor/n", 
+                "term": "/c/en/prehensor", 
+                "language": "en", 
+                "label": "prehensor"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/prehensor/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[prehensor]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/leg", 
+                "@id": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/right_leg", 
+                "@id": "/c/en/right_leg", 
+                "language": "en", 
+                "label": "a right leg"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/trevorm", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/right_leg/,/c/en/leg/]", 
+            "surfaceText": "[[a right leg]] is a kind of [[leg]]."
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/shank's_mare/n", 
+                "term": "/c/en/shank's_mare", 
+                "language": "en", 
+                "label": "shank's mare"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/shank's_mare/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[shank's mare]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/spindlelegs/n", 
+                "term": "/c/en/spindlelegs", 
+                "language": "en", 
+                "label": "spindlelegs"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/spindlelegs/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[spindlelegs]] is a type of [[leg]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/leg/n", 
+                "term": "/c/en/leg", 
+                "language": "en", 
+                "label": "leg"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/ankle/n", 
+                "term": "/c/en/ankle", 
+                "language": "en", 
+                "label": "ankle"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "label": "PartOf"
+            }, 
+            "@id": "/a/[/r/PartOf/,/c/en/ankle/n/,/c/en/leg/n/]", 
+            "surfaceText": "[[ankle]] is a part of [[leg]]"
+        }
+    ], 
+    "@id": "/c/en/leg", 
+    "view": {
+        "previousPage": "/c/en/leg?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/leg?offset=20&limit=20", 
+        "nextPage": "/c/en/leg?offset=40&limit=20", 
+        "firstPage": "/c/en/leg?offset=0&limit=20"
+    }
+}

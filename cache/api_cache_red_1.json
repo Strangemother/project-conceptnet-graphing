@@ -1,0 +1,678 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/primary_colour", 
+                "@id": "/c/en/primary_colour", 
+                "language": "en", 
+                "label": "a primary colour"
+            }, 
+            "weight": 2.82842712474619, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/comdotatdotcom", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/comdotatdotcom/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/mpzarnke", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mpzarnke/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/red/,/c/en/primary_colour/]", 
+            "surfaceText": "[[red]] is [[a primary colour]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.8007141946296485, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blue", 
+                "@id": "/c/en/blue", 
+                "language": "en", 
+                "label": "blue"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/blue/,/c/en/red/]", 
+            "surfaceText": "[[blue]] is the opposite of [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.449489742783178, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u8d64", 
+                "@id": "/c/ja/\u8d64", 
+                "language": "ja", 
+                "label": "\u8d64"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }, 
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u8d64/,/c/en/red/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.4454038521274963, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/tomato", 
+                "@id": "/c/en/tomato", 
+                "language": "en", 
+                "label": "tomato"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/tomato/,/c/en/red/]", 
+            "surfaceText": "[[tomato]] is related to [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.2715633383201093, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/blush", 
+                "@id": "/c/en/blush", 
+                "language": "en", 
+                "label": "blush"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/blush/,/c/en/red/]", 
+            "surfaceText": "[[blush]] is related to [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.1109239683134016, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fox", 
+                "@id": "/c/en/fox", 
+                "language": "en", 
+                "label": "fox"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/fox/,/c/en/red/]", 
+            "surfaceText": "[[fox]] is related to [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/colour_of_love", 
+                "@id": "/c/en/colour_of_love", 
+                "language": "en", 
+                "label": "colour of love"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "Red"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/phraughy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DefinedAs", 
+                "label": "DefinedAs"
+            }, 
+            "@id": "/a/[/r/DefinedAs/,/c/en/red/,/c/en/colour_of_love/]", 
+            "surfaceText": "[[Red]] is the [[colour of love]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "a", 
+                "@id": "/c/en/red/a", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/red_flag", 
+                "@id": "/c/en/red_flag", 
+                "language": "en", 
+                "label": "red flag"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/red_flag/,/c/en/red/a/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/reds/n", 
+                "term": "/c/en/reds", 
+                "language": "en", 
+                "label": "reds"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/reds/n/,/c/en/red/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cars", 
+                "@id": "/c/en/cars", 
+                "language": "en", 
+                "label": "Some cars"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/skoerber", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/skoerber/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/kristin100", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kristin100/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/cars/,/c/en/red/]", 
+            "surfaceText": "[[Some cars]] are [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/flowers", 
+                "@id": "/c/en/flowers", 
+                "language": "en", 
+                "label": "Some flowers"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/iqraiser", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/iqraiser/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/flowers/,/c/en/red/]", 
+            "surfaceText": "[[Some flowers]] are [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/hardhat", 
+                "@id": "/c/en/hardhat", 
+                "language": "en", 
+                "label": "The hardhat"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/mitzi", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mitzi/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/brown", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/brown/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/hardhat/,/c/en/red/]", 
+            "surfaceText": "[[The hardhat]] is [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/tomatoes", 
+                "@id": "/c/en/tomatoes", 
+                "language": "en", 
+                "label": "Some tomatoes"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/guru1", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/sparlin", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sparlin/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "label": "HasProperty"
+            }, 
+            "@id": "/a/[/r/HasProperty/,/c/en/tomatoes/,/c/en/red/]", 
+            "surfaceText": "[[Some tomatoes]] are [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/cardinal/n", 
+                "term": "/c/en/cardinal", 
+                "language": "en", 
+                "label": "cardinal"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cardinal/n/,/c/en/red/n/]", 
+            "surfaceText": "[[cardinal]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/cerise/n", 
+                "term": "/c/en/cerise", 
+                "language": "en", 
+                "label": "cerise"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cerise/n/,/c/en/red/n/]", 
+            "surfaceText": "[[cerise]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/chrome_red/n", 
+                "term": "/c/en/chrome_red", 
+                "language": "en", 
+                "label": "chrome red"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/chrome_red/n/,/c/en/red/n/]", 
+            "surfaceText": "[[chrome red]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/crimson/n", 
+                "term": "/c/en/crimson", 
+                "language": "en", 
+                "label": "crimson"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/crimson/n/,/c/en/red/n/]", 
+            "surfaceText": "[[crimson]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/dark_red/n", 
+                "term": "/c/en/dark_red", 
+                "language": "en", 
+                "label": "dark red"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/dark_red/n/,/c/en/red/n/]", 
+            "surfaceText": "[[dark red]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/red/n", 
+                "term": "/c/en/red", 
+                "language": "en", 
+                "label": "red"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/purplish_red/n", 
+                "term": "/c/en/purplish_red", 
+                "language": "en", 
+                "label": "purplish red"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/purplish_red/n/,/c/en/red/n/]", 
+            "surfaceText": "[[purplish red]] is a type of [[red]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/primary_color", 
+                "@id": "/c/en/primary_color", 
+                "language": "en", 
+                "label": "a primary color"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/red", 
+                "@id": "/c/en/red", 
+                "language": "en", 
+                "label": "Red"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kemcmanus", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kemcmanus/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/anaitis", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/red/,/c/en/primary_color/]", 
+            "surfaceText": "[[Red]] is [[a primary color]]"
+        }
+    ], 
+    "@id": "/c/en/red", 
+    "view": {
+        "previousPage": "/c/en/red?offset=0&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/red?offset=20&limit=20", 
+        "nextPage": "/c/en/red?offset=40&limit=20", 
+        "firstPage": "/c/en/red?offset=0&limit=20"
+    }
+}

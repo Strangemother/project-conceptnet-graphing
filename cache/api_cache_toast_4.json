@@ -1,0 +1,633 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/zh/\u656c\u9152/v", 
+                "term": "/c/zh/\u656c\u9152", 
+                "language": "zh", 
+                "label": "\u656c\u9152"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u656c\u9152/v/,/c/en/toast/v/]", 
+            "surfaceText": "[[\u656c\u9152]] is a translation of [[toast]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/zh/\u70e4/v", 
+                "term": "/c/zh/\u70e4", 
+                "language": "zh", 
+                "label": "\u70e4"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u70e4/v/,/c/en/toast/v/]", 
+            "surfaceText": "[[\u70e4]] is a translation of [[toast]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bread", 
+                "@id": "/c/en/bread", 
+                "language": "en", 
+                "label": "bread"
+            }, 
+            "weight": 1.904, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/toast/,/c/en/bread/]", 
+            "surfaceText": "[[toast]] is related to [[bread]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.5, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sv/rostat_br\u00f6d", 
+                "@id": "/c/sv/rostat_br\u00f6d", 
+                "language": "sv", 
+                "label": "rostat br\u00f6d"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/sv/rostat_br\u00f6d/,/c/en/toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.072, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/butter", 
+                "@id": "/c/en/butter", 
+                "language": "en", 
+                "label": "butter"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/butter/,/c/en/toast/]", 
+            "surfaceText": "[[butter]] is related to [[toast]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/pocket", 
+                "@id": "/c/en/pocket", 
+                "language": "en", 
+                "label": "your pocket"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "Toast"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/rspeer", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rspeer/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/toast/,/c/en/pocket/]", 
+            "surfaceText": "Somewhere [[Toast]] can be is in [[your pocket]]"
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/toast/n", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toastmaster", 
+                "@id": "/c/en/toastmaster", 
+                "language": "en", 
+                "label": "toastmaster"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/toastmaster/,/c/en/toast/n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/Toast", 
+                "@id": "http://dbpedia.org/resource/Toast", 
+                "site": "dbpedia.org", 
+                "label": "Toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/,/http://dbpedia.org/resource/Toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://umbel.org/umbel/sc/Toast", 
+                "@id": "http://umbel.org/umbel/sc/Toast", 
+                "site": "umbel.org", 
+                "label": "Toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/,/http://umbel.org/umbel/sc/Toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q6128", 
+                "@id": "http://wikidata.dbpedia.org/resource/Q6128", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q6128"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/,/http://wikidata.dbpedia.org/resource/Q6128/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://sw.opencyc.org/2012/05/10/concept/en/Toast", 
+                "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Toast", 
+                "site": "sw.opencyc.org", 
+                "label": "Toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/toast/n", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/opencyc", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/opencyc/2012", 
+                    "@id": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/107702618-n", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/107702618-n", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "107702618-n"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/toast/n", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/n/,/http://wordnet-rdf.princeton.edu/wn31/107702618-n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/110733016-n", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/110733016-n", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "110733016-n"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/toast/n", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/n/,/http://wordnet-rdf.princeton.edu/wn31/110733016-n/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/200322952-v", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/200322952-v", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "200322952-v"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/v/,/http://wordnet-rdf.princeton.edu/wn31/200322952-v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/201177764-v", 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/201177764-v", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "201177764-v"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/toast/v/,/http://wordnet-rdf.princeton.edu/wn31/201177764-v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toasted", 
+                "@id": "/c/en/toasted", 
+                "language": "en", 
+                "label": "toasted"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/toasted/,/c/en/toast/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/toasted/v", 
+                "term": "/c/en/toasted", 
+                "language": "en", 
+                "label": "toasted"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/toasted/v/,/c/en/toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "v", 
+                "@id": "/c/en/toast/v", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toasting", 
+                "@id": "/c/en/toasting", 
+                "language": "en", 
+                "label": "toasting"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/toasting/,/c/en/toast/v/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/toast", 
+                "@id": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "v", 
+                "@id": "/c/en/toasting/v", 
+                "term": "/c/en/toasting", 
+                "language": "en", 
+                "label": "toasting"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/toasting/v/,/c/en/toast/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/toast/n", 
+                "term": "/c/en/toast", 
+                "language": "en", 
+                "label": "toast"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/toasts", 
+                "@id": "/c/en/toasts", 
+                "language": "en", 
+                "label": "toasts"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/toasts/,/c/en/toast/n/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/toast", 
+    "view": {
+        "previousPage": "/c/en/toast?offset=60&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/toast?offset=80&limit=20", 
+        "nextPage": "/c/en/toast?offset=100&limit=20", 
+        "firstPage": "/c/en/toast?offset=0&limit=20"
+    }
+}

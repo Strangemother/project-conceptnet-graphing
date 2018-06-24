@@ -1,0 +1,615 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/door", 
+                "@id": "/c/en/door", 
+                "language": "en", 
+                "label": "door"
+            }, 
+            "weight": 1.0430000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "window"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Antonym", 
+                "label": "Antonym"
+            }, 
+            "@id": "/a/[/r/Antonym/,/c/en/window/,/c/en/door/]", 
+            "surfaceText": "[[window]] is the opposite of [[door]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/fan", 
+                "@id": "/c/en/fan", 
+                "language": "en", 
+                "label": "a fan"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dreadtruffle", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dreadtruffle/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/fan/,/c/en/window/]", 
+            "surfaceText": "You are likely to find [[a fan]] in [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/kitten", 
+                "@id": "/c/en/kitten", 
+                "language": "en", 
+                "label": "a kitten"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/kitten/,/c/en/window/]", 
+            "surfaceText": "You are likely to find [[a kitten]] in [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/art_show", 
+                "@id": "/c/en/art_show", 
+                "language": "en", 
+                "label": "an art show"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/art_show/]", 
+            "surfaceText": "*Something you find at [[an art show]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/attic", 
+                "@id": "/c/en/attic", 
+                "language": "en", 
+                "label": "the attic"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/attic/]", 
+            "surfaceText": "*Something you find in [[the attic]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bedroom", 
+                "@id": "/c/en/bedroom", 
+                "language": "en", 
+                "label": "a bedroom"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/bedroom/]", 
+            "surfaceText": "*Something you find in [[a bedroom]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/classroom", 
+                "@id": "/c/en/classroom", 
+                "language": "en", 
+                "label": "a classroom"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/classroom/]", 
+            "surfaceText": "You are likely to find [[a window]] in [[a classroom]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/friend's_house", 
+                "@id": "/c/en/friend's_house", 
+                "language": "en", 
+                "label": "a friend's house"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/gary", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/friend's_house/]", 
+            "surfaceText": "*Something you find at [[a friend's house]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/front_door", 
+                "@id": "/c/en/front_door", 
+                "language": "en", 
+                "label": "the front door"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/frtk", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/frtk/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/front_door/]", 
+            "surfaceText": "*Something you find at [[the front door]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/garage", 
+                "@id": "/c/en/garage", 
+                "language": "en", 
+                "label": "a garage"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/garage/]", 
+            "surfaceText": "You are likely to find [[a window]] in [[a garage]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/loft", 
+                "@id": "/c/en/loft", 
+                "language": "en", 
+                "label": "the loft"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/murlin99", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/murlin99/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/loft/]", 
+            "surfaceText": "*Something you find in [[the loft]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/office", 
+                "@id": "/c/en/office", 
+                "language": "en", 
+                "label": "the office"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/annedog", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/office/]", 
+            "surfaceText": "*Something you find at [[the office]] is [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/room", 
+                "@id": "/c/en/room", 
+                "language": "en", 
+                "label": "a room"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/browni", 
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "activity": "/s/activity/omcs/commons_manual_entry"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window/,/c/en/room/]", 
+            "surfaceText": "You are likely to find [[a window]] in [[a room]]."
+        }, 
+        {
+            "end": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window_tab", 
+                "@id": "/c/en/window_tab", 
+                "language": "en", 
+                "label": "a window tab"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/xerolooper", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xerolooper/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/window_tab/,/c/en/window/]", 
+            "surfaceText": "You are likely to find [[a window tab]] in [[a window]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/break_easily", 
+                "@id": "/c/en/break_easily", 
+                "language": "en", 
+                "label": "break easily"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "A window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/awp2222", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/awp2222/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/break_easily/]", 
+            "surfaceText": "[[A window]] can [[break easily]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/face_mountains", 
+                "@id": "/c/en/face_mountains", 
+                "language": "en", 
+                "label": "face the mountains"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/dchait", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dchait/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/face_mountains/]", 
+            "surfaceText": "[[a window]] can [[face the mountains]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/facing_north", 
+                "@id": "/c/en/facing_north", 
+                "language": "en", 
+                "label": "be facing north"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/nac", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nac/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/facing_north/]", 
+            "surfaceText": "[[a window]] can [[be facing north]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/let_in_beam_of_light", 
+                "@id": "/c/en/let_in_beam_of_light", 
+                "language": "en", 
+                "label": "let in a beam of light"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "A window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/murlin99", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/murlin99/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/let_in_beam_of_light/]", 
+            "surfaceText": "[[A window]] may [[let in a beam of light]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/stick_open", 
+                "@id": "/c/en/stick_open", 
+                "language": "en", 
+                "label": "stick open"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/lauriab", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lauriab/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/stick_open/]", 
+            "surfaceText": "[[a window]] can [[stick open]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/stick_shut", 
+                "@id": "/c/en/stick_shut", 
+                "language": "en", 
+                "label": "stick shut"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/window", 
+                "@id": "/c/en/window", 
+                "language": "en", 
+                "label": "a window"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/davewil", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davewil/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/window/,/c/en/stick_shut/]", 
+            "surfaceText": "[[a window]] can [[stick shut]]"
+        }
+    ], 
+    "@id": "/c/en/window", 
+    "view": {
+        "previousPage": "/c/en/window?offset=160&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/window?offset=180&limit=20", 
+        "nextPage": "/c/en/window?offset=200&limit=20", 
+        "firstPage": "/c/en/window?offset=0&limit=20"
+    }
+}

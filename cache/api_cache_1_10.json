@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "http://en.wiktionary.org/wiki/A-1", 
+                "@id": "http://en.wiktionary.org/wiki/A-1", 
+                "site": "en.wiktionary.org", 
+                "label": "A-1"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/1", 
+                "@id": "/c/en/1", 
+                "language": "en", 
+                "label": "1"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/1/,/http://en.wiktionary.org/wiki/A-1/]", 
+            "surfaceText": null
+        }
+    ], 
+    "@id": "/c/en/1", 
+    "view": {
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/1?offset=200&limit=20", 
+        "previousPage": "/c/en/1?offset=180&limit=20", 
+        "firstPage": "/c/en/1?offset=0&limit=20"
+    }
+}

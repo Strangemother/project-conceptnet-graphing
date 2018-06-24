@@ -1,0 +1,616 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "term": "/c/en/past_is", 
+                "@id": "/c/en/past_is", 
+                "language": "en", 
+                "label": "past is"
+            }, 
+            "weight": 0.3340000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/past_is/]", 
+            "surfaceText": "[[was]] is related to [[past is]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sentence", 
+                "@id": "/c/en/sentence", 
+                "language": "en", 
+                "label": "sentence"
+            }, 
+            "weight": 0.3340000000000001, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/sentence/]", 
+            "surfaceText": "[[was]] is related to [[sentence]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/bewist", 
+                "@id": "/c/en/bewist", 
+                "language": "en", 
+                "label": "bewist"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/bewist/,/c/en/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/is", 
+                "@id": "/c/en/is", 
+                "language": "en", 
+                "label": "is"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/is/,/c/en/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/de/war", 
+                "@id": "/c/de/war", 
+                "language": "de", 
+                "label": "war"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/de/war/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/are", 
+                "@id": "/c/en/are", 
+                "language": "en", 
+                "label": "are"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/en/are/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/be", 
+                "@id": "/c/en/be", 
+                "language": "en", 
+                "label": "be"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/en/be/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/is", 
+                "@id": "/c/en/is", 
+                "language": "en", 
+                "label": "is"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/en/is/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/were", 
+                "@id": "/c/en/were", 
+                "language": "en", 
+                "label": "were"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/en/were/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/nds/was", 
+                "@id": "/c/nds/was", 
+                "language": "nds", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/nds/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/nl/was", 
+                "@id": "/c/nl/was", 
+                "language": "nl", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/nl/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/sco/was", 
+                "@id": "/c/sco/was", 
+                "language": "sco", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/sco/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/sv/var", 
+                "@id": "/c/sv/var", 
+                "language": "sv", 
+                "label": "var"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/was/,/c/sv/var/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/wasm", 
+                "@id": "/c/en/wasm", 
+                "language": "en", 
+                "label": "wasm"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/en/wasm/,/c/en/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/nl/was", 
+                "@id": "/c/nl/was", 
+                "language": "nl", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyRelatedTo", 
+                "label": "EtymologicallyRelatedTo"
+            }, 
+            "@id": "/a/[/r/EtymologicallyRelatedTo/,/c/nl/was/,/c/en/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://en.wiktionary.org/wiki/was", 
+                "@id": "http://en.wiktionary.org/wiki/was", 
+                "site": "en.wiktionary.org", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/was/,/http://en.wiktionary.org/wiki/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://fr.wiktionary.org/wiki/was", 
+                "@id": "http://fr.wiktionary.org/wiki/was", 
+                "site": "fr.wiktionary.org", 
+                "label": "was"
+            }, 
+            "weight": 0.25, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/was/,/http://fr.wiktionary.org/wiki/was/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/be", 
+                "@id": "/c/en/be", 
+                "language": "en", 
+                "label": "to be"
+            }, 
+            "weight": 0.2280000000000002, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/was/,/c/en/be/]", 
+            "surfaceText": "[[was]] is related to [[to be]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.20199999999999996, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/be", 
+                "@id": "/c/en/be", 
+                "language": "en", 
+                "label": "be"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/be/,/c/en/was/]", 
+            "surfaceText": "[[be]] is related to [[was]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/was", 
+                "@id": "/c/en/was", 
+                "language": "en", 
+                "label": "was"
+            }, 
+            "weight": 0.18000000000000016, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/tax", 
+                "@id": "/c/en/tax", 
+                "language": "en", 
+                "label": "tax"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/tax/,/c/en/was/]", 
+            "surfaceText": "[[tax]] is related to [[was]]"
+        }
+    ], 
+    "@id": "/c/en/was", 
+    "view": {
+        "previousPage": "/c/en/was?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/was?offset=100&limit=20", 
+        "nextPage": "/c/en/was?offset=120&limit=20", 
+        "firstPage": "/c/en/was?offset=0&limit=20"
+    }
+}

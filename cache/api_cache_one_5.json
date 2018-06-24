@@ -1,0 +1,614 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+    ], 
+    "edges": [
+        {
+            "end": {
+                "sense_label": "n", 
+                "@id": "/c/en/one/n", 
+                "term": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/th/\u0e2a\u0e34\u0e48\u0e07\u0e2b\u0e19\u0e36\u0e48\u0e07/n", 
+                "term": "/c/th/\u0e2a\u0e34\u0e48\u0e07\u0e2b\u0e19\u0e36\u0e48\u0e07", 
+                "language": "th", 
+                "label": "\u0e2a\u0e34\u0e48\u0e07\u0e2b\u0e19\u0e36\u0e48\u0e07"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/th/\u0e2a\u0e34\u0e48\u0e07\u0e2b\u0e19\u0e36\u0e48\u0e07/n/,/c/en/one/n/]", 
+            "surfaceText": "[[\u0e2a\u0e34\u0e48\u0e07\u0e2b\u0e19\u0e36\u0e48\u0e07]] is a translation of [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 1.7839999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/number", 
+                "@id": "/c/en/number", 
+                "language": "en", 
+                "label": "number"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/number/,/c/en/one/]", 
+            "surfaceText": "[[number]] is related to [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 1.5739999999999998, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/unit", 
+                "@id": "/c/en/unit", 
+                "language": "en", 
+                "label": "unit"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/unit/,/c/en/one/]", 
+            "surfaceText": "[[unit]] is related to [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "a one"
+            }, 
+            "weight": 1.4509999999999996, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/dollar", 
+                "@id": "/c/en/dollar", 
+                "language": "en", 
+                "label": "dollar"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/dollar/,/c/en/one/]", 
+            "surfaceText": "[[dollar]] is related to [[a one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/before", 
+                "@id": "/c/en/before", 
+                "language": "en", 
+                "label": "before"
+            }, 
+            "weight": 1.38, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/one/,/c/en/before/]", 
+            "surfaceText": "[[one]] is related to [[before]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/before_two", 
+                "@id": "/c/en/before_two", 
+                "language": "en", 
+                "label": "before two"
+            }, 
+            "weight": 1.38, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/one/,/c/en/before_two/]", 
+            "surfaceText": "[[one]] is related to [[before two]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/first_number", 
+                "@id": "/c/en/first_number", 
+                "language": "en", 
+                "label": "first number"
+            }, 
+            "weight": 1.306, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/one/,/c/en/first_number/]", 
+            "surfaceText": "[[one]] is related to [[first number]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 1.173, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/each", 
+                "@id": "/c/en/each", 
+                "language": "en", 
+                "label": "each"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }, 
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/each/,/c/en/one/]", 
+            "surfaceText": "[[each]] is related to [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "weight": 1.1340000000000003, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cent", 
+                "@id": "/c/en/cent", 
+                "language": "en", 
+                "label": "cent"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cent/,/c/en/one/]", 
+            "surfaceText": "[[cent]] is related to [[one]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/two", 
+                "@id": "/c/en/two", 
+                "language": "en", 
+                "label": "two"
+            }, 
+            "weight": 1.0469999999999997, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/one/,/c/en/two/]", 
+            "surfaceText": "[[one]] is not [[two]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/far_away_from_here", 
+                "@id": "/c/en/far_away_from_here", 
+                "language": "en", 
+                "label": "far away from here"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/ic", 
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ic/]", 
+                    "activity": "/s/activity/omcs/template"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "label": "AtLocation"
+            }, 
+            "@id": "/a/[/r/AtLocation/,/c/en/one/,/c/en/far_away_from_here/]", 
+            "surfaceText": "Somewhere [[one]] can be is [[far away from here]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/adapt_oneself_to_fit_group", 
+                "@id": "/c/en/adapt_oneself_to_fit_group", 
+                "language": "en", 
+                "label": "adapt oneself to fit a group"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bryan", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/adapt_oneself_to_fit_group/]", 
+            "surfaceText": "[[One]] can [[adapt oneself to fit a group]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/administer_to_many_people_or_things", 
+                "@id": "/c/en/administer_to_many_people_or_things", 
+                "language": "en", 
+                "label": "administer to many people or things"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/administer_to_many_people_or_things/]", 
+            "surfaceText": "[[One]] can [[administer to many people or things]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/advertise_one's_business_services", 
+                "@id": "/c/en/advertise_one's_business_services", 
+                "language": "en", 
+                "label": "advertise one's business services"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/advertise_one's_business_services/]", 
+            "surfaceText": "[[One]] can [[advertise one's business services]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/attempt_to_bargain", 
+                "@id": "/c/en/attempt_to_bargain", 
+                "language": "en", 
+                "label": "attempt to bargain"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/attempt_to_bargain/]", 
+            "surfaceText": "[[One]] can [[attempt to bargain]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/author_letter", 
+                "@id": "/c/en/author_letter", 
+                "language": "en", 
+                "label": "author a letter"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/halelaniau", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/author_letter/]", 
+            "surfaceText": "[[One]] can [[author a letter]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/avoid_punishment_by_making_appeal", 
+                "@id": "/c/en/avoid_punishment_by_making_appeal", 
+                "language": "en", 
+                "label": "avoid punishment by making an appeal"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "one"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/avoid_punishment_by_making_appeal/]", 
+            "surfaceText": "[[one]] may [[avoid punishment by making an appeal]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/better_oneself", 
+                "@id": "/c/en/better_oneself", 
+                "language": "en", 
+                "label": "better oneself"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/gstockil", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gstockil/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/better_oneself/]", 
+            "surfaceText": "[[One]] can [[better oneself]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/board_subway_trains_there", 
+                "@id": "/c/en/board_subway_trains_there", 
+                "language": "en", 
+                "label": "board subway trains there"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/pmiller", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pmiller/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/board_subway_trains_there/]", 
+            "surfaceText": "[[One]] can [[board subway trains there]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/buy_drugs_at_pharmacy", 
+                "@id": "/c/en/buy_drugs_at_pharmacy", 
+                "language": "en", 
+                "label": "buy drugs at a pharmacy"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/one", 
+                "@id": "/c/en/one", 
+                "language": "en", 
+                "label": "One"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/chuck", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chuck/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/one/,/c/en/buy_drugs_at_pharmacy/]", 
+            "surfaceText": "[[One]] can [[buy drugs at a pharmacy]]"
+        }
+    ], 
+    "@id": "/c/en/one", 
+    "view": {
+        "previousPage": "/c/en/one?offset=80&limit=20", 
+        "paginatedProperty": "edges", 
+        "@id": "/c/en/one?offset=100&limit=20", 
+        "nextPage": "/c/en/one?offset=120&limit=20", 
+        "firstPage": "/c/en/one?offset=0&limit=20"
+    }
+}
