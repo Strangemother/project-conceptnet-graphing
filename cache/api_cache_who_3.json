@@ -1,44 +1,512 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
+                "term": "/c/en/god", 
+                "@id": "/c/en/god", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "god"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/loman2000", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/loman2000/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/who/,/c/en/god/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[who]] is [[god]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/poor_may_have_to_beg", 
+                "@id": "/c/en/poor_may_have_to_beg", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "poor may have to beg"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Those who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/who/,/c/en/poor_may_have_to_beg/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Those who]] are [[poor may have to beg]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/prepared_can_winter_in_alaska", 
+                "@id": "/c/en/prepared_can_winter_in_alaska", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "prepared can winter in Alaska"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Someone who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/jake512", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/who/,/c/en/prepared_can_winter_in_alaska/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Someone who]] is [[prepared can winter in Alaska]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/sick_might_throw_up", 
+                "@id": "/c/en/sick_might_throw_up", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "sick might throw up"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Someone who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/joy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/who/,/c/en/sick_might_throw_up/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Someone who]] is [[sick might throw up]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/ar/\u0631\u0634\u064a\u062f/a", 
-                "term": "/c/ar/\u0631\u0634\u064a\u062f", 
-                "language": "ar", 
-                "label": "\u0631\u0634\u064a\u062f"
+                "term": "/c/ady/\u0445\u044d\u0442", 
+                "language": "ady", 
+                "sense_label": "r", 
+                "label": "\u0445\u044d\u0442", 
+                "@id": "/c/ady/\u0445\u044d\u0442/r", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0631\u0634\u064a\u062f/a/,/c/en/who/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/ady/\u0445\u044d\u0442/r/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/akk/\ud808\udead", 
+                "language": "akk", 
+                "sense_label": "n", 
+                "label": "\ud808\udead", 
+                "@id": "/c/akk/\ud808\udead/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/akk/\ud808\udead/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/hwa", 
+                "language": "ang", 
+                "sense_label": "n", 
+                "label": "hwa", 
+                "@id": "/c/ang/hwa/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/hwa/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/\u00fee", 
+                "@id": "/c/ang/\u00fee", 
+                "@type": "Node", 
+                "language": "ang", 
+                "label": "\u00fee"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/\u00fee/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05d3", 
+                "language": "arc", 
+                "sense_label": "n", 
+                "label": "\u05d3", 
+                "@id": "/c/arc/\u05d3/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05d3/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05de\u05df", 
+                "language": "arc", 
+                "sense_label": "n", 
+                "label": "\u05de\u05df", 
+                "@id": "/c/arc/\u05de\u05df/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05de\u05df/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05de\u05e0\u05d0", 
+                "language": "arc", 
+                "sense_label": "n", 
+                "label": "\u05de\u05e0\u05d0", 
+                "@id": "/c/arc/\u05de\u05e0\u05d0/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05de\u05e0\u05d0/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arn/iney", 
+                "language": "arn", 
+                "sense_label": "n", 
+                "label": "iney", 
+                "@id": "/c/arn/iney/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arn/iney/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0627\u0644\u0630\u064a", 
+                "language": "ar", 
+                "sense_label": "n", 
+                "label": "\u0627\u0644\u0630\u064a", 
+                "@id": "/c/ar/\u0627\u0644\u0630\u064a/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0627\u0644\u0630\u064a/n/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0631\u0634\u064a\u062f", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0631\u0634\u064a\u062f", 
+                "@id": "/c/ar/\u0631\u0634\u064a\u062f/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0631\u0634\u064a\u062f/a/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -46,589 +514,219 @@
             "license": "cc:by-sa/4.0", 
             "start": {
                 "term": "/c/ar/\u0634\u0643\u0648\u0646", 
-                "@id": "/c/ar/\u0634\u0643\u0648\u0646", 
                 "language": "ar", 
-                "label": "\u0634\u0643\u0648\u0646"
+                "sense_label": "n", 
+                "label": "\u0634\u0643\u0648\u0646", 
+                "@id": "/c/ar/\u0634\u0643\u0648\u0646/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0634\u0643\u0648\u0646/,/c/en/who/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0634\u0643\u0648\u0646/n/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/ar/\u0636\u0631\u0628/a", 
                 "term": "/c/ar/\u0636\u0631\u0628", 
                 "language": "ar", 
-                "label": "\u0636\u0631\u0628"
+                "sense_label": "a", 
+                "label": "\u0636\u0631\u0628", 
+                "@id": "/c/ar/\u0636\u0631\u0628/a", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/ar/\u0636\u0631\u0628/a/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/ar/\u0645\u0646/n", 
                 "term": "/c/ar/\u0645\u0646", 
                 "language": "ar", 
-                "label": "\u0645\u0646"
+                "sense_label": "n", 
+                "label": "\u0645\u0646", 
+                "@id": "/c/ar/\u0645\u0646/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/ar/\u0645\u0646/n/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/ar/\u0645\u064a\u0646/n", 
                 "term": "/c/ar/\u0645\u064a\u0646", 
                 "language": "ar", 
-                "label": "\u0645\u064a\u0646"
+                "sense_label": "n", 
+                "label": "\u0645\u064a\u0646", 
+                "@id": "/c/ar/\u0645\u064a\u0646/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/ar/\u0645\u064a\u0646/n/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/ast/quienes/n", 
                 "term": "/c/ast/quienes", 
                 "language": "ast", 
-                "label": "quienes"
+                "sense_label": "n", 
+                "label": "quienes", 
+                "@id": "/c/ast/quienes/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/ast/quienes/n/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/ast/qui\u00e9nes/n", 
                 "term": "/c/ast/qui\u00e9nes", 
                 "language": "ast", 
-                "label": "qui\u00e9nes"
+                "sense_label": "n", 
+                "label": "qui\u00e9nes", 
+                "@id": "/c/ast/qui\u00e9nes/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/ast/qui\u00e9nes/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ast/quien/n", 
-                "term": "/c/ast/quien", 
-                "language": "ast", 
-                "label": "quien"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ast/quien/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ast/qui\u00e9n/n", 
-                "term": "/c/ast/qui\u00e9n", 
-                "language": "ast", 
-                "label": "qui\u00e9n"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ast/qui\u00e9n/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/be/\u0445\u0442\u043e", 
-                "@id": "/c/be/\u0445\u0442\u043e", 
-                "language": "be", 
-                "label": "\u0445\u0442\u043e"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/be/\u0445\u0442\u043e/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/be/\u0445\u0442\u043e/n", 
-                "term": "/c/be/\u0445\u0442\u043e", 
-                "language": "be", 
-                "label": "\u0445\u0442\u043e"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/be/\u0445\u0442\u043e/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/bg/\u043a\u043e\u0439/n", 
-                "term": "/c/bg/\u043a\u043e\u0439", 
-                "language": "bg", 
-                "label": "\u043a\u043e\u0439"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/bg/\u043a\u043e\u0439/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/bn/\u0995\u09c7/n", 
-                "term": "/c/bn/\u0995\u09c7", 
-                "language": "bn", 
-                "label": "\u0995\u09c7"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/bn/\u0995\u09c7/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/br/piv/n", 
-                "term": "/c/br/piv", 
-                "language": "br", 
-                "label": "piv"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/br/piv/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ca/que/n", 
-                "term": "/c/ca/que", 
-                "language": "ca", 
-                "label": "que"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ca/que/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ca/qui/n", 
-                "term": "/c/ca/qui", 
-                "language": "ca", 
-                "label": "qui"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ca/qui/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ccc/na'shanana/n", 
-                "term": "/c/ccc/na'shanana", 
-                "language": "ccc", 
-                "label": "na'shanana"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ccc/na'shanana/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/chk/io/n", 
-                "term": "/c/chk/io", 
-                "language": "chk", 
-                "label": "io"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/chk/io/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/chr/\u13a6\u13aa/n", 
-                "term": "/c/chr/\u13a6\u13aa", 
-                "language": "chr", 
-                "label": "\u13a6\u13aa"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/chr/\u13a6\u13aa/n/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/cic/kata/n", 
-                "term": "/c/cic/kata", 
-                "language": "cic", 
-                "label": "kata"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/cic/kata/n/,/c/en/who/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }
     ], 
     "@id": "/c/en/who", 
     "view": {
-        "previousPage": "/c/en/who?offset=40&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/who?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/who?offset=40&limit=20", 
         "@id": "/c/en/who?offset=60&limit=20", 
-        "nextPage": "/c/en/who?offset=80&limit=20", 
-        "firstPage": "/c/en/who?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/who?offset=80&limit=20"
     }
 }

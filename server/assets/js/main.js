@@ -4,7 +4,7 @@ var cleanData = []
 var jsonFetchApp = new Vue({
     el: '#main'
     , data: {
-        address: '/c/en/hello'
+        address: 'hello'
         , basePath: 'http://api.conceptnet.io'
         , requests: []
         , selected: {}
@@ -13,9 +13,13 @@ var jsonFetchApp = new Vue({
     }
 
     , methods: {
+
         fetch(event, partial){
             let path = partial == undefined ? this.$refs.address.value: partial;
             console.log('path', path)
+            if(path[0] != '/'){
+                path = "/c/en/" + path
+            }
             let fullpath = `${this.basePath}${path}`
             $.get(fullpath, function(data){
                 this.renderPath(path, data)

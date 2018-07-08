@@ -1,641 +1,3614 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
                 "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/ca/veritable/a", 
-                "term": "/c/ca/veritable", 
-                "language": "ca", 
-                "label": "veritable"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/veritable/a/,/c/en/true/a/]", 
-            "surfaceText": "[[veritable]] is a translation of [[true]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/da/rigtig/a", 
-                "term": "/c/da/rigtig", 
-                "language": "da", 
-                "label": "rigtig"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/da/rigtig/a/,/c/en/true/a/]", 
-            "surfaceText": "[[rigtig]] is a translation of [[true]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/da/sand/a", 
-                "term": "/c/da/sand", 
-                "language": "da", 
-                "label": "sand"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/da/sand/a/,/c/en/true/a/]", 
-            "surfaceText": "[[sand]] is a translation of [[true]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/da/virkelig/a", 
-                "term": "/c/da/virkelig", 
-                "language": "da", 
-                "label": "virkelig"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/da/virkelig/a/,/c/en/true/a/]", 
-            "surfaceText": "[[virkelig]] is a translation of [[true]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/dead_on_target/a", 
-                "term": "/c/en/dead_on_target", 
-                "language": "en", 
-                "label": "dead on target"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/dead_on_target/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[dead on target]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/dependable/a", 
-                "term": "/c/en/dependable", 
-                "language": "en", 
-                "label": "dependable"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/dependable/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[dependable]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/on_key/a", 
-                "term": "/c/en/on_key", 
-                "language": "en", 
-                "label": "on-key"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/on_key/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[on-key]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/rightful/a", 
-                "term": "/c/en/rightful", 
-                "language": "en", 
-                "label": "rightful"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/rightful/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[rightful]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/straight/a", 
-                "term": "/c/en/straight", 
-                "language": "en", 
-                "label": "straight"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/straight/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[straight]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/truthful/a", 
-                "term": "/c/en/truthful", 
-                "language": "en", 
-                "label": "truthful"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/truthful/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[truthful]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/unfeigned/a", 
-                "term": "/c/en/unfeigned", 
-                "language": "en", 
-                "label": "unfeigned"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/a/,/c/en/unfeigned/a/]", 
-            "surfaceText": "[[true]] is a synonym of [[unfeigned]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/truth/n", 
-                "term": "/c/en/truth", 
-                "language": "en", 
-                "label": "truth"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/true/n", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "the true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/n/,/c/en/truth/n/]", 
-            "surfaceText": "[[the true]] is a synonym of [[truth]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "r", 
-                "@id": "/c/en/confessedly/r", 
-                "term": "/c/en/confessedly", 
-                "language": "en", 
-                "label": "confessedly"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/en/true/r", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true/r/,/c/en/confessedly/r/]", 
-            "surfaceText": "[[true]] is a synonym of [[confessedly]]"
-        }, 
-        {
-            "end": {
+                "term": "/c/ang/besecgan", 
+                "language": "ang", 
                 "sense_label": "v", 
-                "@id": "/c/en/true/v", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
+                "label": "besecgan", 
+                "@id": "/c/ang/besecgan/v", 
+                "@type": "Node"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/true_up/v", 
-                "term": "/c/en/true_up", 
-                "language": "en", 
-                "label": "true up"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/en/true_up/v/,/c/en/true/v/]", 
-            "surfaceText": "[[true up]] is a synonym of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ang/besecgan/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/true", 
                 "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
+            "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
+                "term": "/c/ang/getreowe", 
+                "language": "ang", 
                 "sense_label": "a", 
-                "@id": "/c/en/veracious/a", 
-                "term": "/c/en/veracious", 
-                "language": "en", 
-                "label": "veracious"
+                "label": "getreowe", 
+                "@id": "/c/ang/getreowe/a", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wiktionary/de", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wiktionary/de", 
+                    "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
-                }, 
-                {
-                    "contributor": "/s/resource/wiktionary/fr", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/en/veracious/a/,/c/en/true/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/getreowe/a/,/c/en/true/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
                 "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
             "start": {
+                "term": "/c/ang/riht", 
+                "language": "ang", 
                 "sense_label": "a", 
-                "@id": "/c/es/aut\u00e9ntico/a", 
-                "term": "/c/es/aut\u00e9ntico", 
-                "language": "es", 
-                "label": "aut\u00e9ntico"
+                "label": "riht", 
+                "@id": "/c/ang/riht/a", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/es/aut\u00e9ntico/a/,/c/en/true/a/]", 
-            "surfaceText": "[[aut\u00e9ntico]] is a translation of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ang/riht/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }, 
         {
             "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/riht", 
+                "@id": "/c/ang/riht", 
+                "@type": "Node", 
+                "language": "ang", 
+                "label": "riht"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/riht/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/so\u00fe", 
+                "language": "ang", 
+                "sense_label": "a", 
+                "label": "so\u00fe", 
+                "@id": "/c/ang/so\u00fe/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/so\u00fe/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/so\u00felic", 
+                "language": "ang", 
+                "sense_label": "a", 
+                "label": "so\u00felic", 
+                "@id": "/c/ang/so\u00felic/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/so\u00felic/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/treowe", 
+                "language": "ang", 
+                "sense_label": "a", 
+                "label": "treowe", 
+                "@id": "/c/ang/treowe/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/treowe/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/w\u00e6r", 
+                "language": "ang", 
+                "sense_label": "a", 
+                "label": "w\u00e6r", 
+                "@id": "/c/ang/w\u00e6r/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/w\u00e6r/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ang/wordf\u00e6st", 
+                "language": "ang", 
+                "sense_label": "a", 
+                "label": "wordf\u00e6st", 
+                "@id": "/c/ang/wordf\u00e6st/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ang/wordf\u00e6st/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05e9\u05e8\u05d9\u05e8\u05d0", 
+                "language": "arc", 
+                "sense_label": "a", 
+                "label": "\u05e9\u05e8\u05d9\u05e8\u05d0", 
+                "@id": "/c/arc/\u05e9\u05e8\u05d9\u05e8\u05d0/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e9\u05e8\u05d9\u05e8\u05d0/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05e9\u05e8\u05d9\u05e8\u05ea\u05d0", 
+                "language": "arc", 
+                "sense_label": "a", 
+                "label": "\u05e9\u05e8\u05d9\u05e8\u05ea\u05d0", 
+                "@id": "/c/arc/\u05e9\u05e8\u05d9\u05e8\u05ea\u05d0/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e9\u05e8\u05d9\u05e8\u05ea\u05d0/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/arc/\u05e9\u05e8\u05e8", 
+                "language": "arc", 
                 "sense_label": "v", 
-                "@id": "/c/en/true/v", 
+                "label": "\u05e9\u05e8\u05e8", 
+                "@id": "/c/arc/\u05e9\u05e8\u05e8/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e9\u05e8\u05e8/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
                 "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
             "start": {
+                "term": "/c/arn/mupi\u00f1", 
+                "language": "arn", 
+                "sense_label": "a", 
+                "label": "mupi\u00f1", 
+                "@id": "/c/arn/mupi\u00f1/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/arn/mupi\u00f1/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0623\u0645\u064a\u0646", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0623\u0645\u064a\u0646", 
+                "@id": "/c/ar/\u0623\u0645\u064a\u0646/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0623\u0645\u064a\u0646/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062a\u0623\u0643\u062f", 
+                "language": "ar", 
                 "sense_label": "v", 
-                "@id": "/c/es/equilibrar/v", 
-                "term": "/c/es/equilibrar", 
-                "language": "es", 
-                "label": "equilibrar"
+                "label": "\u062a\u0623\u0643\u062f", 
+                "@id": "/c/ar/\u062a\u0623\u0643\u062f/v", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/es/equilibrar/v/,/c/en/true/v/]", 
-            "surfaceText": "[[equilibrar]] is a translation of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062a\u0623\u0643\u062f/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }, 
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
                 "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/es/fiel/a", 
-                "term": "/c/es/fiel", 
-                "language": "es", 
-                "label": "fiel"
+                "term": "/c/ar/\u062a\u0648\u0643\u062f", 
+                "language": "ar", 
+                "sense_label": "v", 
+                "label": "\u062a\u0648\u0643\u062f", 
+                "@id": "/c/ar/\u062a\u0648\u0643\u062f/v", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/es/fiel/a/,/c/en/true/a/]", 
-            "surfaceText": "[[fiel]] is a translation of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062a\u0648\u0643\u062f/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }, 
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/true/a", 
                 "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "true"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
             "start": {
+                "term": "/c/ar/\u062d\u0631", 
+                "language": "ar", 
                 "sense_label": "a", 
-                "@id": "/c/es/verdadero/a", 
-                "term": "/c/es/verdadero", 
-                "language": "es", 
-                "label": "verdadero"
+                "label": "\u062d\u0631", 
+                "@id": "/c/ar/\u062d\u0631/a", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/es/verdadero/a/,/c/en/true/a/]", 
-            "surfaceText": "[[verdadero]] is a translation of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0631/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }, 
         {
             "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062d\u0642", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u062d\u0642", 
+                "@id": "/c/ar/\u062d\u0642/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062d\u0642", 
+                "language": "ar", 
+                "sense_label": "v", 
+                "label": "\u062d\u0642", 
+                "@id": "/c/ar/\u062d\u0642/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062d\u0642\u0642", 
+                "language": "ar", 
+                "sense_label": "v", 
+                "label": "\u062d\u0642\u0642", 
+                "@id": "/c/ar/\u062d\u0642\u0642/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642\u0642/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062d\u0642\u064a\u0642\u064a", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u062d\u0642\u064a\u0642\u064a", 
+                "@id": "/c/ar/\u062d\u0642\u064a\u0642\u064a/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062d\u0642\u064a\u0642\u064a/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u062e\u0627\u0644\u0635", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u062e\u0627\u0644\u0635", 
+                "@id": "/c/ar/\u062e\u0627\u0644\u0635/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u062e\u0627\u0644\u0635/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0635\u0627\u062f\u0642", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0635\u0627\u062f\u0642", 
+                "@id": "/c/ar/\u0635\u0627\u062f\u0642/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0635\u0627\u062f\u0642/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0635\u062d\u064a\u062d", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0635\u062d\u064a\u062d", 
+                "@id": "/c/ar/\u0635\u062d\u064a\u062d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0635\u062d\u064a\u062d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0635\u062f\u0642", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0635\u062f\u0642", 
+                "@id": "/c/ar/\u0635\u062f\u0642/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0635\u062f\u0642/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0635\u062f\u0642", 
+                "language": "ar", 
+                "sense_label": "v", 
+                "label": "\u0635\u062f\u0642", 
+                "@id": "/c/ar/\u0635\u062f\u0642/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0635\u062f\u0642/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0638\u0646", 
+                "language": "ar", 
+                "sense_label": "v", 
+                "label": "\u0638\u0646", 
+                "@id": "/c/ar/\u0638\u0646/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0638\u0646/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ar/\u0641\u0635\u0644", 
+                "language": "ar", 
+                "sense_label": "a", 
+                "label": "\u0641\u0635\u0644", 
+                "@id": "/c/ar/\u0641\u0635\u0644/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0641\u0635\u0644/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ast/ciertu", 
+                "language": "ast", 
+                "sense_label": "a", 
+                "label": "ciertu", 
+                "@id": "/c/ast/ciertu/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ast/ciertu/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ast/verdaderu", 
+                "language": "ast", 
+                "sense_label": "a", 
+                "label": "verdaderu", 
+                "@id": "/c/ast/verdaderu/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ast/verdaderu/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ba/\u0445\u0430\u04a1", 
+                "language": "ba", 
+                "sense_label": "a", 
+                "label": "\u0445\u0430\u04a1", 
+                "@id": "/c/ba/\u0445\u0430\u04a1/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ba/\u0445\u0430\u04a1/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ba/\u044b\u0441\u044b\u043d", 
+                "language": "ba", 
+                "sense_label": "a", 
+                "label": "\u044b\u0441\u044b\u043d", 
+                "@id": "/c/ba/\u044b\u0441\u044b\u043d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ba/\u044b\u0441\u044b\u043d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/be/\u043f\u0440\u0430\u0432\u0456\u043b\u044c\u043d\u044b", 
+                "language": "be", 
+                "sense_label": "a", 
+                "label": "\u043f\u0440\u0430\u0432\u0456\u043b\u044c\u043d\u044b", 
+                "@id": "/c/be/\u043f\u0440\u0430\u0432\u0456\u043b\u044c\u043d\u044b/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/be/\u043f\u0440\u0430\u0432\u0456\u043b\u044c\u043d\u044b/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bg/\u0432\u0435\u0440\u0435\u043d", 
+                "language": "bg", 
+                "sense_label": "a", 
+                "label": "\u0432\u0435\u0440\u0435\u043d", 
+                "@id": "/c/bg/\u0432\u0435\u0440\u0435\u043d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bg/\u0432\u0435\u0440\u0435\u043d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bg/\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d", 
+                "language": "bg", 
+                "sense_label": "a", 
+                "label": "\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d", 
+                "@id": "/c/bg/\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bg/\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bg/\u0438\u0441\u043a\u0440\u0435\u043d", 
+                "language": "bg", 
+                "sense_label": "a", 
+                "label": "\u0438\u0441\u043a\u0440\u0435\u043d", 
+                "@id": "/c/bg/\u0438\u0441\u043a\u0440\u0435\u043d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bg/\u0438\u0441\u043a\u0440\u0435\u043d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bg/\u0438\u0441\u0442\u0438\u043d\u0435\u043d", 
+                "language": "bg", 
+                "sense_label": "a", 
+                "label": "\u0438\u0441\u0442\u0438\u043d\u0435\u043d", 
+                "@id": "/c/bg/\u0438\u0441\u0442\u0438\u043d\u0435\u043d/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bg/\u0438\u0441\u0442\u0438\u043d\u0435\u043d/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bg/\u0438\u0441\u0442\u0438\u043d\u0441\u043a\u0438", 
+                "language": "bg", 
+                "sense_label": "a", 
+                "label": "\u0438\u0441\u0442\u0438\u043d\u0441\u043a\u0438", 
+                "@id": "/c/bg/\u0438\u0441\u0442\u0438\u043d\u0441\u043a\u0438/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bg/\u0438\u0441\u0442\u0438\u043d\u0441\u043a\u0438/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/bo/\u0f51", 
+                "@id": "/c/bo/\u0f51", 
+                "@type": "Node", 
+                "language": "bo", 
+                "label": "\u0f51"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/bo/\u0f51/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/br/gwir", 
+                "language": "br", 
+                "sense_label": "a", 
+                "label": "gwir", 
+                "@id": "/c/br/gwir/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/br/gwir/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ca/cert", 
+                "language": "ca", 
+                "sense_label": "a", 
+                "label": "cert", 
+                "@id": "/c/ca/cert/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/cert/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ca/verdader", 
+                "language": "ca", 
+                "sense_label": "a", 
+                "label": "verdader", 
+                "@id": "/c/ca/verdader/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/verdader/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ca/veritable", 
+                "language": "ca", 
+                "sense_label": "a", 
+                "label": "veritable", 
+                "@id": "/c/ca/veritable/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/veritable/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ca/vertader", 
+                "language": "ca", 
+                "sense_label": "a", 
+                "label": "vertader", 
+                "@id": "/c/ca/vertader/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ca/vertader/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ccc/akachelo'ta", 
+                "language": "ccc", 
+                "sense_label": "a", 
+                "label": "akachelo'ta", 
+                "@id": "/c/ccc/akachelo'ta/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ccc/akachelo'ta/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ceb/himakak", 
+                "language": "ceb", 
+                "sense_label": "v", 
+                "label": "himakak", 
+                "@id": "/c/ceb/himakak/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ceb/himakak/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ceb/matuod", 
+                "language": "ceb", 
                 "sense_label": "n", 
-                "@id": "/c/en/true/n", 
-                "term": "/c/en/true", 
-                "language": "en", 
-                "label": "true"
+                "label": "matuod", 
+                "@id": "/c/ceb/matuod/n", 
+                "@type": "Node"
             }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/fa/\u0641\u0631\u06cc\u0648\u0631/n", 
-                "term": "/c/fa/\u0641\u0631\u06cc\u0648\u0631", 
-                "language": "fa", 
-                "label": "\u0641\u0631\u06cc\u0648\u0631"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
+            "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/Synonym/,/c/fa/\u0641\u0631\u06cc\u0648\u0631/n/,/c/en/true/n/]", 
-            "surfaceText": "[[\u0641\u0631\u06cc\u0648\u0631]] is a translation of [[true]]"
+            "@id": "/a/[/r/RelatedTo/,/c/ceb/matuod/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ceb/tinuod", 
+                "language": "ceb", 
+                "sense_label": "a", 
+                "label": "tinuod", 
+                "@id": "/c/ceb/tinuod/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/ceb/tinuod/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/chk/ennet", 
+                "language": "chk", 
+                "sense_label": "a", 
+                "label": "ennet", 
+                "@id": "/c/chk/ennet/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/chk/ennet/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cim/baar", 
+                "language": "cim", 
+                "sense_label": "a", 
+                "label": "baar", 
+                "@id": "/c/cim/baar/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cim/baar/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cs/poctiv\u00fd", 
+                "language": "cs", 
+                "sense_label": "a", 
+                "label": "poctiv\u00fd", 
+                "@id": "/c/cs/poctiv\u00fd/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/poctiv\u00fd/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cs/pravdiv\u00fd", 
+                "language": "cs", 
+                "sense_label": "a", 
+                "label": "pravdiv\u00fd", 
+                "@id": "/c/cs/pravdiv\u00fd/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/pravdiv\u00fd/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cs/prav\u00fd", 
+                "language": "cs", 
+                "sense_label": "a", 
+                "label": "prav\u00fd", 
+                "@id": "/c/cs/prav\u00fd/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cs/prav\u00fd/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cu/\u0438\u0441\u0442\u044a", 
+                "language": "cu", 
+                "sense_label": "a", 
+                "label": "\u0438\u0441\u0442\u044a", 
+                "@id": "/c/cu/\u0438\u0441\u0442\u044a/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cu/\u0438\u0441\u0442\u044a/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cy/cywir", 
+                "language": "cy", 
+                "sense_label": "a", 
+                "label": "cywir", 
+                "@id": "/c/cy/cywir/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cy/cywir/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/cy/gwir", 
+                "language": "cy", 
+                "sense_label": "a", 
+                "label": "gwir", 
+                "@id": "/c/cy/gwir/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/cy/gwir/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/da/\u00e6gte", 
+                "language": "da", 
+                "sense_label": "a", 
+                "label": "\u00e6gte", 
+                "@id": "/c/da/\u00e6gte/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/\u00e6gte/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/da/almengyldig", 
+                "language": "da", 
+                "sense_label": "a", 
+                "label": "almengyldig", 
+                "@id": "/c/da/almengyldig/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/almengyldig/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/da/rigtig", 
+                "language": "da", 
+                "sense_label": "a", 
+                "label": "rigtig", 
+                "@id": "/c/da/rigtig/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/rigtig/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/da/sand", 
+                "language": "da", 
+                "sense_label": "a", 
+                "label": "sand", 
+                "@id": "/c/da/sand/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/sand/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/da/tro", 
+                "language": "da", 
+                "sense_label": "a", 
+                "label": "tro", 
+                "@id": "/c/da/tro/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/da/tro/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/bewahrheiten", 
+                "language": "de", 
+                "sense_label": "v", 
+                "label": "bewahrheiten", 
+                "@id": "/c/de/bewahrheiten/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/bewahrheiten/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/echt", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "echt", 
+                "@id": "/c/de/echt/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/echt/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/ganz", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "ganz", 
+                "@id": "/c/de/ganz/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/ganz/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/getreu", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "getreu", 
+                "@id": "/c/de/getreu/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/getreu/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/massstabsgerecht", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "massstabsgerecht", 
+                "@id": "/c/de/massstabsgerecht/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/massstabsgerecht/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/massstabsgetreu", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "massstabsgetreu", 
+                "@id": "/c/de/massstabsgetreu/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/massstabsgetreu/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/recht", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "recht", 
+                "@id": "/c/de/recht/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/recht/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/stimmen", 
+                "language": "de", 
+                "sense_label": "v", 
+                "label": "stimmen", 
+                "@id": "/c/de/stimmen/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/stimmen/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/treu", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "treu", 
+                "@id": "/c/de/treu/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/treu/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/wahr", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "wahr", 
+                "@id": "/c/de/wahr/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/wahr/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/wahrhaft", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "wahrhaft", 
+                "@id": "/c/de/wahrhaft/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/wahrhaft/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/wahrhaftig", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "wahrhaftig", 
+                "@id": "/c/de/wahrhaftig/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/wahrhaftig/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/de/wahrheitsgem\u00e4ss", 
+                "language": "de", 
+                "sense_label": "a", 
+                "label": "wahrheitsgem\u00e4ss", 
+                "@id": "/c/de/wahrheitsgem\u00e4ss/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/de/wahrheitsgem\u00e4ss/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/dum/recht", 
+                "language": "dum", 
+                "sense_label": "a", 
+                "label": "recht", 
+                "@id": "/c/dum/recht/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/dum/recht/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/dum/waer", 
+                "language": "dum", 
+                "sense_label": "a", 
+                "label": "waer", 
+                "@id": "/c/dum/waer/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/dum/waer/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/egx/m\ua723\ua725", 
+                "language": "egx", 
+                "sense_label": "v", 
+                "label": "m\ua723\ua725", 
+                "@id": "/c/egx/m\ua723\ua725/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/egx/m\ua723\ua725/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03b1\u03ba\u03c1\u03b1\u03b9\u03c6\u03bd\u03ae\u03c3", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03b1\u03ba\u03c1\u03b1\u03b9\u03c6\u03bd\u03ae\u03c3", 
+                "@id": "/c/el/\u03b1\u03ba\u03c1\u03b1\u03b9\u03c6\u03bd\u03ae\u03c3/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03b1\u03ba\u03c1\u03b1\u03b9\u03c6\u03bd\u03ae\u03c3/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b5\u03cd\u03c9", 
+                "language": "el", 
+                "sense_label": "v", 
+                "label": "\u03b1\u03bb\u03b7\u03b8\u03b5\u03cd\u03c9", 
+                "@id": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b5\u03cd\u03c9/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03b1\u03bb\u03b7\u03b8\u03b5\u03cd\u03c9/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03ae\u03c3", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03b1\u03bb\u03b7\u03b8\u03ae\u03c3", 
+                "@id": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03ae\u03c3/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03b1\u03bb\u03b7\u03b8\u03ae\u03c3/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03bf\u03af", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03bf\u03af", 
+                "@id": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03bf\u03af/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03bf\u03af/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03cc\u03c3", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03cc\u03c3", 
+                "@id": "/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03cc\u03c3/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03b1\u03bb\u03b7\u03b8\u03b9\u03bd\u03cc\u03c3/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03c0\u03b9\u03c3\u03c4\u03cc\u03c3", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03c0\u03b9\u03c3\u03c4\u03cc\u03c3", 
+                "@id": "/c/el/\u03c0\u03b9\u03c3\u03c4\u03cc\u03c3/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c0\u03b9\u03c3\u03c4\u03cc\u03c3/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03c3\u03c4\u03ad\u03ba\u03c9", 
+                "language": "el", 
+                "sense_label": "v", 
+                "label": "\u03c3\u03c4\u03ad\u03ba\u03c9", 
+                "@id": "/c/el/\u03c3\u03c4\u03ad\u03ba\u03c9/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c3\u03c4\u03ad\u03ba\u03c9/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/el/\u03c3\u03c9\u03c3\u03c4\u03cc\u03c3", 
+                "language": "el", 
+                "sense_label": "a", 
+                "label": "\u03c3\u03c9\u03c3\u03c4\u03cc\u03c3", 
+                "@id": "/c/el/\u03c3\u03c9\u03c3\u03c4\u03cc\u03c3/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/el/\u03c3\u03c9\u03c3\u03c4\u03cc\u03c3/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/accuracy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "accuracy", 
+                "@id": "/c/en/accuracy/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/accuracy/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/admittedly", 
+                "language": "en", 
+                "sense_label": "r", 
+                "label": "admittedly", 
+                "@id": "/c/en/admittedly/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/admittedly/r/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/admit", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "admit", 
+                "@id": "/c/en/admit/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/admit/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/affirmation", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "affirmation", 
+                "@id": "/c/en/affirmation/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/affirmation/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/alethic", 
+                "language": "en", 
+                "sense_label": "a", 
+                "label": "alethic", 
+                "@id": "/c/en/alethic/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/alethic/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/alieve", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "alieve", 
+                "@id": "/c/en/alieve/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/alieve/v/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/allonym", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "allonym", 
+                "@id": "/c/en/allonym/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/allonym/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/allonymous", 
+                "language": "en", 
+                "sense_label": "a", 
+                "label": "allonymous", 
+                "@id": "/c/en/allonymous/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/allonymous/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/all_very_well", 
+                "language": "en", 
+                "sense_label": "a", 
+                "label": "all very well", 
+                "@id": "/c/en/all_very_well/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/all_very_well/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/amazingly", 
+                "language": "en", 
+                "sense_label": "r", 
+                "label": "amazingly", 
+                "@id": "/c/en/amazingly/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/amazingly/r/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/apodeictic", 
+                "language": "en", 
+                "sense_label": "a", 
+                "label": "apodeictic", 
+                "@id": "/c/en/apodeictic/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apodeictic/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/apodictic", 
+                "language": "en", 
+                "sense_label": "a", 
+                "label": "apodictic", 
+                "@id": "/c/en/apodictic/a", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apodictic/a/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/appeal_to_authority", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "appeal to authority", 
+                "@id": "/c/en/appeal_to_authority/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/appeal_to_authority/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/argument_from_ignorance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "argument from ignorance", 
+                "@id": "/c/en/argument_from_ignorance/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/argument_from_ignorance/n/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/true", 
+                "@id": "/c/en/true", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "true"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/art_imitates_life", 
+                "@id": "/c/en/art_imitates_life", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "art imitates life"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/art_imitates_life/,/c/en/true/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }
     ], 
     "@id": "/c/en/true", 
     "view": {
-        "previousPage": "/c/en/true?offset=20&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/true?offset=0&limit=100", 
         "paginatedProperty": "edges", 
-        "@id": "/c/en/true?offset=40&limit=20", 
-        "nextPage": "/c/en/true?offset=60&limit=20", 
-        "firstPage": "/c/en/true?offset=0&limit=20"
+        "previousPage": "/c/en/true?offset=100&limit=100", 
+        "@id": "/c/en/true?offset=200&limit=100", 
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/true?offset=300&limit=100"
     }
 }

@@ -1,13 +1,570 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
                 "term": "/c/en/go", 
                 "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u304a\u308a\u3083\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u304a\u308a\u3083\u308b", 
+                "@id": "/c/ja/\u304a\u308a\u3083\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u304a\u308a\u3083\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u3089\u3063\u3057\u3083\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u3089\u3063\u3057\u3083\u308b", 
+                "@id": "/c/ja/\u3089\u3063\u3057\u3083\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u3089\u3063\u3057\u3083\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u3044\u3089\u3063\u3057\u3083\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u3044\u3089\u3063\u3057\u3083\u308b", 
+                "@id": "/c/ja/\u3044\u3089\u3063\u3057\u3083\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u3044\u3089\u3063\u3057\u3083\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/ja/\u3068\u3057\u3066\u306f_\u3059\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u3068\u3057\u3066\u306f+\u3059\u308b", 
+                "@id": "/c/ja/\u3068\u3057\u3066\u306f_\u3059\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u3068\u3057\u3066\u306f_\u3059\u308b/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[\u3068\u3057\u3066\u306f+\u3059\u308b]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u4e0a\u308b", 
+                "@id": "/c/ja/\u4e0a\u308b", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u4e0a\u308b"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u4e0a\u308b/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u4e0a\u304c\u308b", 
+                "@id": "/c/ja/\u4e0a\u304c\u308b", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u4e0a\u304c\u308b"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u4e0a\u304c\u308b/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u4e91\u3046", 
+                "@id": "/c/ja/\u4e91\u3046", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u4e91\u3046"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u4e91\u3046/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u304a\u51fa\u3067", 
+                "@id": "/c/ja/\u304a\u51fa\u3067", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u304a\u51fa\u3067"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u304a\u51fa\u3067/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u304a\u51fa\u3067\u306a\u3055\u3044", 
+                "@id": "/c/ja/\u304a\u51fa\u3067\u306a\u3055\u3044", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u304a\u51fa\u3067\u306a\u3055\u3044"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u304a\u51fa\u3067\u306a\u3055\u3044/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u304a\u51fa\u3067\u306b\u306a\u308b", 
+                "@id": "/c/ja/\u304a\u51fa\u3067\u306b\u306a\u308b", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u304a\u51fa\u3067\u306b\u306a\u308b"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u304a\u51fa\u3067\u306b\u306a\u308b/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u51fa\u3067\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u51fa\u3067\u308b", 
+                "@id": "/c/ja/\u51fa\u3067\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u51fa\u3067\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u304a\u51fa\u3067\u306a\u3055\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u304a\u51fa\u3067\u306a\u3055\u308b", 
+                "@id": "/c/ja/\u304a\u51fa\u3067\u306a\u3055\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u304a\u51fa\u3067\u306a\u3055\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/ja/\u51fa\u767a_\u3059\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u51fa\u767a+\u3059\u308b", 
+                "@id": "/c/ja/\u51fa\u767a_\u3059\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u51fa\u767a_\u3059\u308b/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[\u51fa\u767a+\u3059\u308b]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/ja/\u51fa\u7acb_\u3059\u308b", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u51fa\u7acb+\u3059\u308b", 
+                "@id": "/c/ja/\u51fa\u7acb_\u3059\u308b/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u51fa\u7acb_\u3059\u308b/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[\u51fa\u7acb+\u3059\u308b]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/ja/\u51fa\u7acb\u3064", 
+                "language": "ja", 
+                "sense_label": "v", 
+                "label": "\u51fa\u7acb\u3064", 
+                "@id": "/c/ja/\u51fa\u7acb\u3064/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u51fa\u7acb\u3064/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[\u51fa\u7acb\u3064]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u52d5\u304f", 
+                "@id": "/c/ja/\u52d5\u304f", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u52d5\u304f"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u52d5\u304f/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "go"
             }, 
@@ -16,6 +573,7 @@
             "start": {
                 "term": "/c/ja/\u53bb\u306c", 
                 "@id": "/c/ja/\u53bb\u306c", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u53bb\u306c"
             }, 
@@ -23,590 +581,134 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u53bb\u306c/,/c/en/go/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u53bb\u308b/v", 
                 "term": "/c/ja/\u53bb\u308b", 
                 "language": "ja", 
-                "label": "\u53bb\u308b"
+                "sense_label": "v", 
+                "label": "\u53bb\u308b", 
+                "@id": "/c/ja/\u53bb\u308b/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u53bb\u308b/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
             "surfaceText": "[[\u53bb\u308b]] is a translation of [[go]]"
         }, 
         {
             "end": {
                 "term": "/c/en/go", 
                 "@id": "/c/en/go", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "go"
             }, 
             "weight": 2.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u53c2\u308b/v", 
                 "term": "/c/ja/\u53c2\u308b", 
                 "language": "ja", 
-                "label": "\u53c2\u308b"
+                "sense_label": "v", 
+                "label": "\u53c2\u308b", 
+                "@id": "/c/ja/\u53c2\u308b/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/jmdict", 
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u53c2\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/go", 
                 "@id": "/c/en/go", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "go"
             }, 
             "weight": 2.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u53c2\u3058\u308b/v", 
                 "term": "/c/ja/\u53c2\u3058\u308b", 
                 "language": "ja", 
-                "label": "\u53c2\u3058\u308b"
+                "sense_label": "v", 
+                "label": "\u53c2\u3058\u308b", 
+                "@id": "/c/ja/\u53c2\u3058\u308b/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/jmdict", 
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u53c2\u3058\u308b/v/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u53c2\u305a\u308b/v", 
-                "term": "/c/ja/\u53c2\u305a\u308b", 
-                "language": "ja", 
-                "label": "\u53c2\u305a\u308b"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u53c2\u305a\u308b/v/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u56f2\u7881/n", 
-                "term": "/c/ja/\u56f2\u7881", 
-                "language": "ja", 
-                "label": "\u56f2\u7881"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u56f2\u7881/n/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/go/n", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u56f2\u7881/n", 
-                "term": "/c/ja/\u56f2\u7881", 
-                "language": "ja", 
-                "label": "\u56f2\u7881"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u56f2\u7881/n/,/c/en/go/n/]", 
-            "surfaceText": "[[\u56f2\u7881]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5728\u3059", 
-                "@id": "/c/ja/\u5728\u3059", 
-                "language": "ja", 
-                "label": "\u5728\u3059"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5728\u3059/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5750\u3059", 
-                "@id": "/c/ja/\u5750\u3059", 
-                "language": "ja", 
-                "label": "\u5750\u3059"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5750\u3059/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u5931\u305b\u308b/v", 
-                "term": "/c/ja/\u5931\u305b\u308b", 
-                "language": "ja", 
-                "label": "\u5931\u305b\u308b"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5931\u305b\u308b/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u5931\u305b\u308b]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u5c0e\u304f/v", 
-                "term": "/c/ja/\u5c0e\u304f", 
-                "language": "ja", 
-                "label": "\u5c0e\u304f"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5c0e\u304f/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u5c0e\u304f]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/go/n", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u5f53\u756a/n", 
-                "term": "/c/ja/\u5f53\u756a", 
-                "language": "ja", 
-                "label": "\u5f53\u756a"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5f53\u756a/n/,/c/en/go/n/]", 
-            "surfaceText": "[[\u5f53\u756a]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5f80\u306c", 
-                "@id": "/c/ja/\u5f80\u306c", 
-                "language": "ja", 
-                "label": "\u5f80\u306c"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5f80\u306c/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u5f80\u304f/v", 
-                "term": "/c/ja/\u5f80\u304f", 
-                "language": "ja", 
-                "label": "\u5f80\u304f"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5f80\u304f/v/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5fa1\u5165\u308a\u5019", 
-                "@id": "/c/ja/\u5fa1\u5165\u308a\u5019", 
-                "language": "ja", 
-                "label": "\u5fa1\u5165\u308a\u5019"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u5165\u308a\u5019/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5fa1\u5165\u308a\u5019\u3075", 
-                "@id": "/c/ja/\u5fa1\u5165\u308a\u5019\u3075", 
-                "language": "ja", 
-                "label": "\u5fa1\u5165\u308a\u5019\u3075"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u5165\u308a\u5019\u3075/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5fa1\u51fa\u3067", 
-                "@id": "/c/ja/\u5fa1\u51fa\u3067", 
-                "language": "ja", 
-                "label": "\u5fa1\u51fa\u3067"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u51fa\u3067/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u3044", 
-                "@id": "/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u3044", 
-                "language": "ja", 
-                "label": "\u5fa1\u51fa\u3067\u306a\u3055\u3044"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u3044/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u5fa1\u51fa\u3067\u306b\u306a\u308b", 
-                "@id": "/c/ja/\u5fa1\u51fa\u3067\u306b\u306a\u308b", 
-                "language": "ja", 
-                "label": "\u5fa1\u51fa\u3067\u306b\u306a\u308b"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u51fa\u3067\u306b\u306a\u308b/,/c/en/go/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/go", 
-                "@id": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u308b/v", 
-                "term": "/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u308b", 
-                "language": "ja", 
-                "label": "\u5fa1\u51fa\u3067\u306a\u3055\u308b"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u5fa1\u51fa\u3067\u306a\u3055\u308b/v/,/c/en/go/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }
     ], 
     "@id": "/c/en/go", 
     "view": {
-        "previousPage": "/c/en/go?offset=160&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/go?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/go?offset=160&limit=20", 
         "@id": "/c/en/go?offset=180&limit=20", 
-        "nextPage": "/c/en/go?offset=200&limit=20", 
-        "firstPage": "/c/en/go?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/go?offset=200&limit=20"
     }
 }

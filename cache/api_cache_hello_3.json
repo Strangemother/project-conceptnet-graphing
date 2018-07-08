@@ -1,137 +1,652 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
+                "term": "/c/en/goodbye", 
+                "@id": "/c/en/goodbye", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "goodbye"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "dataset": "/d/wiktionary/de", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DistinctFrom", 
+                "@type": "Relation", 
+                "label": "DistinctFrom"
+            }, 
+            "@id": "/a/[/r/DistinctFrom/,/c/en/hello/,/c/en/goodbye/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/helloed/v", 
-                "term": "/c/en/helloed", 
-                "language": "en", 
-                "label": "helloed"
+                "term": "/c/cy/helo", 
+                "@id": "/c/cy/helo", 
+                "@type": "Node", 
+                "language": "cy", 
+                "label": "helo"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/cy/helo/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/my/\u101f\u1032\u101c\u102d\u102f", 
+                "@id": "/c/my/\u101f\u1032\u101c\u102d\u102f", 
+                "@type": "Node", 
+                "language": "my", 
+                "label": "\u101f\u1032\u101c\u102d\u102f"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/my/\u101f\u1032\u101c\u102d\u102f/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/th/\u0e2e\u0e31\u0e25\u0e42\u0e2b\u0e25", 
+                "@id": "/c/th/\u0e2e\u0e31\u0e25\u0e42\u0e2b\u0e25", 
+                "@type": "Node", 
+                "language": "th", 
+                "label": "\u0e2e\u0e31\u0e25\u0e42\u0e2b\u0e25"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/th/\u0e2e\u0e31\u0e25\u0e42\u0e2b\u0e25/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/vi/a_l\u00f4", 
+                "@id": "/c/vi/a_l\u00f4", 
+                "@type": "Node", 
+                "language": "vi", 
+                "label": "a l\u00f4"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/vi/a_l\u00f4/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/zh/\u54c8\u4f6c", 
+                "@id": "/c/zh/\u54c8\u4f6c", 
+                "@type": "Node", 
+                "language": "zh", 
+                "label": "\u54c8\u4f6c"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/zh/\u54c8\u4f6c/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/zh/\u54c8\u56c9", 
+                "@id": "/c/zh/\u54c8\u56c9", 
+                "@type": "Node", 
+                "language": "zh", 
+                "label": "\u54c8\u56c9"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/zh/\u54c8\u56c9/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/zh/\u54c8\u7f85", 
+                "@id": "/c/zh/\u54c8\u7f85", 
+                "@type": "Node", 
+                "language": "zh", 
+                "label": "\u54c8\u7f85"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/EtymologicallyDerivedFrom", 
+                "@type": "Relation", 
+                "label": "EtymologicallyDerivedFrom"
+            }, 
+            "@id": "/a/[/r/EtymologicallyDerivedFrom/,/c/zh/\u54c8\u7f85/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/Hello_(airline)", 
+                "site": "dbpedia.org", 
+                "label": "Hello (airline)", 
+                "site_available": true, 
+                "@id": "http://dbpedia.org/resource/Hello_(airline)", 
+                "@type": "Node"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "@type": "Relation", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/hello/n/,/http://dbpedia.org/resource/Hello_(airline)/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://dbpedia.org/resource/Hello!_(Good_to_Be_Back)", 
+                "site": "dbpedia.org", 
+                "label": "Hello! (Good to Be Back)", 
+                "site_available": true, 
+                "@id": "http://dbpedia.org/resource/Hello!_(Good_to_Be_Back)", 
+                "@type": "Node"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "@type": "Relation", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/hello/n/,/http://dbpedia.org/resource/Hello!_(Good_to_Be_Back)/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q673666", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q673666", 
+                "site_available": true, 
+                "@id": "http://wikidata.dbpedia.org/resource/Q673666", 
+                "@type": "Node"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "@type": "Relation", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/hello/n/,/http://wikidata.dbpedia.org/resource/Q673666/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wikidata.dbpedia.org/resource/Q718890", 
+                "site": "wikidata.dbpedia.org", 
+                "label": "Q718890", 
+                "site_available": true, 
+                "@id": "http://wikidata.dbpedia.org/resource/Q718890", 
+                "@type": "Node"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/dbpedia/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "@type": "Relation", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/hello/n/,/http://wikidata.dbpedia.org/resource/Q718890/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "http://wordnet-rdf.princeton.edu/wn31/106645018-n", 
+                "site": "wordnet-rdf.princeton.edu", 
+                "label": "106645018-n", 
+                "site_available": true, 
+                "@id": "http://wordnet-rdf.princeton.edu/wn31/106645018-n", 
+                "@type": "Node"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/ExternalURL", 
+                "@type": "Relation", 
+                "label": "ExternalURL"
+            }, 
+            "@id": "/a/[/r/ExternalURL/,/c/en/hello/n/,/http://wordnet-rdf.princeton.edu/wn31/106645018-n/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/hallo", 
+                "@id": "/c/en/hallo", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hallo"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
+                "label": "FormOf"
+            }, 
+            "@id": "/a/[/r/FormOf/,/c/en/hallo/,/c/en/hello/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "@id": "/c/en/hello", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "hello"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/helloed", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "helloed", 
+                "@id": "/c/en/helloed/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/helloed/v/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/helloes/n", 
                 "term": "/c/en/helloes", 
                 "language": "en", 
-                "label": "helloes"
+                "sense_label": "n", 
+                "label": "helloes", 
+                "@id": "/c/en/helloes/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/helloes/n/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/helloing/v", 
                 "term": "/c/en/helloing", 
                 "language": "en", 
-                "label": "helloing"
+                "sense_label": "v", 
+                "label": "helloing", 
+                "@id": "/c/en/helloing/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/helloing/v/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/hellos/n", 
                 "term": "/c/en/hellos", 
                 "language": "en", 
-                "label": "hellos"
+                "sense_label": "n", 
+                "label": "hellos", 
+                "@id": "/c/en/hellos/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/hellos/n/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -140,6 +655,7 @@
             "start": {
                 "term": "/c/en/hullo", 
                 "@id": "/c/en/hullo", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hullo"
             }, 
@@ -148,476 +664,64 @@
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/hullo/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/hullo/n", 
                 "term": "/c/en/hullo", 
                 "language": "en", 
-                "label": "hullo"
+                "sense_label": "n", 
+                "label": "hullo", 
+                "@id": "/c/en/hullo/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/FormOf", 
+                "@type": "Relation", 
                 "label": "FormOf"
             }, 
             "@id": "/a/[/r/FormOf/,/c/en/hullo/n/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/hullo/v", 
-                "term": "/c/en/hullo", 
-                "language": "en", 
-                "label": "hullo"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/FormOf", 
-                "label": "FormOf"
-            }, 
-            "@id": "/a/[/r/FormOf/,/c/en/hullo/v/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/uk", 
-                "@id": "/c/en/uk", 
-                "language": "en", 
-                "label": "uk"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/HasContext", 
-                "label": "HasContext"
-            }, 
-            "@id": "/a/[/r/HasContext/,/c/en/hello/,/c/en/uk/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/fr/au_t\u00e9l\u00e9phone", 
-                "@id": "/c/fr/au_t\u00e9l\u00e9phone", 
-                "language": "fr", 
-                "label": "au t\u00e9l\u00e9phone"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "dataset": "/d/wiktionary/fr", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/fr", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/HasContext", 
-                "label": "HasContext"
-            }, 
-            "@id": "/a/[/r/HasContext/,/c/en/hello/,/c/fr/au_t\u00e9l\u00e9phone/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/opposite_of_goodbye", 
-                "@id": "/c/en/opposite_of_goodbye", 
-                "language": "en", 
-                "label": "opposite of goodbye"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "Hello"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/ivanjohn", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ivanjohn/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/HasProperty", 
-                "label": "HasProperty"
-            }, 
-            "@id": "/a/[/r/HasProperty/,/c/en/hello/,/c/en/opposite_of_goodbye/]", 
-            "surfaceText": "[[Hello]] is [[opposite of goodbye]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "\"Hello\""
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/another_way_to_say_hi", 
-                "@id": "/c/en/another_way_to_say_hi", 
-                "language": "en", 
-                "label": "Another way to say \"Hi\""
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/ali33", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ali33/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/IsA", 
-                "label": "IsA"
-            }, 
-            "@id": "/a/[/r/IsA/,/c/en/another_way_to_say_hi/,/c/en/hello/]", 
-            "surfaceText": "[[Another way to say \"Hi\"]] is [[\"Hello\"]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/greeting_people_sometimes_use", 
-                "@id": "/c/en/greeting_people_sometimes_use", 
-                "language": "en", 
-                "label": "a greeting people sometimes use"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "\"Hello\""
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/vuo", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vuo/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/IsA", 
-                "label": "IsA"
-            }, 
-            "@id": "/a/[/r/IsA/,/c/en/hello/,/c/en/greeting_people_sometimes_use/]", 
-            "surfaceText": "[[\"Hello\"]] is [[a greeting people sometimes use]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/af/dag", 
-                "@id": "/c/af/dag", 
-                "language": "af", 
-                "label": "dag"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/af/dag/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/af/haai", 
-                "@id": "/c/af/haai", 
-                "language": "af", 
-                "label": "haai"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/af/haai/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/af/hallo", 
-                "@id": "/c/af/hallo", 
-                "language": "af", 
-                "label": "hallo"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/af/hallo/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/arc/\u05e9\u05dc\u05de\u05d0", 
-                "@id": "/c/arc/\u05e9\u05dc\u05de\u05d0", 
-                "language": "arc", 
-                "label": "\u05e9\u05dc\u05de\u05d0"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/arc/\u05e9\u05dc\u05de\u05d0/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/arn/mari_mari", 
-                "@id": "/c/arn/mari_mari", 
-                "language": "arn", 
-                "label": "mari mari"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/arn/mari_mari/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/arn/mari_mari_lamngen", 
-                "@id": "/c/arn/mari_mari_lamngen", 
-                "language": "arn", 
-                "label": "mari mari lamngen"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/arn/mari_mari_lamngen/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ar/\u0622\u0644\u0648", 
-                "@id": "/c/ar/\u0622\u0644\u0648", 
-                "language": "ar", 
-                "label": "\u0622\u0644\u0648"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0622\u0644\u0648/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/ar/\u0645\u0631\u062d\u0628\u0627/r", 
-                "term": "/c/ar/\u0645\u0631\u062d\u0628\u0627", 
-                "language": "ar", 
-                "label": "\u0645\u0631\u062d\u0628\u0627"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/ar/\u0645\u0631\u062d\u0628\u0627/r/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }
     ], 
     "@id": "/c/en/hello", 
     "view": {
-        "previousPage": "/c/en/hello?offset=40&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/hello?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/hello?offset=40&limit=20", 
         "@id": "/c/en/hello?offset=60&limit=20", 
-        "nextPage": "/c/en/hello?offset=80&limit=20", 
-        "firstPage": "/c/en/hello?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/hello?offset=80&limit=20"
     }
 }

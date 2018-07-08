@@ -1,44 +1,301 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/hello/n", 
                 "term": "/c/en/hello", 
                 "language": "en", 
-                "label": "hello"
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
+                "term": "/c/es/hola", 
+                "language": "es", 
                 "sense_label": "n", 
-                "@id": "/c/fr/salut/n", 
-                "term": "/c/fr/salut", 
-                "language": "fr", 
-                "label": "salut"
+                "label": "hola", 
+                "@id": "/c/es/hola/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/hola/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[hola]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/es/qu\u00e9_tal", 
+                "language": "es", 
+                "sense_label": "n", 
+                "label": "qu\u00e9 tal", 
+                "@id": "/c/es/qu\u00e9_tal/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/es/qu\u00e9_tal/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[qu\u00e9 tal]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/eu/kaixo", 
+                "language": "eu", 
+                "sense_label": "n", 
+                "label": "kaixo", 
+                "@id": "/c/eu/kaixo/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/eu/kaixo/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[kaixo]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/fa/\u0647\u0627\u0644\u0648", 
+                "language": "fa", 
+                "sense_label": "n", 
+                "label": "\u0647\u0627\u0644\u0648", 
+                "@id": "/c/fa/\u0647\u0627\u0644\u0648/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fa/\u0647\u0627\u0644\u0648/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[\u0647\u0627\u0644\u0648]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/fi/hei_huuto", 
+                "language": "fi", 
+                "sense_label": "n", 
+                "label": "hei-huuto", 
+                "@id": "/c/fi/hei_huuto/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fi/hei_huuto/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[hei-huuto]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/fr/bonjour", 
+                "language": "fr", 
+                "sense_label": "n", 
+                "label": "bonjour", 
+                "@id": "/c/fr/bonjour/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fr/bonjour/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[bonjour]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/fr/hi", 
+                "language": "fr", 
+                "sense_label": "n", 
+                "label": "hi", 
+                "@id": "/c/fr/hi/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/fr/hi/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[hi]] is a translation of [[hello]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/hello", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "hello", 
+                "@id": "/c/en/hello/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/fr/salut", 
+                "language": "fr", 
+                "sense_label": "n", 
+                "label": "salut", 
+                "@id": "/c/fr/salut/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/fr/salut/n/,/c/en/hello/n/]", 
+            "@type": "Edge", 
             "surfaceText": "[[salut]] is a translation of [[hello]]"
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -47,6 +304,7 @@
             "start": {
                 "term": "/c/ja/\u304a_\u30fc_\u3044", 
                 "@id": "/c/ja/\u304a_\u30fc_\u3044", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u304a \u30fc \u3044"
             }, 
@@ -54,20 +312,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u304a_\u30fc_\u3044/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -76,6 +338,7 @@
             "start": {
                 "term": "/c/ja/\u30cf\u30ed", 
                 "@id": "/c/ja/\u30cf\u30ed", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u30cf\u30ed"
             }, 
@@ -83,20 +346,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u30cf\u30ed/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -105,6 +372,7 @@
             "start": {
                 "term": "/c/ja/\u3069\u3046\u3082", 
                 "@id": "/c/ja/\u3069\u3046\u3082", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u3069\u3046\u3082"
             }, 
@@ -112,20 +380,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u3069\u3046\u3082/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -134,6 +406,7 @@
             "start": {
                 "term": "/c/ja/\u30cf\u30ed\u30fc", 
                 "@id": "/c/ja/\u30cf\u30ed\u30fc", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u30cf\u30ed\u30fc"
             }, 
@@ -141,20 +414,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u30cf\u30ed\u30fc/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -163,6 +440,7 @@
             "start": {
                 "term": "/c/ja/\u3053\u306b\u3061\u306f", 
                 "@id": "/c/ja/\u3053\u306b\u3061\u306f", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u3053\u306b\u3061\u306f"
             }, 
@@ -170,20 +448,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u3053\u306b\u3061\u306f/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -192,6 +474,7 @@
             "start": {
                 "term": "/c/ja/\u3053\u306b\u3061\u308f", 
                 "@id": "/c/ja/\u3053\u306b\u3061\u308f", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u3053\u306b\u3061\u308f"
             }, 
@@ -199,20 +482,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u3053\u306b\u3061\u308f/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -221,6 +508,7 @@
             "start": {
                 "term": "/c/ja/\u306f\u3044\u306f\u3044", 
                 "@id": "/c/ja/\u306f\u3044\u306f\u3044", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u306f\u3044\u306f\u3044"
             }, 
@@ -228,20 +516,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u306f\u3044\u306f\u3044/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -250,6 +542,7 @@
             "start": {
                 "term": "/c/ja/\u3078\u3044\u3078\u3044", 
                 "@id": "/c/ja/\u3078\u3044\u3078\u3044", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u3078\u3044\u3078\u3044"
             }, 
@@ -257,20 +550,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u3078\u3044\u3078\u3044/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -279,6 +576,7 @@
             "start": {
                 "term": "/c/ja/\u307b\u3044\u307b\u3044", 
                 "@id": "/c/ja/\u307b\u3044\u307b\u3044", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u307b\u3044\u307b\u3044"
             }, 
@@ -286,20 +584,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u307b\u3044\u307b\u3044/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -308,6 +610,7 @@
             "start": {
                 "term": "/c/ja/\u3082\u3057\u3082\u3057", 
                 "@id": "/c/ja/\u3082\u3057\u3082\u3057", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u3082\u3057\u3082\u3057"
             }, 
@@ -315,20 +618,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u3082\u3057\u3082\u3057/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -337,6 +644,7 @@
             "start": {
                 "term": "/c/ja/\u30cb\u30fc\u30cf\u30aa", 
                 "@id": "/c/ja/\u30cb\u30fc\u30cf\u30aa", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u30cb\u30fc\u30cf\u30aa"
             }, 
@@ -344,20 +652,24 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u30cb\u30fc\u30cf\u30aa/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/hello", 
                 "@id": "/c/en/hello", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "hello"
             }, 
@@ -366,6 +678,7 @@
             "start": {
                 "term": "/c/ja/\u30db\u30a4\u30db\u30a4", 
                 "@id": "/c/ja/\u30db\u30a4\u30db\u30a4", 
+                "@type": "Node", 
                 "language": "ja", 
                 "label": "\u30db\u30a4\u30db\u30a4"
             }, 
@@ -373,233 +686,28 @@
             "sources": [
                 {
                     "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/ja/\u30db\u30a4\u30db\u30a4/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u3053\u3093\u306b\u3061\u308f", 
-                "@id": "/c/ja/\u3053\u3093\u306b\u3061\u308f", 
-                "language": "ja", 
-                "label": "\u3053\u3093\u306b\u3061\u308f"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u3053\u3093\u306b\u3061\u308f/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u30cf\u30a4\u30b5\u30a4/n", 
-                "term": "/c/ja/\u30cf\u30a4\u30b5\u30a4", 
-                "language": "ja", 
-                "label": "\u30cf\u30a4\u30b5\u30a4"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u30cf\u30a4\u30b5\u30a4/n/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u30a2\u30cb\u30e7\u30cf\u30bb\u30e8/n", 
-                "term": "/c/ja/\u30a2\u30cb\u30e7\u30cf\u30bb\u30e8", 
-                "language": "ja", 
-                "label": "\u30a2\u30cb\u30e7\u30cf\u30bb\u30e8"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u30a2\u30cb\u30e7\u30cf\u30bb\u30e8/n/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u30a2\u30f3\u30cb\u30e7\u30f3\u30cf\u30bb\u30e8/n", 
-                "term": "/c/ja/\u30a2\u30f3\u30cb\u30e7\u30f3\u30cf\u30bb\u30e8", 
-                "language": "ja", 
-                "label": "\u30a2\u30f3\u30cb\u30e7\u30f3\u30cf\u30bb\u30e8"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u30a2\u30f3\u30cb\u30e7\u30f3\u30cf\u30bb\u30e8/n/,/c/en/hello/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/hello/n", 
-                "term": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u3084\u3042/n", 
-                "term": "/c/ja/\u3084\u3042", 
-                "language": "ja", 
-                "label": "\u3084\u3042"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u3084\u3042/n/,/c/en/hello/n/]", 
-            "surfaceText": "[[\u3084\u3042]] is a translation of [[hello]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/hello/n", 
-                "term": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/ja/\u3053\u3093\u306b\u3061\u306f/n", 
-                "term": "/c/ja/\u3053\u3093\u306b\u3061\u306f", 
-                "language": "ja", 
-                "label": "\u3053\u3093\u306b\u3061\u306f"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u3053\u3093\u306b\u3061\u306f/n/,/c/en/hello/n/]", 
-            "surfaceText": "[[\u3053\u3093\u306b\u3061\u306f]] is a translation of [[hello]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/hello", 
-                "@id": "/c/en/hello", 
-                "language": "en", 
-                "label": "hello"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/ja/\u4eca\u65e5\u306f", 
-                "@id": "/c/ja/\u4eca\u65e5\u306f", 
-                "language": "ja", 
-                "label": "\u4eca\u65e5\u306f"
-            }, 
-            "dataset": "/d/jmdict", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/jmdict/1.07", 
-                    "@id": "/s/resource/jmdict/1.07"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ja/\u4eca\u65e5\u306f/,/c/en/hello/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }
     ], 
     "@id": "/c/en/hello", 
     "view": {
-        "previousPage": "/c/en/hello?offset=0&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/hello?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/hello?offset=0&limit=20", 
         "@id": "/c/en/hello?offset=20&limit=20", 
-        "nextPage": "/c/en/hello?offset=40&limit=20", 
-        "firstPage": "/c/en/hello?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/hello?offset=40&limit=20"
     }
 }

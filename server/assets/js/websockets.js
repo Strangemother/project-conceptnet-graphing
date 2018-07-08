@@ -1,15 +1,34 @@
 var cleanData = []
 
+var formOutput = new Vue({
+    el: '#form_output'
+    , data: {
+        socketMessages: []
+    }
+
+    , methods: {
+        messageComponent(message) {
+            let name = `${message.data.type}`
+            if(Vue.options.components[name] != undefined) {
+                return name;
+            }
+
+            return 'default'
+        }
+         , clearMessages(){
+            formOutput.socketMessages = []
+        }
+    }
+})
 
 var jsonFetchApp = new Vue({
     el: '#websockets'
     , data: {
-        address: 'ws://127.0.0.1:8009'
+        address: 'ws://82.27.16.166:8009'
         , basePath: ''
         , requests: []
         , selected: {}
         , message: undefined
-        , socketMessages: []
         , connected: false
         , indexItem: -1
     }
@@ -28,9 +47,6 @@ var jsonFetchApp = new Vue({
             this.webSocket = ws;
         }
 
-        , clearMessages(){
-            this.socketMessages = []
-        }
         , socketMessage(d){
 
             let m = {
@@ -38,7 +54,7 @@ var jsonFetchApp = new Vue({
                 , data: JSON.parse(d.data)
             };
 
-            this.socketMessages.push(m)
+            formOutput.socketMessages.push(m)
             bus.$emit('message', m)
         }
 
@@ -49,7 +65,7 @@ var jsonFetchApp = new Vue({
 
         , sendMessage(){
             this.webSocket.send(this.message)
-            this.socketMessages.push({
+            formOutput.socketMessages.push({
                 type: 'out'
                 , data: this.message
             })
@@ -75,13 +91,5 @@ var jsonFetchApp = new Vue({
 
         }
 
-
-        , messageComponent(message) {
-            let name = `${message.data.type}`
-            if(Vue.options.components[name] != undefined) {
-                return name;
-            }
-            return 'default'
-        }
     }
 })

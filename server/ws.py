@@ -25,6 +25,7 @@ class EchoServer(ClientListMixin, Server):
     ''' Basic instance of a server, instansiating ws.Client for
     socket clients '''
     ports = (9004, 9005, )
+    address = '0.0.0.0'
     client_class = EchoClient
 
 

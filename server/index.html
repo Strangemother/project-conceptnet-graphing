@@ -23,9 +23,9 @@
     <div class="container row">
         <div class="col s12">
           <ul class="tabs">
-            <li class="tab col s2"><a href="#network">network</a></li>
-            <li class="tab col s2"><a href="#main">API</a></li>
-            <li class="tab col s2"><a class="active" href="#websockets">WebSockets</a></li>
+            <li class="tab col s2"><a href="#network">Graph</a></li>
+            <li class="tab col s2"><a href="#main">Word</a></li>
+            <li class="tab col s2"><a class="active" href="#websockets_container">Thoughts (WS)</a></li>
           </ul>
         </div>
     </div>
@@ -75,8 +75,8 @@
     </section>
 
     <section class='container' id="main">
-        <h2>API Connection</h2>
-        <p>Requesting service direct to conceptnet online api. The path is should be accurate for the API <em>/c/[LANG]/[PHRASE]</em>.</p>
+        <h2>word Cache</h2>
+        <p>Requesting service directly to the word api and associations graph.</p>
         <form class="col s12">
             <div class="row">
                 <div class="input-field col s9">
@@ -160,48 +160,77 @@
     </section>
 
 
-    <section class='' id="websockets">
+    <section class='' id="websockets_container">
+
         <h2>Socket reader</h2>
-        <p>Read the information read into the API as JSON data. Messages sent must be in JSON format.</p>
-        <form class="col s12">
-            <div class="row">
-                <div class="input-field col s12">
-                    <input
-                        v-model='address'
-                        @keyup.enter='fetch'
-                        id="address"
-                        type="text"
-                        ref='address'
-                        class="validate">
-                    <label for="address">Path</label>
+         <p>Read the information read into the API as JSON data. Messages sent must be in JSON format.</p>
+
+        <div id="websockets">
+
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input
+                            v-model='address'
+                            @keyup.enter='fetch'
+                            id="address"
+                            type="text"
+                            ref='address'
+                            class="validate">
+                        <label for="address">Path</label>
+                    </div>
                 </div>
+
+                <div class="row">
+                    <div class="input-field col s10">
+                        <input
+                            v-model='message'
+                            @keyup.enter='sendMessage'
+                            id="message"
+                            type="text"
+                            ref='message'
+                            class="validate">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col s2">
+                        <a class="waves-effect waves-light btn">Send</a>
+                    </div>
+                </div>
+
+                <div class="errors" v-if='selected.error'>
+                    <p>{{ selected.error.details }}</p>
+                </div>
+
+                <div class="row" v-if='selected.view != undefined'>
+                    <div></div>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="sentence">
+            <a class="waves-effect waves-light btn" @click='clearMessages'>Clear</a>
+
+            <div class="words">
+                <ul class="words">
+                    <li :class="['word', word.classes]" v-for='word in words'>
+                        <div class="string">{{ word.word }}</div>
+                        <div class="type">{{ word.type }}</div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="row">
-                <div class="input-field col s10">
-                    <input
-                        v-model='message'
-                        @keyup.enter='sendMessage'
-                        id="message"
-                        type="text"
-                        ref='message'
-                        class="validate">
-                    <label for="message">Message</label>
-                </div>
-                <div class="col s2">
-                    <a class="waves-effect waves-light btn">Send</a>
-                </div>
+            <div class="sentences">
+                <ul class="sentences">
+                    <li class="sentence" v-for='sentence in sentences'>
+                        <div class="string">{{ sentence }}</div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="errors" v-if='selected.error'>
-                <p>{{ selected.error.details }}</p>
-            </div>
-            <div class="row" v-if='selected.view != undefined'>
-                <div></div>
-            </div>
-        </form>
+        </div>
 
-        <div id="form-output">
+        <div id="form_output">
             <!-- <div class="col s12 m7">
                 <h2 class="header">Horizontal Card</h2>
                 <div class="card horizontal">
@@ -223,12 +252,13 @@
                 <a class="waves-effect waves-light btn" @click='clearMessages'>Clear</a>
             </ul>
 
-            <ul class="collection">
-                <li :class="['collection-item row', message.type]" v-for='message in socketMessages'>
+            <ul class="message-output collection">
+                <li :class="['collection-item row', message.type, message.data.action, message.data.type]" v-for='message in socketMessages'>
                     <div :class="['message', message.type]" :message='message' :is='messageComponent(message)'></div>
                 </li>
             </ul>
         </div>
+
     </section>
 
     <div class="templates">
@@ -257,6 +287,7 @@
                 <div class="message-type">
                     <span class="label">assess</span>
                     <span class="action"> {{ message.data.action }}</span>
+                    <span class="action action-label"> {{ word(message.data) }}</span>
                 </div>
 
                 <div :is="actionName(message)" :message="message"></div>
@@ -272,31 +303,66 @@
 
         <div class="message" data-for='action-complete'>
             <div class="message-action action-complete">
-                <tokens-list :tokens=message.data.result></tokens-list>
+                <tokens-list :message='message.data' :tokens=message.data.result></tokens-list>
             </div>
         </div>
 
         <div class="tokens" data-for='tokens-list'>
             <ul class="tokens-list tokens">
-                <li class="token" v-for='token in tokens'>
+                <li :class="['token', {high: (message.word ? message.word.value: undefined) == token[0]}]"
+                    v-for='token in tokens'>
                     <span class="word">{{ token[0] }}</span>
                     <span class="type">{{ token[1] }}</span>
-                    <span class="defin">{{ token[2] }}</span>
+                    <span :class="['defin']">{{ token[2] }}</span>
                 </li>
             </ul>
         </div>
 
         <div class="message" data-for='action-start'>
             <div class="message-action action-start">
-                <tokens-list :tokens="message.data.tokens"></tokens-list>
+                <tokens-list  :message='message.data' :tokens="message.data.tokens"></tokens-list>
             </div>
         </div>
 
         <div class="message" data-for='action-word'>
             <div class="message-action action-word">
                 <div class="horiz">
-                    <div class="word">{{ message.data.word }}</div>
-                    <tokens-list :tokens="message.data.tokens"></tokens-list>
+                    <div class="word">
+                        <div class="meanings">
+                            <ul class="meaning-items">
+                                <li v-for='(meaning, key) in message.data.word.meaning_result'
+                                class="meaning-item">
+                                    <h5>{{ key }}</h5>
+                                    <ul class="meaning-type-items">
+                                        <li class="meaning-type-item"
+                                            v-for='meaningStr in meaning'>
+                                            <span>{{ meaningStr }}</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- {{ message.data.word }} -->
+                    </div>
+                    <tokens-list  :message='message.data' :tokens="message.data.tokens"></tokens-list>
+                </div>
+                <div class="meta-graph">
+                      <ul class="meta-graph">
+                        <li v-for='(meta, key) in message.data.ident.meta_graph'>
+                            <h3 class="label">{{ key }}</h3>
+                            <ul class="meta-graph-edges">
+                                <li class='edge' v-for='edge in meta'>
+
+                                    <ul class='edge-node-list'>
+                                        <li :class='["edge-node", renderNodeClasses(nkey, node)]' v-for='node, nkey in edge'>
+                                            <strong>{{ nkey }}</strong>
+                                            <span>{{ renderNodeKey(nkey, node) }}</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <ul class="metas">
                     <li v-for='meta in message.data.ident.meta'
@@ -326,5 +392,6 @@
     <script type="text/javascript" src="assets/js/colourmap_view.js"></script>
     <script type="text/javascript" src="assets/js/input_view.js"></script>
     <script type="text/javascript" src="assets/js/components/view.js"></script>
+    <script type="text/javascript" src="assets/js/components/sentence_render.js"></script>
 </body>
 </html>

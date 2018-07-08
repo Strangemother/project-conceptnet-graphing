@@ -1,21 +1,22 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "term": "/c/en/party", 
-                "@id": "/c/en/party", 
+                "term": "/c/en/sponge", 
+                "@id": "/c/en/sponge", 
+                "@type": "Node", 
                 "language": "en", 
-                "label": "party"
+                "label": "sponge"
             }, 
-            "weight": 4.134730946506677, 
+            "weight": 2.151278689523977, 
             "license": "cc:by/4.0", 
             "start": {
                 "term": "/c/en/cake", 
                 "@id": "/c/en/cake", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "cake"
             }, 
@@ -24,698 +25,1821 @@
                 {
                     "contributor": "/s/resource/verbosity", 
                     "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]", 
+                    "@type": "Source"
                 }, 
                 {
                     "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "@id": "/s/resource/verbosity", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/party/]", 
-            "surfaceText": "[[cake]] is related to [[party]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/bread", 
-                "@id": "/c/en/bread", 
-                "language": "en", 
-                "label": "bread"
-            }, 
-            "weight": 4.011483516107226, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/bread/]", 
-            "surfaceText": "[[cake]] is related to [[bread]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/party", 
-                "@id": "/c/en/party", 
-                "language": "en", 
-                "label": "a party"
-            }, 
-            "weight": 4.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "a cake"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/borris", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/esorylime", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/esorylime/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/snellchatfield", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/snellchatfield/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/esorylime", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/esorylime/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/snellchatfield", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/snellchatfield/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/AtLocation", 
-                "label": "AtLocation"
-            }, 
-            "@id": "/a/[/r/AtLocation/,/c/en/cake/,/c/en/party/]", 
-            "surfaceText": "You are likely to find [[a cake]] in [[a party]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/wedding", 
-                "@id": "/c/en/wedding", 
-                "language": "en", 
-                "label": "wedding"
-            }, 
-            "weight": 3.90691694306393, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/wedding/]", 
-            "surfaceText": "[[cake]] is related to [[wedding]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/layers", 
-                "@id": "/c/en/layers", 
-                "language": "en", 
-                "label": "layers"
-            }, 
-            "weight": 3.864194612076364, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/layers/]", 
-            "surfaceText": "[[cake]] is related to [[layers]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/parties", 
-                "@id": "/c/en/parties", 
-                "language": "en", 
-                "label": "parties"
-            }, 
-            "weight": 3.7968407920269716, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/parties/]", 
-            "surfaceText": "[[cake]] is related to [[parties]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/flour", 
-                "@id": "/c/en/flour", 
-                "language": "en", 
-                "label": "flour"
-            }, 
-            "weight": 3.753398460062561, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/flour/]", 
-            "surfaceText": "[[cake]] is related to [[flour]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/birthday_treat", 
-                "@id": "/c/en/birthday_treat", 
-                "language": "en", 
-                "label": "birthday treat"
-            }, 
-            "weight": 3.686190445432791, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_treat/]", 
-            "surfaceText": "[[cake]] is related to [[birthday treat]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/good", 
-                "@id": "/c/en/good", 
-                "language": "en", 
-                "label": "good"
-            }, 
-            "weight": 3.6474648730316783, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/good/]", 
-            "surfaceText": "[[cake]] is related to [[good]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/has", 
-                "@id": "/c/en/has", 
-                "language": "en", 
-                "label": "has"
-            }, 
-            "weight": 3.57211421989835, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "cake"
-            }, 
-            "dataset": "/d/verbosity", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/has/]", 
-            "surfaceText": "[[cake]] is related to [[has]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/oven", 
-                "@id": "/c/en/oven", 
-                "language": "en", 
-                "label": "the oven"
-            }, 
-            "weight": 3.4641016151377544, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
-                "language": "en", 
-                "label": "a cake"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/anixia", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anixia/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/sann", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sann/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/dbn3", 
-                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
-                    "activity": "/s/activity/omcs/template"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/shark286", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shark286/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/AtLocation", 
-                "label": "AtLocation"
-            }, 
-            "@id": "/a/[/r/AtLocation/,/c/en/cake/,/c/en/oven/]", 
-            "surfaceText": "*Something you find in [[the oven]] is [[a cake]]"
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/sponge/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[sponge]]"
         }, 
         {
             "end": {
                 "term": "/c/en/eating", 
                 "@id": "/c/en/eating", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "eating"
             }, 
-            "weight": 3.4641016151377544, 
+            "weight": 2.1419617176784467, 
             "license": "cc:by/4.0", 
             "start": {
                 "term": "/c/en/cake", 
                 "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]", 
+                    "@type": "Source"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/eating/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[eating]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/birthday_parties", 
+                "@id": "/c/en/birthday_parties", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "birthday parties"
+            }, 
+            "weight": 2.1288494545176277, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_parties/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[birthday parties]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/layered", 
+                "@id": "/c/en/layered", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "layered"
+            }, 
+            "weight": 2.0099751242241783, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]", 
+                    "@type": "Source"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/layered/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[layered]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cream", 
+                "@id": "/c/en/cream", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cream"
+            }, 
+            "weight": 2.0059910268991734, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]", 
+                    "@type": "Source"
+                }, 
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "@id": "/s/resource/verbosity", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/cream/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[cream]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/item", 
+                "@id": "/c/en/item", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "item"
+            }, 
+            "weight": 2.0009997501249224, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "dataset": "/d/verbosity", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/verbosity", 
+                    "process": "/s/process/split_words", 
+                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/item/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is related to [[item]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/johnny_cake", 
+                "@id": "/c/en/johnny_cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "johnny cake"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/DerivedFrom", 
+                "@type": "Relation", 
+                "label": "DerivedFrom"
+            }, 
+            "@id": "/a/[/r/DerivedFrom/,/c/en/johnny_cake/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/person", 
+                "@id": "/c/en/person", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "a person"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/kirun", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }, 
+                {
+                    "contributor": "/s/contributor/omcs/polymatrix", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Desires", 
+                "@type": "Relation", 
+                "label": "Desires"
+            }, 
+            "@id": "/a/[/r/Desires/,/c/en/person/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[a person]] wants [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/good_for_dessert", 
+                "@id": "/c/en/good_for_dessert", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "good for dessert"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "a cake"
             }, 
             "dataset": "/d/conceptnet/4/en", 
             "sources": [
                 {
-                    "contributor": "/s/contributor/omcs/joy", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "contributor": "/s/contributor/omcs/diantell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }, 
                 {
-                    "contributor": "/s/contributor/omcs/poptarts", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/poptarts/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/benjymous", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/benjymous/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/poptarts", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/poptarts/]", 
+                    "contributor": "/s/contributor/omcs/vankakka", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vankakka/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/vote"
                 }
             ], 
             "rel": {
-                "@id": "/r/UsedFor", 
-                "label": "UsedFor"
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
             }, 
-            "@id": "/a/[/r/UsedFor/,/c/en/cake/,/c/en/eating/]", 
-            "surfaceText": "[[a cake]] is used for [[eating]]"
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/good_for_dessert/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[a cake]] is [[good for dessert]]"
         }, 
         {
             "end": {
-                "term": "/c/en/lie", 
-                "@id": "/c/en/lie", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "lie"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.462369131100843, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/applesauce_cake", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "applesauce cake", 
+                "@id": "/c/en/applesauce_cake/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/lie/]", 
-            "surfaceText": "[[cake]] is related to [[lie]]"
+            "@id": "/a/[/r/IsA/,/c/en/applesauce_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[applesauce cake]] is a type of [[cake]]"
         }, 
         {
             "end": {
-                "term": "/c/en/yummy", 
-                "@id": "/c/en/yummy", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "yummy"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.188102884161676, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/baba", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "baba", 
+                "@id": "/c/en/baba/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/yummy/]", 
-            "surfaceText": "[[cake]] is related to [[yummy]]"
+            "@id": "/a/[/r/IsA/,/c/en/baba/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[baba]] is a type of [[cake]]"
         }, 
         {
             "end": {
-                "term": "/c/en/baked_good", 
-                "@id": "/c/en/baked_good", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "baked good"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.1849646779831016, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/boston_cream_pie", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "Boston cream pie", 
+                "@id": "/c/en/boston_cream_pie/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/baked_good/]", 
-            "surfaceText": "[[cake]] is related to [[baked good]]"
+            "@id": "/a/[/r/IsA/,/c/en/boston_cream_pie/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Boston cream pie]] is a type of [[cake]]"
         }, 
         {
             "end": {
-                "term": "/c/en/bakery", 
-                "@id": "/c/en/bakery", 
+                "term": "/c/en/baked_goods", 
                 "language": "en", 
-                "label": "bakery"
+                "sense_label": "n", 
+                "label": "baked goods", 
+                "@id": "/c/en/baked_goods/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.183708529372625, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
                 "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/bakery/]", 
-            "surfaceText": "[[cake]] is related to [[bakery]]"
+            "@id": "/a/[/r/IsA/,/c/en/cake/n/,/c/en/baked_goods/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is a type of [[baked goods]]"
         }, 
         {
             "end": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/block", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "block", 
+                "@id": "/c/en/block/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.0906310035330975, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/party", 
-                "@id": "/c/en/party", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "party"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/party/,/c/en/cake/]", 
-            "surfaceText": "[[party]] is related to [[cake]]"
+            "@id": "/a/[/r/IsA/,/c/en/cake/n/,/c/en/block/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cake]] is a type of [[block]]"
         }, 
         {
             "end": {
-                "term": "/c/en/birthday_confection", 
-                "@id": "/c/en/birthday_confection", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "birthday confection"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.012640038238887, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/chiffon_cake", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "chiffon cake", 
+                "@id": "/c/en/chiffon_cake/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/birthday_confection/]", 
-            "surfaceText": "[[cake]] is related to [[birthday confection]]"
+            "@id": "/a/[/r/IsA/,/c/en/chiffon_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[chiffon cake]] is a type of [[cake]]"
         }, 
         {
             "end": {
-                "term": "/c/en/celebration", 
-                "@id": "/c/en/celebration", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "celebration"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 3.011312006418464, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "term": "/c/en/cake", 
-                "@id": "/c/en/cake", 
+                "term": "/c/en/chocolate_cake", 
                 "language": "en", 
-                "label": "cake"
+                "sense_label": "n", 
+                "label": "chocolate cake", 
+                "@id": "/c/en/chocolate_cake/n", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/verbosity", 
+            "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
-                    "contributor": "/s/resource/verbosity", 
-                    "process": "/s/process/split_words", 
-                    "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]"
-                }, 
-                {
-                    "contributor": "/s/resource/verbosity", 
-                    "@id": "/s/resource/verbosity"
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/cake/,/c/en/celebration/]", 
-            "surfaceText": "[[cake]] is related to [[celebration]]"
+            "@id": "/a/[/r/IsA/,/c/en/chocolate_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[chocolate cake]] is a type of [[cake]]"
         }, 
         {
             "end": {
-                "term": "/c/en/celebrate", 
-                "@id": "/c/en/celebrate", 
+                "term": "/c/en/cake", 
                 "language": "en", 
-                "label": "celebrate"
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
             }, 
-            "weight": 2.82842712474619, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/coconut_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "coconut cake", 
+                "@id": "/c/en/coconut_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/coconut_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[coconut cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/coffeecake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "coffeecake", 
+                "@id": "/c/en/coffeecake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/coffeecake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[coffeecake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/cookie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cookie", 
+                "@id": "/c/en/cookie/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/cookie/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[cookie]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/crumb_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "crumb cake", 
+                "@id": "/c/en/crumb_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/crumb_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[crumb cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/crumpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "crumpet", 
+                "@id": "/c/en/crumpet/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/crumpet/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[crumpet]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/eccles_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "Eccles cake", 
+                "@id": "/c/en/eccles_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/eccles_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Eccles cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/friedcake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "friedcake", 
+                "@id": "/c/en/friedcake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/friedcake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[friedcake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/gateau", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "gateau", 
+                "@id": "/c/en/gateau/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/gateau/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[gateau]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/genoise", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "genoise", 
+                "@id": "/c/en/genoise/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/genoise/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[genoise]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/gingerbread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "gingerbread", 
+                "@id": "/c/en/gingerbread/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/gingerbread/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[gingerbread]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/honey_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "honey cake", 
+                "@id": "/c/en/honey_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/honey_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[honey cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/jumble", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "jumble", 
+                "@id": "/c/en/jumble/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/jumble/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[jumble]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/layer_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "layer cake", 
+                "@id": "/c/en/layer_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/layer_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[layer cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pancake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "pancake", 
+                "@id": "/c/en/pancake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pancake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[pancake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/petit_four", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "petit four", 
+                "@id": "/c/en/petit_four/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/petit_four/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[petit four]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/pound_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "pound cake", 
+                "@id": "/c/en/pound_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/pound_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[pound cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/prune_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "prune cake", 
+                "@id": "/c/en/prune_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/prune_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[prune cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/rock_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "rock cake", 
+                "@id": "/c/en/rock_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/rock_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[rock cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/savarin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "savarin", 
+                "@id": "/c/en/savarin/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/savarin/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[savarin]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/seedcake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "seedcake", 
+                "@id": "/c/en/seedcake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/seedcake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[seedcake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/spice_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "spice cake", 
+                "@id": "/c/en/spice_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/spice_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[spice cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/sponge_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "sponge cake", 
+                "@id": "/c/en/sponge_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/sponge_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[sponge cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/tablet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "tablet", 
+                "@id": "/c/en/tablet/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/tablet/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[tablet]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/teacake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "teacake", 
+                "@id": "/c/en/teacake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/teacake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[teacake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/torte", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "torte", 
+                "@id": "/c/en/torte/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/torte/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[torte]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/upside_down_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "upside-down cake", 
+                "@id": "/c/en/upside_down_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/upside_down_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[upside-down cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/victoria_sandwich", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "Victoria sandwich", 
+                "@id": "/c/en/victoria_sandwich/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/victoria_sandwich/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Victoria sandwich]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/waffle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "waffle", 
+                "@id": "/c/en/waffle/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/waffle/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[waffle]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "cake", 
+                "@id": "/c/en/cake/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/white_cake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "white cake", 
+                "@id": "/c/en/white_cake/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "@id": "/a/[/r/IsA/,/c/en/white_cake/n/,/c/en/cake/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[white cake]] is a type of [[cake]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/eaten_for_afters", 
+                "@id": "/c/en/eaten_for_afters", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "eaten for afters"
+            }, 
+            "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
                 "term": "/c/en/cake", 
                 "@id": "/c/en/cake", 
+                "@type": "Node", 
                 "language": "en", 
-                "label": "a cake"
+                "label": "Cake"
             }, 
             "dataset": "/d/conceptnet/4/en", 
             "sources": [
                 {
-                    "contributor": "/s/contributor/omcs/gsogge", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gsogge/]", 
+                    "contributor": "/s/contributor/omcs/kirun", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }, 
                 {
-                    "contributor": "/s/contributor/omcs/jes", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jes/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/rspeer", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "contributor": "/s/contributor/omcs/vankakka", 
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vankakka/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/vote"
                 }
             ], 
             "rel": {
-                "@id": "/r/UsedFor", 
-                "label": "UsedFor"
+                "@id": "/r/ReceivesAction", 
+                "@type": "Relation", 
+                "label": "ReceivesAction"
             }, 
-            "@id": "/a/[/r/UsedFor/,/c/en/cake/,/c/en/celebrate/]", 
-            "surfaceText": "You can use [[a cake]] to [[celebrate]]"
+            "@id": "/a/[/r/ReceivesAction/,/c/en/cake/,/c/en/eaten_for_afters/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Cake]] can be [[eaten for afters]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/kola\u010d", 
+                "language": "sh", 
+                "sense_label": "n", 
+                "label": "kola\u010d", 
+                "@id": "/c/sh/kola\u010d/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/kola\u010d/n/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/makovnja\u010da", 
+                "language": "sh", 
+                "sense_label": "n", 
+                "label": "makovnja\u010da", 
+                "@id": "/c/sh/makovnja\u010da/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/makovnja\u010da/n/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/slatki\u0161", 
+                "language": "sh", 
+                "sense_label": "n", 
+                "label": "slatki\u0161", 
+                "@id": "/c/sh/slatki\u0161/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/slatki\u0161/n/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/cake", 
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "cake"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/torta", 
+                "language": "sh", 
+                "sense_label": "n", 
+                "label": "torta", 
+                "@id": "/c/sh/torta/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/torta/n/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "surfaceText": null
         }
     ], 
     "@id": "/c/en/cake", 
     "view": {
-        "previousPage": "/c/en/cake?offset=0&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/cake?offset=0&limit=50", 
         "paginatedProperty": "edges", 
-        "@id": "/c/en/cake?offset=20&limit=20", 
-        "nextPage": "/c/en/cake?offset=40&limit=20", 
-        "firstPage": "/c/en/cake?offset=0&limit=20"
+        "previousPage": "/c/en/cake?offset=0&limit=50", 
+        "@id": "/c/en/cake?offset=50&limit=50", 
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/cake?offset=100&limit=50"
     }
 }

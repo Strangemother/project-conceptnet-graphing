@@ -11,7 +11,7 @@ var inputApp = new Vue({
     , methods: {
 
         wsMessage(data) {
-            console.log('input from socket', data)
+            //console.log('input from socket', data)
             let tokens = data.data.tokens
             if(tokens == undefined) { tokens = []}
             if(data.data.action) {
@@ -20,6 +20,8 @@ var inputApp = new Vue({
                     , tokens: [].slice.call(tokens, 0)
                 })
             }
+
+           // bus.$emit('message', data)
         }
 
         , inputString(event) {

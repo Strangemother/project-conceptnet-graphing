@@ -1,636 +1,736 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/work/v", 
                 "term": "/c/en/work", 
                 "language": "en", 
-                "label": "work"
+                "sense_label": "v", 
+                "label": "work", 
+                "@id": "/c/en/work/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
-                "@id": "/r/IsA", 
-                "label": "IsA"
+                "@id": "/r/MannerOf", 
+                "@type": "Relation", 
+                "label": "MannerOf"
             }, 
-            "@id": "/a/[/r/IsA/,/c/en/work/v/,/c/en/go/v/]", 
-            "surfaceText": "[[work]] is a type of [[go]]"
+            "@id": "/a/[/r/MannerOf/,/c/en/work/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[work]] is a way to [[go]]"
         }, 
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/okay/a", 
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/hajde", 
+                "@id": "/c/sh/hajde", 
+                "@type": "Node", 
+                "language": "sh", 
+                "label": "hajde"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/hajde/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/i\u0107i", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "i\u0107i", 
+                "@id": "/c/sh/i\u0107i/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/i\u0107i/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/odvesti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "odvesti", 
+                "@id": "/c/sh/odvesti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/odvesti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/pripadati", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "pripadati", 
+                "@id": "/c/sh/pripadati/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/pripadati/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/pripasti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "pripasti", 
+                "@id": "/c/sh/pripasti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/pripasti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/probijati", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "probijati", 
+                "@id": "/c/sh/probijati/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/probijati/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/probiti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "probiti", 
+                "@id": "/c/sh/probiti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/probiti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/pro\u0107i", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "pro\u0107i", 
+                "@id": "/c/sh/pro\u0107i/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/pro\u0107i/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/prodirati", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "prodirati", 
+                "@id": "/c/sh/prodirati/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/prodirati/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/prodreti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "prodreti", 
+                "@id": "/c/sh/prodreti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/prodreti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/prodrijeti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "prodrijeti", 
+                "@id": "/c/sh/prodrijeti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/prodrijeti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/prolaziti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "prolaziti", 
+                "@id": "/c/sh/prolaziti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/prolaziti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/u\u0107i", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "u\u0107i", 
+                "@id": "/c/sh/u\u0107i/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/u\u0107i/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/udaljavati", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "udaljavati", 
+                "@id": "/c/sh/udaljavati/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/udaljavati/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/udaljiti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "udaljiti", 
+                "@id": "/c/sh/udaljiti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/udaljiti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/za\u0107i", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "za\u0107i", 
+                "@id": "/c/sh/za\u0107i/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/za\u0107i/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "@id": "/c/en/go", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/sh/zalaziti", 
+                "language": "sh", 
+                "sense_label": "v", 
+                "label": "zalaziti", 
+                "@id": "/c/sh/zalaziti/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/sh/zalaziti/v/,/c/en/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
                 "term": "/c/en/okay", 
                 "language": "en", 
-                "label": "a-okay"
+                "sense_label": "a", 
+                "label": "a-okay", 
+                "@id": "/c/en/okay/a", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/go/a", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "a", 
+                "label": "go", 
+                "@id": "/c/en/go/a", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/SimilarTo", 
+                "@type": "Relation", 
                 "label": "SimilarTo"
             }, 
             "@id": "/a/[/r/SimilarTo/,/c/en/go/a/,/c/en/okay/a/]", 
+            "@type": "Edge", 
             "surfaceText": "[[go]] is similar to [[a-okay]]"
         }, 
         {
             "end": {
-                "sense_label": "a", 
-                "@id": "/c/en/go/a", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "a", 
+                "label": "go", 
+                "@id": "/c/en/go/a", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "a", 
-                "@id": "/c/en/okay/a", 
                 "term": "/c/en/okay", 
                 "language": "en", 
-                "label": "a-okay"
+                "sense_label": "a", 
+                "label": "a-okay", 
+                "@id": "/c/en/okay/a", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/SimilarTo", 
+                "@type": "Relation", 
                 "label": "SimilarTo"
             }, 
             "@id": "/a/[/r/SimilarTo/,/c/en/okay/a/,/c/en/go/a/]", 
+            "@type": "Edge", 
             "surfaceText": "[[a-okay]] is similar to [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0627\u0650\u0633\u0652\u062a\u064e\u0645\u064e\u0631\u064e\u0651/v", 
-                "term": "/c/ar/\u0627\u0650\u0633\u0652\u062a\u064e\u0645\u064e\u0631\u064e\u0651", 
-                "language": "ar", 
-                "label": "\u0627\u0650\u0633\u0652\u062a\u064e\u0645\u064e\u0631\u0651\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0627\u0650\u0633\u0652\u062a\u064e\u0645\u064e\u0631\u064e\u0651/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0627\u0650\u0633\u0652\u062a\u064e\u0645\u064e\u0631\u0651\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0623\u064f\u0639\u0652\u0637\u0650\u064a\u064e/v", 
-                "term": "/c/ar/\u0623\u064f\u0639\u0652\u0637\u0650\u064a\u064e", 
-                "language": "ar", 
-                "label": "\u0623\u064f\u0639\u0652\u0637\u0650\u064a\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0623\u064f\u0639\u0652\u0637\u0650\u064a\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0623\u064f\u0639\u0652\u0637\u0650\u064a\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0630\u064e\u0647\u064e\u0628\u064e/v", 
-                "term": "/c/ar/\u0630\u064e\u0647\u064e\u0628\u064e", 
-                "language": "ar", 
-                "label": "\u0630\u064e\u0647\u064e\u0628\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0630\u064e\u0647\u064e\u0628\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0630\u064e\u0647\u064e\u0628\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0631\u064e\u0627\u062d\u064e/v", 
-                "term": "/c/ar/\u0631\u064e\u0627\u062d\u064e", 
-                "language": "ar", 
-                "label": "\u0631\u064e\u0627\u062d\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0631\u064e\u0627\u062d\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0631\u064e\u0627\u062d\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0642\u064e\u0627\u062f\u064e/v", 
-                "term": "/c/ar/\u0642\u064e\u0627\u062f\u064e", 
-                "language": "ar", 
-                "label": "\u0642\u064e\u0627\u062f\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0642\u064e\u0627\u062f\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0642\u064e\u0627\u062f\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0645\u064e\u0634\u064e\u0649/v", 
-                "term": "/c/ar/\u0645\u064e\u0634\u064e\u0649", 
-                "language": "ar", 
-                "label": "\u0645\u064e\u0634\u064e\u0649"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0645\u064e\u0634\u064e\u0649/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0645\u064e\u0634\u064e\u0649]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0645\u064e\u0636\u064e\u0649/v", 
-                "term": "/c/ar/\u0645\u064e\u0636\u064e\u0649", 
-                "language": "ar", 
-                "label": "\u0645\u064e\u0636\u064e\u0649"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0645\u064e\u0636\u064e\u0649/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0645\u064e\u0636\u064e\u0649]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0645\u064f\u0646\u0650\u062d\u064e/v", 
-                "term": "/c/ar/\u0645\u064f\u0646\u0650\u062d\u064e", 
-                "language": "ar", 
-                "label": "\u0645\u064f\u0646\u0650\u062d\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0645\u064f\u0646\u0650\u062d\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0645\u064f\u0646\u0650\u062d\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ar/\u0648\u064e\u0627\u0635\u064e\u0644\u064e/v", 
-                "term": "/c/ar/\u0648\u064e\u0627\u0635\u064e\u0644\u064e", 
-                "language": "ar", 
-                "label": "\u0648\u064e\u0627\u0635\u064e\u0644\u064e"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ar/\u0648\u064e\u0627\u0635\u064e\u0644\u064e/v/,/c/en/go/v/]", 
-            "surfaceText": "[[\u0648\u064e\u0627\u0635\u064e\u0644\u064e]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/acudir/v", 
-                "term": "/c/ca/acudir", 
-                "language": "ca", 
-                "label": "acudir"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/acudir/v/,/c/en/go/v/]", 
-            "surfaceText": "[[acudir]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/adre\u00e7ar_se/v", 
-                "term": "/c/ca/adre\u00e7ar_se", 
-                "language": "ca", 
-                "label": "adre\u00e7ar-se"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/adre\u00e7ar_se/v/,/c/en/go/v/]", 
-            "surfaceText": "[[adre\u00e7ar-se]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/anar_se'n/v", 
-                "term": "/c/ca/anar_se'n", 
-                "language": "ca", 
-                "label": "anar-se'n"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/anar_se'n/v/,/c/en/go/v/]", 
-            "surfaceText": "[[anar-se'n]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/anar/v", 
-                "term": "/c/ca/anar", 
-                "language": "ca", 
-                "label": "anar"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/anar/v/,/c/en/go/v/]", 
-            "surfaceText": "[[anar]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/dirigir_se/v", 
-                "term": "/c/ca/dirigir_se", 
-                "language": "ca", 
-                "label": "dirigir-se"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/dirigir_se/v/,/c/en/go/v/]", 
-            "surfaceText": "[[dirigir-se]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/donar/v", 
-                "term": "/c/ca/donar", 
-                "language": "ca", 
-                "label": "donar"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/donar/v/,/c/en/go/v/]", 
-            "surfaceText": "[[donar]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/fer_cap/v", 
-                "term": "/c/ca/fer_cap", 
-                "language": "ca", 
-                "label": "fer cap"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/fer_cap/v/,/c/en/go/v/]", 
-            "surfaceText": "[[fer cap]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/ca/marxar/v", 
-                "term": "/c/ca/marxar", 
-                "language": "ca", 
-                "label": "marxar"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/ca/marxar/v/,/c/en/go/v/]", 
-            "surfaceText": "[[marxar]] is a translation of [[go]]"
         }
     ], 
     "@id": "/c/en/go", 
     "view": {
-        "previousPage": "/c/en/go?offset=0&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/go?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/go?offset=0&limit=20", 
         "@id": "/c/en/go?offset=20&limit=20", 
-        "nextPage": "/c/en/go?offset=40&limit=20", 
-        "firstPage": "/c/en/go?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/go?offset=40&limit=20"
     }
 }
