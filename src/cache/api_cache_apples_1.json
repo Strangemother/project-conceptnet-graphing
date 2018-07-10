@@ -36,36 +36,6 @@
         }, 
         {
             "end": {
-                "term": "/c/en/wonderful_skins", 
-                "@id": "/c/en/wonderful_skins", 
-                "language": "en", 
-                "label": "wonderful skins"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/apples", 
-                "@id": "/c/en/apples", 
-                "language": "en", 
-                "label": "Apples"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/visionsofkaos", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/HasA", 
-                "label": "HasA"
-            }, 
-            "@id": "/a/[/r/HasA/,/c/en/apples/,/c/en/wonderful_skins/]", 
-            "surfaceText": "[[Apples]] have [[wonderful skins]]"
-        }, 
-        {
-            "end": {
                 "term": "/c/en/australian", 
                 "@id": "/c/en/australian", 
                 "language": "en", 
@@ -580,10 +550,40 @@
         }, 
         {
             "end": {
-                "term": "/c/en/very_common_fruit", 
-                "@id": "/c/en/very_common_fruit", 
+                "term": "/c/en/apples", 
+                "@id": "/c/en/apples", 
                 "language": "en", 
-                "label": "very common fruit"
+                "label": "apples"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/apple_juice", 
+                "@id": "/c/en/apple_juice", 
+                "language": "en", 
+                "label": "apple juice"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/sebastianwrell", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/MadeOf", 
+                "label": "MadeOf"
+            }, 
+            "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
+            "surfaceText": "[[apple juice]] is made of [[apples]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/play_poker", 
+                "@id": "/c/en/play_poker", 
+                "language": "en", 
+                "label": "play poker"
             }, 
             "weight": 1.0, 
             "license": "cc:by/4.0", 
@@ -596,17 +596,17 @@
             "dataset": "/d/conceptnet/4/en", 
             "sources": [
                 {
-                    "contributor": "/s/contributor/omcs/visionsofkaos", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                    "contributor": "/s/contributor/omcs/tlin", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
-                "@id": "/r/IsA", 
-                "label": "IsA"
+                "@id": "/r/NotCapableOf", 
+                "label": "NotCapableOf"
             }, 
-            "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/very_common_fruit/]", 
-            "surfaceText": "[[Apples]] are [[very common fruit]]"
+            "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
+            "surfaceText": "[[Apples]] do not [[play poker]]"
         }
     ], 
     "@id": "/c/en/apples", 

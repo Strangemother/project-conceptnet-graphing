@@ -1,13 +1,330 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u8ab0_\u3005", 
+                "@id": "/c/ja/\u8ab0_\u3005", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u8ab0 \u3005"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u8ab0_\u3005/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/ja/\u8ab0\u8ab0", 
+                "@id": "/c/ja/\u8ab0\u8ab0", 
+                "@type": "Node", 
+                "language": "ja", 
+                "label": "\u8ab0\u8ab0"
+            }, 
+            "dataset": "/d/jmdict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/jmdict/1.07", 
+                    "@id": "/s/resource/jmdict/1.07", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ja/\u8ab0\u8ab0/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "weight": 1.5, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/zh/\u8c01\u4eba\u4e50\u961f", 
+                "@id": "/c/zh/\u8c01\u4eba\u4e50\u961f", 
+                "@type": "Node", 
+                "language": "zh", 
+                "label": "\u8c01\u4eba\u4e50\u961f"
+            }, 
+            "dataset": "/d/cc_cedict", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/cc_cedict/2017-10", 
+                    "@id": "/s/resource/cc_cedict/2017-10", 
+                    "@type": "Source"
+                }, 
+                {
+                    "contributor": "/s/resource/dbpedia/2015/en", 
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/zh/\u8c01\u4eba\u4e50\u961f/,/c/en/who/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/act_in_stead", 
+                "@id": "/c/en/act_in_stead", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "act in your stead"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/act_in_stead/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Who]] can [[act in your stead]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/bell_cat", 
+                "@id": "/c/en/bell_cat", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "bell the cat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/bmurdoch", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/bell_cat/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[who]] can [[bell the cat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/can_field_ball", 
+                "@id": "/c/en/can_field_ball", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "can field the ball"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/azulatigrada", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/can_field_ball/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[who]] can [[can field the ball]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/can_fruit_anymore_days", 
+                "@id": "/c/en/can_fruit_anymore_days", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "can fruit anymore these days"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/can_fruit_anymore_days/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Who]] can [[can fruit anymore these days]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/can_peaches_in_heat", 
+                "@id": "/c/en/can_peaches_in_heat", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "can peaches in this heat"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/can_peaches_in_heat/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Who]] can [[can peaches in this heat]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/count_stars_in_heavens", 
+                "@id": "/c/en/count_stars_in_heavens", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "count the stars in the heavens"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/who", 
+                "@id": "/c/en/who", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "Who"
+            }, 
+            "dataset": "/d/conceptnet/4/en", 
+            "sources": [
+                {
+                    "contributor": "/s/contributor/omcs/laserjoy", 
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/count_stars_in_heavens/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[Who]] can [[count the stars in the heavens]]"
+        }, 
+        {
+            "end": {
                 "term": "/c/en/cover_all_up", 
                 "@id": "/c/en/cover_all_up", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "cover it all up"
             }, 
@@ -16,6 +333,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -24,20 +342,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/cover_all_up/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[cover it all up]]"
         }, 
         {
             "end": {
                 "term": "/c/en/doubt", 
                 "@id": "/c/en/doubt", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "doubt you"
             }, 
@@ -46,6 +368,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -54,20 +377,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/doubt/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[doubt you]]"
         }, 
         {
             "end": {
                 "term": "/c/en/explain", 
                 "@id": "/c/en/explain", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "explain it"
             }, 
@@ -76,6 +403,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "Who"
             }, 
@@ -84,20 +412,24 @@
                 {
                     "contributor": "/s/contributor/omcs/laserjoy", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/explain/]", 
+            "@type": "Edge", 
             "surfaceText": "[[Who]] can [[explain it]]"
         }, 
         {
             "end": {
                 "term": "/c/en/face_music", 
                 "@id": "/c/en/face_music", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "face the music"
             }, 
@@ -106,6 +438,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -114,20 +447,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/face_music/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[face the music]]"
         }, 
         {
             "end": {
                 "term": "/c/en/forget_wonderful_night", 
                 "@id": "/c/en/forget_wonderful_night", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "forget that wonderful night"
             }, 
@@ -136,6 +473,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "Who"
             }, 
@@ -144,20 +482,24 @@
                 {
                     "contributor": "/s/contributor/omcs/dev", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/forget_wonderful_night/]", 
+            "@type": "Edge", 
             "surfaceText": "[[Who]] can [[forget that wonderful night]]"
         }, 
         {
             "end": {
                 "term": "/c/en/gather_wool_from_sheep", 
                 "@id": "/c/en/gather_wool_from_sheep", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "gather that wool from the sheep"
             }, 
@@ -166,6 +508,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -174,20 +517,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/gather_wool_from_sheep/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[gather that wool from the sheep]]"
         }, 
         {
             "end": {
                 "term": "/c/en/man_watchtower", 
                 "@id": "/c/en/man_watchtower", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "man the watchtower"
             }, 
@@ -196,6 +543,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -204,20 +552,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/man_watchtower/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[man the watchtower]]"
         }, 
         {
             "end": {
                 "term": "/c/en/milk_cow", 
                 "@id": "/c/en/milk_cow", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "milk the cow"
             }, 
@@ -226,6 +578,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -234,20 +587,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/milk_cow/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[milk the cow]]"
         }, 
         {
             "end": {
                 "term": "/c/en/number_stars", 
                 "@id": "/c/en/number_stars", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "number the stars"
             }, 
@@ -256,6 +613,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "who"
             }, 
@@ -264,20 +622,24 @@
                 {
                     "contributor": "/s/contributor/omcs/azulatigrada", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/number_stars/]", 
+            "@type": "Edge", 
             "surfaceText": "[[who]] can [[number the stars]]"
         }, 
         {
             "end": {
                 "term": "/c/en/remember_12_digit_numbers", 
                 "@id": "/c/en/remember_12_digit_numbers", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "remember 12 digit numbers"
             }, 
@@ -286,6 +648,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "Who"
             }, 
@@ -294,20 +657,24 @@
                 {
                     "contributor": "/s/contributor/omcs/laserjoy", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/remember_12_digit_numbers/]", 
+            "@type": "Edge", 
             "surfaceText": "[[Who]] can [[remember 12 digit numbers]]"
         }, 
         {
             "end": {
                 "term": "/c/en/remember_all_details", 
                 "@id": "/c/en/remember_all_details", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "remember all the details"
             }, 
@@ -316,6 +683,7 @@
             "start": {
                 "term": "/c/en/who", 
                 "@id": "/c/en/who", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "Who"
             }, 
@@ -324,292 +692,28 @@
                 {
                     "contributor": "/s/contributor/omcs/laserjoy", 
                     "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
                     "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                 }
             ], 
             "rel": {
                 "@id": "/r/CapableOf", 
+                "@type": "Relation", 
                 "label": "CapableOf"
             }, 
             "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/remember_all_details/]", 
+            "@type": "Edge", 
             "surfaceText": "[[Who]] can [[remember all the details]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/sleep_when_snoring_nearby", 
-                "@id": "/c/en/sleep_when_snoring_nearby", 
-                "language": "en", 
-                "label": "sleep when someone is snoring nearby"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "Who"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/laserjoy", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/CapableOf", 
-                "label": "CapableOf"
-            }, 
-            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/sleep_when_snoring_nearby/]", 
-            "surfaceText": "[[Who]] can [[sleep when someone is snoring nearby]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/wait_forever", 
-                "@id": "/c/en/wait_forever", 
-                "language": "en", 
-                "label": "wait forever"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "Who"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/laserjoy", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/CapableOf", 
-                "label": "CapableOf"
-            }, 
-            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/wait_forever/]", 
-            "surfaceText": "[[Who]] can [[wait forever]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/wear_leather", 
-                "@id": "/c/en/wear_leather", 
-                "language": "en", 
-                "label": "wear leather"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/azulatigrada", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/CapableOf", 
-                "label": "CapableOf"
-            }, 
-            "@id": "/a/[/r/CapableOf/,/c/en/who/,/c/en/wear_leather/]", 
-            "surfaceText": "[[who]] can [[wear leather]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/ja/\u308c", 
-                "@id": "/c/ja/\u308c", 
-                "language": "ja", 
-                "label": "\u308c"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/DerivedFrom", 
-                "label": "DerivedFrom"
-            }, 
-            "@id": "/a/[/r/DerivedFrom/,/c/en/who/,/c/ja/\u308c/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/who's", 
-                "@id": "/c/en/who's", 
-                "language": "en", 
-                "label": "who's"
-            }, 
-            "dataset": "/d/wiktionary/de", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/de", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/DerivedFrom", 
-                "label": "DerivedFrom"
-            }, 
-            "@id": "/a/[/r/DerivedFrom/,/c/en/who's/,/c/en/who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/attractive_wears_clean_clothes", 
-                "@id": "/c/en/attractive_wears_clean_clothes", 
-                "language": "en", 
-                "label": "be attractive wears clean clothes"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "Someone who"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/justjim", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Desires", 
-                "label": "Desires"
-            }, 
-            "@id": "/a/[/r/Desires/,/c/en/who/,/c/en/attractive_wears_clean_clothes/]", 
-            "surfaceText": "[[Someone who]] wants to [[be attractive wears clean clothes]]"
-        }, 
-        {
-            "end": {
-                "term": "http://dbpedia.org/resource/The_Who", 
-                "@id": "http://dbpedia.org/resource/The_Who", 
-                "site": "dbpedia.org", 
-                "label": "The Who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "dataset": "/d/dbpedia/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/dbpedia/2015/en", 
-                    "@id": "/s/resource/dbpedia/2015/en"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/ExternalURL", 
-                "label": "ExternalURL"
-            }, 
-            "@id": "/a/[/r/ExternalURL/,/c/en/who/,/http://dbpedia.org/resource/The_Who/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "http://wikidata.dbpedia.org/resource/Q93346", 
-                "@id": "http://wikidata.dbpedia.org/resource/Q93346", 
-                "site": "wikidata.dbpedia.org", 
-                "label": "Q93346"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "dataset": "/d/dbpedia/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/dbpedia/2015/en", 
-                    "@id": "/s/resource/dbpedia/2015/en"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/ExternalURL", 
-                "label": "ExternalURL"
-            }, 
-            "@id": "/a/[/r/ExternalURL/,/c/en/who/,/http://wikidata.dbpedia.org/resource/Q93346/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/who", 
-                "@id": "/c/en/who", 
-                "language": "en", 
-                "label": "who"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/whos/n", 
-                "term": "/c/en/whos", 
-                "language": "en", 
-                "label": "whos"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/FormOf", 
-                "label": "FormOf"
-            }, 
-            "@id": "/a/[/r/FormOf/,/c/en/whos/n/,/c/en/who/]", 
-            "surfaceText": null
         }
     ], 
     "@id": "/c/en/who", 
     "view": {
-        "previousPage": "/c/en/who?offset=0&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/who?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/who?offset=0&limit=20", 
         "@id": "/c/en/who?offset=20&limit=20", 
-        "nextPage": "/c/en/who?offset=40&limit=20", 
-        "firstPage": "/c/en/who?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/who?offset=40&limit=20"
     }
 }

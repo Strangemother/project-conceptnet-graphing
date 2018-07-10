@@ -1,623 +1,730 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
+                "term": "/c/de/wann", 
+                "@id": "/c/de/wann", 
+                "@type": "Node", 
+                "language": "de", 
+                "label": "wann"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "term": "/c/fi/silloin_kun", 
-                "@id": "/c/fi/silloin_kun", 
-                "language": "fi", 
-                "label": "silloin kun"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fi/silloin_kun/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
                 "term": "/c/en/when", 
-                "@id": "/c/en/when", 
                 "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
                 "sense_label": "r", 
-                "@id": "/c/fi/sitten/r", 
-                "term": "/c/fi/sitten", 
-                "language": "fi", 
-                "label": "sitten"
+                "label": "when", 
+                "@id": "/c/en/when/r", 
+                "@type": "Node"
             }, 
-            "dataset": "/d/wiktionary/en", 
+            "dataset": "/d/wiktionary/de", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wiktionary/en", 
+                    "contributor": "/s/resource/wiktionary/de", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fi/sitten/r/,/c/en/when/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/en/when/r/,/c/de/wann/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fi/tarpeen_mukaan", 
-                "@id": "/c/fi/tarpeen_mukaan", 
-                "language": "fi", 
-                "label": "tarpeen mukaan"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fi/tarpeen_mukaan/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/fi/tarvittaessa/r", 
-                "term": "/c/fi/tarvittaessa", 
-                "language": "fi", 
-                "label": "tarvittaessa"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fi/tarvittaessa/r/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/fi/vasta_kun/r", 
-                "term": "/c/fi/vasta_kun", 
-                "language": "fi", 
-                "label": "vasta kun"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fi/vasta_kun/r/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fo/i\u00f0", 
-                "@id": "/c/fo/i\u00f0", 
-                "language": "fo", 
-                "label": "i\u00f0"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fo/i\u00f0/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fo/sum", 
-                "@id": "/c/fo/sum", 
-                "language": "fo", 
-                "label": "sum"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fo/sum/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fo/t\u00e1", 
-                "@id": "/c/fo/t\u00e1", 
-                "language": "fo", 
-                "label": "t\u00e1"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fo/t\u00e1/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/fr/alors_que/r", 
-                "term": "/c/fr/alors_que", 
-                "language": "fr", 
-                "label": "alors que"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/alors_que/r/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fr/au_moment_o\u00f9", 
-                "@id": "/c/fr/au_moment_o\u00f9", 
-                "language": "fr", 
-                "label": "au moment o\u00f9"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/au_moment_o\u00f9/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fr/lorsqu", 
-                "@id": "/c/fr/lorsqu", 
-                "language": "fr", 
-                "label": "lorsqu"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/lorsqu/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fr/lorsque", 
-                "@id": "/c/fr/lorsque", 
-                "language": "fr", 
-                "label": "lorsque"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/lorsque/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/frm/quand", 
-                "@id": "/c/frm/quand", 
-                "language": "frm", 
-                "label": "quand"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/frm/quand/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/frm/quand/r", 
-                "term": "/c/frm/quand", 
-                "language": "frm", 
-                "label": "quand"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/frm/quand/r/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/fro/quant", 
-                "@id": "/c/fro/quant", 
-                "language": "fro", 
-                "label": "quant"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fro/quant/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/fro/quant/r", 
-                "term": "/c/fro/quant", 
-                "language": "fro", 
-                "label": "quant"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fro/quant/r/,/c/en/when/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "sense_label": "r", 
-                "@id": "/c/fr/o\u00f9/r", 
                 "term": "/c/fr/o\u00f9", 
+                "@id": "/c/fr/o\u00f9", 
+                "@type": "Node", 
                 "language": "fr", 
                 "label": "o\u00f9"
             }, 
-            "dataset": "/d/wiktionary/en", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/when", 
+                "language": "en", 
+                "sense_label": "r", 
+                "label": "when", 
+                "@id": "/c/en/when/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wiktionary/en", 
+                    "contributor": "/s/resource/wiktionary/fr", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/o\u00f9/r/,/c/en/when/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/en/when/r/,/c/fr/o\u00f9/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
-                "term": "/c/en/when", 
-                "@id": "/c/en/when", 
-                "language": "en", 
-                "label": "when"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
                 "term": "/c/fr/quand", 
                 "@id": "/c/fr/quand", 
+                "@type": "Node", 
                 "language": "fr", 
                 "label": "quand"
             }, 
-            "dataset": "/d/wiktionary/en", 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/when", 
+                "language": "en", 
+                "sense_label": "r", 
+                "label": "when", 
+                "@id": "/c/en/when/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/fr", 
             "sources": [
                 {
-                    "contributor": "/s/resource/wiktionary/en", 
+                    "contributor": "/s/resource/wiktionary/fr", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/quand/,/c/en/when/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/en/when/r/,/c/fr/quand/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/when", 
                 "@id": "/c/en/when", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "when"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "term": "/c/fr/que", 
-                "@id": "/c/fr/que", 
-                "language": "fr", 
-                "label": "que"
+                "term": "/c/en/when's", 
+                "@id": "/c/en/when's", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when's"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fr/que/,/c/en/when/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/en/when's/,/c/en/when/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }, 
         {
             "end": {
                 "term": "/c/en/when", 
                 "@id": "/c/en/when", 
+                "@type": "Node", 
                 "language": "en", 
                 "label": "when"
             }, 
             "weight": 1.0, 
             "license": "cc:by-sa/4.0", 
             "start": {
-                "term": "/c/fur/cuant", 
-                "@id": "/c/fur/cuant", 
-                "language": "fur", 
-                "label": "cuant"
+                "term": "/c/eo/fine", 
+                "language": "eo", 
+                "sense_label": "r", 
+                "label": "fine", 
+                "@id": "/c/eo/fine/r", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wiktionary/en", 
             "sources": [
                 {
                     "contributor": "/s/resource/wiktionary/en", 
                     "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
                 "label": "RelatedTo"
             }, 
-            "@id": "/a/[/r/RelatedTo/,/c/fur/cuant/,/c/en/when/]", 
+            "@id": "/a/[/r/RelatedTo/,/c/eo/fine/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/eo/kiam", 
+                "@id": "/c/eo/kiam", 
+                "@type": "Node", 
+                "language": "eo", 
+                "label": "kiam"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/eo/kiam/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/eo/kiam", 
+                "language": "eo", 
+                "sense_label": "r", 
+                "label": "kiam", 
+                "@id": "/c/eo/kiam/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/eo/kiam/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/es/cuando", 
+                "@id": "/c/es/cuando", 
+                "@type": "Node", 
+                "language": "es", 
+                "label": "cuando"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/es/cuando/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/es/cuando", 
+                "language": "es", 
+                "sense_label": "r", 
+                "label": "cuando", 
+                "@id": "/c/es/cuando/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/es/cuando/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/es/cu\u00e1ndo", 
+                "language": "es", 
+                "sense_label": "r", 
+                "label": "cu\u00e1ndo", 
+                "@id": "/c/es/cu\u00e1ndo/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/es/cu\u00e1ndo/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/es/siempre_y_cuando", 
+                "@id": "/c/es/siempre_y_cuando", 
+                "@type": "Node", 
+                "language": "es", 
+                "label": "siempre y cuando"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/es/siempre_y_cuando/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/et/kui", 
+                "@id": "/c/et/kui", 
+                "@type": "Node", 
+                "language": "et", 
+                "label": "kui"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/et/kui/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/et/kuna", 
+                "language": "et", 
+                "sense_label": "r", 
+                "label": "kuna", 
+                "@id": "/c/et/kuna/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/et/kuna/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/et/kunas", 
+                "language": "et", 
+                "sense_label": "r", 
+                "label": "kunas", 
+                "@id": "/c/et/kunas/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/et/kunas/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/et/mil", 
+                "@id": "/c/et/mil", 
+                "@type": "Node", 
+                "language": "et", 
+                "label": "mil"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/et/mil/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/et/millal", 
+                "language": "et", 
+                "sense_label": "r", 
+                "label": "millal", 
+                "@id": "/c/et/millal/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/et/millal/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/fa/\u06a9\u06cc", 
+                "language": "fa", 
+                "sense_label": "r", 
+                "label": "\u06a9\u06cc", 
+                "@id": "/c/fa/\u06a9\u06cc/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fa/\u06a9\u06cc/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/fi/jahka", 
+                "@id": "/c/fi/jahka", 
+                "@type": "Node", 
+                "language": "fi", 
+                "label": "jahka"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fi/jahka/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/fi/jolloin", 
+                "language": "fi", 
+                "sense_label": "r", 
+                "label": "jolloin", 
+                "@id": "/c/fi/jolloin/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fi/jolloin/r/,/c/en/when/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/when", 
+                "@id": "/c/en/when", 
+                "@type": "Node", 
+                "language": "en", 
+                "label": "when"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/fi/konsa", 
+                "language": "fi", 
+                "sense_label": "r", 
+                "label": "konsa", 
+                "@id": "/c/fi/konsa/r", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "@type": "Relation", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/fi/konsa/r/,/c/en/when/]", 
+            "@type": "Edge", 
             "surfaceText": null
         }
     ], 
     "@id": "/c/en/when", 
     "view": {
-        "previousPage": "/c/en/when?offset=120&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/when?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/when?offset=120&limit=20", 
         "@id": "/c/en/when?offset=140&limit=20", 
-        "nextPage": "/c/en/when?offset=160&limit=20", 
-        "firstPage": "/c/en/when?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/when?offset=160&limit=20"
     }
 }

@@ -24,6 +24,14 @@ python main.py
 
 ```
 
+## Running tests
+
+nose or pytest or anything is fine. Note my python 3 install doesn't catch pytest.
+In the 'database/' smaller tests apply:
+
+    > py -m pytest -sv database/
+
+
 
 ### Websocket server
 
@@ -53,7 +61,7 @@ Due to cross-origin domain policies, The server should match the client and
 the connecting sockets. It's easy enough to serve it all from localhost or 127.0.0.1
 The socket server should host the same address as the client file.
 
-Andhoo - I host another server for the client file:
+Anyhoo - I host another server for the client file:
 
     $> server/ > python -m http.server
     127.0.0.1:8000

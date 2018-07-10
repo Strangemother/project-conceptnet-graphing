@@ -6,6 +6,36 @@
     "edges": [
         {
             "end": {
+                "term": "/c/en/what", 
+                "@id": "/c/en/what", 
+                "language": "en", 
+                "label": "what"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/what'll", 
+                "@id": "/c/en/what'll", 
+                "language": "en", 
+                "label": "what'll"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/what'll/,/c/en/what/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
                 "term": "/c/en/something", 
                 "@id": "/c/en/something", 
                 "language": "en", 
@@ -585,36 +615,6 @@
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/en/where/,/c/en/what/]", 
-            "surfaceText": null
-        }, 
-        {
-            "end": {
-                "term": "/c/en/what", 
-                "@id": "/c/en/what", 
-                "language": "en", 
-                "label": "what"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by-sa/4.0", 
-            "start": {
-                "term": "/c/en/whereof", 
-                "@id": "/c/en/whereof", 
-                "language": "en", 
-                "label": "whereof"
-            }, 
-            "dataset": "/d/wiktionary/en", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wiktionary/en", 
-                    "process": "/s/process/wikiparsec/1", 
-                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/RelatedTo", 
-                "label": "RelatedTo"
-            }, 
-            "@id": "/a/[/r/RelatedTo/,/c/en/whereof/,/c/en/what/]", 
             "surfaceText": null
         }
     ], 

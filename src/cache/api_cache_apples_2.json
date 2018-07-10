@@ -6,66 +6,6 @@
     "edges": [
         {
             "end": {
-                "term": "/c/en/apples", 
-                "@id": "/c/en/apples", 
-                "language": "en", 
-                "label": "apples"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/apple_juice", 
-                "@id": "/c/en/apple_juice", 
-                "language": "en", 
-                "label": "apple juice"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/sebastianwrell", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/MadeOf", 
-                "label": "MadeOf"
-            }, 
-            "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
-            "surfaceText": "[[apple juice]] is made of [[apples]]"
-        }, 
-        {
-            "end": {
-                "term": "/c/en/play_poker", 
-                "@id": "/c/en/play_poker", 
-                "language": "en", 
-                "label": "play poker"
-            }, 
-            "weight": 1.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "term": "/c/en/apples", 
-                "@id": "/c/en/apples", 
-                "language": "en", 
-                "label": "Apples"
-            }, 
-            "dataset": "/d/conceptnet/4/en", 
-            "sources": [
-                {
-                    "contributor": "/s/contributor/omcs/tlin", 
-                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
-                    "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/NotCapableOf", 
-                "label": "NotCapableOf"
-            }, 
-            "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
-            "surfaceText": "[[Apples]] do not [[play poker]]"
-        }, 
-        {
-            "end": {
                 "term": "/c/en/consumed_by_people", 
                 "@id": "/c/en/consumed_by_people", 
                 "language": "en", 
@@ -607,6 +547,68 @@
                 "label": "RelatedTo"
             }, 
             "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/nice/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/stairs", 
+                "@id": "/c/en/stairs", 
+                "language": "en", 
+                "label": "stairs"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/stairs/]", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/testicles", 
+                "@id": "/c/en/testicles", 
+                "language": "en", 
+                "label": "testicles"
+            }, 
+            "weight": 1.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "sense_label": "n", 
+                "@id": "/c/en/apples/n", 
+                "term": "/c/en/apples", 
+                "language": "en", 
+                "label": "apples"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/RelatedTo", 
+                "label": "RelatedTo"
+            }, 
+            "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/testicles/]", 
             "surfaceText": null
         }
     ], 

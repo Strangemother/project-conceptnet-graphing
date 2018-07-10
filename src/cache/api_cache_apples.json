@@ -8,66 +8,6 @@
         "edges": [
             {
                 "end": {
-                    "term": "/c/en/apples", 
-                    "@id": "/c/en/apples", 
-                    "language": "en", 
-                    "label": "apples"
-                }, 
-                "weight": 1.0, 
-                "license": "cc:by/4.0", 
-                "start": {
-                    "term": "/c/en/apple_juice", 
-                    "@id": "/c/en/apple_juice", 
-                    "language": "en", 
-                    "label": "apple juice"
-                }, 
-                "dataset": "/d/conceptnet/4/en", 
-                "sources": [
-                    {
-                        "contributor": "/s/contributor/omcs/sebastianwrell", 
-                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
-                        "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                    }
-                ], 
-                "rel": {
-                    "@id": "/r/MadeOf", 
-                    "label": "MadeOf"
-                }, 
-                "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
-                "surfaceText": "[[apple juice]] is made of [[apples]]"
-            }, 
-            {
-                "end": {
-                    "term": "/c/en/play_poker", 
-                    "@id": "/c/en/play_poker", 
-                    "language": "en", 
-                    "label": "play poker"
-                }, 
-                "weight": 1.0, 
-                "license": "cc:by/4.0", 
-                "start": {
-                    "term": "/c/en/apples", 
-                    "@id": "/c/en/apples", 
-                    "language": "en", 
-                    "label": "Apples"
-                }, 
-                "dataset": "/d/conceptnet/4/en", 
-                "sources": [
-                    {
-                        "contributor": "/s/contributor/omcs/tlin", 
-                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
-                        "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                    }
-                ], 
-                "rel": {
-                    "@id": "/r/NotCapableOf", 
-                    "label": "NotCapableOf"
-                }, 
-                "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
-                "surfaceText": "[[Apples]] do not [[play poker]]"
-            }, 
-            {
-                "end": {
                     "term": "/c/en/consumed_by_people", 
                     "@id": "/c/en/consumed_by_people", 
                     "language": "en", 
@@ -610,23 +550,7 @@
                 }, 
                 "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/nice/]", 
                 "surfaceText": null
-            }
-        ], 
-        "@id": "/c/en/apples", 
-        "view": {
-            "previousPage": "/c/en/apples?offset=20&limit=20", 
-            "paginatedProperty": "edges", 
-            "@id": "/c/en/apples?offset=40&limit=20", 
-            "nextPage": "/c/en/apples?offset=60&limit=20", 
-            "firstPage": "/c/en/apples?offset=0&limit=20"
-        }
-    }, 
-    "index_3": {
-        "@context": [
-            "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-            "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
-        ], 
-        "edges": [
+            }, 
             {
                 "end": {
                     "term": "/c/en/stairs", 
@@ -688,7 +612,23 @@
                 }, 
                 "@id": "/a/[/r/RelatedTo/,/c/en/apples/n/,/c/en/testicles/]", 
                 "surfaceText": null
-            }, 
+            }
+        ], 
+        "@id": "/c/en/apples", 
+        "view": {
+            "previousPage": "/c/en/apples?offset=20&limit=20", 
+            "paginatedProperty": "edges", 
+            "@id": "/c/en/apples?offset=40&limit=20", 
+            "nextPage": "/c/en/apples?offset=60&limit=20", 
+            "firstPage": "/c/en/apples?offset=0&limit=20"
+        }
+    }, 
+    "index_3": {
+        "@context": [
+            "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
+            "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        ], 
+        "edges": [
             {
                 "end": {
                     "term": "/c/en/apples", 
@@ -1153,36 +1093,6 @@
                 }, 
                 "@id": "/a/[/r/HasA/,/c/en/apples/,/c/en/stems/]", 
                 "surfaceText": "[[Apples]] have [[stems]]"
-            }, 
-            {
-                "end": {
-                    "term": "/c/en/wonderful_skins", 
-                    "@id": "/c/en/wonderful_skins", 
-                    "language": "en", 
-                    "label": "wonderful skins"
-                }, 
-                "weight": 1.0, 
-                "license": "cc:by/4.0", 
-                "start": {
-                    "term": "/c/en/apples", 
-                    "@id": "/c/en/apples", 
-                    "language": "en", 
-                    "label": "Apples"
-                }, 
-                "dataset": "/d/conceptnet/4/en", 
-                "sources": [
-                    {
-                        "contributor": "/s/contributor/omcs/visionsofkaos", 
-                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
-                        "activity": "/s/activity/omcs/omcs1_possibly_free_text"
-                    }
-                ], 
-                "rel": {
-                    "@id": "/r/HasA", 
-                    "label": "HasA"
-                }, 
-                "@id": "/a/[/r/HasA/,/c/en/apples/,/c/en/wonderful_skins/]", 
-                "surfaceText": "[[Apples]] have [[wonderful skins]]"
             }, 
             {
                 "end": {
@@ -1700,10 +1610,40 @@
             }, 
             {
                 "end": {
-                    "term": "/c/en/very_common_fruit", 
-                    "@id": "/c/en/very_common_fruit", 
+                    "term": "/c/en/apples", 
+                    "@id": "/c/en/apples", 
                     "language": "en", 
-                    "label": "very common fruit"
+                    "label": "apples"
+                }, 
+                "weight": 1.0, 
+                "license": "cc:by/4.0", 
+                "start": {
+                    "term": "/c/en/apple_juice", 
+                    "@id": "/c/en/apple_juice", 
+                    "language": "en", 
+                    "label": "apple juice"
+                }, 
+                "dataset": "/d/conceptnet/4/en", 
+                "sources": [
+                    {
+                        "contributor": "/s/contributor/omcs/sebastianwrell", 
+                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sebastianwrell/]", 
+                        "activity": "/s/activity/omcs/omcs1_possibly_free_text"
+                    }
+                ], 
+                "rel": {
+                    "@id": "/r/MadeOf", 
+                    "label": "MadeOf"
+                }, 
+                "@id": "/a/[/r/MadeOf/,/c/en/apple_juice/,/c/en/apples/]", 
+                "surfaceText": "[[apple juice]] is made of [[apples]]"
+            }, 
+            {
+                "end": {
+                    "term": "/c/en/play_poker", 
+                    "@id": "/c/en/play_poker", 
+                    "language": "en", 
+                    "label": "play poker"
                 }, 
                 "weight": 1.0, 
                 "license": "cc:by/4.0", 
@@ -1716,17 +1656,17 @@
                 "dataset": "/d/conceptnet/4/en", 
                 "sources": [
                     {
-                        "contributor": "/s/contributor/omcs/visionsofkaos", 
-                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/visionsofkaos/]", 
+                        "contributor": "/s/contributor/omcs/tlin", 
+                        "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
                         "activity": "/s/activity/omcs/omcs1_possibly_free_text"
                     }
                 ], 
                 "rel": {
-                    "@id": "/r/IsA", 
-                    "label": "IsA"
+                    "@id": "/r/NotCapableOf", 
+                    "label": "NotCapableOf"
                 }, 
-                "@id": "/a/[/r/IsA/,/c/en/apples/,/c/en/very_common_fruit/]", 
-                "surfaceText": "[[Apples]] are [[very common fruit]]"
+                "@id": "/a/[/r/NotCapableOf/,/c/en/apples/,/c/en/play_poker/]", 
+                "surfaceText": "[[Apples]] do not [[play poker]]"
             }
         ], 
         "@id": "/c/en/apples", 
@@ -1851,7 +1791,7 @@
                 "language": "en", 
                 "label": "the fridge"
             }, 
-            "weight": 4.0, 
+            "weight": 3.4641016151377544, 
             "license": "cc:by/4.0", 
             "start": {
                 "term": "/c/en/apples", 
@@ -1879,11 +1819,6 @@
                 {
                     "contributor": "/s/contributor/omcs/stenforthewin", 
                     "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stenforthewin/]", 
-                    "activity": "/s/activity/omcs/vote"
-                }, 
-                {
-                    "contributor": "/s/contributor/omcs/visionsofkaos", 
-                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/visionsofkaos/]", 
                     "activity": "/s/activity/omcs/vote"
                 }
             ], 

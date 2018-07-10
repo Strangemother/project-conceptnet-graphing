@@ -34,6 +34,8 @@ ul.tokens-list.tokens {
 li.token {
     display: flex;
     padding: 0.3rem 0;
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
 }
 
 li.token>* {
@@ -59,12 +61,14 @@ div.word {
     display: inline-block;
     padding: 0.6em 1.1em;
     font-size: 1.4rem;
+    /* width: 50%; */
 }
 
 span.defin {
     margin-left: auto;
     width: initial;
     margin-right: 1%;
+    flex-shrink: 0;
 }
 span.start.weight {
     font-family: monospace;
@@ -93,8 +97,12 @@ span.rel {
 }
 
 .horiz ul.tokens-list {
-    width: 100%;
+    /* width: 100%; */
     margin-left: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .message-type {

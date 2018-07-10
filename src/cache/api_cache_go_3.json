@@ -1,636 +1,737 @@
 {
     "@context": [
-        "http://api.conceptnet.io/ld/conceptnet5.5/context.ld.json", 
-        "http://api.conceptnet.io/ld/conceptnet5.5/pagination.ld.json"
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
     ], 
     "edges": [
         {
             "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/proceed/v", 
-                "term": "/c/en/proceed", 
+                "term": "/c/en/go", 
                 "language": "en", 
-                "label": "proceed"
+                "sense_label": "n", 
+                "label": "go", 
+                "@id": "/c/en/go/n", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
+                "term": "/c/ca/torn", 
+                "language": "ca", 
+                "sense_label": "n", 
+                "label": "torn", 
+                "@id": "/c/ca/torn/n", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ca/torn/n/,/c/en/go/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[torn]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/ca/venir", 
+                "language": "ca", 
+                "sense_label": "v", 
+                "label": "venir", 
+                "@id": "/c/ca/venir/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/ca/venir/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[venir]] is a translation of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/depart", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "depart", 
+                "@id": "/c/en/depart/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/depart/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[depart]] is a synonym of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go_away", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go away", 
+                "@id": "/c/en/go_away/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go_away/v/,/c/en/go/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go away]] is a synonym of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "go", 
+                "@id": "/c/en/go/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go_game", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "go game", 
+                "@id": "/c/en/go_game/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go_game/n/,/c/en/go/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go game]] is a synonym of [[go]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/adam", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "Adam", 
+                "@id": "/c/en/adam/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "go", 
+                "@id": "/c/en/go/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/n/,/c/en/adam/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[Adam]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/crack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "crack", 
+                "@id": "/c/en/crack/n", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "go", 
+                "@id": "/c/en/go/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/n/,/c/en/crack/n/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[crack]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/sh/go", 
+                "@id": "/c/sh/go", 
+                "@type": "Node", 
+                "language": "sh", 
+                "label": "go"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by-sa/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "n", 
+                "label": "go", 
+                "@id": "/c/en/go/n", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wiktionary/en", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1", 
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/n/,/c/sh/go/]", 
+            "@type": "Edge", 
+            "surfaceText": null
+        }, 
+        {
+            "end": {
+                "term": "/c/en/become", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "become", 
+                "@id": "/c/en/become/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/become/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[become]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/belong", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "belong", 
+                "@id": "/c/en/belong/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/belong/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[belong]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/blend", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "blend", 
+                "@id": "/c/en/blend/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/blend/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[blend]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/die", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "die", 
+                "@id": "/c/en/die/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/die/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[die]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fail", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "fail", 
+                "@id": "/c/en/fail/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/fail/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[fail]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/fit", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "fit", 
+                "@id": "/c/en/fit/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/fit/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[fit]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/function", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "function", 
+                "@id": "/c/en/function/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/function/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[function]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/move", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "move", 
+                "@id": "/c/en/move/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/move/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[move]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/plump", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "plump", 
+                "@id": "/c/en/plump/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
+                "label": "Synonym"
+            }, 
+            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/plump/v/]", 
+            "@type": "Edge", 
+            "surfaceText": "[[go]] is a synonym of [[plump]]"
+        }, 
+        {
+            "end": {
+                "term": "/c/en/proceed", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "proceed", 
+                "@id": "/c/en/proceed/v", 
+                "@type": "Node"
+            }, 
+            "weight": 2.0, 
+            "license": "cc:by/4.0", 
+            "start": {
+                "term": "/c/en/go", 
+                "language": "en", 
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
+            }, 
+            "dataset": "/d/wordnet/3.1", 
+            "sources": [
+                {
+                    "contributor": "/s/resource/wordnet/rdf/3.1", 
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
+                }
+            ], 
+            "rel": {
+                "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/proceed/v/]", 
+            "@type": "Edge", 
             "surfaceText": "[[go]] is a synonym of [[proceed]]"
         }, 
         {
             "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/rifle/v", 
                 "term": "/c/en/rifle", 
                 "language": "en", 
-                "label": "rifle"
+                "sense_label": "v", 
+                "label": "rifle", 
+                "@id": "/c/en/rifle/v", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/rifle/v/]", 
+            "@type": "Edge", 
             "surfaceText": "[[go]] is a synonym of [[rifle]]"
         }, 
         {
             "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/run_low/v", 
                 "term": "/c/en/run_low", 
                 "language": "en", 
-                "label": "run low"
+                "sense_label": "v", 
+                "label": "run low", 
+                "@id": "/c/en/run_low/v", 
+                "@type": "Node"
             }, 
             "weight": 2.0, 
             "license": "cc:by/4.0", 
             "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
                 "term": "/c/en/go", 
                 "language": "en", 
-                "label": "go"
+                "sense_label": "v", 
+                "label": "go", 
+                "@id": "/c/en/go/v", 
+                "@type": "Node"
             }, 
             "dataset": "/d/wordnet/3.1", 
             "sources": [
                 {
                     "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source"
                 }
             ], 
             "rel": {
                 "@id": "/r/Synonym", 
+                "@type": "Relation", 
                 "label": "Synonym"
             }, 
             "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/run_low/v/]", 
+            "@type": "Edge", 
             "surfaceText": "[[go]] is a synonym of [[run low]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/run/v", 
-                "term": "/c/en/run", 
-                "language": "en", 
-                "label": "run"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/run/v/]", 
-            "surfaceText": "[[go]] is a synonym of [[run]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/sound/v", 
-                "term": "/c/en/sound", 
-                "language": "en", 
-                "label": "sound"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/sound/v/]", 
-            "surfaceText": "[[go]] is a synonym of [[sound]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/start/v", 
-                "term": "/c/en/start", 
-                "language": "en", 
-                "label": "start"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/start/v/]", 
-            "surfaceText": "[[go]] is a synonym of [[start]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/survive/v", 
-                "term": "/c/en/survive", 
-                "language": "en", 
-                "label": "survive"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/survive/v/]", 
-            "surfaceText": "[[go]] is a synonym of [[survive]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/travel/v", 
-                "term": "/c/en/travel", 
-                "language": "en", 
-                "label": "travel"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/go/v/,/c/en/travel/v/]", 
-            "surfaceText": "[[go]] is a synonym of [[travel]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/lead/v", 
-                "term": "/c/en/lead", 
-                "language": "en", 
-                "label": "lead"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/lead/v/,/c/en/go/v/]", 
-            "surfaceText": "[[lead]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/move/v", 
-                "term": "/c/en/move", 
-                "language": "en", 
-                "label": "move"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/move/v/,/c/en/go/v/]", 
-            "surfaceText": "[[move]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/en/proceed/v", 
-                "term": "/c/en/proceed", 
-                "language": "en", 
-                "label": "proceed"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/proceed/v/,/c/en/go/v/]", 
-            "surfaceText": "[[proceed]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/go/n", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/spell/n", 
-                "term": "/c/en/spell", 
-                "language": "en", 
-                "label": "spell"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/spell/n/,/c/en/go/n/]", 
-            "surfaceText": "[[spell]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/go/n", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/tour/n", 
-                "term": "/c/en/tour", 
-                "language": "en", 
-                "label": "tour"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/tour/n/,/c/en/go/n/]", 
-            "surfaceText": "[[tour]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "n", 
-                "@id": "/c/en/go/n", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "n", 
-                "@id": "/c/en/turn/n", 
-                "term": "/c/en/turn", 
-                "language": "en", 
-                "label": "turn"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/en/turn/n/,/c/en/go/n/]", 
-            "surfaceText": "[[turn]] is a synonym of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/acudir/v", 
-                "term": "/c/es/acudir", 
-                "language": "es", 
-                "label": "acudir"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/acudir/v/,/c/en/go/v/]", 
-            "surfaceText": "[[acudir]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/dar/v", 
-                "term": "/c/es/dar", 
-                "language": "es", 
-                "label": "dar"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/dar/v/,/c/en/go/v/]", 
-            "surfaceText": "[[dar]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/irse/v", 
-                "term": "/c/es/irse", 
-                "language": "es", 
-                "label": "irse"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/irse/v/,/c/en/go/v/]", 
-            "surfaceText": "[[irse]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/ir/v", 
-                "term": "/c/es/ir", 
-                "language": "es", 
-                "label": "ir"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/ir/v/,/c/en/go/v/]", 
-            "surfaceText": "[[ir]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/llevar/v", 
-                "term": "/c/es/llevar", 
-                "language": "es", 
-                "label": "llevar"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/llevar/v/,/c/en/go/v/]", 
-            "surfaceText": "[[llevar]] is a translation of [[go]]"
-        }, 
-        {
-            "end": {
-                "sense_label": "v", 
-                "@id": "/c/en/go/v", 
-                "term": "/c/en/go", 
-                "language": "en", 
-                "label": "go"
-            }, 
-            "weight": 2.0, 
-            "license": "cc:by/4.0", 
-            "start": {
-                "sense_label": "v", 
-                "@id": "/c/es/proceder/v", 
-                "term": "/c/es/proceder", 
-                "language": "es", 
-                "label": "proceder"
-            }, 
-            "dataset": "/d/wordnet/3.1", 
-            "sources": [
-                {
-                    "contributor": "/s/resource/wordnet/rdf/3.1", 
-                    "@id": "/s/resource/wordnet/rdf/3.1"
-                }
-            ], 
-            "rel": {
-                "@id": "/r/Synonym", 
-                "label": "Synonym"
-            }, 
-            "@id": "/a/[/r/Synonym/,/c/es/proceder/v/,/c/en/go/v/]", 
-            "surfaceText": "[[proceder]] is a translation of [[go]]"
         }
     ], 
     "@id": "/c/en/go", 
     "view": {
-        "previousPage": "/c/en/go?offset=40&limit=20", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/c/en/go?offset=0&limit=20", 
         "paginatedProperty": "edges", 
+        "previousPage": "/c/en/go?offset=40&limit=20", 
         "@id": "/c/en/go?offset=60&limit=20", 
-        "nextPage": "/c/en/go?offset=80&limit=20", 
-        "firstPage": "/c/en/go?offset=0&limit=20"
+        "@type": "PartialCollectionView", 
+        "nextPage": "/c/en/go?offset=80&limit=20"
     }
 }
