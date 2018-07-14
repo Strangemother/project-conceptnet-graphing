@@ -5,7 +5,9 @@ import mock
 from mock import patch
 
 
-from database.db import DB, AppendableDB, GraphDB, GRow, MAX_BYTES
+from database.db import DB, AppendableDB, GRow, MAX_BYTES
+from database.graph import *
+
 
 TEST_WRITE_ENV = "E:/conceptnet/_lmdb_test/"
 
@@ -305,15 +307,26 @@ class TestAppendableDB(unittest.TestCase):
 
 class TestGraphDB(unittest.TestCase):
 
+    TestClass = GraphDB
+
+    def test_cursor(self):
+        gb = self.TestClass(name='test_graph')
+        gb.wipe()
+
+        result = list(gb.cursor.iternext(keys=True, values=True))
+        self.assertListEqual(result, [])
+
+        gb.add('milk', 'isa', 'greeting', 3.4, 'hello')
+
+        result = list(gb.cursor.iternext(keys=True, values=True))
+        expected = [(b'milk', b"!:GRow!:'milk', 'isa', 'greeting', 3.4, 'hello'")]
+        self.assertListEqual(result, expected)
 
     def test_iter_one(self):
-        gb = GraphDB(name='test_graph')
+        gb = self.TestClass(name='test_graph')
         gb.wipe()
 
         result = list(gb.iter(convert=False))
-        self.assertListEqual(result, [])
-
-        result = list(gb.cursor.iternext(keys=True, values=True))
         self.assertListEqual(result, [])
 
         gb.add('milk', 'isa', 'greeting', 3.4, 'hello')
@@ -327,18 +340,14 @@ class TestGraphDB(unittest.TestCase):
         # Add: milk (hello) isa greeting (3.4)
         self.assertEqual(len(result), 0)
 
-        result = list(gb.cursor.iternext(keys=True, values=True))
-        expected = [(b'milk', b"!:GRow!:('milk', 'isa', 'greeting', 3.4, 'hello')")]
-        self.assertListEqual(result, expected)
-
         result = list(gb.iter(convert=False))
-        expected = [('milk', b"!:GRow!:('milk', 'isa', 'greeting', 3.4, 'hello')")]
+        expected = [('milk', b"!:GRow!:'milk', 'isa', 'greeting', 3.4, 'hello'")]
         self.assertListEqual(result, expected)
 
-    def test_word(self):
+    def test_add(self):
         word = 'Hello'
 
-        gb = GraphDB(name='test_graph')
+        gb = self.TestClass(name='test_graph')
         gb.wipe()
 
         gb.add('milk', 'isa', 'nothin', 1, 'hello')
@@ -351,6 +360,281 @@ class TestGraphDB(unittest.TestCase):
         self.assertEqual(len(result), 4)
         self.assertEqual(len(gb.collect(word)), 3)
         result = gb.get(word)
-        self.assertIsInstance(result, tuple)
+        self.assertIsInstance(result, GRow)
 
+
+    def test_edge_walk(self):
+        gb = self.TestClass(name='graph_pick')
+        gb.wipe()
+
+        key='Hello'
+
+        gb.add(key, 'isa', 'greeting', 3.4, 'hello')
+        gb.add(key, 'isa', 'word', 3, 'hello')
+        gb.add(key, 'isa', 'another', 1, 'hello')
+        gb.add('greeting', 'similarto', 'Hello', 2)
+
+        p = gb.pick(key)
+        result = p.isa.greeting.similarto.Hello.graph.isa.greeting.value
+        self.assertEqual(result, 'greeting')
+        result = p.isa.greeting.similarto.Hello.isa.another.value
+        self.assertEqual(result, 'another')
+
+    def test_parent_walk(self):
+
+        gb = self.TestClass(name='graph_walk')
+        gb.wipe()
+
+        key='Hello'
+
+        gb.add(key, 'isa', 'greeting', 3.4, 'hello')
+        gb.add(key, 'isa', 'word', 3, 'hello')
+        gb.add(key, 'isa', 'another', 1, 'hello')
+        gb.add('greeting', 'similarto', 'Hello', 2)
+
+        p = gb.pick(key)
+        result =( p.isa.greeting
+            .similarto.Hello
+            .isa.word
+            # hello
+            .parent_graph
+            # greeting
+            .parent_graph
+            # Hello
+            .parent_graph
+            # None!
+            .parent_graph )
+
+        self.assertIsNone(result, gb)
+
+    def _hello_law_chain(self, gb):
+        p = gb.pick('Hello')
+
+        law_chain =( p
+            .isa
+                .greeting
+            .similarto
+                .hi
+            .isa
+                .greeting
+            .similarto
+                .Hello
+            .isa
+                .word
+            .isa
+                .thing
+            .etomology
+                .law)
+
+        return law_chain
+
+    def test_edgenode_walk(self):
+        gb = self._cheap_graphdb()
+        law_chain = self._hello_law_chain(gb)
+
+        result = [x.value for x in law_chain.edgenode_chain(True)]
+        expected = ['law', 'thing', 'word', 'Hello', 'greeting', 'hi', 'greeting']
+        self.assertListEqual(result, expected)
+
+    def _cheap_graphdb(self, key='Hello'):
+        gb = self.TestClass(name='graph_edgenode')
+        gb.wipe()
+
+        gb.add(key, 'isa', 'greeting', 3.4, key)
+        gb.add(key, 'isa', 'word', 3, key)
+        gb.add(key, 'isa', 'another', 1, key)
+
+        gb.add('greeting', 'similarto', key, 2)
+        gb.add('greeting', 'similarto', 'hi', 2)
+        gb.add('greeting', 'isa', 'welcome', 2)
+        gb.add('hi', 'isa', 'greeting', 3)
+        gb.add('word', 'isa', 'word', 1)
+        gb.add('word', 'isa', 'thing', 1)
+        gb.add('thing', 'etomology', 'law', 2)
+
+        return gb
+
+    def test_self_cheap_graphdb(self):
+        """Test the test function "_cheap_graphdb"""
+        gb = self._cheap_graphdb()
+        self.assertIsInstance(gb, self.TestClass)
+        self.assertEqual(len(gb.collect('Hello')), 3)
+        self.assertEqual(len(gb.collect('greeting')), 3)
+        self.assertEqual(len(gb.collect('hi')), 1)
+        self.assertEqual(len(gb.collect('word')), 2)
+        self.assertEqual(len(gb.collect('thing')), 1)
+
+    def test_text_chain(self):
+        gb = self._cheap_graphdb()
+        chain = self._hello_law_chain(gb)
+        result = chain.text_chain(True)
+        expected = (
+             ('thing', 'etomology', 'thing', 2),
+             ('word', 'isa', 'thing', 1),
+             ('Hello', 'isa', 'word', 3),
+             ('greeting', 'similarto', 'Hello', 2),
+             ('hi', 'isa', 'greeting', 3),
+             ('greeting', 'similarto', 'hi', 2),
+             ('Hello', 'isa', 'greeting', 3.4),
+         )
+
+        self.assertTupleEqual(result, expected)
+
+    def test_parent_edgenode_walk(self):
+        gb = self._cheap_graphdb()
+        p = gb.pick('Hello')
+        result = (p
+                .isa
+                .greeting
+                .similarto
+                .hi
+                # 1
+                .isa
+                # Target.
+                .greeting
+                .similarto
+                .Hello
+                # 2
+                .isa
+                .word
+                # 3
+                .isa
+                .thing
+                .parent_edgenode
+                .parent_edgenode
+                .parent_edgenode
+
+                )
+
+
+        self.assertEqual(result.edge_type, 'isa')
+        self.assertEqual(result.value, 'greeting')
+        self.assertEqual(result.weight, 3)
+
+    def test_edge_text(self):
+        db = self._cheap_graphdb()
+        gg = db.pick('Hello')
+        result = gg.edge_text()
+        expected = (('isa', 'another'),
+            ('isa', 'greeting'),
+            ('isa', 'word'))
+        self.assertCountEqual(result, expected)
+
+
+class TestRemap(unittest.TestCase):
+
+    def test_auto_remap(self):
+        rm = Remap()
+        self.assertEqual(rm.mapval('CapableOf'), 'capable_of')
+        self.assertEqual(rm.valmap('capable_of'), 'CapableOf')
+
+
+class TestEdgesEdgeNode(unittest.TestCase):
+
+    def _cheap_graphdb(self, key='Hello'):
+        gb = GraphDB(name='graph_edgenode')
+        gb.wipe()
+
+        gb.add(key, 'IsA', 'greeting', 3.4, key)
+        gb.add(key, 'IsA', 'word', 3, key)
+        gb.add(key, 'IsA', 'another', 1, key)
+
+        gb.add('greeting', 'similarto', key, 2)
+        gb.add('greeting', 'similarto', 'hi', 2)
+        gb.add('greeting', 'IsA', 'welcome', 2)
+        gb.add('hi', 'IsA', 'greeting', 3)
+        gb.add('word', 'IsA', 'word', 1)
+        gb.add('word', 'IsA', 'thing', 1)
+        gb.add('thing', 'etomology', 'law', 2)
+
+        return gb
+
+    def test___contains__(self):
+        a = EdgeNode('top', 1)
+        b = EdgeNode('toy', 2)
+        c = EdgeNode('other', 1)
+        edges = Edges(items=(a,b,))
+
+        self.assertTrue(a in edges)
+        self.assertFalse(c in edges)
+        self.assertTrue('top' in edges)
+        self.assertFalse('hoof' in edges)
+
+    def test_edge_start(self):
+        db = self._cheap_graphdb()
+        handle = Edge(db)
+        res = handle.Hello
+        # This is a crap test.
+        self.assertEqual(res.key, 'Hello')
+
+    def test_edge_start(self):
+        db = self._cheap_graphdb()
+        handle = Edge(db)
+        res = handle.Hello.is_a
+        # This is a crap test.
+        self.assertIsInstance(res, Edges)
+        self.assertEqual(res, handle.Hello.IsA)
+
+class TestEdgeValues(unittest.TestCase):
+
+    def _db(self, key='Hello'):
+        gb = GraphDB(name='edgevalues')
+        gb.wipe()
+
+        gb.add(key, 'IsA', 'greeting', 3.4, key)
+        gb.add(key, 'IsA', 'word', 3, key)
+        gb.add(key, 'IsA', 'another', 1, key)
+
+        gb.add('greeting', 'similarto', key, 2)
+        gb.add('greeting', 'similarto', 'hi', 2)
+        gb.add('greeting', 'IsA', 'welcome', 2)
+        gb.add('hi', 'IsA', 'greeting', 3)
+        gb.add('word', 'IsA', 'word', 1)
+        gb.add('word', 'IsA', 'thing', 1)
+        gb.add('thing', 'etomology', 'law', 2)
+
+        return gb
+
+    def test_functional_call(self):
+        db = self._db()
+        handle = Edge(db)
+        weights = handle.Hello.is_a.weight()
+        self.assertIsInstance(weights, tuple)
+        self.assertEqual(len(weights), 3)
+        self.assertCountEqual(weights, (3.4, 3, 1,))
+
+        weights = handle.Hello.is_a.weight(True)
+        self.assertCountEqual(weights, (('another', 1), ('greeting', 3.4), ('word', 3)))
+
+
+class TestObjectDB(TestGraphDB):
+    TestClass = ObjectDB
+
+    def test_cursor(self):
+        pass
+
+    def test_dump(self):
+        gb = self._cheap_graphdb()
+        self.assertDictEqual(
+            ObjectDB(load=gb.dump()).dump(),
+            gb.dump())
+
+    def test_create_index(self):
+        """Assert a created index is the same as a natural index."""
+        gb = self._cheap_graphdb()
+        self.assertDictEqual(
+            gb.create_index(gb._data),
+            gb.index,
+        )
+
+    def test_create_index_dump_without_index(self):
+        gb = self._cheap_graphdb()
+
+        data = gb.dump(with_index=False)
+        # ensure the index attribute is missing
+        self.assertFalse('index' in data)
+
+        # assert a recreation
+        db = self.TestClass(load=data)
+        self.assertDictEqual(gb.index, db.index)
 

@@ -1,4 +1,4 @@
-from log import log
+#from log import log
 import json
 import csv
 import os
@@ -43,7 +43,7 @@ def job_split(**kw):
 def spread(func, **kw):
     jobs = job_split(**kw)
     pool = Pool(len(jobs))
-    log('Spreading {} jobs to pool {}'.format(len(jobs), pool))
+    print('Spreading {} jobs to pool {}'.format(len(jobs), pool))
     result = pool.map(func, jobs)
     return result
 
@@ -54,15 +54,17 @@ def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
     start = iter_line_kwargs.get('byte_start', None)
     end = iter_line_kwargs.get('byte_end', None)
 
-    stream = open(path, 'rb')
+    if os.path.isfile(path) is False:
+        raise Exception('Parse CSV is not a file: "{}"'.format(path))
 
+    stream = open(path, 'rt', encoding='utf-8')
 
     if start is not None:
         stream.seek(start)
-        print next(stream)
+        print( next(stream))
 
     if end is not None:
-        log('Seek from {} to {}'.format(start, end))
+        print('Seek from {} to {}'.format(start, end))
     count = 0
     pc = 0
     res = () if as_set is not True else set()
@@ -71,7 +73,7 @@ def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
 
     skip_stream = open('./skips.csv', 'w')
     func = iter_line or clean_line
-    log('Reading {} maximum lines'.format(max_count))
+    print('Reading {} maximum lines'.format(max_count))
 
     for raw_line in stream:
         line = next(csv.reader((raw_line,), delimiter='\t'))
@@ -86,11 +88,11 @@ def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
             s = '/c/en/'
             if line[0][2].startswith(s) is True and line[0][3].startswith(s) is True:
                 import pdb; pdb.set_trace()  # breakpoint 1073775b //
-                
+
 
         if as_set is True:
             res.add(dval)
-           
+
             if keep_sample is True and len(res) > len(samples):
                 s = '/c/en/'
                 if line[2].startswith(s) is True and line[3].startswith(s) is True:
@@ -101,13 +103,13 @@ def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
         count += 1
         pc += 1
         if end is not None and stream.tell() > end:
-            log('Hit limit')
+            print('Hit limit')
             break
 
         if pc > 100000:
             pc = 0
 
-    print 'count', count
+    print( 'count', count)
     stream.close()
     skip_stream.close()
 
@@ -137,7 +139,7 @@ def clean_line(line, **kw):
         return None
 
     if start is None:
-        return None 
+        return None
 
     startl = start[3:5]
     endl = end[3:5]

@@ -9,21 +9,102 @@
 
 from database.db import AppendableDB
 from database.db import *
+from database.graph import GraphDB, ObjectDB
 # dd=AppendableDB(name='test')
 # import pdb; pdb.set_trace()  # breakpoint f5263566 //
 # dd.put('tuple', (1,2,3,4,5))
 
-gb = GraphDB(name='graph')
-
+gb = ObjectDB(name='graph_pick')
+gb.wipe()
 key='Hello'
 gb.add(key, 'isa', 'greeting', 3.4, 'hello')
 gb.add(key, 'isa', 'word', 3, 'hello')
 gb.add(key, 'isa', 'another', 1, 'hello')
 
+gb.add('greeting', 'similarto', 'Hello', 2)
+gb.add('greeting', 'similarto', 'hi', 2)
+gb.add('greeting', 'isa', 'welcome', 2)
+gb.add('hi', 'isa', 'greeting', 3)
+gb.add('word', 'isa', 'word', 1)
+gb.add('word', 'isa', 'thing', 1)
+gb.add('thing', 'etomology', 'law', 2)
+
 r = list(gb.iter())
 print(r)
 
 p = gb.pick(key)
+p.isa.greeting.similarto.Hello.graph.isa.greeting.value == 'greeting'
+p_end = p.isa.greeting.similarto.Hello.isa.word
+
+walk_up = ( p_end
+    # hello
+    .parent_graph
+    # greeting
+    .parent_graph
+    # Hello
+    .parent_graph
+    # DB
+    .parent_graph )
+
+
+law_chain =( p
+    .isa
+        .greeting
+    .similarto
+        .hi
+    .isa
+        .greeting
+    .similarto
+        .Hello
+    .isa
+        .word
+    .isa
+        .thing
+    .etomology
+        .law)
+    # .chain()
+from pprint import pprint as pp
+
+a = zip(
+    law_chain.edgenode_chain(True),
+    law_chain.graph_chain(True)
+    )
+chain=list(a)
+chain.reverse()
+result = ()
+for edge, graph in chain:
+
+    if edge.parent_edgenode is not None:
+        nv = edge.parent_edgenode.value
+    else:
+        nv = edge.parent_graph.key
+
+    result +=( ( nv, edge.edge_type, graph.key, edge.weight),)
+
+expected = (
+     ('Hello', 'isa', 'greeting', 3.4),
+     ('greeting', 'similarto', 'hi', 2),
+     ('hi', 'isa', 'greeting', 3),
+     ('greeting', 'similarto', 'Hello', 2),
+     ('Hello', 'isa', 'word', 3),
+     ('word', 'isa', 'thing', 1),
+     ('thing', 'etomology', 'thing', 2)
+ )
+pp(result)
+
+print('test', gb.create_index(gb._data))
+# {'Hello': (1, 1, 1), 'greeting': (2, 2, 2), 'hi': (3,), 'word': (4, 4), 'thing': (5,)}
+print('real', gb.index)
+
+# (   <Graph "thing" 1 edges of ('etomology',)>,
+#     <Graph "word" 2 edges of ('isa',)>,
+#     <Graph "Hello" 3 edges of ('isa',)>,
+#     <Graph "greeting" 3 edges of ('isa', 'similarto')>,
+#     <Graph "hi" 1 edges of ('isa',)>,
+#     <Graph "greeting" 3 edges of ('isa', 'similarto')>,
+#     <Graph "Hello" 3 edges of ('isa',)>
+# )
+
 # gb.add('hey', 'synonym', 'hello', weight=2, root='hello')
 # gb.add(start='hi', edge='synonym', end='hello', weight=2, root='hello')
 

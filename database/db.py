@@ -14,7 +14,7 @@ GB_1 = 1e+9
 GB_12 = 1.2e+10
 MAX_BYTES = GB_1
 FIRST = '__FIRST_KEY__'
-
+UNDEFINED = '__undefined__'
 
 class DB(object):
 
@@ -30,15 +30,19 @@ class DB(object):
               auto_commit=True,
               encoding=UTF8,
               auto_open=True,
+              get_last=False,
               max_bytes=MAX_BYTES):
 
-        print('init DB')
+        # print('init DB')
         self.env_path = directory
         self.name = name or default_name or DEFAULT_DB_NAME
         self.write = write
         self.auto_commit = auto_commit
         self.encoding = encoding
         self.max_bytes = max_bytes
+        # Return the last item of any duplicate keys on get().
+        # This is three operations more expensive per transaction.
+        self.get_last = get_last
         self.allow_duplicate = allow_duplicate
         # If auto)open is true and a 'name' is, the initial DB will open()
         # with the given name
@@ -99,7 +103,6 @@ class DB(object):
         else:
             self.commit()
 
-
     def open(self, name=None, env_path=None, write=True, max_bytes=MAX_BYTES):
         name = name or self.name
         env_path = env_path or self.env_path
@@ -131,7 +134,7 @@ class DB(object):
         the main database. All databases in an environment share the same
         file. Because the descriptor is present in the main database,
         attempts to create a named database will fail if a key matching
-        the database’s name already exists. Furthermore the key is visible
+        the database's name already exists. Furthermore the key is visible
         to lookups and enumerations. If your main database keyspace conflicts
         with the names you use for named databases, then move the contents
         of your main database to another named database.
@@ -139,6 +142,7 @@ class DB(object):
         self.child_db = self.env.open_db(
             key=self.encode(name),
             dupsort=True,
+            # reverse_key=True
             )
         # Open transaction
         self.txn = None
@@ -280,13 +284,15 @@ class DB(object):
         """Return a generator of duplicates for the given key
         like a 'filter'
         """
-
         gen = self.iter(keys=False, start=key, dups=True, **kwargs)
         return tuple(gen)
 
     def keys(self, **kwargs):
+        gen = self.iter(values=False, dups=False, convert=False, **kwargs)
+        return tuple(gen)
 
-        gen = self.iter(values=False, dups=False, **kwargs)
+    def values(self, **kwargs):
+        gen = self.iter(keys=False, **kwargs)
         return tuple(gen)
 
     def position(self, key):
@@ -322,22 +328,32 @@ class DB(object):
         print('commiting transaction')
         return self._transaction_success(success)
 
-    def get(self, key, default=None, db=None, convert=True):
+    def get(self, key, default=None, db=None, convert=True, last=None):
         ckey = self.encode(key)
-        dbval = self.txn.get(ckey, default, db)
+        last = self.get_last if last is None else last
+        if last is True:
+            cursor = self.cursor
+            cursor.set_key(ckey)
+            cursor.last_dup()
+            dbval = cursor.value()
+        else:
+            dbval = self.txn.get(ckey, default, db)
         if dbval is None:
             return dbval
         if convert is False:
             return dbval
+
+
         return self._convert_out(dbval)
 
+
     def pop(self, key):
-        """Fetch a record’s value then delete it. Returns None if no previous
+        """Fetch a record's value then delete it. Returns None if no previous
         value existed. This uses the best available mechanism to minimize the
         cost of a delete-and-return-previous operation.
 
         For databases opened with dupsort=True, the first data element
-        (“duplicate”) for the key will be popped.
+        ("duplicate") for the key will be popped.
         """
         return self.cursor.pop(self.encode(key))
 
@@ -346,7 +362,7 @@ class DB(object):
         self.is_open = False
 
     def commit(self):
-        print('Commit')
+        # print('Commit')
         self.txn.commit()
         self.txn = self.create_transaction()
 
@@ -374,10 +390,14 @@ class DB(object):
             pass
             # kw['parent'] = self.txn
 
-        print("Creating transaction with", kw)
+        # print("Creating transaction with", kw)
         self._cursor = None
         return self.env.begin(**kw)
 
+    def __repr__(self):
+        s = '<{}.{} "{}">'
+        selfc = self.__class__
+        return s.format(selfc.__module__, selfc.__name__, self.name)
 
 class Mappable(object):
     type = None
@@ -506,8 +526,6 @@ class AppendableDB(OrderedDB):
             return result, convert_class
         return result
 
-
-
     def _convert_out(self, value, render=True, transpose=None):
         """
         Convert the given value from the database and return
@@ -530,13 +548,17 @@ class AppendableDB(OrderedDB):
         ekey = self.encode(key)
         result = value
         if hasattr(value, 'startswith') and value.startswith(ekey):
-            print('Converting', value)
+            # print('Converting', value)
             splits = value.decode().split(key)
+            # print('  -- as', splits)
             ev ="{0[1]}.convert({0[2]})".format(splits)
-            print('Converting', render, ev)
+            # print('  -- to', render, ev)
 
         if render:
-            result = eval(ev)
+            try:
+                result = eval(ev)
+            except Exception as exc:
+                import pdb; pdb.set_trace()  # breakpoint 12ecd099x //
         else:
             result = splits[2]
             if transpose:
@@ -545,52 +567,27 @@ class AppendableDB(OrderedDB):
 
 
 class GRow(Mappable):
-    type = tuple
+    # type = tuple
+    cut = True
 
     @classmethod
     def convert(cls, *values):
         _type = cls.type or cls
-        return _type(values)[0]
-
+        # print("GRow convert {} using {}".format(values, _type))
+        return _type(*values)
 
     def __init__(self, *a):
         self._a = a
 
     def __str__(self):
-        return str(self._a)
+        result = str(self._a)
+        return result[1:-1] if self.cut else result
 
-class GraphDB(AppendableDB):
-    """Addtional functions to destructure inbound data and automatically
-    _graph_ the associated keys and edged.
+    def __repr__(self):
+        return '<GRow {}>'.format(self._a)
 
-    Calling a key's graph supplies additional walkable graph values to
-    path the db values.
+    def __getitem__(self, key):
+        return self._a[key]
 
-        hello > relatedto > greeting > relatedto > hello ...
-    """
-
-    def add(self, start, edge, end, weight, root=None):
-        """Apply a key value with additional values to bind graphing upon callback.
-        """
-        print("Add: {} ({}) {} {} ({})".format(start, root, edge, end, weight))
-        data = GRow(start, edge, end, weight, root)
-        self.put(start, data, as_dup=True)
-
-    def bind(self, key, db, through=None, relation=None):
-        """Bind a db relation to a key within this db for automatic
-        graph binding.
-            bind()
-        """
-        through = through or db.name
-        relation = relation or key
-
-        print ('Key "{}" > {} Graph({})'.format(key, through, relation))
-
-    def _merge(self, key, values):
-        v = values
-        return values
-
-    def pick(self, key):
-        result = self.collect(key)
-        result = self._merge(key, result)
-        return result
+    def __len__(self):
+        return len(self._a)

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Present</title>
+    <!--Import Google Icon Font-->
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/websocket.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/main.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/javascript" src="assets/js/vis-4.20.0/dist/vis.js"></script>
+      <link href="assets/js/vis-4.20.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <section id="network">
+        <div id="mynetwork"></div>
+        <div class="network-extras">
+            <div id="colormap">
+                <ul>
+                    <li v-for='(color, key) in colors()'>
+                        <span class="name">{{key}}</span>
+                        <span class="color" :style='{backgroundColor: color}'>{{color}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="question-input" id='question_input'>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <input placeholder="Question"
+                        id="question"
+                        type="text"
+                        v-model='question'
+                        @keyup.enter='inputString'
+                        class="validate">
+                        <label for="question">Question</label>
+                    </div>
+                </div>
+                <div class="row list-messages">
+                    <div><a href="javascript:;" @click='messages = []'>clear</a></div>
+                    <ul class='messages'>
+                        <li v-for='message in messages' class='message'>
+                            <span class="action"> {{ message.action }}</span>
+                            <span class="tokens">
+                                <ul class="tokens">
+                                    <li class="token" v-for='token in message.tokens'>
+                                        <span class="word">{{ token[0] }}</span>
+                                        <span class="word-type">{{ token[1] }}</span>
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script type="text/javascript" src="assets/js/vue.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="assets/js/visual.js"></script>
+
+    <script type="text/javascript" src="assets/js/websockets.js"></script>
+    <script type="text/javascript" src="assets/js/colourmap_view.js"></script>
+
+</body>
+</html>
