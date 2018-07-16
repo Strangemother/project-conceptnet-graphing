@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Present</title>
+    <!--Import Google Icon Font-->
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="static/css/websocket.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="static/css/main.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/javascript" src="static/js/vis-4.20.0/dist/vis.js"></script>
+      <link href="static/js/vis-4.20.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section id="network">
+        <div id="mynetwork"></div>
+        <div class="network-extras">
+{% raw %}
+            <div id="colormap">
+                <ul>
+                    <li v-for='(color, key) in colors()'>
+                        <span class="name">{{key}}</span>
+                        <span class="color" :style='{backgroundColor: color}'>{{color}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="question-input" id='question_input'>
+                <div class="row buttons">
+                    <button class="btn-flat" @click='clear()'>Clear</button>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <input placeholder="Word"
+                        id="question"
+                        type="text"
+                        v-model='question'
+                        @keyup.enter='inputString'
+                        class="validate">
+                        <label for="question">Word</label>
+                    </div>
+                </div>
+
+                <div class="row list-messages">
+                    <ul class="collection">
+                        <li class="collection-item" v-for='item in messages'>
+                            <p>
+                                <a href="javascript:;" @click="getWord(item)">{{ item }}</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+{% endraw %}
+        </div>
+    </section>
+    <script type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="static/js/materialize.js"></script>
+    <script type="text/javascript" src="static/js/vue.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
+
+    <script type="text/javascript" src="static/js/visual.js"></script>
+
+    <script type="text/javascript" src="static/js/input_view.js"></script>
+    <script type="text/javascript" src="static/js/colourmap_view.js"></script>
+
+</body>
+</html>

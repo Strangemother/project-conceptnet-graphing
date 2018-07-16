@@ -48,6 +48,8 @@ def spread(func, **kw):
     return result
 
 
+STOP = False
+
 def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
     keep_sample=False, **iter_line_kwargs):
     global skip_stream
@@ -74,21 +76,53 @@ def parse_csv(path=csv_path, max_count=20000, iter_line=None, as_set=False,
     skip_stream = open('./skips.csv', 'w')
     func = iter_line or clean_line
     print('Reading {} maximum lines'.format(max_count))
+    iter_line_kwargs['row_index'] = iter_line_kwargs.get('row_index', 0)
+
+
+
+    def kill_function():
+        print('KILL')
+        global STOP
+        STOP = True
+
+    iter_line_kwargs['kill'] = kill_function
+    start_index = iter_line_kwargs.get('start_index', -1)
+
+    if start_index > -1:
+        print('Starting at {}'.format(start_index))
+
+    has_shown_start = False
 
     for raw_line in stream:
+        if STOP is True:
+            print('Stop by STOP flag.')
+            break
+
+        iter_line_kwargs['current_lineno'] = iter_line_kwargs['row_index'] + count
         line = next(csv.reader((raw_line,), delimiter='\t'))
+
+        iter_line_kwargs['row_index'] += 1
 
         if max_count is not None and count > max_count:
             break
 
+        if iter_line_kwargs['row_index'] < start_index:
+            # Miss this
+            continue
+
+        if has_shown_start is False:
+            print('Continuing functionality',)
+            has_shown_start = True
+
         dval = func(line, parser_index=pc, **iter_line_kwargs)
+        # print('?? ', stop,)
         if dval is None:
             if line[1] == '/r/ExternalURL':
                 continue
+
             s = '/c/en/'
             if line[0][2].startswith(s) is True and line[0][3].startswith(s) is True:
                 import pdb; pdb.set_trace()  # breakpoint 1073775b //
-
 
         if as_set is True:
             res.add(dval)

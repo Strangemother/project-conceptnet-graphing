@@ -14,7 +14,7 @@ GB_1 = 1e+9
 GB_12 = 1.2e+10
 MAX_BYTES = GB_1
 FIRST = '__FIRST_KEY__'
-
+UNDEFINED = '__undefined__'
 
 class DB(object):
 
@@ -33,7 +33,7 @@ class DB(object):
               get_last=False,
               max_bytes=MAX_BYTES):
 
-        print('init DB')
+        # print('init DB')
         self.env_path = directory
         self.name = name or default_name or DEFAULT_DB_NAME
         self.write = write
@@ -155,6 +155,7 @@ class DB(object):
             )
 
         self.is_open = True
+        self.name = name
 
     def put(self, key, value, save=True, encode=True, encode_key=True, as_dup=None, **kwargs):
         '''put(key, value, dupdata|as_dup=True, overwrite=True, append=False, db=None)
@@ -244,8 +245,13 @@ class DB(object):
         # Uncommited changes exist.
         return success
 
-    def replace(self, key, value, db=None):
-        return self.txn.replace(key, value, db)
+    def replace(self, key, value, db=None, commit=None):
+        previous = self.txn.replace(key, value, db)
+
+        print('commiting transaction with success:')
+        self._transaction_success(True)
+        return previous
+
 
     def iter(self, keys=True, values=True, start=FIRST, decode=True,
         encode_key=None, dups=None, convert=True, render=None):
@@ -284,13 +290,15 @@ class DB(object):
         """Return a generator of duplicates for the given key
         like a 'filter'
         """
-
         gen = self.iter(keys=False, start=key, dups=True, **kwargs)
         return tuple(gen)
 
     def keys(self, **kwargs):
+        gen = self.iter(values=False, dups=False, convert=False, **kwargs)
+        return tuple(gen)
 
-        gen = self.iter(values=False, dups=False, **kwargs)
+    def values(self, **kwargs):
+        gen = self.iter(keys=False, **kwargs)
         return tuple(gen)
 
     def position(self, key):
@@ -299,7 +307,7 @@ class DB(object):
     def first(self):
         self.cursor.first()
 
-    def count(self, key, restore=False):
+    def count(self, key=None, restore=False):
 
         if key is not None:
             self.position(key)
@@ -336,11 +344,12 @@ class DB(object):
             dbval = cursor.value()
         else:
             dbval = self.txn.get(ckey, default, db)
+
         if dbval is None:
             return dbval
+
         if convert is False:
             return dbval
-
 
         return self._convert_out(dbval)
 
@@ -377,7 +386,7 @@ class DB(object):
             transaction.
         """
 
-        write = write or self.write
+        write = self.write if write is None else write
         kw = {'write': write}
         kw['db'] = self.child_db
         if using is not None:
@@ -392,6 +401,10 @@ class DB(object):
         self._cursor = None
         return self.env.begin(**kw)
 
+    def __repr__(self):
+        s = '<{}.{} "{}">'
+        selfc = self.__class__
+        return s.format(selfc.__module__, selfc.__name__, self.name)
 
 class Mappable(object):
     type = None
@@ -403,19 +416,80 @@ class Mappable(object):
         return _type(values)
 
 
-class Appendable(str):
+DB_TYPE_MAP = {}
+
+def register(cls):
+    """Apply the cls to the encoder registry. When a put() occurs for a
+    value matching the class pattern, a special encoding method is applied
+    for store.
+    """
+    types = cls.get_type()
+    if hasattr(types, '__iter__') is False or isinstance(types, str):
+        types = [types]
+
+    print('Regiseting autotype {} {}'.format(cls, types))
+    for _type in types:
+        DB_TYPE_MAP[_type] = cls
+
+
+
+class AutoRegister:
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs)
+        register(cls)
+
+
+class Type(str):
+    type = None
+
+    @classmethod
+    def get_type(cls):
+        if isinstance(cls.type, (tuple, list)):
+            return tuple(x.__name__ for x in cls.type)
+        return cls.type.__name__
+
+
+class CommaAppend:
+
+    @classmethod
+    def append(cls, byte_string):
+        """Return an altered version of the converted byte string
+        to allow 'append' to the stored byte string.
+
+        Luckily with bytes, simply 'add' the required comma for `convert()` for loop
+        """
+        print( 'Comma Append', byte_string)
+        return b',' + byte_string
+
+
+class BaseType(Type, AutoRegister, CommaAppend):
     type = str
 
     @classmethod
     def convert(cls, *values):
+        if isinstance(cls.type, (tuple, list)):
+            return cls(values)
+
         return cls.type(values)
 
 
-class ATuple(Appendable):
+class ATuple(BaseType):
     type = tuple
 
+class A1D(Type, AutoRegister, CommaAppend):
+    type = tuple, list
 
-class ADict(Appendable):
+    @classmethod
+    def convert_in(cls, value, map_type):
+        return value, map_type
+
+    @classmethod
+    def convert_out(cls, type_cls, value):
+        return type_cls(value)
+
+
+
+class ADict(BaseType, CommaAppend):
     type = dict
 
     @classmethod
@@ -425,27 +499,23 @@ class ADict(Appendable):
             res.update(inner_dict)
         return res
 
-    @classmethod
-    def append(cls, byte_string):
-        """Return an altered version of the converted byte string
-        to allow 'append' to the stored byte string.
-
-        Luckily with bytes, simply 'add' the required comma for `convert()` for loop
-        """
-        return b',' + byte_string
-
 
 class AList(ATuple):
     type = list
 
 
-class ABool(Appendable):
+class ABool(BaseType):
     type = bool
 
     @classmethod
     def convert(cls, value):
         return value
 
+class ANumber(BaseType):
+    type = int, float, complex
+
+class AString(BaseType):
+    type = str
 
 class OrderedDB(DB):
 
@@ -468,12 +538,20 @@ class OrderedDB(DB):
 
 class AppendableDB(OrderedDB):
 
-    def append(self, key, value):
+    def append(self, key, value, safe=False):
 
         val, ConvertClass = self._convert_in(value, False, with_class=True)
+
         if hasattr(ConvertClass, 'append'):
             val = ConvertClass.append(val)
-        result = self.get(key, convert=False) + val
+
+        try:
+            result = self.get(key, convert=False)
+            result += val
+        except TypeError as e: #Unsupport Operand on None.
+            if self.auto_commit and (safe is True):
+                return self.put(key, value)
+            raise TypeError("Cannot append to missing key: {}".format(key))
 
         return self.replace(self.encode(key), result)#, encode=False, overwrite=True)
 
@@ -487,17 +565,20 @@ class AppendableDB(OrderedDB):
         type_id = type(value).__name__
 
         lmap = {
-            'list': AList,
-            'tuple': ATuple,
-            'dict': ADict,
-            'bool': ABool,
+            # 'list': AList,
+            # 'tuple': ATuple,
+            # 'dict': ADict,
+            # 'bool': ABool,
         }
 
-        convert_class = lmap.get(type_id, None)
+        convert_class = lmap.get(type_id, DB_TYPE_MAP.get(type_id))
+
         if hasattr(value, 'mappable') and value.mappable is True:
             convert_class = value.__class__
 
-        convert_class = convert_class or Appendable
+        if convert_class is None:
+            convert_class = BaseType
+            print('No value convertion for {} - defaulting to {}'.format(type_id, convert_class))
 
         map_type = convert_class.__name__
 
@@ -505,12 +586,16 @@ class AppendableDB(OrderedDB):
         stamp = "!:" if prefix is True else ''
         map_type_prefix = map_type if prefix is True else ''
 
+        if hasattr(convert_class, 'convert_in'):
+            value, map_type_prefix = convert_class.convert_in(value, map_type_prefix)
+
         if isinstance(value, (list, tuple)):
             # Call into mappable, for later type conversion
             cut = str(value)[1:-1]
+
             if cut.endswith(','):
                 cut = cut[:-1]
-            value = convert_class("{},".format(cut))
+            value = convert_class(cut)#"{}, ".format(cut))
 
         z =  "{}{}{}{}".format(stamp, map_type_prefix, stamp, value)
 
@@ -533,8 +618,6 @@ class AppendableDB(OrderedDB):
                 This is only usesful to 'render=False' and transpose=True
                 for an execution of data without the execution sandbox.
         """
-
-
         render = True if render is None else render
         transpose = render if transpose is None else transpose
         """Covert a value previously coverted for stage value."""
@@ -542,20 +625,46 @@ class AppendableDB(OrderedDB):
         ekey = self.encode(key)
         result = value
         if hasattr(value, 'startswith') and value.startswith(ekey):
-            # print('Converting', value)
             splits = value.decode().split(key)
-            # print('  -- as', splits)
-            ev ="{0[1]}.convert({0[2]})".format(splits)
-            # print('  -- to', render, ev)
-
-        if render:
-            result = eval(ev)
+            result = self._convert_eval(splits, render, transpose)
         else:
-            result = splits[2]
-            if transpose:
-                result = eval(result)
+            return result
+
         return result
 
+    def _convert_eval(self, splits, render, transpose):
+        # print('Converting', value)
+        # print('  -- as', splits)
+        # print('  -- to', render, ev)
+        _eval = eval# literal_eval
+        def _convert(cls_jumper, *values):
+
+            if hasattr(cls_jumper, 'convert'):
+                # print('_convert', cls_jumper, values)
+                return cls_jumper.convert(*values)
+
+            if isinstance(cls_jumper, tuple):
+                eval_string = "{}.convert_out({}, {})".format(cls_jumper[0], cls_jumper[1], values)
+                return _eval(eval_string)
+
+            return values
+
+        if render:
+            eval_string = "_convert({0[1]}, {0[2]})".format(splits)
+            try:
+                return _eval(eval_string)
+            except Exception as e:
+                print("_convert_eval() render error: {}".format(e), eval_string)
+
+        # Don't perform full rendering; extract the wanted value and
+        # eval only.
+        result = splits[2]
+        if transpose:
+            result = _eval(result)
+        return result
+
+
+from ast import literal_eval
 
 class GRow(Mappable):
     # type = tuple
