@@ -352,6 +352,11 @@ class EdgeNode(object):
                   and (self.parent_edgenode == other.parent_edgenode) )
         return res
 
+    def match_thin(self, other):
+        return (self.value == other.value
+                and self.weight == other.weight
+                and self.edge_type == other.edge_type )
+
     def __lt__(self, other):
         if self.match_graph(other):
             other = other.weight
@@ -393,7 +398,12 @@ class EdgeNode(object):
         if self.match_graph(other):
             return self.weight == other.weight
 
+        if isinstance(other, self.__class__):
+            # node to node relation of values as the graphs don't exist.
+            return self.match_thin(other)
+
         return id(other) == id(self)
+
 
     def __contains__(self, other):
         for item in edges:
@@ -405,6 +415,12 @@ class EdgeNode(object):
         s = '{}({}) from "{}"'.format(self.value,self.weight,
             self.root_graph.key if self.root_graph is not None else 'NO ROOT')
         return s
+
+    def __hash__(self):
+        values = (self.value,
+                  self.weight,
+                  self.edge_type, )
+        return hash(values)
 
 
 class Graph(Remap):
@@ -437,6 +453,23 @@ class Graph(Remap):
         self._values_dict_cache = None
         self.edges = self.unpack()
 
+    def get_values(self, *keys, index=0):
+        """Return a list of values for the given keys. If no keya aree given
+        return all values.
+        Provide an 'index' for the row value index to collect from each item.
+        Default is [0], for the first element within the items such as a tuple or GRow
+        """
+
+        if len(keys) == 0:
+            return self.values
+
+        res = ()
+        for item in self.values:
+            if item[index] in keys:
+                res += (item, )
+
+        return res
+
 
     def edge(self, key):
         """Given a string or Graph return the associated edges
@@ -456,6 +489,90 @@ class Graph(Remap):
             return tuple((x.edge_type, x.value, x.weight,) for x in edges)
 
         return tuple((x.edge_type, x.value,) for x in edges)
+
+    def edge_values(self, weight=False, edge=False, as_tuple=False, sort=None,
+        reverse=False, unique=False, return_value=None):
+        """Returna tuple of values (words) from all edges ignoring relation type.
+        Pass weight=True or edge=True to populate additional attributes
+        If weight or edges is true each item returned is a tuple.
+        to produce a tuple of one item for each entry (for compatability with
+        edge population) provide as_tuple=True.
+
+        list of words: 'word'
+
+            self.edge_values()
+            # as tuples of one.
+            self.edge_values(as_tuple=True)
+
+
+        with weight; (word, weight, )
+
+            self.edge_values(True)
+
+        with weight and relation. Tuple order (word, edge_type, weight)
+
+            self.edge_values(True, True)
+
+        sorted by text
+
+            self.edge_values(sort=True)
+
+        sort by weight, returning text only
+
+            self.edge_values(weight=True, sort=(1,0), return_value=0)
+
+        return multi-ordered with weight, unique only:
+
+            self.edge_values(True, sort=(1, 0), reverse=True, unique=True)
+
+        sort by _edge type_ then weight, return a unique list with each return value
+        is a different order (word, weight, edge_type, )
+
+            self.edge_values(True, True, sort=(1,2,), unique=True, return_value=(0, 2, 1))
+
+        """
+        res = ()
+        for _edge in self.edge_list():
+            value = _edge.value
+            if (weight is True) or (edge is True):
+                as_tuple = True
+
+            item = value
+            if as_tuple:
+                item = (value, )
+
+            if edge:
+                item += (_edge.edge_type,)
+
+            if weight:
+                item += (_edge.weight, )
+
+            res += (item, )
+
+        if unique:
+            res = set(res)
+
+        if sort is not None:
+            if sort is True:
+                key = None
+            else:
+                if hasattr(sort, '__iter__') is False:
+                    # User passed an int, rather than a multi-order tuple
+                    sort = (sort,)
+                key = operator.itemgetter(*sort)
+            res = sorted(res, key=key, reverse=reverse)
+
+        if return_value is not None:
+
+            sub_res = ()
+            if hasattr(return_value, '__iter__') is False:
+                return_value = (return_value, )
+            caller = operator.itemgetter(*return_value)
+            # return a subset of each item.
+            for item in res:
+                sub_res += ( caller(item), )
+            res = sub_res
+        return res
 
     def unpack(self):
         """convert the given values into a walkable tree."""
@@ -480,7 +597,8 @@ class Graph(Remap):
 
     def __repr__(self):
         keys = self._string_edge_keys()
-        s = '<Graph "{}" {} edges of: ({})>'.format(
+        s = '<{} "{}" {} edges of: ({})>'.format(
+                self.__class__.__name__,
                 self.key,
                 len(self.values),
                 keys
@@ -497,7 +615,6 @@ class Graph(Remap):
     def _string_edge_keys(self):
         keys = self.edges.keys()
         return ', '.join(self.mapval(x) for x in keys)
-
 
     def __getattr__(self, key):
         return self.fetch_edges(key, False)
@@ -523,13 +640,153 @@ class Graph(Remap):
         es += '\n  Available keys: {}'.format (self._string_edge_keys() )
         raise AttributeError(es.format(self.key, key, valkey))
 
+    def get_edges(self, *keys):
+        """Return a tuple of edges from the internal list matching the one or
+        more keys given.
+        """
+        res = ()
+        for edge in self.edge_list():
+            if edge.value in keys:
+                res += (edge, )
+
+        return res
 
     def __getitem__(self, key):
         return self.fetch_edges(key, False)
 
-
     def __len__(self):
         return len(self.edges)
+
+    def __and__(self, other):
+        """Support graph intersection, returning a new graph consisting of edges
+        with matching edges.
+        """
+        print('AND')
+        # discovering the data in this routing:
+        # (set(x[1] for x in hi.edge_text()) -  set(x[1] for x in he.edge_text()))
+        # List of ordered words - sort by weight, return only word
+        ev_kwargs = dict(sort=(1,), return_value=0, reverse=True)
+        edges0 = self.edge_values(True, **ev_kwargs)
+        edges1 = other.edge_values(True, **ev_kwargs)
+
+        s0 = set(edges0)
+        s1 = set(edges1)
+        si01 = s0.intersection(s1)
+        si10 = s1.intersection(s0)
+        # Shared values
+        map(si01.add, si10)
+
+        edges = self.get_edges(*si01) + other.get_edges(*si01)
+
+        # Set at 2 because each graph will _start_ with the key word and end with
+        # the related edge word. This is position 2 in a GRow relation item
+        # ('hello', 'related_to', 'other')
+        values_index=2
+        # Hmm. A special key combining two graphs?
+        key = "{} [&] {}".format(self.key, other.key)
+
+        reversed_values = ( self.get_values(*si01, index=values_index)
+                          + other.get_values(*si01, index=values_index) )
+        # Due to the index collection here the edges collect will be _backward_.
+        # Noting their start word as the original graph start, and the end word
+        # as the _edge_ we've collected.
+        #
+
+        # Produce a child graph with these edges.
+
+        # something needs to be done here as this is a reverse child graph
+        # + The keys a multple
+        # + the values are backward.
+        # + The edgenode is missing.
+        #
+        # Pretty messy. This needs to be fixed.
+        child_graph = ChildGraph(
+            key,
+            reversed_values,
+            # More than one db?
+            db=self.db,
+            edgenode_class=self.edgenode_class,
+            edges_class=self.edges_class,
+            root_graph=self.root_graph,
+            # There are two parents?
+            # # The parent of the given relation should be given for each
+            # graph item.
+            parent_graph=self,
+            # This should be an internal reference,
+            # create now for this new type of association.
+            #
+            # [update: This should pass the edgenodes leading to this child ?
+            edgenode=None
+            )
+
+        return child_graph
+
+"""Notes:
+
+Perhaps this should be a CoupledGraph - with the ability to accept
+multiple parent_graphs and use them for values and edge search.
+
+Converting the 'parent_graph' to 'parent_graph' - defaulting to 1 parent,
+The coupling doesn't need to so a unique class - all graphs have one or more
+parents.
+
+This extends to a new type of Edgenode classification for the system only.
+Initially they'll be 'child graph edge node relation'. Later this extends
+to all type of ML relations including online, live or pre-trained relations.
+
+Therefore we can extend this to a single edgenode owning more than one edge per node.
+The edge being the relation may be 'many' (is_a, related_to) resolving to a single node
+'greeting'.
+A single node may have more or more associated edges. A single node can maintain
+a weight per edge reference, with a topological view of other nodes or graphs.
+
+A graph handles the association of many edgenodes to many words (a standard graph pick)
+An Edgenode associated the relation type (is_a) to a node word ('greeting').
+And edge is a relation to a single node
+A node is a single word or a unit of work et the end of a node
+
+A node can render a graph, through `edgenode.graph.is_a...` but a node
+_may_ not be attached to any graph to db.
+In fact a node could be a single word 'help' with a large number for weights
+with a topology of 'emergency' through reference of
+[relative] edge (such as `partof` ) to an 'emergency graph' event.
+
+pseudo:
+
+    When Node('help') from edge('partof') through Graph('emergency') > 10 == 'run_func()'
+
+When two graphs intersect in some way, it may produce
+
+    a coupled graph, for a child of associated edges and many parents
+    a new graph with the original graph as a parent through a relation.
+
+---
+
+A node may react to an event though another graphs _awakening_ of associated nodes or graphs.
+In addition event modules may capture other graphs or events to populate 'help' and 'emergency'
+detection. A node may optionally react with an event, applying weight to the 'run_graph' function
+and general context [of emergency].
+
+"""
+
+
+class ChildGraph(Graph):
+    """A Child graph spawns from working directory with a graph, producing a result
+    qualifying for its own graph, such as a Graph & Graph intersection.
+    A child graph acts like a normal graph for usage, but historical walking
+    will step to the parent graph.
+
+        + Given values (if any) may be reversed, applying the parent graph as the
+            instigator
+        + The values are edgenodes leading to this graph.
+        + values (relations) may be duplicated
+
+        + the edgenode may not exist, therefore a generated Edgenode associating
+            this graph as a child should be created
+        + More than one originating key; Leading to this child graph maintaining
+            more than one parent.
+    """
+    pass
 
 
 class Edge(object):

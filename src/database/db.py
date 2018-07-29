@@ -427,7 +427,7 @@ def register(cls):
     if hasattr(types, '__iter__') is False or isinstance(types, str):
         types = [types]
 
-    print('Regiseting autotype {} {}'.format(cls, types))
+    print('Registering autotype {} {}'.format(cls, types))
     for _type in types:
         DB_TYPE_MAP[_type] = cls
 

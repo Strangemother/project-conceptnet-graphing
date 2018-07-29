@@ -1,5 +1,5 @@
 from PyDictionary import PyDictionary
-# from .cache import get_cache, set_cache
+from cache import get_cache, set_cache
 
 dictionary = None
 
@@ -20,9 +20,9 @@ def get_word(value):
     wd = get_dictionary()
 
     filename = 'dictionary_word_{}.pyf'.format(value)
-    success, val = False, None# get_cache(filename)
+    success, val = get_cache(filename)
     if success is True:
-        print('returning cache word')
+        print 'returning cache word'
         return val
 
     val = dict(
@@ -32,5 +32,5 @@ def get_word(value):
         antonym=wd.antonym(value),
     )
 
-    #set_cache(filename, val)
+    set_cache(filename, val)
     return val

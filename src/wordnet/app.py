@@ -2,6 +2,7 @@
 cli tool.'''
 
 import os
+import subprocess
 
 from typemap import noun, verb, adj, attrs
 
@@ -24,6 +25,8 @@ def caller(params=None):
                              word=word,
                              switches=switches,
                              out=out)
-        print call_str
+        print(call_str)
+        res = subprocess.run(call_str.split(' '), capture_output=True)
+        import pdb; pdb.set_trace()  # breakpoint 6cb0fec2 //
 
     return perform_call

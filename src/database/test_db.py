@@ -633,7 +633,6 @@ class TestGraphDB(unittest.TestCase):
         result = gb.get(word)
         self.assertIsInstance(result, GRow)
 
-
     def test_edge_walk(self):
         gb = self.TestClass(name='graph_pick')
         gb.wipe()
@@ -791,6 +790,110 @@ class TestGraphDB(unittest.TestCase):
             ('isa', 'word'))
         self.assertCountEqual(result, expected)
 
+    def test_edge_values(self):
+        gb = self._cheap_graphdb()
+
+        result = gb.pick('Hello')
+        self.assertEqual(result.key, 'Hello')
+        self.assertEqual(len(result.values), 3)
+
+        expected  = ('another', 'greeting', 'word')
+        result = gb.pick('Hello').edge_values()
+        self.assertCountEqual(expected, result)
+
+        expected  = (('another', 1), ('greeting', 3.4), ('word', 3))
+        result = gb.pick('Hello').edge_values(True)
+        self.assertCountEqual(expected, result)
+
+        expected  = (('another', 'isa', 1), ('greeting', 'isa', 3.4), ('word', 'isa', 3))
+        result = gb.pick('Hello').edge_values(True, True)
+        self.assertCountEqual(expected, result)
+
+        expected  = (('another', 'isa', 1), ('greeting', 'isa', 3.4), ('word', 'isa', 3))
+        result = gb.pick('Hello').edge_values(True, True, True)
+        self.assertCountEqual(expected, result)
+
+        expected  = (('another',), ('greeting',), ('word',))
+        result = gb.pick('Hello').edge_values(as_tuple=True)
+        self.assertCountEqual(expected, result)
+
+        expected  = (('another', 'isa'), ('greeting', 'isa'), ('word', 'isa'))
+        result = gb.pick('Hello').edge_values(edge=True)
+        self.assertCountEqual(expected, result)
+
+
+class TestGraphEdge(unittest.TestCase):
+
+    def _cheap_graphdb(self, key='Hello'):
+        gb = GraphDB(name='graph_edgenode')
+        gb.wipe()
+
+        gb.add(key, 'kangaroo', 'greeting', 42, key)
+        gb.add(key, 'isa', 'word', 3, key)
+        gb.add(key, 'isa', 'another', 1, key)
+
+        gb.add('greeting', 'similarto', key, 2)
+        gb.add('greeting', 'similarto', 'hi', 2)
+        gb.add('greeting', 'isa', 'welcome', 2)
+        # e1, e2
+        gb.add('hi', 'isa', 'greeting', 3)
+
+        gb.add('hi', 'isa', 'word', 1)
+        gb.add('hi', 'isa', 'thing', 1)
+
+        # gb.add('hi', 'kangaroo', 'greeting', 4.44)
+
+        return gb
+
+    def test_EdgeNode_match(self):
+        word = 'greeting'
+        e=Edge(self._cheap_graphdb('hello'))
+        hi = e.hi
+        edge = hi.get_edges(word)[0]
+        e1 = EdgeNode(word, edge.weight, edge_type=edge.edge_type)
+        self.assertTrue(edge, e1)
+
+    def test_edge_addition(self):
+
+        e = Edge(self._cheap_graphdb('hello'))
+        hi = e.hi
+        he = e.hello
+
+        word = 'greeting'
+        weight = 3
+        edge_type = 'isa'
+
+        e1 = EdgeNode(word, weight, edge_type=edge_type)
+        e2 = EdgeNode(word, weight, edge_type=edge_type)
+        e3 = EdgeNode(word, 42, edge_type='kangaroo')
+
+        result = hi.get_edges('greeting') +  hi.get_edges('greeting')
+        self.assertCountEqual(result, (e1, e2,))
+
+        result = hi.get_edges('greeting') +  he.get_edges('greeting')
+        self.assertCountEqual(result, (e1, e3,))
+
+    def test_edge_intersection(self):
+        e = Edge(self._cheap_graphdb('hello'))
+        hi = e.hi
+        he = e.hello
+
+        # Simple set diff on the values from the edge_text
+        edge = hi.get_edges('greeting')
+        res = (set(x[1] for x in hi.edge_text()) -  set(x[1] for x in he.edge_text()))
+        self.assertSetEqual({'thing'}, res)
+
+        res = he & hi
+
+    def test_standard_set(self):
+        e1=EdgeNode('a', 3, edge_type='foo')
+        e2=EdgeNode('b', 1, edge_type='foo')
+        e3=EdgeNode('b', 1, edge_type='foo')
+        e4=EdgeNode('c', 3, edge_type='foo')
+        set_res = set((e1, e2, e3, e4))
+        expected = { e1, e2, e4 }
+        self.assertSetEqual(set_res, expected)
+
 
 class TestRemap(unittest.TestCase):
 
@@ -845,6 +948,7 @@ class TestEdgesEdgeNode(unittest.TestCase):
         # This is a crap test.
         self.assertIsInstance(res, Edges)
         self.assertEqual(res, handle.Hello.IsA)
+
 
 class TestEdgeValues(unittest.TestCase):
 

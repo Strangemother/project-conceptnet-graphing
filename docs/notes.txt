@@ -1,1 +1,24 @@
+## Code renderences
+
 http://blog.conceptnet.io/2018/06/naacl2018-poster.pdf
+XGBoost: A Scalable Tree Boosting System:
+    https://arxiv.org/abs/1603.02754
+
+## Changes/Todo
+
+Allow access of multple DBs through one handle
+
+    db1 = DB(dir=path, name='foo')
+    db2 = DB(dir=path, name='bar')
+
+to one caller
+
+    db1 = DB(dir=path, name='foo')
+    sub = db1.open(name=bar)
+
+and also with no auto open
+
+    db = DB(dir=path)
+    db1 = db.open(name='foo')
+    sub = db.open(name=bar)
+
