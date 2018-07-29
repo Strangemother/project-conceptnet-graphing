@@ -723,49 +723,49 @@ class Graph(Remap):
 
 """Notes:
 
-Perhaps this should be a CoupledGraph - with the ability to accept
-multiple parent_graphs and use them for values and edge search.
+    Perhaps this should be a CoupledGraph - with the ability to accept
+    multiple parent_graphs and use them for values and edge search.
 
-Converting the 'parent_graph' to 'parent_graph' - defaulting to 1 parent,
-The coupling doesn't need to so a unique class - all graphs have one or more
-parents.
+    Converting the 'parent_graph' to 'parent_graph' - defaulting to 1 parent,
+    The coupling doesn't need to so a unique class - all graphs have one or more
+    parents.
 
-This extends to a new type of Edgenode classification for the system only.
-Initially they'll be 'child graph edge node relation'. Later this extends
-to all type of ML relations including online, live or pre-trained relations.
+    This extends to a new type of Edgenode classification for the system only.
+    Initially they'll be 'child graph edge node relation'. Later this extends
+    to all type of ML relations including online, live or pre-trained relations.
 
-Therefore we can extend this to a single edgenode owning more than one edge per node.
-The edge being the relation may be 'many' (is_a, related_to) resolving to a single node
-'greeting'.
-A single node may have more or more associated edges. A single node can maintain
-a weight per edge reference, with a topological view of other nodes or graphs.
+    Therefore we can extend this to a single edgenode owning more than one edge per node.
+    The edge being the relation may be 'many' (is_a, related_to) resolving to a single node
+    'greeting'.
+    A single node may have more or more associated edges. A single node can maintain
+    a weight per edge reference, with a topological view of other nodes or graphs.
 
-A graph handles the association of many edgenodes to many words (a standard graph pick)
-An Edgenode associated the relation type (is_a) to a node word ('greeting').
-And edge is a relation to a single node
-A node is a single word or a unit of work et the end of a node
+    A graph handles the association of many edgenodes to many words (a standard graph pick)
+    An Edgenode associated the relation type (is_a) to a node word ('greeting').
+    And edge is a relation to a single node
+    A node is a single word or a unit of work et the end of a node
 
-A node can render a graph, through `edgenode.graph.is_a...` but a node
-_may_ not be attached to any graph to db.
-In fact a node could be a single word 'help' with a large number for weights
-with a topology of 'emergency' through reference of
-[relative] edge (such as `partof` ) to an 'emergency graph' event.
+    A node can render a graph, through `edgenode.graph.is_a...` but a node
+    _may_ not be attached to any graph to db.
+    In fact a node could be a single word 'help' with a large number for weights
+    with a topology of 'emergency' through reference of
+    [relative] edge (such as `partof` ) to an 'emergency graph' event.
 
-pseudo:
+    pseudo:
 
-    When Node('help') from edge('partof') through Graph('emergency') > 10 == 'run_func()'
+        When Node('help') from edge('partof') through Graph('emergency') > 10 == 'run_func()'
 
-When two graphs intersect in some way, it may produce
+    When two graphs intersect in some way, it may produce
 
-    a coupled graph, for a child of associated edges and many parents
-    a new graph with the original graph as a parent through a relation.
+        a coupled graph, for a child of associated edges and many parents
+        a new graph with the original graph as a parent through a relation.
 
----
+    ---
 
-A node may react to an event though another graphs _awakening_ of associated nodes or graphs.
-In addition event modules may capture other graphs or events to populate 'help' and 'emergency'
-detection. A node may optionally react with an event, applying weight to the 'run_graph' function
-and general context [of emergency].
+    A node may react to an event though another graphs _awakening_ of associated nodes or graphs.
+    In addition event modules may capture other graphs or events to populate 'help' and 'emergency'
+    detection. A node may optionally react with an event, applying weight to the 'run_graph' function
+    and general context [of emergency].
 
 """
 

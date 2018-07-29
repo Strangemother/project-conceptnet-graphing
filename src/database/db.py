@@ -1,5 +1,7 @@
-import lmdb
 import os
+
+from ast import literal_eval
+import lmdb
 
 
 WRITE_ENV = "E:/conceptnet/_lmdb/"
@@ -15,6 +17,8 @@ GB_12 = 1.2e+10
 MAX_BYTES = GB_1
 FIRST = '__FIRST_KEY__'
 UNDEFINED = '__undefined__'
+DB_TYPE_MAP = {}
+
 
 class DB(object):
 
@@ -245,13 +249,15 @@ class DB(object):
         # Uncommited changes exist.
         return success
 
-    def replace(self, key, value, db=None, commit=None):
-        previous = self.txn.replace(key, value, db)
+    def replace(self, key, value, db=None, commit=None, encode=True):
+        ckey = self.encode(key)
+        store_value = self.encode(value) if encode is True else value
+
+        previous = self.txn.replace(ckey, store_value, db)
 
         print('commiting transaction with success:')
         self._transaction_success(True)
         return previous
-
 
     def iter(self, keys=True, values=True, start=FIRST, decode=True,
         encode_key=None, dups=None, convert=True, render=None):
@@ -311,8 +317,9 @@ class DB(object):
 
         if key is not None:
             self.position(key)
+            return self.cursor.count()
 
-        return self.cursor.count()
+        return len(self.keys())
 
     def delete(self, key, value=None, db=None, commit=True):
         '''Delete a key from the database.
@@ -352,7 +359,6 @@ class DB(object):
             return dbval
 
         return self._convert_out(dbval)
-
 
     def pop(self, key):
         """Fetch a record's value then delete it. Returns None if no previous
@@ -406,6 +412,7 @@ class DB(object):
         selfc = self.__class__
         return s.format(selfc.__module__, selfc.__name__, self.name)
 
+
 class Mappable(object):
     type = None
     mappable = True
@@ -415,8 +422,6 @@ class Mappable(object):
         _type = cls.type or cls
         return _type(values)
 
-
-DB_TYPE_MAP = {}
 
 def register(cls):
     """Apply the cls to the encoder registry. When a put() occurs for a
@@ -476,6 +481,7 @@ class BaseType(Type, AutoRegister, CommaAppend):
 class ATuple(BaseType):
     type = tuple
 
+
 class A1D(Type, AutoRegister, CommaAppend):
     type = tuple, list
 
@@ -486,7 +492,6 @@ class A1D(Type, AutoRegister, CommaAppend):
     @classmethod
     def convert_out(cls, type_cls, value):
         return type_cls(value)
-
 
 
 class ADict(BaseType, CommaAppend):
@@ -511,11 +516,14 @@ class ABool(BaseType):
     def convert(cls, value):
         return value
 
+
 class ANumber(BaseType):
     type = int, float, complex
 
+
 class AString(BaseType):
     type = str
+
 
 class OrderedDB(DB):
 
@@ -663,8 +671,6 @@ class AppendableDB(OrderedDB):
             result = _eval(result)
         return result
 
-
-from ast import literal_eval
 
 class GRow(Mappable):
     # type = tuple
