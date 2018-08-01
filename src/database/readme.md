@@ -97,6 +97,8 @@ Let's see the real DB value:
 
 You can delete a value with old standard `.delete()`, or `.replace()`
 
+
+```py
     from database.db import AppendableDB
     adb = AppendableDB(directory='./doc_test')
     adb.open('first')
@@ -115,6 +117,7 @@ You can delete a value with old standard `.delete()`, or `.replace()`
 
     adb.get('names')
     None
+```
 
 
 Designed to work in any dimension, setting up the database for your personal case is key to how the methods work.
@@ -123,11 +126,15 @@ Designed to work in any dimension, setting up the database for your personal cas
 
 Similar to a standard table records apply in a linear order, therefore iteration through rows is possible. Applying a class map for return values can mimic ordered column rows:
 
+
+```py
     Row = namedtuple('Row', 'a b c d e f')
     db.put(Row(1,2,3,4,5,6))
 
     for row in db:
         assert isinstance(row, Row)
+```
+
 
 ### Horizonal Append
 
@@ -135,6 +142,7 @@ The key input allows an 'append' functionality to reduce the amount of throughpu
 
 This example will record typing events per sentence into a single key, storing keystrokes for historical _undo_:
 
+```py
     keystrokes = ('h', 'e', 'l', 'o', '[backspace]', 'l', 'o')
     db.put('my_page_3', keystrokes)
     db.append('my_page_3', ('w', 'o',) )
@@ -143,7 +151,7 @@ This example will record typing events per sentence into a single key, storing k
 
     ''.join.(db.get('my_page_3'))
     'helo[backspace]lo world'
-
+```
 
 ## GraphDB
 
