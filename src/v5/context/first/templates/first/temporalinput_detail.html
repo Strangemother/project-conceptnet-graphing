@@ -1,0 +1,34 @@
+<p>Value: {{ object.value }}</p>
+<p>Created: {{ object.created }}</p>
+
+Tokens:
+<ul>
+    {% for token in object.tokens.all %}
+    <li>
+        <p>{{ token.position }} - "{{ token.value }}" - {{ token.tag }}</p>
+
+        {% with tense=token.tense %}
+        <p>tense:</p>
+        <ul>
+            <li>plural: {{ tense.plural }}</li>
+            <li>plural_noun: {{ tense.plural_noun }}</li>
+            <li>plural_verb: {{ tense.plural_verb }}</li>
+            <li>plural_adj: {{ tense.plural_adj }}</li>
+            <li>singular_noun: {{ tense.singular_noun }}</li>
+            <li>present_participle: {{ tense.present_participle }}</li>
+        </ul>
+        {% endwith %}
+
+        <p>Dictionary</p>
+        <ul>
+            {% for definition in token.dictionary.all %}
+            <li>
+                {{ definition }}
+            </li>
+            {% endfor %}
+        </ul>
+
+    </li>
+    {% endfor %}
+</ul>
+

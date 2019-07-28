@@ -24,7 +24,7 @@ var formOutput = new Vue({
 var jsonFetchApp = new Vue({
     el: '#websockets'
     , data: {
-        address: 'ws://82.27.16.166:8009'
+        address: 'ws://192.168.1.104:8009'
         , basePath: ''
         , requests: []
         , selected: {}
@@ -49,9 +49,15 @@ var jsonFetchApp = new Vue({
 
         , socketMessage(d){
 
+            let content = d.data;
+            try {
+                content = JSON.parse(d.data)
+            } catch {
+
+            }
             let m = {
                 type: 'in'
-                , data: JSON.parse(d.data)
+                , data: content
             };
 
             formOutput.socketMessages.push(m)

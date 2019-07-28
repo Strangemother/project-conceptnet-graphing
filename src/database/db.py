@@ -108,15 +108,6 @@ class DB(object):
             self.commit()
 
     def open(self, name=None, env_path=None, write=True, max_bytes=MAX_BYTES):
-        name = name or self.name
-        env_path = env_path or self.env_path
-        write = self.write if write is None else write
-        max_bytes = max_bytes or self.max_bytes
-        print('Open Env', env_path)
-        open_args = self._open_args(map_size=max_bytes)
-
-        self.env = lmdb.open(env_path,**open_args)
-
         """
         open_db(key=None,
         txn=None,
@@ -143,6 +134,14 @@ class DB(object):
         with the names you use for named databases, then move the contents
         of your main database to another named database.
         """
+        name = name or self.name
+        env_path = env_path or self.env_path
+        write = self.write if write is None else write
+        max_bytes = max_bytes or self.max_bytes
+        print('Open Env', env_path)
+        open_args = self._open_args(map_size=max_bytes)
+
+        self.env = lmdb.open(env_path,**open_args)
         self.child_db = self.env.open_db(
             key=self.encode(name),
             dupsort=True,
@@ -201,6 +200,10 @@ class DB(object):
             # the user has presented a none bytes type.
             print('key type:', type(key))
             print('value type:', type(store_val))
+            raise e
+        except Exception as e:
+            print('Error with: key type:', key)
+            print('Error with: value type:', store_val)
             raise e
 
         self.dirty = save is False and success is True

@@ -8,7 +8,7 @@ from v4 import dictionary as D
 D.get_word('apples')
 """
 from PyDictionary import PyDictionary
-from cache import get_cache, set_cache, set_global_root
+from .cache import get_cache, set_cache, set_global_root
 
 dictionary = None
 

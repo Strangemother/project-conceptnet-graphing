@@ -24,7 +24,7 @@ var formOutput = new Vue({
 var jsonFetchApp = new Vue({
     el: '#websockets'
     , data: {
-        address: 'ws://82.27.16.166:8009'
+        address: 'ws://192.168.1.104:8009'
         , basePath: ''
         , requests: []
         , selected: {}

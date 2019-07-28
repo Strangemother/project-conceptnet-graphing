@@ -579,7 +579,11 @@ class Graph(Remap):
         result = {}
         root_graph = self.root_graph or self
         for item in self.values:
-            start_word, edge_type, end_word, weight, *meta = item
+            try:
+                start_word, edge_type, end_word, weight, *meta = item
+            except ValueError:
+                weight = -1
+                start_word, edge_type, end_word, *meta = item
             if (edge_type in result) is False:
                 result[edge_type] = self.edges_class(edge_type)
             # EdgeNode
@@ -863,7 +867,7 @@ class ObjectDB(GraphWalker):
     may be used as an attenuates connection graph or an in-memory static graph
     loaded from data.
     """
-    def __init__(self,   name=None, load=None):
+    def __init__(self, name=None, load=None):
         self.name = name
         self.db = self
         self.encode =  GraphDB(auto_open=False).encode

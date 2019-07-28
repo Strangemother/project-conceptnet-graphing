@@ -10,7 +10,7 @@ I'm wording hard to ensure I don't use vapid cliches to mimic the brain. When co
 
 So I try hard not to talk about any consciousness; or mimicking aspects of the human brain but sometimes I tend to trip over the best method to explain the code.
 
-In this case "Current context" is a muddy sandbox of in memory references kept alive by recursive weight training and biases to the environment. It sounds technical but it's fairly easy code to write. To explain it succinctly I need to be forgiven for stating _the aware part_ or _live evaluation of current context_. The 'Current Context' is my best way to describe the core _never off_ round robin graphing... *cough... consciousness.
+In this case "Current context" is a muddy sandbox of in memory references kept alive by recursive weight training and biases to the environment. It sounds technical but it's fairly easy code to write. To explain it succinctly I need to be forgiven for stating _the aware part_ or _live evaluation of current context_. The 'Current Context' is my best way to describe the core _never off_ round robin graphing... \*cough... consciousness.
 
 And with that I'll state - it's nonsense init. I don't believe we'll see a truly conscious computer for at least 50 years. Singularities don't count. I mean a terminator style _"I just woke up, I want to paint a picture"_ true artificial intelligence. So I want to write the 'Brain' and me wee 'neural regions' but that would be silly.
 

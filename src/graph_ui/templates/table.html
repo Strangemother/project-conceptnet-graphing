@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <link rel="stylesheet" href="static/css/table.css">
+{% endblock css %}
+
+{% block main %}
+<section>
+    <div class="table-view">
+        {% raw %}
+        <div class="question-input" id='question_input'>
+            <div class="row buttons">
+                <button class="btn-flat" @click='clear()'>Clear</button>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                <input placeholder="Word"
+                    id="question"
+                    type="text"
+                    v-model='question'
+                    @keyup.enter='inputString'
+                    class="validate">
+                    <label for="question">Word</label>
+                </div>
+            </div>
+
+            <div class="row list-messages">
+                <ul class="collection">
+                    <li class="collection-item" v-for='item in messages'>
+                        <p>
+                            <a href="javascript:;" @click="getWord(item)">{{ item }}</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="table_view">
+            <ul>
+                <li v-for='item in words'
+                class="item">
+                    <div :class="['line', item.group, item.from]" key='item.word'>
+                        <span class="from">{{ item.from }}</span>
+                        <span class="rel">{{ item.rel }}</span>
+                        <span class="word">{{ item.word }}</span>
+                        <span class="weight">{{ item.weight }}</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        {% endraw %}
+    </div>
+</section>
+{% endblock main %}
+
+{% block js %}
+    <script type="text/javascript" src="static/js/table.js"></script>
+{% endblock js %}

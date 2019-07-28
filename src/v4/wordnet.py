@@ -78,7 +78,7 @@ def caller(params=None, app_path=None, output_dir=None):
         # res = subprocess.run([call_str], capture_output=True)
         proc = subprocess.run(cmds, stdout=op, timeout=5, shell=True, stderr=subprocess.PIPE)
         res = process_call_value(word, proc)
-        # return res
+        return res
 
     return perform_call
 
@@ -139,6 +139,7 @@ def destructure(word, lines):
                 print('Match block', index, block)
                 match_mode = True
                 focus_block = block
+    return focus_block
 
 import re
 import time

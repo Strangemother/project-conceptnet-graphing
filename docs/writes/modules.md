@@ -15,7 +15,7 @@ Some ideas for modules:
 
 A module receiving incomplete or finished graphs from a temporal input or other modules and return the best fit result for all other given results.
 
-Consider a sentence "I own a cat". It's broken intro graph constituents a context of the sentence is applied to memory. The reasoning module accepts the initial phase of the sentence. This is potentially the primary data graphs and meta data such as tokenization or another form of _initial_.
+Consider a sentence "I own a cat". It's broken into graph constituents and a context of the sentence is applied to memory. The reasoning module accepts the initial phase of the sentence. This is potentially the primary data graphs and meta data such as tokenization or another form of _initial_.
 
 Applying another sentence "I don't like cats" will instigate a weight reasoning and abstraction from the second set of graphs. With the competing sentences the reasoning module calls upon other modules for additional weighting.
 
@@ -41,7 +41,7 @@ The self referencing persona will maintain a context of preferences. This will c
 
 In a conceptual question "Do you like cats". I response may be yes, no or some other weighted factor. This overall preference resides within a bank of previously graphed knowledge of _things_ and sentences for experiences.
 
-In a more down-to-earth example, a star-trek door has a preference for being closed. Opening if someone says enter after a bell. This same door should be _automatic_ during selected periods. The personal preference to a query "open or closed" will yield closed unless the environment (another graph) provides a heavier weight for the 'open' graph.
+In a more down-to-earth example, a star-trek door has a preference for being closed, opening if someone says "enter after a bell". This same door should be _automatic_ during selected periods. The personal preference to a query "open or closed" will yield closed unless the environment (another graph) provides a heavier weight for the 'open' graph.
 
 This of course leans towards general learning of previous graphs and heavy recursive analysis of 'hard' training and temporal sentences.
 
@@ -61,7 +61,7 @@ The preference of output for which entity in an abstract sequence should be appl
 
 ## queries / questions
 
-Most problematic of all inputs; especially temporal without grammar - is a the _question_. Applying a query to the context should resolve to a translatable answer. In this study case that would be a preferred graph word:
+Most problematic of all inputs; especially temporal without grammar - is a query the _question_. Applying a query to the context should resolve to a translatable answer. In this study case that would be a preferred graph word:
 
     "how many legs does a dog have"
 

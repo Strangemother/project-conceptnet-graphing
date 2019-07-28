@@ -9,11 +9,21 @@ from flask import jsonify
 import os
 import sys
 
+import argparse
+
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 IMPORT_PATH =  os.path.normpath(os.path.join(BASE_PATH, '..'))
 DB_PATH = "E:/conceptnet/_lmdb_assertions/"
+#E:\conceptnet\_lmdb_assertions_july_2019_rev
 SERVER_DB_PATH = "E:/conceptnet/_lmdb_server_ui/"
 
+
+parser = argparse.ArgumentParser(description='Process some integers.')
+parser.add_argument('--path', default=DB_PATH, help='Alternative DB path')
+parser.add_argument('-p', '--port', default=9000, help='Server port')
+parser.add_argument('--table', default='assertions', help='Alternative (DB) table name')
+
+cli_args = parser.parse_args()
 
 sys.path.append(IMPORT_PATH)
 
@@ -30,8 +40,9 @@ app = Flask(__name__)
 def initialize():
     global gdb
     global udb
-    print('Opening Graph.')
-    gdb = graph.GraphDB( directory=DB_PATH, name='assertions')
+    p = cli_args.path
+    print('Opening Graph.', cli_args.table, p)
+    gdb = graph.GraphDB(directory=p, name=cli_args.table)
     print('Opening Persistant Local')
     udb = db.AppendableDB(directory=SERVER_DB_PATH, name='inputs')
     print('DB Open {} {}'.format(gdb, udb))
@@ -40,7 +51,7 @@ def main():
     app.run(
         debug=True,
         host='127.0.0.1',
-        port=9000,
+        port=cli_args.port,
     )
 
 

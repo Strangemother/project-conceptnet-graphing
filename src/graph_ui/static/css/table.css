@@ -1,0 +1,43 @@
+.line.rev {
+    background: #AAA;
+}
+
+.line.edges {
+    background: #EEE;
+    /* justify-content: flex-start; */
+    /* align-content: flex-start; */
+    /* align-self: flex-start; */
+    /* align-items: flex-start; */
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.item .line>span {
+    display: flex;
+    /* width: 100%; */
+}
+
+span.rel {
+    /* flex-grow: 1; */
+    flex-basis: 33%;
+    flex-shrink: 1;
+}
+
+span.weight {
+    display: flex;
+    flex-shrink: 1;
+    /* width: 100px; */
+    /* border: solid; */
+    flex-basis: unset;
+    padding: 0 1em;
+}
+
+span.word {
+    flex-grow: 2;
+    /* min-width: 50%; */
+    padding: 0 1em;
+}

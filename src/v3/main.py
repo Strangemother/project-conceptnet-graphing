@@ -21,7 +21,7 @@ loop_data = None
 def main():
     init()
 
-SOCKET_ADDRESS = 'ws://82.27.16.166:8009'
+SOCKET_ADDRESS = 'ws://127.0.0.1:8009'
 
 def init(socket_uri=SOCKET_ADDRESS):
     '''

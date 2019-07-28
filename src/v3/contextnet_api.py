@@ -28,13 +28,13 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
     fetch = True
     data = None
     root_word = root_word or word
-    print '.. Root word', root_word
+    print( '.. Root word', root_word)
     filepath = None
     can_fetch = FETCH_ALLOWED
     endpoint = endpoints[e_counter]
 
     if _force_allow is True:
-        print 'Force override fetch from external'
+        print( 'Force override fetch from external')
         can_fetch = True
         allow_fetch = True
 
@@ -43,7 +43,7 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
         filepath = cache.resolve_path(fn)
         if allow_cache is True:
             if os.path.isfile(filepath):
-                print 'opening api cache file'
+                print( 'opening api cache file')
                 with io.open(filepath) as stream:
                     content = stream.read()
                     if len(content) > 0:
@@ -52,9 +52,9 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
 
     if fetch is True:
         if can_fetch is False or allow_fetch is False:
-            print 'Fetching not allowed'
+            print( 'Fetching not allowed')
         else:
-            print 'Fetching: ', word or path
+            print( 'Fetching: ', word or path)
             if word is None:
                 uri = '{}{}'.format(endpoint, path)
 
@@ -72,17 +72,17 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
                 try:
                     data = requests.get(uri, params=dict(limit=limit)).json()
                 except Exception as e:
-                    print 'Error fetching context', e
+                    print( 'Error fetching context', e)
                     return None
 
             if 'error' in data:
-                print data['error']['details']
+                print( data['error']['details'])
                 return None
 
             next_path = data.get('view', {}).get('nextPage', None)
 
             if next_path is not None and depth < 5 and depth != -1:
-                print 'Paging', root_word, depth
+                print( 'Paging', root_word, depth)
                 api_fetch(
                     path=next_path,
                     depth=depth+1,
@@ -95,7 +95,7 @@ def api_fetch(word=None, depth=0, path=None, result_object=None, root_word=None,
             if filepath is None:
                 filepath = 'api_cache_{}_{}.json'.format(root_word, depth)
 
-            print 'writing api cache:', filepath
+            print( 'writing api cache:', filepath)
             cache.write_json(filepath, data)
 
 
@@ -158,7 +158,7 @@ def read_assertions():
     '''
     reader = IterCSV(filepath='F:/assertions.csv')
     for line in iter(reader):
-        print line
+        print( line)
     return reader
 
 

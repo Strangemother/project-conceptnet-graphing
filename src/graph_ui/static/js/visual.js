@@ -215,7 +215,7 @@ class WordView extends NetworkEvents{
     }
 
     on_doubleClick(d) {
-       
+
         for(let word of d.nodes) {
             getWord(word)
         }
@@ -334,9 +334,15 @@ class WordView extends NetworkEvents{
         return this._edges;
     }
 
-    addWord(word){
+    addWord(word, color=undefined){
         word = word.toLowerCase()
         let wordColor = this.styles().word.color
+        let fontColor = '#DDD';
+        if(color != undefined) {
+            wordColor = color
+            fontColor = '#000'
+        }
+
         if(word[0] == 'a') {
             let _word = word.split(' ').slice(1).join(' ')
 
@@ -357,7 +363,7 @@ class WordView extends NetworkEvents{
             , label: word
             , color: wordColor
             , font: {
-                color: '#DDD'
+                color: fontColor
                 , face: 'Roboto'
             }
             , shape: 'box'
@@ -403,7 +409,7 @@ class WordView extends NetworkEvents{
         }, cmap))
     }
 
-    addRelate(word, relate, label='relatedTo') {
+    addRelate(word, relate, label='relatedTo', color=undefined) {
         /*
             Add a word related to another word, connecting an edge with an
             arrow pointing to relate (B). This will automatically connect existing
@@ -416,8 +422,8 @@ class WordView extends NetworkEvents{
             addRelate('word', 'other_word', 'label')
          */
         /* append a 'relateTo', a related to b */
-        this.addWord(word.toLowerCase())
-        this.addWord(relate.toLowerCase())
+        this.addWord(word.toLowerCase(), color)
+        this.addWord(relate.toLowerCase(), color)
         this.addEdge(word.toLowerCase(), relate.toLowerCase(), label)
     }
 

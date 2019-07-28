@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Present</title>
+    <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="static/css/websocket.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="static/css/main.css"  media="screen,projection"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="static/js/vis-4.20.0/dist/vis.js"></script>
+    <link href="static/js/vis-4.20.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+    {% block css %}
+
+    {% endblock css %}
+</head>
+<body>
+    <section id="network">{% block main %}{% endblock main %}</section>
+
+    <script type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="static/js/materialize.js"></script>
+    <script type="text/javascript" src="static/js/vue.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
+
+{% block js %}
+    <script type="text/javascript" src="static/js/visual.js"></script>
+    <script type="text/javascript" src="static/js/input_view.js"></script>
+    <script type="text/javascript" src="static/js/colourmap_view.js"></script>
+{% endblock js %}
+
+</body>
+</html>
