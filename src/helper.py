@@ -8,7 +8,7 @@ from conceptnet import scratch_db
 from v4.bridge import get_siblings as get
 from v4.wordnet import get_word, NOUN, VERB, ADJ, ALL
 
-ASSERTIONS_DIR = "E:/conceptnet/_lmdb_assertions/"
+ASSERTIONS_DIR = "E:/conceptnet/_lmdb_assertions_july_2019_rev/"
 SERVER_ASSERTIONS_DIR = "E:/conceptnet/_lmdb_server_ui/"
 csv_path = 'E:\\conceptnet\\assertions.csv'
 

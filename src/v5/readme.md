@@ -1,3 +1,20 @@
+# Run
+
+Run the 'context' as a standard django app.
+
+    python manage.py runserver
+
+Run the graphui for second layer graph analysis calls. A standard flask app.
+
+    # the graph_ui
+    run.bat
+    run_rev.bat
+    # For the multi-call interface.
+    python double.py
+    # localhost:9005
+
+
+
 
 ## First
 

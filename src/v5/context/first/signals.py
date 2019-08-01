@@ -17,6 +17,8 @@ tokenized_input = django.dispatch.Signal(providing_args=["instance"])
 #@receiver(pre_save, sender=models.TemporalInput)
 def tokenize_input_instance(sender, instance, **kwargs):
     """
+    Store sentence token data.
+
     Arguments sent with this signal:
         sender
             The model class.
@@ -39,6 +41,9 @@ def tokenize_input_instance(sender, instance, **kwargs):
     print('post save', instance)
     tokenized_input.send(sender=sender, instance=instance)
 
+
 @receiver(tokenized_input)
 def dictionary_input_instance(sender, instance, **kwargs):
+    """Apply dictionary data to the given instance.
+    """
     models.get_dictionary(instance)
